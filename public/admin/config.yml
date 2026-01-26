@@ -1,0 +1,58 @@
+backend:
+  name: github
+  repo: andreknieriem/website # Deinen GitHub Usernamen und Repo hier eintragen
+  branch: main
+  # base_url: https://your-oauth-server.com # Falls du später Oauth brauchst (lokal nicht nötig)
+
+# Lokales Backend für die Entwicklung aktivieren:
+local_backend: true
+
+media_folder: "public/fileadmin/Daten/Bilder" # Wo Bilder gespeichert werden
+public_folder: "/fileadmin/Daten/Bilder" # Wie Bilder im Markdown verlinkt werden
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "src/content/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Datum", name: "date", widget: "datetime" }
+      - { label: "Beschreibung", name: "description", widget: "text", required: false }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Inhalt", name: "body", widget: "markdown" }
+
+  - name: "tutorials"
+    label: "Tutorials"
+    folder: "src/content/tutorials"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Datum", name: "date", widget: "datetime" }
+      - { label: "Beschreibung", name: "description", widget: "text", required: false }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Inhalt", name: "body", widget: "markdown" }
+
+  - name: "portfolio"
+    label: "Portfolio"
+    folder: "src/content/portfolio"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Datum", name: "date", widget: "datetime" }
+      - { label: "Technologien", name: "technologies", widget: "list", required: false }
+      - { label: "Inhalt", name: "body", widget: "markdown" }
+
+  - name: "playground"
+    label: "Playground"
+    folder: "src/content/playground"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Datum", name: "date", widget: "datetime" }
+      - { label: "Beschreibung", name: "description", widget: "text", required: false }
+      - { label: "Inhalt", name: "body", widget: "markdown" }
