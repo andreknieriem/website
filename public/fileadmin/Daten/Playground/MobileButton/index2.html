@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html class='demo2'>
+<head>
+	<meta charset='UTF-8'><meta name="robots" content="noindex">
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<title>Mobile-Menü Button Animation</title>
+	<link href="normalize.css" type="text/css" rel="stylesheet"/>
+	<link href="demo.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+	<div class="back-navi">
+	<a title="Back to Article" href="https://www.andrerinas.de/playground/mobile-menue-button-animation.html">
+		<i class="icon-back"></i>
+	</a>
+	/
+	<a title="Back to Playground" href="https://www.andrerinas.de/playground.html">
+		<i class="icon-playground"></i>
+	</a>
+	</div>
+	<div class="demo-navigation">
+		<h1>Mobile-Menü Button Animation</h1>
+		<a title="See Demo no. 1" href="index.html">Demo 1</a> /
+		<a title="See Demo no. 2" class="active" href="index2.html">Demo 2</a> /
+		<a title="See Demo no. 3" href="index3.html">Demo 3</a> /
+		<a title="See Demo no. 4" href="index4.html">Demo 4</a>
+	</div>
+	<a title="Go to Homepage" href="https://www.andrerinas.de" class="arlogo">Logo</a>
+</header>
+
+<div class="screen">
+	<div class="navbar">
+		<div id="nav-icon2">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	<div class="list">
+		<div class="item">
+			<div class="img"></div>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+
+		<div class="item">
+			<div class="img"></div>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+
+		<div class="item">
+			<div class="img"></div>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+
+		<div class="item">
+			<div class="img"></div>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+</div>
+
+<script src='jquery.min.js'></script>
+<script>$(document).ready(function () {
+	$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function () {
+		$(this).toggleClass('open');
+	});
+});
+</script>
+</body></html>

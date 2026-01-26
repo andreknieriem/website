@@ -1,0 +1,27 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const entries = (await getCollection('blog')).sort(
+	(a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+---
+<BaseLayout title="Blog">
+  <h1 class="mb-4">Blog</h1>
+  <div class="row">
+    {entries.map((entry) => (
+      <div class="col-md-6 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">
+                <a href={`/blog/${entry.slug}`} class="text-decoration-none text-dark">{entry.data.title}</a>
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted">{entry.data.date.toLocaleDateString('de-DE')}</h6>
+            <p class="card-text text-truncate">{entry.data.description}</p>
+            <a href={`/blog/${entry.slug}`} class="btn btn-primary btn-sm">Weiterlesen</a>
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+</BaseLayout>

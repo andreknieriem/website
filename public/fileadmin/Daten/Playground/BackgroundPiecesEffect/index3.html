@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html class='demo3'>
+<head>
+	<meta charset='UTF-8'><meta name="robots" content="noindex">
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<title>Background Image in Pieces Effect</title>
+	<link href="normalize.css" type="text/css" rel="stylesheet"/>
+	<link href="demo.css" type="text/css" rel="stylesheet"/>
+	<link href="backgroundpieces.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+	<div class="back-navi">
+	<a title="Back to Article" href="https://www.andrerinas.de/playground/mobile-menue-button-animation.html">
+		<i class="icon-back"></i>
+	</a>
+	/
+	<a title="Back to Playground" href="https://www.andrerinas.de/playground.html">
+		<i class="icon-playground"></i>
+	</a>
+	</div>
+	<div class="demo-navigation">
+		<h1>Background Image in Pieces Effect</h1>
+		<a title="See Demo no. 1" href="index.html">Demo 1</a> /
+		<a title="See Demo no. 2" href="index2.html">Demo 2</a> /
+		<a title="See Demo no. 3" class="active" href="index3.html">Demo 3</a> /
+		<a title="See Demo no. 4" href="index4.html">Demo 4</a>
+	</div>
+	<a title="Go to Homepage" href="https://www.andrerinas.de" class="arlogo">Logo</a>
+</header>
+
+<div class="background-image"></div>
+<script src='jquery.min.js'></script>
+<script src='backgroundpieces.js'></script>
+<script>
+$(function() {
+	var winheight = $(window).height() - $('header').outerHeight();
+	$('.background-image').height(winheight);
+
+	$(window).resize(function(){
+		var winheight = $(window).height() - $('header').height();
+		$('.background-image').height(winheight);
+	});
+	$('.background-image').backgroundPieces({
+		pieces: [
+			{top: 10, left: 18, width: 15, height: 23},
+			//{top: 10, left: 5, width: 40, height: 20},
+			{top: 67, left: 49.5, width: 15, height: 30}
+		],
+		parallax: true,
+	});
+});
+</script>
+</body></html>

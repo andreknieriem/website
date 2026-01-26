@@ -1,0 +1,259 @@
+@import url(//fonts.googleapis.com/css?family=Raleway:400,300,400italic,700);
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?t91ftr');
+  src:  url('fonts/icomoon.eot?t91ftr#iefix') format('embedded-opentype'),
+	url('fonts/icomoon.ttf?t91ftr') format('truetype'),
+	url('fonts/icomoon.woff?t91ftr') format('woff'),
+	url('fonts/icomoon.svg?t91ftr#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-forward:before {
+  content: "\e903";
+}
+.icon-down:before {
+  content: "\e904";
+}
+.icon-up:before {
+  content: "\e905";
+}
+.icon-times:before {
+  content: "\e902";
+}
+.icon-back:before {
+  content: "\e900";
+}
+.icon-playground:before {
+  content: "\e901";
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  line-height: 1.875rem;
+  background: #2ecc71;
+}
+
+html.demo2,
+html.demo2 body{
+	background: #e74c3c;
+}
+
+html.demo3,
+html.demo3 body{
+	background: #f39c12;
+}
+
+h1 {
+	margin-top: 0;
+	font-weight: 300;
+}
+
+h3 {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 15px;
+	font-weight: 400;
+}
+
+header {
+	background: #303d4d;
+	color: #fff;
+	padding: 20px 0;
+}
+
+header a {
+	color: #fff;
+	text-decoration: none;
+	opacity: 0.5;
+}
+
+header a:hover,header a.active {
+	opacity: 1.0;
+}
+
+header svg {
+	color: #fff;
+}
+.back-navi {
+	font-size: 1.5rem;
+	position: absolute;
+	left: 50px;
+	top: 30px;
+}
+.back-navi a{
+	opacity: 0.8;
+}
+
+.arlogo {
+	position: absolute;
+	right: 50px;
+	top: 17px;
+	display: block;
+	width: 70px;
+	height: 70px;
+	background: url(img/logo-trans.png);
+	background-size: contain;
+	opacity: 1.0;
+	text-indent: -10000px;
+}
+
+.demo-navigation {
+	margin: 20px auto 0;
+	max-width: 1170px;
+	text-align: center;
+}
+
+/* Portfolio Showcase */
+.wrapper {
+	width: 100%;
+	max-width: 1170px;
+	padding: 0 15px;
+	margin: 50px auto 0;
+}
+.icon-down-wrapper {
+	height: 50px;
+	width: 70px;
+	margin: 20px auto;
+	position: relative;
+}
+.icon-down-wrapper .icon-down {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -16px;
+	color: #fff;
+	font-size: 2rem;
+}
+
+.lorem-content {
+	color: #fff;
+	margin-top: 100px;
+}
+
+.lorem-content h2 {
+	color: #fff;
+	text-align: center;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+.lorem-content p {
+	margin-bottom: 20px;
+}
+
+.devices {
+	position: relative;
+	padding-bottom: 45.07125%;
+	width: 87.5%;
+	margin: auto;
+}
+
+.devices > div,
+.devices .device,
+.devices .screenshot {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+/* No Phone*/
+.devices.nophone .desktop,
+.devices.nophone .tablet{
+	left: 20px;
+}
+
+/* Desktop only */
+.devices.desktop-only .desktop{
+	left: 6%;
+}
+
+
+.devices .desktop .device {
+	background-image: url(img/device-desktop.png);
+}
+.devices .desktop .screenshot {
+	background-image: url(img/screenshot-desktop.jpg);
+	height: 81%;
+	left: 12%;
+	top: 6%;
+	width: 66%;
+}
+
+
+.devices .tablet .device {
+	background-image: url(img/device-tablet.png);
+}
+.devices .tablet .screenshot {
+	background-image: url(img/screenshot-tablet.jpg);
+	height: 76%;
+	left: 62.4%;
+	top: 18.1%;
+	width: 27.6%;
+}
+
+.devices .phone .device {
+	background-image: url(img/device-mobile.png);
+}
+
+.devices .phone .screenshot {
+	background-image: url(img/screenshot-mobile.jpg);
+	background-position: 0 100%;
+	bottom: 10%;
+	height: 42.5%;
+	left: auto;
+	right: 2.3%;
+	top: auto;
+	width: 12.1%;
+}
+
+.devices .device, .devices .screenshot {
+	background-repeat: no-repeat;
+	background-size: 100%;
+	transition: background-position .6s ease-out;
+}
+
+@media (max-width: 767px){
+	h1 {
+		font-size: 1.5rem;;
+	}
+  .back-navi {
+  	display: block;
+  	position: static;
+  	top: 0;
+  	margin-left: 15px;
+  }
+
+  .arlogo {
+  	display: none;
+  }
+}

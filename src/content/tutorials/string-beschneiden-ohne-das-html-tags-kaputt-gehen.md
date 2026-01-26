@@ -1,0 +1,315 @@
+---
+title: String beschneiden, ohne das HTML-Tags kaputt gehen
+date: '2013-01-18T13:25:41.000Z'
+slug: string-beschneiden-ohne-das-html-tags-kaputt-gehen
+tags:
+  - '12'
+  - '85'
+  - '136'
+  - '168'
+  - '169'
+  - '170'
+  - '171'
+description: >-
+  Möchte man einen String croppen, in dem HTML-Tags sind, dann kann es schnell
+  passieren, dass der String mitten in einem abgescnitten wird. Dies kann unter
+  Umständen dazu führen, dass das gesamte Markup einer Seite kaputt geht.
+  (Beispiel: ein schließendes Div-Tag wird abgeschnitten). Die folgende Funktion
+  unterbindet genau diesen Fall. Ursprünglich kommt die Funktion aus dem
+  Framework CakePhp. 
+
+  /**
+
+  * Truncates text.
+
+  *
+
+  * Cuts a string to the length of $length and replaces the last characters
+
+  * with the ending if the text is longer than length.
+
+  *
+
+  * @param string  $text String to truncate.
+
+  * @param integer $length Length of returned string, including ellipsis.
+
+  * @param string  $ending Ending to be appended to the trimmed string.
+
+  * @param boolean $exact If false, $text will not be cut mid-word
+
+  * @param boolean $considerHtml If true, HTML tags would be handled correctly
+
+  * @return string Trimmed string.
+
+  */
+      function truncate($text, $length = 100, $ending = '...', $exact = true, $considerHtml = false) {
+          if ($considerHtml) {
+              // if the plain text is shorter than the maximum length, return the whole text
+              if (strlen(preg_replace('/&lt;.*?&gt;/', '', $text)) &lt;= $length) {
+                  return $text;
+              }
+
+              // splits all html-tags to scanable lines
+              preg_match_all('/(&lt;.+?&gt;)?([^&lt;&gt;]*)/s', $text, $lines, PREG_SET_ORDER);
+
+              $total_length = strlen($ending);
+              $open_tags = array();
+              $truncate = '';
+
+              foreach ($lines as $line_matchings) {
+                  // if there is any html-tag in this line, handle it and add it (uncounted) to the output
+                  if (!empty($line_matchings[1])) {
+                      // if it's an "empty element" with or without xhtml-conform closing slash (f.e. &lt;br/&gt;)
+                      if (preg_match('/^&lt;(s*.+?/s*|s*(img|br|input|hr|area|base|basefont|col|frame|isindex|link|meta|param)(s.+?)?)&gt;$/is', $line_matchings[1])) {
+                          // do nothing
+                      // if tag is a closing tag (f.e. &lt;/b&gt;)
+                      } else if (preg_match('/^&lt;s*/([^s]+?)s*&gt;$/s', $line_matchings[1], $tag_matchings)) {
+                          // delete tag from $open_tags list
+                          $pos = array_search($tag_matchings[1], $open_tags);
+                          if ($pos !== false) {
+                              unset($open_tags[$pos]);
+                          }
+                      // if tag is an opening tag (f.e. &lt;b&gt;)
+                      } else if (preg_match('/^&lt;s*([^s&gt;!]+).*?&gt;$/s', $line_matchings[1], $tag_matchings)) {
+                          // add tag to the beginning of $open_tags list
+                          array_unshift($open_tags, strtolower($tag_matchings[1]));
+                      }
+                      // add html-tag to $truncate'd text
+                      $truncate .= $line_matchings[1];
+                  }
+
+                  // calculate the length of the plain text part of the line; handle entities as one character
+                  $content_length = strlen(preg_replace('/&amp;[0-9a-z]{2,8};|&amp;#[0-9]{1,7};|&amp;#x[0-9a-f]{1,6};/i', ' ', $line_matchings[2]));
+                  if ($total_length+$content_length&gt; $length) {
+                      // the number of characters which are left
+                      $left = $length - $total_length;
+                      $entities_length = 0;
+                      // search for html entities
+                      if (preg_match_all('/&amp;[0-9a-z]{2,8};|&amp;#[0-9]{1,7};|&amp;#x[0-9a-f]{1,6};/i', $line_matchings[2], $entities, PREG_OFFSET_CAPTURE)) {
+                          // calculate the real length of all entities in the legal range
+                          foreach ($entities[0] as $entity) {
+                              if ($entity[1]+1-$entities_length &lt;= $left) {
+                                  $left--;
+                                  $entities_length += strlen($entity[0]);
+                              } else {
+                                  // no more characters left
+                                  break;
+                              }
+                          }
+                      }
+                      $truncate .= substr($line_matchings[2], 0, $left+$entities_length);
+                      // maximum lenght is reached, so get off the loop
+                      break;
+                  } else {
+                      $truncate .= $line_matchings[2];
+                      $total_length += $content_length;
+                  }
+
+                  // if the maximum length is reached, get off the loop
+                  if($total_length&gt;= $length) {
+                      break;
+                  }
+              }
+          } else {
+              if (strlen($text) &lt;= $length) {
+                  return $text;
+              } else {
+                  $truncate = substr($text, 0, $length - strlen($ending));
+              }
+          }
+
+          // if the words shouldn't be cut in the middle...
+          if (!$exact) {
+              // ...search the last occurance of a space...
+              $spacepos = strrpos($truncate, ' ');
+              if (isset($spacepos)) {
+                  // ...and cut the text in this position
+                  $truncate = substr($truncate, 0, $spacepos);
+              }
+          }
+
+          // add the defined ending to the text
+          $truncate .= $ending;
+
+          if($considerHtml) {
+              // close all unclosed html-tags
+              foreach ($open_tags as $tag) {
+                  $truncate .= '&lt;/' . $tag . '&gt;';
+              }
+          }
+
+          return $truncate;
+
+      }
+   
+layout: ../../layouts/BlogPost.astro
+---
+
+# Tutorials
+
+Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
+
+[Zurück zur Übersicht](/tutorials.html)
+
+# String beschneiden, ohne das HTML-Tags kaputt gehen
+
+#Tutorials#PHP
+
+* * *
+
+![](/fileadmin/_processed_/a/1/csm_php_f46f120f0b.png)
+
+### Kommentare
+
+[Es gibt 0 Kommentare](#comments)
+
+* * *
+
+### Tags
+
+[#function](/tag.html?tag=12&cHash=c2e2c35e28fadd29f90cdd9ba3ac9efa)[#html](/tag.html?tag=85&cHash=91a7ea3a6587e1d4fa3e5c908a161193)[#prevent](/tag.html?tag=136&cHash=a5835ef811b982b1ba06bc5d68fb81f9)[#crop](/tag.html?tag=168&cHash=a65a9b4ecb0f3f70610040d99d2554b0)[#method](/tag.html?tag=169&cHash=4a56584fe25d3da76822f80c9a221902)[#string](/tag.html?tag=170&cHash=ef1bdf30c7826216b830d70562bce01f)[#tags](/tag.html?tag=171&cHash=bd459ad4bdcbf178092bc7480c49f742)
+
+* * *
+
+[Teilen](#)
+
+Teilen
+
+ [Facebook](#) [Twitter](#)
+
+18\. Jan 2013
+
+Möchte man einen String croppen, in dem HTML-Tags sind, dann kann es schnell passieren, dass der String mitten in einem abgescnitten wird. Dies kann unter Umständen dazu führen, dass das gesamte Markup einer Seite kaputt geht. (Beispiel: ein schließendes Div-Tag wird abgeschnitten). Die folgende Funktion unterbindet genau diesen Fall. Ursprünglich kommt die Funktion aus dem Framework CakePhp.
+
+```
+
+/**
+* Truncates text.
+*
+* Cuts a string to the length of $length and replaces the last characters
+* with the ending if the text is longer than length.
+*
+* @param string  $text String to truncate.
+* @param integer $length Length of returned string, including ellipsis.
+* @param string  $ending Ending to be appended to the trimmed string.
+* @param boolean $exact If false, $text will not be cut mid-word
+* @param boolean $considerHtml If true, HTML tags would be handled correctly
+* @return string Trimmed string.
+*/
+    function truncate($text, $length = 100, $ending = '...', $exact = true, $considerHtml = false) {
+        if ($considerHtml) {
+            // if the plain text is shorter than the maximum length, return the whole text
+            if (strlen(preg_replace('/<.*?>/', '', $text)) <= $length) {
+                return $text;
+            }
+
+            // splits all html-tags to scanable lines
+            preg_match_all('/(<.+?>)?([^<>]*)/s', $text, $lines, PREG_SET_ORDER);
+
+            $total_length = strlen($ending);
+            $open_tags = array();
+            $truncate = '';
+
+            foreach ($lines as $line_matchings) {
+                // if there is any html-tag in this line, handle it and add it (uncounted) to the output
+                if (!empty($line_matchings[1])) {
+                    // if it's an "empty element" with or without xhtml-conform closing slash (f.e. <br/>)
+                    if (preg_match('/^<(s*.+?/s*|s*(img|br|input|hr|area|base|basefont|col|frame|isindex|link|meta|param)(s.+?)?)>$/is', $line_matchings[1])) {
+                        // do nothing
+                    // if tag is a closing tag (f.e. </b>)
+                    } else if (preg_match('/^<s*/([^s]+?)s*>$/s', $line_matchings[1], $tag_matchings)) {
+                        // delete tag from $open_tags list
+                        $pos = array_search($tag_matchings[1], $open_tags);
+                        if ($pos !== false) {
+                            unset($open_tags[$pos]);
+                        }
+                    // if tag is an opening tag (f.e. <b>)
+                    } else if (preg_match('/^<s*([^s>!]+).*?>$/s', $line_matchings[1], $tag_matchings)) {
+                        // add tag to the beginning of $open_tags list
+                        array_unshift($open_tags, strtolower($tag_matchings[1]));
+                    }
+                    // add html-tag to $truncate'd text
+                    $truncate .= $line_matchings[1];
+                }
+
+                // calculate the length of the plain text part of the line; handle entities as one character
+                $content_length = strlen(preg_replace('/&[0-9a-z]{2,8};|&#[0-9]{1,7};|&#x[0-9a-f]{1,6};/i', ' ', $line_matchings[2]));
+                if ($total_length+$content_length> $length) {
+                    // the number of characters which are left
+                    $left = $length - $total_length;
+                    $entities_length = 0;
+                    // search for html entities
+                    if (preg_match_all('/&[0-9a-z]{2,8};|&#[0-9]{1,7};|&#x[0-9a-f]{1,6};/i', $line_matchings[2], $entities, PREG_OFFSET_CAPTURE)) {
+                        // calculate the real length of all entities in the legal range
+                        foreach ($entities[0] as $entity) {
+                            if ($entity[1]+1-$entities_length <= $left) {
+                                $left--;
+                                $entities_length += strlen($entity[0]);
+                            } else {
+                                // no more characters left
+                                break;
+                            }
+                        }
+                    }
+                    $truncate .= substr($line_matchings[2], 0, $left+$entities_length);
+                    // maximum lenght is reached, so get off the loop
+                    break;
+                } else {
+                    $truncate .= $line_matchings[2];
+                    $total_length += $content_length;
+                }
+
+                // if the maximum length is reached, get off the loop
+                if($total_length>= $length) {
+                    break;
+                }
+            }
+        } else {
+            if (strlen($text) <= $length) {
+                return $text;
+            } else {
+                $truncate = substr($text, 0, $length - strlen($ending));
+            }
+        }
+
+        // if the words shouldn't be cut in the middle...
+        if (!$exact) {
+            // ...search the last occurance of a space...
+            $spacepos = strrpos($truncate, ' ');
+            if (isset($spacepos)) {
+                // ...and cut the text in this position
+                $truncate = substr($truncate, 0, $spacepos);
+            }
+        }
+
+        // add the defined ending to the text
+        $truncate .= $ending;
+
+        if($considerHtml) {
+            // close all unclosed html-tags
+            foreach ($open_tags as $tag) {
+                $truncate .= '</' . $tag . '>';
+            }
+        }
+
+        return $truncate;
+
+    }
+```
+
+* * *
+
+### Kommentare
+
+Es gibt noch keine Kommentare. Sei der Erste!
+
+### Hinterlasse einen Kommentar
+
+[Antworten abbrechen](#)
+
+Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
+
+Kommentar wird gespeichert
+
+Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

@@ -1,0 +1,141 @@
+
+renderingOptions:
+  submitButtonLabel: Abschicken
+type: Form
+identifier: test
+label: Test
+prototypeName: standard
+finishers:
+  -
+    options:
+      pageUid: '4'
+      additionalParameters: '?1=1'
+    identifier: Redirect
+  -
+    options:
+      message: Test
+      contentElementUid: '123'
+    identifier: Confirmation
+renderables:
+  -
+    renderingOptions:
+      previousButtonLabel: ''
+      nextButtonLabel: 'Weiter zu Schritt 1'
+    type: Page
+    identifier: page-1
+    label: 'Angaben zum Kredit'
+    renderables:
+      -
+        properties:
+          options:
+            8: 'Sonstiges (ohne Immobilienfinanzierung)'
+            7: 'Ausgleich Girokonto'
+            6: 'Ablösung anderer Kredite (ohne Immobilienfinanzierung)'
+            5: 'PKW -neu-'
+          prependOptionLabel: Verwendungszweck
+          fluidAdditionalAttributes:
+            required: required
+        type: SingleSelect
+        identifier: singleselect-1
+        label: Verwendungszweck
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        properties:
+          options:
+            1: 'eine Person'
+            2: 'zwei Personen'
+        type: RadioButton
+        identifier: radiobutton-1
+        label: 'Anzahl Kreditnehmer'
+  -
+    renderingOptions:
+      previousButtonLabel: 'Previous step'
+      nextButtonLabel: 'Next step'
+    type: Page
+    identifier: page-2
+    label: Step
+    renderables:
+      -
+        properties:
+          options:
+            w: Frau
+            M: Herr
+          fluidAdditionalAttributes:
+            required: required
+        type: RadioButton
+        identifier: radiobutton-2
+        label: Anrede
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-1
+        label: Vorname
+        properties:
+          fluidAdditionalAttributes:
+            required: required
+            placeholder: Vorname
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-2
+        label: Nachname
+        properties:
+          fluidAdditionalAttributes:
+            required: required
+            placeholder: Nachname
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        properties:
+          dateFormat: Y-m-d
+          enableDatePicker: true
+          displayTimeSelector: false
+          fluidAdditionalAttributes:
+            required: required
+        type: DatePicker
+        identifier: datepicker-1
+        label: Geburtsdatum
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-3
+        label: Geburtsort
+        properties:
+          fluidAdditionalAttributes:
+            placeholder: Geburtsort
+            required: required
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        type: GridRow
+        identifier: gridrow-1
+        label: 'Grid: Row'
+        renderables:
+          -
+            defaultValue: ''
+            type: Text
+            identifier: text-4
+            label: Postleitzahl
+            properties:
+              fluidAdditionalAttributes:
+                minlength: '5'
+                maxlength: '5'
+            validators:
+              -
+                options:
+                  minimum: '5'
+                  maximum: '5'
+                identifier: StringLength

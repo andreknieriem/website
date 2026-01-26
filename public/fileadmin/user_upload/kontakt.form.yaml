@@ -1,0 +1,73 @@
+
+renderingOptions:
+  submitButtonLabel: Senden
+type: Form
+identifier: kontakt
+label: Kontakt
+prototypeName: standard
+finishers:
+  -
+    options:
+      pageUid: '25'
+      additionalParameters: ''
+    identifier: Redirect
+  -
+    options:
+      subject: Kontaktanfrage
+      recipientAddress: andreknieriem@gmail.com
+      recipientName: 'Andre Rinas'
+      senderAddress: webseite@andrerinas.de
+      senderName: Webseite
+      replyToAddress: ''
+      carbonCopyAddress: ''
+      blindCarbonCopyAddress: ''
+      format: html
+      attachUploads: true
+      translation:
+        language: ''
+    identifier: EmailToReceiver
+renderables:
+  -
+    renderingOptions:
+      previousButtonLabel: 'Previous step'
+      nextButtonLabel: 'Next step'
+    type: Page
+    identifier: page-1
+    label: ''
+    renderables:
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-1
+        label: name
+        properties:
+          fluidAdditionalAttributes:
+            placeholder: 'Name *'
+            required: required
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-2
+        label: email
+        properties:
+          fluidAdditionalAttributes:
+            placeholder: 'E-Mail:*'
+            required: required
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        defaultValue: ''
+        type: Textarea
+        identifier: textarea-1
+        label: message
+        properties:
+          fluidAdditionalAttributes:
+            placeholder: 'Frage oder Anregung:*'
+            required: required
+        validators:
+          -
+            identifier: NotEmpty

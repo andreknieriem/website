@@ -1,0 +1,222 @@
+@import url(//fonts.googleapis.com/css?family=Raleway:400,300,400italic,700);
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?t91ftr');
+  src:  url('fonts/icomoon.eot?t91ftr#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?t91ftr') format('truetype'),
+    url('fonts/icomoon.woff?t91ftr') format('woff'),
+    url('fonts/icomoon.svg?t91ftr#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-times:before {
+  content: "\e902";
+}
+.icon-back:before {
+  content: "\e900";
+}
+.icon-playground:before {
+  content: "\e901";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  line-height: 1.875rem;
+  background: #fff;
+}
+
+html.demo2,
+html.demo2 body{
+	background: #cbeaeb;
+}
+
+html.demo3,
+html.demo3 body{
+	background: #ead5e1;
+}
+
+html.demo4,
+html.demo4 body{
+	background: #b0abc3;
+}
+
+h1 {
+	margin-top: 0;
+	font-weight: 300;
+}
+
+header {
+	background: #303d4d;
+	color: #fff;
+	padding: 20px 0;
+}
+
+header a {
+	color: #fff;
+	text-decoration: none;
+	opacity: 0.5;
+}
+
+header a:hover,header a.active {
+	opacity: 1.0;
+}
+
+header svg {
+	color: #fff;
+}
+.back-navi {
+	font-size: 1.5rem;
+	position: absolute;
+	left: 50px;
+	top: 30px;
+}
+.back-navi a{
+	opacity: 0.8;
+}
+
+.arlogo {
+	position: absolute;
+	right: 50px;
+	top: 17px;
+	display: block;
+	width: 70px;
+	height: 70px;
+	background: url(img/logo-trans.png);
+	background-size: contain;
+	opacity: 1.0;
+	text-indent: -10000px;
+}
+
+.demo-navigation {
+	margin: 20px auto 0;
+	max-width: 1170px;
+	text-align: center;
+}
+
+/* Ripple Effekt Style */
+.wrapper {
+	display: block;
+	max-width:1170px;
+	padding: 0 15px;
+	margin: 100px auto 0;
+}
+
+.wrapper:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+.ripple{
+	display:block;
+	float:left;
+	width:49.6%;
+	margin:0.2%;
+	height:250px;
+	line-height:250px;
+	text-align:center;
+	color:#000;
+	text-decoration:none;
+	position:relative;
+	overflow:hidden;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	z-index:0;
+}
+
+.ripple:hover{
+	z-index:1000;
+	box-shadow:rgba(0, 0, 0, 0.3) 0 16px 16px 0;
+	-webkit-box-shadow:rgba(0, 0, 0, 0.3) 0 16px 16px 0;
+	-moz-box-shadow:rgba(0, 0, 0, 0.3) 0 16px 16px 0;
+}
+
+.ink {
+	display: block;
+	position: absolute;
+	background:rgba(255, 255, 255, 0.3);
+	border-radius: 100%;
+	-webkit-transform:scale(0);
+	-moz-transform:scale(0);
+	-o-transform:scale(0);
+	transform:scale(0);
+}
+
+.animate {
+	-webkit-animation:ripple 0.65s linear;
+	-moz-animation:ripple 0.65s linear;
+	-ms-animation:ripple 0.65s linear;
+	-o-animation:ripple 0.65s linear;
+	animation:ripple 0.65s linear;
+}
+
+@-webkit-keyframes ripple {
+	100% {opacity: 0; -webkit-transform: scale(2.5);}
+}
+@-moz-keyframes ripple {
+	100% {opacity: 0; -moz-transform: scale(2.5);}
+}
+@-o-keyframes ripple {
+	100% {opacity: 0; -o-transform: scale(2.5);}
+}
+@keyframes ripple {
+	100% {opacity: 0; transform: scale(2.5);}
+}
+
+
+.purple{
+	background:#b0abc3;
+}
+
+.green{
+	background:#aee0c5;
+}
+
+.yellow{
+	background:#fef993;
+}
+
+.rosa{
+	background:#ead5e1;
+}
+
+@media (max-width: 767px){
+	h1 {
+		font-size: 1.5rem;;
+	}
+  .back-navi {
+  	display: block;
+  	position: static;
+  	top: 0;
+  	margin-left: 15px;
+  }
+
+  .arlogo {
+  	display: none;
+  }
+}

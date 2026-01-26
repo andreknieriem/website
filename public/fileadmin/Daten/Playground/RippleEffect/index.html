@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html class='demo1'>
+<head>
+	<meta charset='UTF-8'><meta name="robots" content="noindex">
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<title>Mobile-Menü Button Animation</title>
+	<link href="normalize.css" type="text/css" rel="stylesheet"/>
+	<link href="demo.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+	<div class="back-navi">
+	<a title="Back to Article" href="https://www.andrerinas.de/playground/material-design-ripple-effekt.html">
+		<i class="icon-back"></i>
+	</a>
+	/
+	<a title="Back to Playground" href="https://www.andrerinas.de/playground.html">
+		<i class="icon-playground"></i>
+	</a>
+	</div>
+	<div class="demo-navigation">
+		<h1>Material Design Ripple Effekt</h1>
+	</div>
+	<a title="Go to Homepage" href="https://www.andrerinas.de" class="arlogo">Logo</a>
+</header>
+
+<div class="wrapper">
+  <a class="ripple yellow" href="#">Hover &amp; Click me!</a>
+  <a class="ripple green" href="#">Hover &amp; Click me!</a>
+  <a class="ripple purple" href="#">Hover &amp; Click me!</a>
+  <a class="ripple rosa" href="#">Hover &amp; Click me!</a>
+</div>
+
+<script src='jquery.min.js'></script>
+<script>
+	$(function(){
+		var ink, d, x, y;
+		$('.ripple').click(function(e){
+			e.preventDefault();
+			if($(this).find('.ink').length === 0){
+				$(this).prepend('<span class="ink"></span>');
+			}
+
+			ink = $(this).find('.ink');
+			ink.removeClass('animate');
+
+			if(!ink.height() && !ink.width()){
+				d = Math.max($(this).outerWidth(), $(this).outerHeight());
+				ink.css({height: d, width: d});
+			}
+
+			x = e.pageX - $(this).offset().left - ink.width()/2;
+			y = e.pageY - $(this).offset().top - ink.height()/2;
+
+			ink.css({top: y+'px', left: x+'px'}).addClass('animate');
+		});
+	});
+</script>
+</body></html>

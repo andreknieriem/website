@@ -1,0 +1,72 @@
+
+renderingOptions:
+  submitButtonLabel: Absenden
+identifier: form
+label: Form
+type: Form
+prototypeName: standard
+finishers:
+  -
+    options:
+      subject: Kontaktformular
+      recipients:
+        andreknieriem@gmail.com: Ich
+      senderAddress: '{email}'
+      senderName: '{name}'
+      attachUploads: true
+      translation:
+        language: ''
+      addHtmlPart: true
+    identifier: EmailToReceiver
+  -
+    options:
+      message: 'Danke für deine Nachricht. Ich melde mich so schnell ich kann.'
+      contentElementUid: ''
+    identifier: Confirmation
+renderables:
+  -
+    renderingOptions:
+      previousButtonLabel: 'Vorherige Seite'
+      nextButtonLabel: 'Nächster Schritt'
+    identifier: page-1
+    label: Kontakt
+    type: Page
+    renderables:
+      -
+        defaultValue: ''
+        identifier: name
+        label: Name
+        type: Text
+        properties:
+          fluidAdditionalAttributes:
+            placeholder: Name
+            required: required
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        defaultValue: ''
+        identifier: email
+        label: E-Mail
+        type: Text
+        properties:
+          fluidAdditionalAttributes:
+            placeholder: 'Email address'
+            required: required
+        validators:
+          -
+            identifier: NotEmpty
+          -
+            identifier: EmailAddress
+      -
+        defaultValue: ''
+        identifier: message
+        label: 'Frage oder Anregung:*'
+        type: Textarea
+        properties:
+          fluidAdditionalAttributes:
+            placeholder: ''
+            required: required
+        validators:
+          -
+            identifier: NotEmpty

@@ -1,0 +1,24 @@
+---
+import BaseLayout from './BaseLayout.astro';
+const { frontmatter } = Astro.props;
+---
+<BaseLayout title={frontmatter.title}>
+  <div class="portfolio-entry">
+    <h1>{frontmatter.title}</h1>
+    
+    {frontmatter.technologies && (
+      <div class="mb-3">
+        <strong>Technologien: </strong>
+        {frontmatter.technologies.map((tech) => (
+          <span class="badge bg-info text-dark me-1">{tech}</span>
+        ))}
+      </div>
+    )}
+    
+    <hr />
+    
+    <div class="content mt-4">
+      <slot />
+    </div>
+  </div>
+</BaseLayout>

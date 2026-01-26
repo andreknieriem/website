@@ -1,0 +1,24 @@
+---
+import BaseLayout from './BaseLayout.astro';
+const { frontmatter } = Astro.props;
+---
+<BaseLayout title={frontmatter.title}>
+  <article class="blog-post">
+    <h1>{frontmatter.title}</h1>
+    <p class="text-muted"><small>{new Date(frontmatter.date).toLocaleDateString('de-DE')}</small></p>
+    
+    {frontmatter.tags && (
+      <div class="mb-3">
+        {frontmatter.tags.map((tag) => (
+          <span class="badge bg-secondary me-1">{tag}</span>
+        ))}
+      </div>
+    )}
+    
+    <hr />
+    
+    <div class="content mt-4">
+      <slot />
+    </div>
+  </article>
+</BaseLayout>

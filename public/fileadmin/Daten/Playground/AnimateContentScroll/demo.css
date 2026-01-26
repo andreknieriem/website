@@ -1,0 +1,257 @@
+@import url(//fonts.googleapis.com/css?family=Raleway:400,300,400italic,700);
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?t91ftr');
+  src:  url('fonts/icomoon.eot?t91ftr#iefix') format('embedded-opentype'),
+	url('fonts/icomoon.ttf?t91ftr') format('truetype'),
+	url('fonts/icomoon.woff?t91ftr') format('woff'),
+	url('fonts/icomoon.svg?t91ftr#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-forward:before {
+  content: "\e903";
+}
+.icon-down:before {
+  content: "\e904";
+}
+.icon-up:before {
+  content: "\e905";
+}
+.icon-times:before {
+  content: "\e902";
+}
+.icon-back:before {
+  content: "\e900";
+}
+.icon-playground:before {
+  content: "\e901";
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  line-height: 1.875rem;
+  background: #358ebc;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+	margin-top: 0;
+	font-weight: 300;
+}
+
+h3 {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+header {
+	background: #303d4d;
+	color: #fff;
+	padding: 20px 0;
+}
+
+header a {
+	color: #fff;
+	text-decoration: none;
+	opacity: 0.5;
+}
+
+header a:hover,header a.active {
+	opacity: 1.0;
+}
+
+header svg {
+	color: #fff;
+}
+.back-navi {
+	font-size: 1.5rem;
+	position: absolute;
+	left: 50px;
+	top: 30px;
+}
+.back-navi a{
+	opacity: 0.8;
+}
+
+.back-navi a:hover {
+	opacity: 1;
+	text-decoration: none;
+	color: #fff;
+}
+
+.arlogo {
+	position: absolute;
+	right: 50px;
+	top: 17px;
+	display: block;
+	width: 70px;
+	height: 70px;
+	background: url(img/logo-trans.png);
+	background-size: contain;
+	opacity: 1.0;
+	text-indent: -10000px;
+}
+
+.demo-navigation {
+	margin: 20px auto 0;
+	max-width: 1170px;
+	text-align: center;
+}
+
+/* Animated Content */
+.section {
+	padding: 150px 0;
+	color: #fff;
+}
+
+.section .col-md-6 img {
+	max-width: 200px;
+	text-align: center;
+	margin: auto;
+}
+
+#section1 {
+	background: #358ebc;
+}
+
+#section2 {
+	background: #F36A71;
+}
+
+#section3 {
+	background: #efc75e;
+}
+
+#section4 {
+	background: #a7e2a0;
+}
+
+#section4 .col-md-4 img{
+	max-width: 150px;
+	text-align: center;
+	margin: auto;
+}
+
+.desktop .animate-down {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translate(0, -100px);
+    -moz-transform: translate(0, -100px);
+    transform: translate(0, -100px)
+}
+.desktop .animate-down.animated {
+    opacity: 1;
+    visibility: visible;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    transform: translate(0, 0);
+    -webkit-transition: all 600ms ease-out 100ms;
+    -moz-transition: all 600ms ease-out 100ms;
+    transition: all 600ms ease-out 100ms
+}
+.desktop .animate-up {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translate(0, 100px);
+    -moz-transform: translate(0, 100px);
+    transform: translate(0, 100px)
+}
+.desktop .animate-up.animated {
+    opacity: 1;
+    visibility: visible;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    transform: translate(0, 0);
+    -webkit-transition: -webkit-transform 400ms ease-out 100ms, opacity 400ms ease-out 100ms;
+    -moz-transition: -moz-transform 400ms ease-out 100ms, opacity 400ms ease-out 100ms;
+    transition: transform 400ms ease-out 100ms, opacity 400ms ease-out 100ms
+}
+.desktop .animate-right {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-100px, 0)
+}
+.desktop .animate-right.animated {
+    opacity: 1;
+    visibility: visible;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    transform: translate(0, 0);
+    -webkit-transition: -webkit-transform 400ms ease-out 100ms, opacity 400ms ease-out 100ms;
+    -moz-transition: -moz-transform 400ms ease-out 100ms, opacity 400ms ease-out 100ms;
+    transition: transform 400ms ease-out 100ms, opacity 400ms ease-out 100ms
+}
+.desktop .animate-left {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(100px, 0)
+}
+.desktop .animate-left.animated {
+    opacity: 1;
+    visibility: visible;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    transform: translate(0, 0);
+    -webkit-transition: -webkit-transform 400ms ease-out 100ms, opacity 400ms ease-out 100ms;
+    -moz-transition: -moz-transform 400ms ease-out 100ms, opacity 400ms ease-out 100ms;
+    transition: transform 400ms ease-out 100ms, opacity 400ms ease-out 100ms
+}
+
+
+@media (max-width: 767px){
+	h1 {
+		font-size: 1.5rem;;
+	}
+  .back-navi {
+  	display: block;
+  	position: static;
+  	top: 0;
+  	margin-left: 15px;
+  }
+
+  .arlogo {
+  	display: none;
+  }
+}
