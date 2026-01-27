@@ -1,51 +1,96 @@
 ---
 const { title } = Astro.props;
-import 'bootstrap/dist/css/bootstrap.css';
+// Import legacy CSS (the one we downloaded from TYPO3)
+import '../styles/legacy.css';
 ---
 <html lang="de">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <title>{title} | André Rinas</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
-      <div class="container">
-        <a class="navbar-brand" href="/">André Rinas</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+  <body id="home">
+    <div id="stage">
+      <div class="la-anim"></div>
+      <header id="main-header">
+        <button class="menu-btn">
+          <i class="icon-Menu"></i>
+          <i class="icon-Delete"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="/portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/tutorials">Tutorials</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/blog">Blog</a>
-            </li>
-             <li class="nav-item">
-              <a class="nav-link" href="/playground">Playground</a>
+
+        <nav class="main-menu">
+          <ul>
+            <li role="presentation"><a href="/portfolio">Portfolio</a></li>
+            <li role="presentation"><a href="/tutorials">Tutorials</a></li>
+            <li role="presentation"><a href="/blog">Blog</a></li>
+            <li role="presentation"><a href="/playground">Playground</a></li>
+            <li class="search">
+              <div class="search-outer">
+                <i class="icon-Search"></i> 
+                <div class="search-container">
+                  <form method="get" action="/suche/" autocomplete="off">
+                    <input type="search" name="q" class="search-input"/>
+                    <button type="submit"><i class="icon-Forward"></i></button>
+                  </form>
+                </div>
+              </div>
             </li>
           </ul>
+        </nav>
+        <a id="logo" title="André Rinas - Logo" href="/">&nbsp;</a>
+      </header>
+
+      <div id="content">
+        <div class="container">
+            <slot /> <!-- Content is injected here -->
         </div>
       </div>
-    </nav>
-
-    <div class="container">
-      <slot /> <!-- Content is injected here -->
     </div>
 
-    <footer class="text-center mt-5 py-4 bg-light">
+    <footer>
       <div class="container">
-        <span class="text-muted">© {new Date().getFullYear()} André Rinas</span>
+        <div class="social">
+          <a class="dribbble noliveloading" href="https://dribbble.com/andrerinas" target="_blank"><i class="icon-Dribbble"></i> Dribbble</a>
+          <a class="github" href="https://github.com/andreknieriem" target="_blank"><i class="icon-Github2"></i> Github</a>
+          <a class="facebook" href="https://www.facebook.com/andre.knieriem" target="_blank"><i class="icon-Facebook"></i> Facebook</a>
+          <a class="twitter" href="https://twitter.com/andrerinas" target="_blank"><i class="icon-Twitter"></i> Twitter</a>
+          <a class="contact" target="_blank" href="/kontakt.html"><i class="icon-Paper-Plane"></i> Kontakt</a>
+        </div>
       </div>
     </footer>
 
-    <script>
-      import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-    </script>
+    <div class="menu-overlay">
+      <button class="menu-btn">
+        <i class="icon-Menu"></i>
+        <i class="icon-Delete"></i>
+      </button>
+    </div>
+
+    <div class="mobile-menu">
+        <div class="inner">
+            <div class="msearch">
+                <form method="get" action="/suche/" autocomplete="off">
+                    <button>
+                        <i class="icon-Search"></i>
+                    </button>
+                    <input type="search" name="q" class="msearch-input">
+                </form>
+            </div>
+            <div class="left-menu">
+                <ul>
+                    <li role="presentation"><a href="/portfolio">Portfolio</a></li>
+                    <li role="presentation"><a href="/tutorials">Tutorials</a></li>
+                </ul>
+            </div>
+            <div class="right-menu">
+                <ul>
+                    <li role="presentation"><a href="/blog">Blog</a></li>
+                    <li role="presentation"><a href="/playground">Playground</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
   </body>
 </html>
