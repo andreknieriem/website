@@ -10,16 +10,13 @@ tags:
   - '626'
   - '627'
 description: "Möchte man den Rechtsklick auf einer Webseite unterbinden, so lässt sich dies relativ einfach mit jQuery lösen. In dem Beispiel zeige ich, wie man es bei Bildern oder der kompletten Seite abschaltet. Bei Bildern, ist dies ein wenig hilfreich, damit die Leute sich das Bild nicht ohne Weiteres herunterladen können. \nHier der Code  \r\n$(function() {\r\n    // Rechtsklick auf Bildern verhindern\r\n    $(\"img\").bind(\"contextmenu\",function(){\r\n       return false;\r\n    }); \r\n    \r\n    // Rechtsklick komplett für die Seite ausschalten\r\n    $(this).bind(\"contextmenu\", function(e) {\r\n        e.preventDefault();\r\n    });\r\n});  \r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/d/4/csm_jquery_e571c76753.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# jQuery: Rechtsklick komplett oder auf bestimmten Elementen unterbinden
 
 #Tutorials#jQuery
 

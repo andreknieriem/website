@@ -36,6 +36,23 @@
             "type": "string"
           }
         },
+        "image": {
+          "anyOf": [
+            {
+              "anyOf": [
+                {
+                  "not": {}
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
         "$schema": {
           "type": "string"
         }

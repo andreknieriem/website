@@ -6,13 +6,11 @@ technologies:
   - jQuery
   - html
   - photoswipe
-layout: ../../layouts/PortfolioPost.astro
+image: /fileadmin/_processed_/9/6/csm_photobooth-small_2da4ff8fbc.jpg
 ---
 
-[Zurück zur Übersicht](/portfolio.html)  
   
 
-# Photobooth Web-Application
 
 * * *
 

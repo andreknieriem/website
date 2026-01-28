@@ -10,16 +10,13 @@ tags:
   - '802'
   - '803'
 description: "Hier ist ein kleines Snippet, um ein Monats-Auswahl Select mit php zu erstellen. \r\n&lt;?php\r\nfunction month_select_box( $field_name = 'month' ) {\r\n    $month_options = '';\r\n    for( $i = 1; $i &lt;= 12; $i++ ) {\r\n        $month_num = str_pad( $i, 2, 0, STR_PAD_LEFT );\r\n        $month_name = date( 'F', mktime( 0, 0, 0, $i + 1, 0, 0, 0 ) );\r\n        $month_options .= '&lt;option value=\"' . esc_attr( $month_num ) . '\"&gt;' . $month_name . '&lt;/option&gt;';\r\n    }\r\n    return '&lt;select name=\"' . $field_name . '\"&gt;' . $month_options . '&lt;/select&gt;';\r\n}\r\n?&gt;\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/a/1/csm_php_f46f120f0b.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# PHP: Einfaches Monats-Auswahl Select erstellen
 
 #Tutorials#PHP
 

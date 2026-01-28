@@ -11,16 +11,13 @@ tags:
   - '545'
   - '546'
 description: "Um das Bootstrap Carousel auf mobilen, bzw. Touchgeräten mit einem Fingerwisch (Swipe) zu bedienen habe ich hier ein kleines Snipped gebaut. Das Ganze setzt voraus, dass man das jquery.touchswipe Plugin vorher eingebunden hat. \r\n$('.carousel').swipe({\r\n\tswipeLeft:function(event, direction, distance, duration, fingerCount) {\r\n\t\t$(this).carousel('next');    \r\n\t},\r\n\tswipeRight:function(event, direction, distance, duration, fingerCount) {\r\n\t\t$(this).carousel('prev');  \r\n\t},\r\n\tthreshold:0\r\n});\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/9/csm_javascript_163d0d7946.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Bootstrap: Carousel mit Swipe Funktion
 
 #Tutorials#Javascript
 

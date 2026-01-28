@@ -29,16 +29,13 @@ description: >-
   geranked als vorher, genau wie Info-Portale und Facebook.
 
   Im Ergebnis gibt es aber mehr Verlierer als Gewinner.
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Panda-Update: Googles verbessert Suchqualität auch in Deutschland
 
 #Blog
 

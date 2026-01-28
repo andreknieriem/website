@@ -13,16 +13,13 @@ tags:
 description: >-
   Ich Folgenden zeige ich euch, wie man mit dem neuen Querybuilder von TYPO3
   eine Tabelle leeren kann. Das geht recht einfach: 
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# TYPO3: Truncate Tabelle mit dem Querybuilder
 
 #Tutorials#TYPO3
 

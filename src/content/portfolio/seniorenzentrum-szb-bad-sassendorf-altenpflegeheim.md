@@ -4,13 +4,11 @@ date: '2016-06-29T14:05:55.000Z'
 slug: seniorenzentrum-szb-bad-sassendorf-altenpflegeheim
 technologies:
   - Wordpress
-layout: ../../layouts/PortfolioPost.astro
+image: /fileadmin/_processed_/b/0/csm_sassendorf_94d3eaeddc.jpg
 ---
 
-[Zurück zur Übersicht](/portfolio.html)  
   
 
-# Seniorenzentrum SZB Bad Sassendorf Altenpflegeheim
 
 * * *
 

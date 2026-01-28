@@ -90,16 +90,13 @@ description: >-
   4. Würde man den Container herausscrollen wird ihm die Klasse "fixed" gegeben,
   die dem Container die Position Fixed gibt und somit immer an der selben Stelle
   bleibt.
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/d/4/csm_jquery_e571c76753.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Element beim Scrollen fixieren mit jQuery
 
 #Tutorials#jQuery
 

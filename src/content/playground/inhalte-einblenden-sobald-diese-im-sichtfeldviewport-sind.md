@@ -11,16 +11,13 @@ tags:
   - '234'
   - '894'
 description: "In diesem Playground stelle ich vor, was man mit ein wenig CSS und jQuery machen kann um eine Seite aufzuwerten. Einem Benutzer gefällt es immer, wenn sich eine Webseite individuell anpasst. Allerdings darf man die Animationen natürlich nicht übertreiben oder sogar so weit treiben, dass sie dem User eher als Nachteil angesehen wird.\r\nSobald das CSS eingebunden ist, braucht man nur die Klassen für die Richtungen an die Elemente setzen, die man animieren möchte. Das jQuery Plugin Appear&nbsp;wird benutzt um zu gucken, ob ein Element im Viewport ist und setzt dann die benötigte Klasse um die CSS Animation zu starten.&nbsp;\r\nViel Spaß mit dem Playground.\r\nNachtrag:Ich werde noch ein Tutorial schreiben, in dem ich alle Funktionsweisen und den Code erkläre."
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/Daten/Bilder/Playground/animatedscrollthumb.jpg
 ---
 
-# Playground
 
 Auf den folgenden Seiten habe ich kleine Demos und Code-Snippets aufbereitet, die schöne Ergänzungen und Anregungen für verschiedene Website-Komponenten zeigen.
 
-[Zurück zur Übersicht](/playground.html)
 
-# Inhalte einblenden, sobald diese im Sichtfeld/Viewport sind
 
 #Playground#jQuery#CSS
 

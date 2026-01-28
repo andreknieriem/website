@@ -11,16 +11,13 @@ tags:
   - '84'
   - '110'
 description: "Wenn man ein Formular für das iPhone oder iPad mit CSS stylen will, merkt man schnell, dass der mobile Safari einem die Styles gnadenlos kaputt macht.\nSo sollte es aussehen:\n\nund so sieht es aus:\n\nNach einigen Recherchen habe ich dann folgende Lösung gefunden: \r\n-webkit-appearance: none;\r\n-moz-appearance: none;\r\n Fügt man diesen Schnipsel zu seiner CSS-Datei hinzu dann sagt man dem mobilen Safari, dass er wirklich diesen Button nicht nach der Apple UI stylen soll."
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/0/csm_css_b1ca039252.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Input-Felder und Submit-Buttons für iPhone/iPad via CSS stylen
 
 #Tutorials#CSS
 

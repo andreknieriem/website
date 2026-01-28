@@ -10,16 +10,13 @@ tags:
   - '484'
   - '485'
 description: "Ich weiß nicht wieso, aber auf meinem Macbook gehen manchmal die SD-Karten nicht. Bisher ist der Hersteller egal und auch ob es sich um einen Adapter oder um eine richtige Karte handelt. Ich stecke die Karte in den Slot und bekomme nur Leserechte, obwohl der Lockschieber an der Seite an der richtigen Stelle sitzt. \nHier ein paar verschiedene Herangehensweisen die bisher immer geholfen haben: \r\n1. SD Karte erneut hineinstecken\r\n2. den Schieber in den Lock-Modus stellen (kA warum man dann manchmal schreiben darf)\r\n3. den Schieben genau zwischen den Lock- und Unlock-Modus stellen\r\n Ich hoffe damit klappt es auch bei euch!"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/6/6/csm_tutorials_4003cc1df0.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# SD-Karte am Mac geht nicht,bzw. nur Leserechte, was tun?
 
 #Tutorials
 

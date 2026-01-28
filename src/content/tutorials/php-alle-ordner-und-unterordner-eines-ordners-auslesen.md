@@ -10,16 +10,13 @@ tags:
   - '800'
   - '844'
 description: "Hier habe ich ein kleines PHP-Snippet um alle Ordner samt Unterordner aus einem gegegeben Ordner auszulesen und in ein Array zu packen.\nFunktion \r\nfunction getAllSubDirectories( $directory, $directory_seperator = '/'){\r\n\t$dirs = array_map( function($item)use($directory_seperator){ return $item . $directory_seperator;}, array_filter( glob( $directory . '*' ), 'is_dir') );\r\n\r\n\tforeach( $dirs AS $dir ){\r\n\t\t$dirs = array_merge( $dirs, getAllSubDirectories( $dir, $directory_seperator ) );\r\n\t}\r\n\treturn $dirs;\r\n}\r\n Anwendung \r\n$folders = getAllSubDirectories('/folder','/');\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/a/1/csm_php_f46f120f0b.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# PHP: Alle Ordner und Unterordner eines Ordners auslesen
 
 #Tutorials#PHP
 

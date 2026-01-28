@@ -86,16 +86,13 @@ description: >-
   }
    4. Und schon ist es geschafft. Ihr surft nun Beispielsweise: example.com/maxmustermann, dann wird der Controller User aufgerufen und falls nichts mehr angeben ist die index Funktion. geht man auf example.com/maxmustermann/info wird die Methode Info im User Controller aufgerufen. Als 3tes Segment wird immer die User-ID übergeben, damit man im Controller auch die richtigen Daten aufrufen kann.
   Viel Spaß mit dem Script!
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/a/1/csm_php_f46f120f0b.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Howto: Username Url&#039;s in Codeigniter
 
 #Tutorials#PHP
 

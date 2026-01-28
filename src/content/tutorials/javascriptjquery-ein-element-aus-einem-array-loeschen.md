@@ -11,16 +11,13 @@ tags:
   - '505'
   - '585'
 description: "Hier habe eine Array Prototype-Funktion um Array-Elemente zu löschen. Ich habe sie wie die Php-Funktion unset() genannt.\nDie Funktionsweise seht ihr unten. \r\narr['dies', 'ist', 'ein', 'test'];\r\n\r\nArray.prototype.unset = function(item) {\r\n    arr.splice( $.inArray(item, arr), 1 );\r\n}\r\n\r\narr.unset('dies');\r\n\r\n//Ergebnis wäre\r\narr['ist','ein','test']\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/d/4/csm_jquery_e571c76753.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Javascript/jQuery: Ein Element aus einem Array löschen
 
 #Tutorials#jQuery#Javascript
 

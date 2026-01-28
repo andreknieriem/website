@@ -19,16 +19,13 @@ description: >-
   Einzelheiten zur neuen Konsole gab Nintendo jedoch nicht bekannt. Ein
   funktionsfähiges Modell der neuen Konsole soll auf der Messe Electronic
   Entertainmant Expo vom 7. bis zum 9. Juni in Los Angeles gezeigt werden.
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Neue Nintendo Wii Konsole erst 2012
 
 #Blog
 

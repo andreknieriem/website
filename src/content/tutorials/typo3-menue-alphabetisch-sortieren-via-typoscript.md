@@ -11,16 +11,13 @@ tags:
   - '438'
   - '439'
 description: "Manchmal möchte man ein Typoscript-Menu alphabetisch oder generell nach irgendetwas sortiert ausgeben. TYPO3 bietet hierfür eine Zeile Typoscript, um das Ganze zu bewerkstelligen. Der Code dafür lautet: alternativeSortingField = euerFeld.\nHier mal das Ganze als komplettes Typoscript, bei dem nach Titel sortiert wird. \r\nlib.sortmenu = HMENU\r\nlib.sortmenu {\r\n    1 = TMENU\r\n    1 {\r\n        # hier das Feld nachdem sortiert werden soll\r\n        alternativeSortingField = title\r\n        wrap = &lt;ul&gt;|&lt;/ul&gt;\r\n        NO.wrapItemAndSub = &lt;li&gt;|&lt;/li&gt;\r\n    }\r\n}\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# TYPO3: Menü alphabetisch sortieren via Typoscript
 
 #Tutorials#TYPO3
 

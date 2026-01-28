@@ -8,16 +8,13 @@ tags:
   - '948'
   - '422'
 description: "Um NodeJs zu updaten muss man nicht viel tun, da man dies mit direkt mit NPM machen kann. Das Ganze geht dann wie folgt: sudo npm cache clean -f\r\nsudo npm install -g n\r\nsudo n stable\r\n\r\nMöchte man eine bestimmte Version installieren, so geht das so:\r\nsudo n 0.8.21\r\nSobald die Installation fertig ist, kann man sich mit dem folgenden Befehl anschauen, welche Version installiert ist.\r\nnode -v"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/7/f/csm_nodejs_841db15a0c.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# NodeJs: Update von NodeJs? So funktionierts!
 
 #Tutorials#NodeJs
 

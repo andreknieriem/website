@@ -10,16 +10,13 @@ tags:
   - '434'
   - '435'
 description: "Da is bei Fluid und TYPO3 viel übersichtlicher in den Templates wird, wenn man Partials verwendet, sollte man auch wissen, wie man alle Variablen die im Haupttemplate vorhanden sind auch in das Partial bekommt. Der Partial-Viewhelper bietet dafür ja das arguments-Attribut, allerdings war mir bis vor kurzem nicht klar, wie ich alle Variablen auch an das Partial weiterleiten kann. Dies geht sehr einfach. Einfach {_all} als Argument übergeben und die Sache ist erledigt. \nHier ein Beispiel: \r\n&lt;f:render partial=\"header\" arguments=\"{_all}\" /\r\n Ich hoffe ich konnte dem ein oder anderen helfen ;)"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# TYPO3: Alle Variablen an Partial übergeben (Fluid)
 
 #Tutorials#TYPO3
 

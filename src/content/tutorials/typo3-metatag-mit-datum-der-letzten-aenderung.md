@@ -8,16 +8,13 @@ tags:
   - '516'
   - '517'
 description: "Möchte man in TYPO3 das Meta-Tag \"last-modified\" haben, so kann man dies einfach mit folgendem Code bewerkstelligen: \r\npage.headerData {\r\n  10 = TEXT\r\n  10 {\r\n    # Timestamp der letzten Änderung holen\r\n    data = page : SYS_LASTCHANGED\r\n    # Datumsformat nach ISO 8601: 2001-12-15T08:49:37+02:00\r\n    date = c\r\n    # Metatag 'last-modified' erzeugen\r\n    wrap = &lt;meta name=\"last-modified\" content=\"|\" /&gt;\r\n  }\r\n}\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# TYPO3: Metatag mit Datum der letzten Änderung
 
 #Tutorials#TYPO3
 

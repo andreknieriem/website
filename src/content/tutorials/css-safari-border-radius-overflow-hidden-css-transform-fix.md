@@ -11,16 +11,13 @@ tags:
   - '390'
   - '239'
 description: "Der Safari-Browser hat bei CSS-Transitions an Elementen, die overflow:hidden haben, Probleme mit dem Rendern. So kann es vorkommen, dass die ausgeblendeten Inhalte kurz aufflackern, sobald die Animation beginnt.&nbsp;\r\nMit dem folgenden kleinen Snippet lässt sich das Ganze lösen:&nbsp; // Bei einem Element mit overflow hinzufügen\r\n-webkit-mask-image: -webkit-radial-gradient(white, black);"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/0/csm_css_b1ca039252.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# CSS: Safari border-radius + overflow: hidden + CSS transform fix
 
 #Tutorials#CSS
 

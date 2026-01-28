@@ -10,16 +10,13 @@ tags:
   - '776'
   - '777'
 description: "\r\n$input = array(\r\n  array(\r\n    'key' =&gt; 'foo',\r\n  ),\r\n  array(\r\n    'key' =&gt; 'bar'\r\n  )\r\n);\r\n\r\n// Unter PHP 5.5.0\r\necho implode(', ', array_map(function ($entry) {\r\n  return $entry['key'];\r\n}, $input));\r\n\r\n// Ab PHP 5.5.0\r\necho implode(', ', array_column($input, 'key'));\r\n\r\n// Herauskommt bei beiden\r\n// foo, bar\r\n  Möchte man ein multidimensionales Array imploden, so habe ich hier 2 Lösungen gefunden. Je nach PHP Version kann man entweder die eine oder die andere benutzen."
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/a/1/csm_php_f46f120f0b.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Php: Implode ein Multi-Dimensional-Array bei bestimmtem Key
 
 #Tutorials#PHP
 

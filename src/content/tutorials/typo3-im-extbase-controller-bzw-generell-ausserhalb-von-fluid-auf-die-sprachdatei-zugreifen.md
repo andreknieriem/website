@@ -15,16 +15,13 @@ tags:
   - '752'
   - '753'
 description: "Muss man auch außerhalb von Fluid auf Labels zugreifen, so kann man einfach den folgenden Aufruf verwenden. Er funktioniert genau wie der Viewhelper, da dieser nichts anderes tut, als diese Funktion aufzurufen. \r\n\\TYPO3\\CMS\\Extbase\\Utility\\LocalizationUtility::translate( 'lsLanguageKey', 'extensionname' , array() );\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# TYPO3: Im Extbase-Controller, bzw. generell außerhalb von Fluid auf die Sprachdatei zugreifen
 
 #Tutorials#TYPO3#PHP
 

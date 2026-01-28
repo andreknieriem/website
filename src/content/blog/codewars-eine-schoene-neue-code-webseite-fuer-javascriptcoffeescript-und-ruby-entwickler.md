@@ -35,16 +35,13 @@ description: >-
   und man lernt eine Menge dabei!
 
   Zur Seite
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/c/9/csm_codewars_41f4e35dc5.jpg
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Codewars - Eine schöne neue Code Webseite für Javascript/Coffeescript und Ruby Entwickler
 
 #Blog
 

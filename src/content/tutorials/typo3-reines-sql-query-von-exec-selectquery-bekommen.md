@@ -9,16 +9,13 @@ tags:
   - '513'
   - '514'
 description: "Manchmal ist es bei TYPO3 nötig, dass man das Plain Sql Query sieht, um mögliche Fehler zu entdecken. Hierfür eignet sich folgender Code-Schnipsel. \r\n// debugging einschalten\r\n$GLOBALS['TYPO3_DB']-&gt;store_lastBuiltQuery = 1; \r\n\r\n// query ausführen\r\n$res = $GLOBALS['TYPO3_DB']-&gt;exec_SELECTquery($select_fields,$from_table,$where_clause,$groupBy,$orderBy,$limit);\r\n \r\n// das SQL-Statement ausgeben\r\necho $GLOBALS['TYPO3_DB']-&gt;debug_lastBuiltQuery;\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# TYPO3: Reines SQL-Query von exec\_SELECTquery bekommen
 
 #Tutorials#TYPO3#SQL
 

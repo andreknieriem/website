@@ -13,16 +13,13 @@ tags:
   - '459'
   - '460'
 description: "TYPO3 rendert Überschriften standardmäßig als H1. Möchte man allerdings nur eine große H1 am Anfang der Seite haben und alle anderen Überschriften per default auf H2 haben, dann kann man dieses mit dem folgenden Code, den man in die Constants der Seiten schreiben muss. \r\n# Standard-Überschriften als H2\r\ncontent.defaultHeaderType = 2\r\n Viel Spaß damit!"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# TYPO3: Standardüberschrift H2 anstatt H1
 
 #Tutorials#TYPO3
 
@@ -54,7 +51,6 @@ TYPO3 rendert Überschriften standardmäßig als H1. Möchte man allerdings nur 
 
 ```
 
-# Standard-Überschriften als H2
 content.defaultHeaderType = 2
 ```
 

@@ -11,16 +11,13 @@ tags:
   - '531'
   - '532'
 description: "Letztens brauchte ich an mehreren Stellen alle Klassen von Elementen als Array. Dafür habe ich mir diese kleine Funktion geschrieben.\nFunktion \r\n(function ($) {\r\n\t$.fn.getClasses = function (prop) {\r\n\t\treturn classes = this.attr(\"class\").split(/\\s+/);\r\n    };\r\n}(jQuery));\r\n So wirds benutzt: \r\nvar classList =$('#divId').getClasses();\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/d/4/csm_jquery_e571c76753.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# jQuery: Funktion um alle Klassen als Array zu bekommen
 
 #Tutorials#jQuery
 

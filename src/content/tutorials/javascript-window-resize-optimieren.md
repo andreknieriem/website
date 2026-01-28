@@ -11,16 +11,13 @@ tags:
   - '1266'
   - '1267'
 description: "Möchte man auf einer Webseite etwas mit Javascript je nach Bildschirmgröße verändern, so hat man einen Eventlistener auf resize. Macht man nun etwas mehr Veränderungen oder hat ein langsameres Gerät, so kommt das Javascript und der Browser schnell an seine Grenze. Ändert man die Größe, so werden sehr sehr viele Events geworfen. Hier mal ein Beispiel ohne Optimierung.\r\nOhne Optimierung // window.resize callback function\r\nfunction resizeFunction() {\r\n  // calls many many times\r\n  // do anything\r\n}\r\n\r\n// listen for window.resize\r\nwindow.addEventListener('resize', resizeFunction);\r\n\r\n// call once to initialize page\r\nresizeFunction(); Nun gibt es 2 Möglichkeiten das Ganze besser zu gestalten. Einmal Throttling und einmal Debouncing.\r\nThrottling\r\nBeim Throttling legt man fest, wie oft das Event hintereinander geworfen werden soll. Man legt eine Zeitspanne fest, nach wie viel Milisekunden das Event nochmal gefeuert werden darf. Hier der vorherige Code um das Feature erweitert. let throttled = false; // are we currently throttled?\r\nlet delay = 250; // ms between calls\r\n\r\n// window.resize callback function\r\nfunction resizeFunction() {\r\n  // do anything\r\n}\r\n\r\n// window.resize event listener\r\nwindow.addEventListener('resize', () => {\r\n  // only run if we're not throttled\r\n  if (!throttled) {\r\n    // actual callback action\r\n    resizeFunction();\r\n    // we're throttled!\r\n    throttled = true;\r\n    // set a timeout to un-throttle\r\n    setTimeout(function() {\r\n      throttled = false;\r\n    }, delay);\r\n  }  \r\n});\r\n\r\nresizeFunction(); Debouncing\r\nIm Gegensatz zum Throttling verlagert das Debouncing das Event nach Hinten und meistens wird es dann nur einmal geworfen. Also erst wenn der User eine Zeit lang das Fenster nicht mehr verändert wird das Event gefeuert. So kann man abwarten bis das Fenster die Größe erreicht in der der Benutzer die Webseite weiter benutzen wird. let timeout = false; // holder for timeout id\r\nlet delay = 250; // delay after event is \"complete\" to run callback\r\n\r\n// window.resize callback function\r\nfunction resizeFunction() {\r\n  // do anything\r\n}\r\n\r\n// window.resize event listener\r\nwindow.addEventListener('resize', () => {\r\n  // clear the timeout\r\n  clearTimeout(timeout);\r\n  // start timing for event \"completion\"\r\n  timeout = setTimeout(resizeFunction, delay);\r\n});\r\n\r\nresizeFunction(); Für welche Variante man sich auch entscheided, beide Varianten sind wohl besser als die ohne Optimierung."
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/9/csm_javascript_163d0d7946.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Javascript: Window Resize optimieren
 
 #Tutorials#Javascript
 

@@ -8,16 +8,13 @@ tags:
   - '790'
   - '791'
 description: "Möchte man in seinen Themes den Wordcount anzeigen, so hat Wordpress für das Backend ja eine eingebaute Funktion. Diese kann man ganz einfach für das Theme verfügbar machen. Hierfür muss einfach folgender Code in die funtions.php in euer Wordpress-Theme eingefügt werden. \r\nfunction word_count() {\r\n    $content = get_post_field( 'post_content', $post-&gt;ID );\r\n    $word_count = str_word_count( strip_tags( $content ) );\r\n    return $word_count;\r\n}\r\n Danach könnt ihr wie folgt auf auf die Funktion im Template zugreifen: \r\necho 'Anzahl Wörter: '.word_count();\r\n Ich hoffe ich konnte euch weiterhelfen."
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/5/3/csm_wordpress_29764a1330.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Wordpress: Word-Count ermitteln
 
 #Tutorials#Wordpress#PHP
 

@@ -12,16 +12,13 @@ tags:
   - '1145'
   - '1146'
 description: "In meinem vorherigen Tutorial habe ich eine Funktion gezeigt, die ein Multidimensionales Array anhand einer Strings erstellt. (PHP: Ein multidimensionales Array mit einem String-Pfad erstellen (Dot)).\r\nIn diesem Tutorial habe ich die Gegen-Funktion dazu für euch. Hier kann man einen Wert anhand eines Strings mit der Dot-Notation auslesen.\r\nFunktion und Benutzung function getValueByKey($key, array $data, $default) {\r\n    if (!is_string($key) || empty($key) || !count($data)) {\r\n        return $default;\r\n    }\r\n\r\n    if (strpos($key, '.') !== false) {\r\n        $keys = explode('.', $key);\r\n        foreach ($keys as $innerKey) {\r\n            if (!array_key_exists($innerKey, $data)) {\r\n                return $default;\r\n            }\r\n            $data = $data[$innerKey];\r\n        }\r\n        return $data;\r\n    }\r\n    return array_key_exists($key, $data) ? $data[$key] : $default;\r\n}\r\n\r\n// Benutzung\r\n$arr = [\r\n   'liste' => [\r\n     'eintrag' => [\r\n       'name' => 'Max Mustermann'\r\n     ]\r\n   ]\r\n];\r\n$value = getValueByKey('liste.eintrag.name' $arr, 'Default Wert');\r\n// $value ist nun Max Mustermann\r\n\r\n$value = getValueByKey('liste.eintrag.nachname' $arr, 'Default Wert');\r\n// $value ist nun Default Wert"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/a/1/csm_php_f46f120f0b.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# PHP: Wert aus einem multidimensionalen Array via Dot-Notation auslesen
 
 #Tutorials#PHP
 

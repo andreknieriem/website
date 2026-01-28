@@ -3,22 +3,35 @@ import BaseLayout from './BaseLayout.astro';
 const { frontmatter } = Astro.props;
 ---
 <BaseLayout title={frontmatter.title}>
-  <div class="portfolio-entry">
-    <h1>{frontmatter.title}</h1>
+  <div class="portfolio-detail">
+    <a class="backlink" href="/portfolio"><i class="icon-Back"></i> Zurück zur Übersicht</a>
+    <br><br>
+    <h1 class="align-center">{frontmatter.title}</h1>
+    <div class="divider"><hr></div>
     
-    {frontmatter.technologies && (
-      <div class="mb-3">
-        <strong>Technologien: </strong>
-        {frontmatter.technologies.map((tech) => (
-          <span class="badge bg-info text-dark me-1">{tech}</span>
-        ))}
-      </div>
-    )}
-    
-    <hr />
-    
-    <div class="content mt-4">
-      <slot />
+    <div class="row">
+        <div class="col-md-4">
+            <div class="info-container">
+                <img src={frontmatter.image || "/fileadmin/Daten/Bilder/t3logo.png"} width="248" height="248" alt={frontmatter.title} class="img-fluid" />
+                <div class="divider"><hr></div>
+            </div>
+        </div>
+        
+        <div class="col-md-8">
+            <h3>Beschreibung</h3>
+            <div class="content">
+                <slot />
+            </div>
+            
+            {frontmatter.technologies && (
+                <div class="mt-4">
+                    <h3>Technologie(n)</h3>
+                    {frontmatter.technologies.map(tech => (
+                        <span class="tag">{tech}</span>
+                    ))}
+                </div>
+            )}
+        </div>
     </div>
   </div>
 </BaseLayout>

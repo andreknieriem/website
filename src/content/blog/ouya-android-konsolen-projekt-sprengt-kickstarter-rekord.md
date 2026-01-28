@@ -23,16 +23,13 @@ description: >-
 
   Hier noch ein kleiner Imagefilm von Ouya
    
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/1/f/csm_ouya_Ulogo_a0cd0aa911.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Ouya, Android Konsolen Projekt sprengt Kickstarter Rekord!
 
 #Blog
 

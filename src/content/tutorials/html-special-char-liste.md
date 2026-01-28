@@ -224,16 +224,13 @@ description: |
   omega&amp;omega;?
   password dot&amp;#9679;?
   bullet&amp;#8226;•
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/3/8/csm_html_ddf36eeabb.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# HTML Special Char Liste
 
 #Tutorials#HTML
 

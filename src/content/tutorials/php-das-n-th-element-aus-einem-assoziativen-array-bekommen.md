@@ -13,16 +13,13 @@ tags:
   - '681'
   - '682'
 description: "Möchte man aus einem assoziativen Array ein bestimmtes Element bekommen, beispielsweise das 2. kann man dies ganz einfach mit der array_slice Funktion lösen. Das untere Beispiel zeigt dies. Würde man einfach $data[2] machen, würde dies nicht gehen.\nArray \r\n$data = Array\r\n(\r\n    ['var'] =&gt; Test\r\n    ['var2'] =&gt; 1\r\n    ['var3'] =&gt; Array\r\n        (\r\n            [0] =&gt; 1\r\n            [1] =&gt; 0\r\n        )\r\n\r\n    ['var4'] =&gt; Test 2\r\n    ['var5'] =&gt; Test 3\r\n)\r\n Zweites Element bekommen \r\n// Nur das Element\r\n$second = array_slice($data, 1, 1);\r\n\r\n// Nur das Value\r\n$second = array_slice($data, 1, 1);\r\nlist($second ) = array_slice($data, 1, 1);\r\n\r\n// Ausgabe\r\n$second = array('var2' =&gt; 1);\r\n$second = 1\r\n \r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/a/1/csm_php_f46f120f0b.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# PHP: Das n-th Element aus einem assoziativen Array bekommen
 
 #Tutorials#PHP
 

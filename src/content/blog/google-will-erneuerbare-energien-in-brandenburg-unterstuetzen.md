@@ -28,16 +28,13 @@ description: >-
   Weltspitze. Das Land verfügt über gute Rahmenbedingungen, die Bürger stehen
   sauberer Energie positiv gegenüber und die deutschen Hersteller liefern
   hervorragende Technologie."
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Google will erneuerbare Energien in Brandenburg unterstützen
 
 #Blog
 

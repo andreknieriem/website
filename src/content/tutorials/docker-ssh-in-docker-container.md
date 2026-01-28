@@ -9,16 +9,13 @@ tags:
   - '1116'
   - '1277'
 description: "Um in einen Docker-Container via SSH zu gelangen muss man nur 2 Schritte ausführen.\r\n1. Docker Containernamen suchen\r\nGeht auf euren Server und führt docker ps aus. Nun seht ihr eine Übersicht aller laufenden Container. Hier sucht ihr euch euren Container aus. Bei mir heißt er test-app-1\r\n2. Docker exec um in den Container zu ssh'n. docker exec -it  /bin/bash"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/5/3/csm_docker_877bfcc9d5.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Docker: SSH in Docker-Container
 
 #Tutorials#Docker
 

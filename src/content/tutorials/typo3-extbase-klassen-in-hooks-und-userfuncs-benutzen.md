@@ -11,16 +11,13 @@ tags:
   - '838'
   - '839'
 description: "Möchte man zum Beispiel das NewsRepository in einem Hook oder sonst wo benutzen, wo das Repo sonst nicht verfügbar ist, so kann man dies mit folgenden Zeilen machen. Als erstes wird der extbaseObjectManager geladen, damit man mit diesem das Repository laden kann. \r\n&lt;?php\r\n/** @var $extbaseObjectManager \\TYPO3\\CMS\\Extbase\\Object\\ObjectManager */\r\n$extbaseObjectManager = \\TYPO3\\CMS\\Core\\Utility\\GeneralUtility::makeInstance('TYPO3\\\\CMS\\\\Extbase\\\\Object\\\\ObjectManager');\r\n/** @var $newsRepository \\Tx_News_Domain_Repository_NewsRepository */\r\n$newsRepository = $extbaseObjectManager-&gt;get('GeorgRinger\\News\\Domain\\Repository\\NewsRepository');\r\n/** @var $newsRecord \\GeorgRinger\\News\\Domain\\Model\\News */\r\n$newsRecord = $newsRepository-&gt;findByUid($newsParams['news']);\r\n Viel Erfolg beim Extbase-Programmieren :D"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# TYPO3: Extbase Klassen in Hooks und Userfuncs benutzen
 
 #Tutorials#TYPO3#PHP
 

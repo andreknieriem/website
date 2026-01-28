@@ -13,16 +13,13 @@ tags:
   - '675'
   - '1039'
 description: "Habe bei&nbsp;Invision&nbsp;das in meinen Augen nützliche Feature gesehen, dass wenn man auf das Logo rechtsklickt, ein Modal geöffnet wird, wo ein Link zum Download der Logo Dateien bereitgestellt wird. Das Ganze fand ich eine gute Idee und habe dann direkt bei&nbsp;css-tricks&nbsp;ein kleines Tutorial dazu gefunden.\r\nDas Ganze habe ich zum Anlass genommen, um mal eine Demo-Seite mit Vanilla JS, jQuery und Bootstrap-Modal zu bauen."
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/Daten/Bilder/Playground/rightclick.png
 ---
 
-# Playground
 
 Auf den folgenden Seiten habe ich kleine Demos und Code-Snippets aufbereitet, die schöne Ergänzungen und Anregungen für verschiedene Website-Komponenten zeigen.
 
-[Zurück zur Übersicht](/playground.html)
 
-# Rechtsklick auf Logo um Download-Optionen zu öffnen
 
 #Playground
 

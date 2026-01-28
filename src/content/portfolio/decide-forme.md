@@ -5,13 +5,11 @@ slug: decide-forme
 technologies:
   - Codeigniter
   - Twig
-layout: ../../layouts/PortfolioPost.astro
+image: /fileadmin/_processed_/8/8/csm_dfm-logo_25798a5e78.jpg
 ---
 
-[Zurück zur Übersicht](/portfolio.html)  
   
 
-# decide-for.me
 
 * * *
 

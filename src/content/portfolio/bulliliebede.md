@@ -6,13 +6,11 @@ technologies:
   - Wordpress
   - Gsap
   - CSS Animationen
-layout: ../../layouts/PortfolioPost.astro
+image: /fileadmin/_processed_/9/4/csm_bulliliebe_logo_7acad61650.jpg
 ---
 
-[Zurück zur Übersicht](/portfolio.html)  
   
 
-# bulliliebe.de
 
 * * *
 

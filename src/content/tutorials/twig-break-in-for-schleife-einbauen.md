@@ -11,16 +11,13 @@ tags:
   - '1053'
   - '1171'
 description: "Möchte man einen \"break\" in eine For-Schleife bei Twig einbauen, so gibt es dafür keine Option. Man kann sich aber ganz leicht behelfen, indem man das folgende Snipped verwendet. Es sei angemerkt, dass es hier kaum einen Performance-Gewinn gibt.\r\nDer Trick hierbei ist, die If-Kondition direkt an der For-Schleife zu benutzen und die Variable break dann auf true zu setzen, wenn es nötig wird. Das Ganze sieht dann so aus: {% set break = false %}\r\n{% for post in posts if not break %}\r\n    {{ post.heading }}\r\n    {% if post.id == 10 %}\r\n        {% set break = true %}\r\n    {% endif %}\r\n{% endfor %}"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/4/3/csm_twig_8203c1255c.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Twig: Break in For-Schleife einbauen
 
 #Tutorials#Twig
 

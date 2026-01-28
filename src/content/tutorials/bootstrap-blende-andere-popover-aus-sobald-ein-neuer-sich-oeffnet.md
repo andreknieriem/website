@@ -9,16 +9,13 @@ tags:
   - '134'
   - '867'
 description: "Von sich aus kann Bootstrap es nicht, dass Popover geschlossen werden, sobald man ein neues öffnet. Das führt schnell dazu, dann man Unmengen von Popovern auf der Seite hat, die sich gegenseitig überlappen.&nbsp;\r\nMit folgendem kleinem Code, kann man die Popover ausblenden, die gerade nicht aktiv angeklickt werden. // add popver functionality\r\n$('.popoverelem').popover();\r\n\r\n// close other popover\r\n$('.popoverelem').on('click', function (e) {\r\n    $('.popoverelem').not(this).popover('hide');\r\n}); Was macht der Code?\r\nKlickt man auf ein Element, das über einen Popover verfügt, so werden alle Popover, außer das was geklickt wurde, ausgeblendet.\r\nIch hoffe damit konnte ich weiterhelfen!"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/6/c/csm_bootstrap_2b5fbe20f0.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Bootstrap: Blende andere Popover aus, sobald ein neuer sich öffnet
 
 #Tutorials#Bootstrap#jQuery
 

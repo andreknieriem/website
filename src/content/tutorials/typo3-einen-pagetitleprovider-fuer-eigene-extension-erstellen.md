@@ -8,16 +8,13 @@ tags:
   - '422'
   - '62'
 description: "Seit neuestem kann man sehr einfach den Seiten-Titel (Pagetitle) bei TYPO3 Seiten anpassen. Man muss hierfür einfach einen TitleProvider in der eigenen Extension erstellen und kann diesen dann in seinem Controller in der Detail-Action nutzen. So spart man sich Typoscript oder sonstige Dinge um einen guten Seiten-Titel zu bekommen.\r\nDas Ganze geht so:\r\nMyExtTitleProvider.php in my_ext/Classes/Seo/ erstellen. Natürlich sind die Extension und der Name Platzhalter. Der Inhalt sieht sieht ungefähr so aus:  Danach fügt ihr den Provider euren TypoScript hinzu: config.pageTitleProviders {\r\n   myRecord {\r\n      provider = AR\\MyExt\\Seo\\MyExtTitleProvider\r\n      before = pages\r\n   }\r\n] Und nun kann man ihn in seinem Controller auch schon nutzen. "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# TYPO3: Einen PageTitleProvider für eigene Extension erstellen
 
 #Tutorials#TYPO3
 

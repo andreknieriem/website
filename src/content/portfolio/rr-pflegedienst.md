@@ -4,13 +4,11 @@ date: '2017-04-18T08:20:34.000Z'
 slug: rr-pflegedienst
 technologies:
   - Wordpress
-layout: ../../layouts/PortfolioPost.astro
+image: /fileadmin/_processed_/e/e/csm_rr-logo_6c0021fdcc.png
 ---
 
-[Zurück zur Übersicht](/portfolio.html)  
   
 
-# RR-Pflegedienst
 
 * * *
 

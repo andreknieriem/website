@@ -8,16 +8,13 @@ tags:
   - '573'
   - '1008'
 description: "Möchte man ein Repository komplett zurücksetzen und mit dem Stand auf dem eigenen Server komplett neu einchecken, so geht das wie folgt:\r\n1. Lösche den .git Ordner in deinem Projekt.2. Führe die folgenden Befehle aus. ACHTUNG - Dadurch wird wirklich alles gelöscht. Also nur mit Vorsicht genießen. cd (project-directory)\r\ngit init\r\ngit add .\r\ngit commit -m 'Initial commit'\r\ngit remote add origin &lt;url&gt;\r\ngit push --force --set-upstream origin master"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/c/a/csm_git_5ac5ffd7cb.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# GIT: Repository zurücksetzen und alle Commits löschen
 
 #Tutorials#Git
 

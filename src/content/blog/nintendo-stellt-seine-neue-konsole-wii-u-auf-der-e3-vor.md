@@ -39,16 +39,13 @@ description: >-
   verzichtet. Dafür kann man via SD Karte die Konsole erweitern.
 
   Wenn die Konsole im nächsten Jahr erscheint ist noch nicht ganz klar.
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Nintendo stellt seine neue Konsole Wii u auf der E3 vor
 
 #Blog
 

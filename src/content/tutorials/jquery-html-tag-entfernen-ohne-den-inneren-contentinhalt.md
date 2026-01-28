@@ -12,16 +12,13 @@ tags:
   - '508'
   - '509'
 description: "Möchte man ein HTML Tag entfernen, jedoch die Inhalte behalten so kann man dies mit folgendem kleinen Code-Schnipsel lösen.\nTestaufbau \r\n&lt;div class=\"wrapper\"&gt;\r\n    &lt;a href=\"/home\"&gt;\r\n        &lt;img src=\"header.jpg\"&gt;\r\n    &lt;/a&gt;\r\n&lt;/div&gt;\r\n Javascript-Code \r\n$('a').contents().unwrap();\r\n Ergebnis \r\n&lt;div class=\"wrapper\"&gt;\r\n    &lt;img src=\"header.jpg\"&gt;\r\n&lt;/div&gt;\r\n Viel Spaß damit!"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/d/4/csm_jquery_e571c76753.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# jQuery: Html Tag entfernen, ohne den inneren Content/Inhalt
 
 #Tutorials#jQuery
 

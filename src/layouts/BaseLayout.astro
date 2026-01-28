@@ -1,7 +1,15 @@
 ---
 const { title } = Astro.props;
-// Import legacy CSS (the one we downloaded from TYPO3)
-import '../styles/legacy.css';
+const pathname = new URL(Astro.request.url).pathname;
+
+// Helper function to determine if a link is active
+const isActive = (path) => {
+  if (path === '/') return pathname === '/';
+  return pathname.startsWith(path);
+};
+
+// Import legacy SCSS
+import '../styles/legacy.scss';
 ---
 <html lang="de">
   <head>
@@ -11,7 +19,7 @@ import '../styles/legacy.css';
     <title>{title} | André Rinas</title>
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />
   </head>
-  <body id="home">
+  <body id={pathname === '/' ? 'home' : ''}>
     <div id="stage">
       <div class="la-anim"></div>
       <header id="main-header">
@@ -22,21 +30,11 @@ import '../styles/legacy.css';
 
         <nav class="main-menu">
           <ul>
-            <li role="presentation"><a href="/portfolio">Portfolio</a></li>
-            <li role="presentation"><a href="/tutorials">Tutorials</a></li>
-            <li role="presentation"><a href="/blog">Blog</a></li>
-            <li role="presentation"><a href="/playground">Playground</a></li>
-            <li class="search">
-              <div class="search-outer">
-                <i class="icon-Search"></i> 
-                <div class="search-container">
-                  <form method="get" action="/suche/" autocomplete="off">
-                    <input type="search" name="q" class="search-input"/>
-                    <button type="submit"><i class="icon-Forward"></i></button>
-                  </form>
-                </div>
-              </div>
-            </li>
+            <li role="presentation" class={isActive('/ueber-mich') ? 'active' : ''}><a href="/ueber-mich">Über mich</a></li>
+            <li role="presentation" class={isActive('/portfolio') ? 'active' : ''}><a href="/portfolio">Portfolio</a></li>
+            <li role="presentation" class={isActive('/tutorials') ? 'active' : ''}><a href="/tutorials">Tutorials</a></li>
+            <li role="presentation" class={isActive('/blog') ? 'active' : ''}><a href="/blog">Blog</a></li>
+            <li role="presentation" class={isActive('/playground') ? 'active' : ''}><a href="/playground">Playground</a></li>
           </ul>
         </nav>
         <a id="logo" title="André Rinas - Logo" href="/">&nbsp;</a>
@@ -52,11 +50,10 @@ import '../styles/legacy.css';
     <footer>
       <div class="container">
         <div class="social">
-          <a class="dribbble noliveloading" href="https://dribbble.com/andrerinas" target="_blank"><i class="icon-Dribbble"></i> Dribbble</a>
           <a class="github" href="https://github.com/andreknieriem" target="_blank"><i class="icon-Github2"></i> Github</a>
-          <a class="facebook" href="https://www.facebook.com/andre.knieriem" target="_blank"><i class="icon-Facebook"></i> Facebook</a>
+          <a class="dribbble noliveloading" href="https://dribbble.com/andrerinas" target="_blank"><i class="icon-Dribbble"></i> Dribbble</a>
           <a class="twitter" href="https://twitter.com/andrerinas" target="_blank"><i class="icon-Twitter"></i> Twitter</a>
-          <a class="contact" target="_blank" href="/kontakt.html"><i class="icon-Paper-Plane"></i> Kontakt</a>
+          <a class="contact" href="/kontakt"><i class="icon-Paper-Plane"></i> Kontakt</a>
         </div>
       </div>
     </footer>
@@ -80,14 +77,14 @@ import '../styles/legacy.css';
             </div>
             <div class="left-menu">
                 <ul>
-                    <li role="presentation"><a href="/portfolio">Portfolio</a></li>
-                    <li role="presentation"><a href="/tutorials">Tutorials</a></li>
+                    <li role="presentation" class={isActive('/portfolio') ? 'active' : ''}><a href="/portfolio">Portfolio</a></li>
+                    <li role="presentation" class={isActive('/tutorials') ? 'active' : ''}><a href="/tutorials">Tutorials</a></li>
                 </ul>
             </div>
             <div class="right-menu">
                 <ul>
-                    <li role="presentation"><a href="/blog">Blog</a></li>
-                    <li role="presentation"><a href="/playground">Playground</a></li>
+                    <li role="presentation" class={isActive('/blog') ? 'active' : ''}><a href="/blog">Blog</a></li>
+                    <li role="presentation" class={isActive('/playground') ? 'active' : ''}><a href="/playground">Playground</a></li>
                 </ul>
             </div>
         </div>

@@ -10,16 +10,13 @@ tags:
   - '537'
   - '538'
 description: "Für einen Test brauchte ich ein Array in dem alle Tage eines Jahres sind, bzw. des jetziges Jahres. Die folgende Funktion macht dies ohne Probleme: \r\n$now = time(); // or choose a startdate you want \r\n$aYearLater = strtotime('+1 Year', $now);\r\n$allDates = Array();\r\n$nextday = strtotime('+1 Day', $now);\r\nwhile(1){\r\n    if($nextday &gt; $aYearLater) break 1;\r\n    $allDates[] = date('d.m.Y', $nextday); // Change the date-format to whatever you want\r\n    $nextday = strtotime('+1 Day', $nextday);\r\n}\r\n Viel Spaß damit!"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/a/1/csm_php_f46f120f0b.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# PHP: Alle Tage eines Jahres in ein Array
 
 #Tutorials#PHP
 

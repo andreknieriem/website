@@ -4,13 +4,11 @@ date: '2016-06-29T13:33:55.000Z'
 slug: jugendserver-broksen
 technologies:
   - Wordpress
-layout: ../../layouts/PortfolioPost.astro
+image: /fileadmin/_processed_/7/1/csm_jugendserver_1a5af3c937.jpg
 ---
 
-[Zurück zur Übersicht](/portfolio.html)  
   
 
-# Jugendserver Broksen
 
 * * *
 

@@ -9,16 +9,13 @@ tags:
   - '864'
   - '865'
 description: "Möchte man mit PHP große Dateien öffnen, so bekommt man schnell einen memory_limit Fehler, weil die Datei größer ist, als erlaubt. Mit folgender Klasse kann man diesen Fehler umgehen, da hier immer nur Zeile für Zeile gestreamt wird. class LazyFile {\r\n \r\n  private $file;\r\n \r\n  function __construct($filename, $mode) {\r\n    $this-&gt;file = fopen($filename, $mode);\r\n  }\r\n \r\n  function lines() {\r\n    while (($line = fgets($this-&gt;file)) !== false) {\r\n        yield $line;\r\n    }\r\n  }\r\n} Möchte man das Ganze jetzt benutzen geht das wie folgt: \r\n$file = new LazyFile('file.csv','r');\r\nforeach ($file-&gt;lines() as $line) {\r\n  //do something\r\n}\r\n"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/a/1/csm_php_f46f120f0b.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# PHP: Eine große Datei öffnen ohne memory\_limit Fehler zu bekommen
 
 #Tutorials#PHP
 

@@ -22,16 +22,13 @@ description: >-
   heruntergeladen werden. Wie das Ganze funktioniert und aufgebaut ist, kann man
   aus dem Quellcode erkennen. Ich werde wohl noch ein Tutorial dafür
   nachreichen, diese Demo dient nur zur Inspiration.
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/Daten/Bilder/Playground/frostedglass_thumb.jpg
 ---
 
-# Playground
 
 Auf den folgenden Seiten habe ich kleine Demos und Code-Snippets aufbereitet, die schöne Ergänzungen und Anregungen für verschiedene Website-Komponenten zeigen.
 
-[Zurück zur Übersicht](/playground.html)
 
-# CSS: Login mit "Frosted Glass" Effekt Hintergrund
 
 #Playground
 

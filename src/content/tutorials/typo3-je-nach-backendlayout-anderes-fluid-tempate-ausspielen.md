@@ -9,16 +9,13 @@ tags:
   - '1025'
   - '178'
 description: "Seit TYPO3 7LTS gibt im TypoScript das Feld pagelayout. Dieses kümmert sich von selbst um die Vererbung des Backend-Layout-Feldes und macht es somit einfach, je nach Backend-Layout ein anderes Fluid-Template auszuspielen. Hier mal ein Beispiel-Code:\r\nPage page.10 = FLUIDTEMPLATE\r\npage.10 {\r\n  file.stdWrap.cObject = CASE\r\n  file.stdWrap.cObject {\r\n    key.data = pagelayout\r\n    default = TEXT\r\n    default.value = EXT:arsite/Resources/Private/Templates/Index.html\r\n    3 = TEXT\r\n    3.value = EXT:arsite/Resources/Private/Templates/Subpage.html\r\n    4 = TEXT\r\n    4.value = EXT:arsite/Resources/Private/Templates/Special.html\r\n  }\r\n}"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# TYPO3: Je nach Backendlayout anderes Fluid-Tempate ausspielen
 
 #Tutorials#TYPO3
 

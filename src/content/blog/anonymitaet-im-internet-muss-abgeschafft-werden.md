@@ -31,16 +31,13 @@ description: >-
   zu tun, da sie denken, dass die Folgen nie auf sie zurück kommen werden.
   Jedoch denke ich, dass es die anonymität im Internet weiter geben wird und
   muss!
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Anonymität im Internet muss abgeschafft werden...
 
 #Blog
 

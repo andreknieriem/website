@@ -15,16 +15,13 @@ tags:
   - '1084'
   - '1085'
 description: "Bei mir kommt es immermal wieder vor, dass ich Befehle nicht vollständig im Kopf habe und dann immer lange durch die History gucke, oder sogar Google beauftrage mir das Kommando herauszusuchen. Mit den folgenden Zeilen in der \"/etc/inputrc\"&nbsp;hilft einem die eigene Shell aber schon sehr viel weiter. \"\\e[5~\": history-search-backward\r\n\"\\e[6~\": history-search-forward\r\n\r\nZum neuladen eurer Bash dann folgendes eingeben\r\n\r\nexec bash Danach könnt ihr dann zum beispiel folgendes machen:\r\nyarn \"klick auf pageup\" und es wird bei mir sowas wie \"yarn encore dev --watch\" vervollständigt. Das ist ziemlich praktisch."
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/2/d/csm_linux_c8a1aa2e0c.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Linux: PageUp und PageDown für Autovervollständigung benutzen
 
 #Tutorials#Linux
 

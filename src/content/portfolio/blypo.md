@@ -5,13 +5,11 @@ slug: blypo
 technologies:
   - TYPO3
   - Blypo
-layout: ../../layouts/PortfolioPost.astro
+image: /fileadmin/_processed_/c/2/csm_blypo_7b43e900f1.jpg
 ---
 
-[Zurück zur Übersicht](/portfolio.html)  
   
 
-# Blypo
 
 * * *
 

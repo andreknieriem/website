@@ -21,16 +21,13 @@ description: >-
 
   Falls jemand auch den Fehler hat, oder eine andere Lösung, dann bitte im
   Kommentar vermerken!
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/5/3/csm_wordpress_29764a1330.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Problemlösung: Wordpress lädt Bilder hoch, kann sie aber nicht bearbeiten
 
 #Tutorials#Wordpress
 

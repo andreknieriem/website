@@ -11,16 +11,13 @@ tags:
   - '1035'
   - '1036'
 description: "Für ein Projekt brauchte ich letztens eine kleine Verzögerung, bis ein Bootstrap Collapse (Akkordeon) geöffnet, bzw. geschlossen werden sollte. Das Ganze hing mit einer CSS Animation zusammen. Folgendes ist dabei herausgekommen und ist sehr leicht zu bedienen und es funktioniert wunderbar. $('[data-delayed-toggle=\"collapse\"]').on('click', function(e) {\r\n\r\n  var delay = $(this).data('delay') || 1000,\r\n  target = $($(this).attr('href'));\r\n\r\n  window.setTimeout(function() {\r\n        \r\n    if (target.hasClass('show')) {\r\n    //if (target.hasClass('in')) { comment in if bootstrap 3, class is \"in\" not \"show\"\r\n      target.collapse('hide');\r\n    } else {\r\n      target.collapse('show');\r\n    }\r\n  }, delay);\r\n\r\n}) Die Benutzung ist relativ einfach und ähnlich dem Vorgehen von Bootstrap selbst. Anstelle von&nbsp;[data-toggle=\"collapse\"] am Link im Panel-Header zu haben, nimmt man&nbsp;[data-delayed-toggle=\"collapse\"]. Zudem kann man mit data-delay noch die Verzögerung in Milisekunden&nbsp;einstellen. Ist nichts gesetzt wird 1 Sekunde verzögert."
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/6/c/csm_bootstrap_2b5fbe20f0.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Bootstrap 3+4: Zeitverzögertes Akkordeon (Delayed Collapse) umsetzen
 
 #Tutorials#Bootstrap#Javascript#jQuery
 

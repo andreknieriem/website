@@ -64,16 +64,13 @@ description: >-
 
   Wenn ihr nun alles richtig gemacht habt, dann solltet ihr eine schöne Facebook
   Likebox haben.
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/0/csm_css_b1ca039252.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Facebook Fanbox/Likebox stylen und anpassen
 
 #Tutorials#CSS
 

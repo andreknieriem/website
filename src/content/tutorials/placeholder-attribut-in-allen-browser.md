@@ -48,16 +48,13 @@ description: >-
       });
   &lt;/script&gt;
    
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/9/csm_javascript_163d0d7946.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Placeholder Attribut in allen Browser
 
 #Tutorials#Javascript
 

@@ -26,16 +26,13 @@ description: >-
 
   }
    
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/a/1/csm_php_f46f120f0b.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Javascript Äquivalent zur Php-Funktion nl2br()
 
 #Tutorials#PHP
 

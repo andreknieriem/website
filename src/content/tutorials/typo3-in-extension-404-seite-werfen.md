@@ -10,16 +10,13 @@ tags:
   - '461'
   - '804'
 description: "Nach langer Suche habe ich eine sehr simple Möglichkeit gefunden, wie man aus Extensions einfach 404 Seiten werfen kann. Das will ich euch natürlich nicht vorenthalten. \r\npublic function detailAction(){\r\n  if(!isset($_GET['item'])) {\r\n    // 404 Fehler werfen\r\n    $GLOBALS['TSFE']-&gt;pageNotFoundAndExit('');\r\n  }\r\n} Das ist auch schon alles. Man kann direkt aus $Globals['TSFE'] die 404 Seite aufrufen."
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# TYPO3: In Extension 404 Seite werfen
 
 #Tutorials#TYPO3#PHP
 

@@ -16,16 +16,13 @@ tags:
   - '137'
   - '1129'
 description: "Auf einer Seite bei der ich Twig als Template-Engine in Verbindung mit dem Übersetzungsfilter ( | trans) benutze, hatte ich das Problem, dass Twig den Key als Label ausgibt, wenn er das Label nicht in den Übersetzungen findet.\r\nHier ein Beispiel, was ich meine: {# Set the translation key #}\r\n{% set translationKey = \"category.\" ~ key %}\r\n\r\n{{ translationKey | trans }}\r\n{#\r\nHier kann nun beispielsweise category.einkey herauskommen, wenn in der language-Datei kein Label gefunden wurde.\r\n#} DIe Lösung\r\nis recht einfach. Man kann vor der Ausgabe einfach schauen, ob Twig aus der Language-Datei dasgleiche zurückgibt, was man reinschickt. Ist dem nicht so, also wurde ein Label gefunden, dann gib das Label aus.\r\nHier der Code dazu:&nbsp; {# Set the translation key #}\r\n{% set translationKey = \"category.\" ~ key %}\r\n\r\n{% if (translationKey | trans) != translationKey %}\r\n   {{ translationKey | trans }}\r\n{% endif %}"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/4/3/csm_twig_8203c1255c.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Twig: String/Label nur anzeigen, wenn es eine Übersetzung gibt, anstelle des Keys des Labels
 
 #Tutorials#Twig
 

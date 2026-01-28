@@ -28,16 +28,13 @@ description: >
   Gruppe abspalten wird und den Angriff selbst in die Hand nimmt.
 
   Hier das Video "Operation Facebook"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Hacker planen Facebook lahmzulegen
 
 #Blog
 

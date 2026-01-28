@@ -7,27 +7,28 @@ const entries = (await getCollection('tutorials')).sort(
 );
 ---
 <BaseLayout title="Tutorials">
-  <h1 class="mb-4">Tutorials</h1>
-  <div class="row">
+  <div class="blog-list">
     {entries.map((entry) => (
-      <div class="col-md-6 mb-4">
-        <div class="card h-100">
-          <div class="card-body">
-            <h5 class="card-title">
-                <a href={`/tutorials/${entry.slug}`} class="text-decoration-none text-dark">{entry.data.title}</a>
-            </h5>
-            <h6 class="card-subtitle mb-2 text-muted">{entry.data.date.toLocaleDateString('de-DE')}</h6>
-             {entry.data.tags && (
-                <div class="mb-2">
-                    {entry.data.tags.slice(0, 3).map((tag) => (
-                    <span class="badge bg-light text-dark me-1 border">{tag}</span>
-                    ))}
-                </div>
-            )}
-            <p class="card-text text-truncate">{entry.data.description}</p>
-            <a href={`/tutorials/${entry.slug}`} class="btn btn-primary btn-sm">Ansehen</a>
+      <div class="blog-entry-wrapper">
+        <a class="blog-entry" href={`/tutorials/${entry.slug}`}>
+          <div class="entry-cat">
+             <img class="img-fluid" src={entry.data.image || '/fileadmin/Daten/Bilder/t3logo.png'} width="200" height="200" alt="" />
           </div>
+          <div class="entry-content">
+            <time class="datetime" datetime={entry.data.date.toISOString()}>
+              <span class="day">{entry.data.date.toLocaleDateString('de-DE', { day: '2-digit', month: 'short', year: 'numeric' })}</span>
+            </time>
+            <h3>{entry.data.title}</h3>
+            <p>{entry.data.description}</p>
+          </div>
+        </a>
+        <div class="entry-meta">
+          <span>#Tutorials</span>
+          {entry.data.tags && entry.data.tags.map(tag => (
+             <span> #{tag}</span>
+          ))}
         </div>
+        <hr>
       </div>
     ))}
   </div>

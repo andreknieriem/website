@@ -8,16 +8,13 @@ tags:
   - '560'
   - '561'
 description: "Möchte man die .sass-cache Dateien nicht im SVN haben, so lässt sich dies mit der folgenden Zeile einfach bewerkstelligen. \r\nsvn propset svn:ignore '.sass-cache' .\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/6/6/csm_tutorials_4003cc1df0.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# SVN: .sass-cache ignorieren, so geht's!
 
 #Tutorials
 

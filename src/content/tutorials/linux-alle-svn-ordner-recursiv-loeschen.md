@@ -12,16 +12,13 @@ tags:
   - '861'
   - '91'
 description: "Wenn man aus einem Projekt die ganzen .svn Ordner löschen möchte, weil man beispielsweise auf Git umsteigt, so kann man dies mit dem folgenden kleinen Befehl erledigen. // Prüfen ob der Löschbefehl etwas finden und was er löschen wird:\r\nfind . -name .svn -exec ls '{}' \\;\r\n\r\n// wirklich alle .svn Ordner löschen\r\nfind . -name .svn -exec rm -rf '{}' \\;"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/2/d/csm_linux_c8a1aa2e0c.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Linux: Alle .svn Ordner recursiv löschen
 
 #Tutorials#Linux
 

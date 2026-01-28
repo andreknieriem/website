@@ -14,16 +14,13 @@ tags:
   - '479'
   - '1000'
 description: "Seit der Version 7LTS von TYPO3 kann man den Backend-Login Screen einfach anpassen. Dafür muss man nur im Extension-Manager (Erweiterungen, siehe Screenshot) auf TYPO3 Backend klicken und die gewünschten Einstellungen vornehmen.&nbsp; \r\n \r\n Im oberen Screenshot habe ich alle drei Felder gefüllt. Die Beschreibung der Felder ist selbsterklärend und sollte jedem verständlich sein.\r\nHier noch das Ergebnis: \r\n"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# TYPO3: Login Screen anpassen ab 7LTS
 
 #Tutorials#TYPO3
 

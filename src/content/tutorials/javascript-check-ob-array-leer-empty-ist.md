@@ -19,16 +19,13 @@ description: >-
   if (testarray.length &lt;1) alert("array is empty");
    Das Array namens testarray wird geprüft, ob die Anzahl seiner Elementer kleiner als 1 ist, also 0. Ist das der Fall wird hier ein Alert erzeugt.
   Ich hoffe ich konnte dem einen oder anderen weiterhelfen! Frohes schaffen
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/9/csm_javascript_163d0d7946.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Javascript Check, ob Array leer (empty) ist
 
 #Tutorials#Javascript
 

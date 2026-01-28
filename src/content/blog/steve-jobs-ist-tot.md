@@ -19,16 +19,13 @@ description: >-
   Einen ausführlichen Artikel findet ihr hier:
 
   http://www.faz.net/aktuell/wirtschaft/trauer-um-computer-pionier-steve-jobs-ist-tot-11483973.html
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Steve Jobs ist tot!
 
 #Blog
 

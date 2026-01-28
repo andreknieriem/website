@@ -6,13 +6,11 @@ technologies:
   - Bootstrap 4
   - CSS3
   - HTML5
-layout: ../../layouts/PortfolioPost.astro
+image: /fileadmin/_processed_/5/a/csm_wohnpfege-logo_47b9e14433.png
 ---
 
-[Zurück zur Übersicht](/portfolio.html)  
   
 
-# Wohn-Pflege-Gemeinschaft
 
 * * *
 

@@ -8,16 +8,13 @@ tags:
   - '785'
   - '786'
 description: "Möchte man mit SQL schnell sehen, wie oft eine bestimmte Sache in den Rows vorkommt und diese dann sortiert und gruppiert ausgeben so kann man sich mit folgendem SQL-Snippet diese Dinge heraussuchen.\nAusgangstabelle \r\nname  | town\r\nUser1 | Köln\r\nUser2 | Berlin\r\nUser3 | Köln\r\nUser4 | Hamburg\r\n Hat man beispielsweise eine solche User-Tabelle und möchte die sie nach Stadt gruppiert zählen so geht das mit folgendem Code: \r\nselect town, count(town) \r\nfrom user\r\ngroup by town\r\n Als Ergebnis erhält man dann etwas in dieser Art \r\nKöln    | 2\r\nBerlin  | 1\r\nHamburg | 1\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/1/a/csm_sql_af6f58ca14.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# SQL: Count und Group-By verwenden im Select
 
 #Tutorials#SQL
 

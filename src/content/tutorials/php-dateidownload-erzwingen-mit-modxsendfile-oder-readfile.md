@@ -9,16 +9,13 @@ tags:
   - '629'
   - '630'
 description: "Ich habe hier einen kleinen Codeschnipsel, der dazu dient, Dateiem vom Webserver direkt als Downloadstream auszugeben. Es wird entweder ModxSendfile oder Php Readfile benutzt. \r\n$local_file = 'bildvomserver.jpg';\r\n$mods = apache_get_modules();\r\nheader('Content-Type: application/octet-stream');\r\nheader('Content-Disposition: attachment; filename=\"dateiname.jpg\"');\r\n\t\t\r\nif (in_array('mod_xsendfile',$mods)){\r\n\theader('X-Sendfile: '. $local_file);\r\n\texit();\r\n} else {\r\n\tob_end_clean();\r\n\treadfile( $local_file );\r\n\texit();\r\n}\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/a/1/csm_php_f46f120f0b.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# PHP: Dateidownload erzwingen mit ModxSendfile oder Readfile
 
 #Tutorials#PHP
 

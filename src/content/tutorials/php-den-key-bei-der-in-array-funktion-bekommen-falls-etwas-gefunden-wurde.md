@@ -9,16 +9,13 @@ tags:
   - '750'
   - '754'
 description: "Benötigt man bei der Funktion in_array gleichzeitig den Key, der gefunden wurde, so kann man sich mit folgendem kleinen Snippet behelfen. Hierfür wird aber dann array_search anstelle in_array benutzt. \r\n//Array $array\r\nArray\r\n(\r\n    [0] =&gt; \r\n    [6] =&gt; 6\r\n    [3] =&gt; 5\r\n    [2] =&gt; 7\r\n)\r\n\r\nif (false !== $key = array_search('5', $array)) {\r\n    // do something\r\n} else {\r\n    // do something else\r\n}\r\n Im oberen Beispiel wird nach dem Value 5 gesucht und in die Variable $key wird der Key, also in unserem Fall die 3 gesetzt."
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/a/1/csm_php_f46f120f0b.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# PHP: Den Key bei der in\_array-Funktion bekommen, falls etwas gefunden wurde
 
 #Tutorials#PHP
 

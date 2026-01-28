@@ -13,16 +13,13 @@ tags:
   - '1023'
   - '1024'
 description: "Hat man auf einer DEV-Site ein self-signed SSL Zertifikat so kann es vorkommen, dass die PHP Funktion file_get_contents immer false zurückliefern und es verboten ist, sich selbst aufzurufen, was immer wieder zu Fehler führt. Im Folgenden zeige ich euch, wie ihr file_get_contents dazu bringt auch bei self-signed Zertifikaten zu funktionieren.\r\nPHP-Code //Kontext für file_get_contents setzen und somit self signed Zertifikate erlauben\r\n$context = [ \r\n  'http' =&gt; [ \r\n    'method' =&gt; 'GET' \r\n  ], \r\n  'ssl' =&gt; [ \r\n    'verify_peer' =&gt; true, \r\n    'allow_self_signed'=&gt; true \r\n  ]\r\n];\r\n$context = stream_context_create($context);\r\n$resp = file_get_contents(\"https://site/\", false, $context);\r\n"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/a/1/csm_php_f46f120f0b.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# PHP: file\_get\_contents mit self-signed Zertifikat benutzen
 
 #Tutorials#PHP
 

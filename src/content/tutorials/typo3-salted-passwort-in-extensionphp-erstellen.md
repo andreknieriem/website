@@ -10,16 +10,13 @@ tags:
   - '598'
   - '755'
 description: "Möchte man in einer Extension beispielsweise fe_users anlegen, so benötigt man bei neueren TYPO3 Version salted passwords. Um diese zu erzeugen, kann man ganz einfach auf den Code im Core zugreifen und ihn nutzen. Das Ganze geht wie folgt: \r\n$password = 'ASDF';\r\n$saltedPassword = '';\r\nif (\\TYPO3\\CMS\\Core\\Utility\\ExtensionManagementUtility::isLoaded('saltedpasswords')) {\r\n  if (\\TYPO3\\CMS\\Saltedpasswords\\Utility\\SaltedPasswordsUtility::isUsageEnabled('FE')) {\r\n    $objSalt = \\TYPO3\\CMS\\Saltedpasswords\\Salt\\SaltFactory::getSaltingInstance(NULL);\r\n    if (is_object($objSalt)) {\r\n       $saltedPassword = $objSalt-&gt;getHashedPassword($password );\r\n    }\r\n  }\r\n}\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# TYPO3: Salted Passwort in Extension/PHP erstellen
 
 #Tutorials#TYPO3#PHP
 

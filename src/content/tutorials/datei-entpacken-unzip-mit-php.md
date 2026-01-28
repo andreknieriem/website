@@ -30,16 +30,13 @@ description: >-
        }
   ?&gt;
    Also einfach den Code nehmen, anpassen, auf den Server laden, ausführen und hoffen, dass dort ok kommt. Danach kann das Zip-File gelöscht werden.
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/a/1/csm_php_f46f120f0b.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Datei entpacken (Unzip) mit PHP
 
 #Tutorials#PHP
 

@@ -24,16 +24,13 @@ description: >-
   Zudem steht einem die Amazon A-Z-Garantie zu Verfügung, die dem Kunden eine
   pünktliche Lieferung und einen einwandfreien Zustand der Ware verspricht. Zum
   Start hat Amazon schon einige Anbieter auf seiner Seite.
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Amazon startet neuen Bezahldienst à la Paypal
 
 #Blog
 

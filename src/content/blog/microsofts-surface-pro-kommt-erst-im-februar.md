@@ -28,16 +28,13 @@ description: >-
   Zu haben ist das Tablet in der 64GB Version für 899$ und in der 128GB Version
   999$. Preise und ein Veröffentlichungstermin für Deutschland sind nicht
   bekannt.
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Microsofts Surface Pro kommt erst im Februar
 
 #Blog
 

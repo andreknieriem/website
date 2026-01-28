@@ -6,13 +6,11 @@ technologies:
   - html
   - css
   - js
-layout: ../../layouts/PortfolioPost.astro
+image: /fileadmin/_processed_/f/c/csm_wortuhr_high_08f4c80a53.png
 ---
 
-[Zurück zur Übersicht](/portfolio.html)  
   
 
-# Wortuhr Webapp Interface
 
 * * *
 

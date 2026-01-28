@@ -32,16 +32,13 @@ description: >-
   HP Touchpad wird immer grüner (Android) UPDATE 20.09.2011
 
   HP Touchpad wird immer grüner (Android)
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Hp Touchpad wird immer grüner (Android) UPDATE 04.10.2011
 
 #Blog
 

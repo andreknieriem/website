@@ -47,16 +47,13 @@ description: >-
   ihr erfolgreich euer Projekt deployed!
 
   Falls ihr Fragen habt, fragt bitte ;)
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/6/6/csm_tutorials_4003cc1df0.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Assembla - Kostenloses SVN Repository mit Deploy Funktion einrichten
 
 #Tutorials
 

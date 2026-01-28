@@ -14,16 +14,13 @@ tags:
   - '1231'
   - '1041'
 description: "Manchmal kommt es vor, dass man Import und Export von Ecmascript 6 in NodeJs benutzen möchte. Mitlerweile gibt es für node dafür eine experimentelle Unterstützung (siehe hier), aber ich fand das nicht so schön. Eine einfache und schnelle Lösung ist die Benutzung von esm.\r\nInstallation und Benutzung\r\n\r\n # Installation\r\nnpm install --save esm\r\n\r\n# Benutzung\r\nnode -r esm server.js Das ganze funktioniert auch mit nodemon. nodemon -r esm server.js Was tun, wenn man den Aufruf nicht verändern kann?\r\nMöchte man den -esm Aufruf weglassen, so kann man eine entrypoint Datei erstellen, die einem die Arbeit abnimmt. Die Datei könnte dann so aussehen: // Datei start.js\r\nrequire = require(\"esm\")(module /*, options*/);\r\nmodule.exports = require(\"./server.js\"); Hier sieht man, dass wir die server.js hier importieren und sie um das esm-Modul erweitern.\r\nJetzt kann man das Ganze auch einfach über folgenden Befehl steuern. node start.js"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/7/f/csm_nodejs_841db15a0c.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Node/Javascript: Ecmascript 6 Imports in Node benutzen
 
 #Tutorials#NodeJs
 
@@ -56,10 +53,8 @@ Manchmal kommt es vor, dass man Import und Export von Ecmascript 6 in NodeJs ben
 ### Installation und Benutzung
 
 ```
-# Installation
 npm install --save esm
 
-# Benutzung
 node -r esm server.js
 ```
 

@@ -1,24 +1,42 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 const { frontmatter } = Astro.props;
+
+// Determine category based on frontmatter layout or default
+const layoutStr = frontmatter.layout || '';
+const category = layoutStr.includes('Blog') ? 'Blog' : 'Tutorials'; 
+const backLink = category === 'Blog' ? '/blog' : '/tutorials';
 ---
 <BaseLayout title={frontmatter.title}>
-  <article class="blog-post">
-    <h1>{frontmatter.title}</h1>
-    <p class="text-muted"><small>{new Date(frontmatter.date).toLocaleDateString('de-DE')}</small></p>
-    
-    {frontmatter.tags && (
-      <div class="mb-3">
-        {frontmatter.tags.map((tag) => (
-          <span class="badge bg-secondary me-1">{tag}</span>
-        ))}
-      </div>
-    )}
-    
-    <hr />
-    
-    <div class="content mt-4">
-      <slot />
+  <div class="blog-detail">
+    <a class="backlink" href={backLink}><i class="icon-Back"></i> Zurück zur Übersicht</a>
+    <h1 class="align-center">{frontmatter.title}</h1>
+    <div class="categories align-center">
+        <span>#{category}</span>
     </div>
-  </article>
+    <div class="divider"><hr></div>
+    
+    <div class="row">
+        <div class="col-md-4">
+            <div class="info-container">
+                <img src={frontmatter.image || "/fileadmin/Daten/Bilder/t3logo.png"} width="200" height="200" alt="" class="img-fluid" style="border-radius: 50%;" />
+                <h3>Tags</h3>
+                {frontmatter.tags && frontmatter.tags.map(tag => (
+                    <a href="#"><span class="tag">#{tag}</span></a>
+                ))}
+                <div class="divider"><hr></div>
+            </div>
+        </div>
+        
+        <div class="col-md-8">
+            <time class="datetime" datetime={frontmatter.date}>
+                <span class="day"><i class="icon-Clock"></i> {new Date(frontmatter.date).toLocaleDateString('de-DE', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
+            </time>
+            
+            <div class="content mt-4">
+                <slot />
+            </div>
+        </div>
+    </div>
+  </div>
 </BaseLayout>

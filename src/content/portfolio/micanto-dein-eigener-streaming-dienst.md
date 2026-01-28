@@ -9,13 +9,11 @@ technologies:
   - react-native
   - tailwind
   - javascript
-layout: ../../layouts/PortfolioPost.astro
+image: /fileadmin/Daten/Portfolio/micanto/micanto.png
 ---
 
-[Zurück zur Übersicht](/portfolio.html)  
   
 
-# Micanto - Dein eigener Streaming-Dienst
 
 * * *
 

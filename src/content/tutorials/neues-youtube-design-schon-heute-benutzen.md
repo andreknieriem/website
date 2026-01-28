@@ -31,16 +31,13 @@ description: >-
   erneutes Drücken der Tastenkombination) und Seite neuladen!
 
   Das wars auch schon! Viel Spaß mit dem neuen Design!
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/6/6/csm_tutorials_4003cc1df0.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Neues Youtube Design schon heute benutzen!
 
 #Tutorials
 

@@ -33,16 +33,13 @@ description: >-
 
   $('#iDate').datepicker({ beforeShowDay: unavailable });
    Die Funktion guckt, ob in dem gerade angezeigten Monat Daten liegen, die nicht verfügbar sind und gibt dann false zurück.
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/d/4/csm_jquery_e571c76753.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# jQuery UI Datepicker - Daten nicht anwählbar/verfügbar machen
 
 #Tutorials#jQuery
 

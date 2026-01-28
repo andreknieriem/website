@@ -8,16 +8,13 @@ tags:
   - '529'
   - '530'
 description: "Hat man ein Select-Feld in einer Extension via TCA und möchte die Datensätze darin sortieren lassen, so geht dies über das foreign_table_where. Möchte man kein weiteres Where-Attribut, aber trotzdem eine sorierte Liste haben, dann kann man einfach folgenden Code verwenden: \r\n'einFeld' =&gt; array (\r\n\t'exclude' =&gt; 1,\t\t\r\n\t'label' =&gt; 'Ein Feld',\t\t\r\n\t'config' =&gt; array (\r\n\t\t'type' =&gt; 'select',\t\r\n\t\t'internal_type' =&gt; 'db',\t\r\n\t\t'foreign_table' =&gt; 'deineTabelle',\r\n\t\t'foreign_table_where' =&gt; 'AND 1=1 Order by deinemFeld ASC',\r\n\t)\r\n Das AND 1=1 ist immer true und somit kommen nach wie vor alle Datensätze. Danach folgt dann die die Sortierung in aufsteigender Reihenfolge."
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# TYPO3: TCA Sortierung in einem Select-Feld einstellen
 
 #Tutorials#TYPO3
 

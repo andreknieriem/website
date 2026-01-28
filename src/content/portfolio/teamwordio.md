@@ -7,13 +7,11 @@ technologies:
   - socket.io
   - javascript
   - scss
-layout: ../../layouts/PortfolioPost.astro
+image: /fileadmin/_processed_/1/6/csm_teamword_af6fe7d784.png
 ---
 
-[Zurück zur Übersicht](/portfolio.html)  
   
 
-# teamword.io
 
 * * *
 

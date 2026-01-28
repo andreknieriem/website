@@ -4,13 +4,11 @@ date: '2016-06-29T13:55:04.000Z'
 slug: freiheitsliebecom
 technologies:
   - Wordpress
-layout: ../../layouts/PortfolioPost.astro
+image: /fileadmin/_processed_/d/f/csm_meiselogo_a9cb72019f.jpg
 ---
 
-[Zurück zur Übersicht](/portfolio.html)  
   
 
-# freiheitsliebe.com
 
 * * *
 

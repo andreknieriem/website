@@ -10,16 +10,13 @@ tags:
   - '768'
   - '769'
 description: "Möchte man für sein eigenes Wordpress Plugin einen Einstellungs-, bzw. generell einen Link hinzufügen, so kann man das mit der folgenden Funktion machen. \n \r\n// Add settings link on plugin page\r\nfunction your_plugin_settings_link($links) { \r\n  $settings_link = '&lt;a href=\"options-general.php?page=your_plugin.php\"&gt;'.__('Settings'), 'yourplugin').'&lt;/a&gt;'; \r\n  array_unshift($links, $settings_link); \r\n  return $links; \r\n}\r\n \r\n$plugin = plugin_basename(__FILE__); \r\nadd_filter(\"plugin_action_links_$plugin\", 'your_plugin_settings_link' );\r\n Das Ganze muss natürlich in eure Plugin Php-Datei eingefügt werden."
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/5/3/csm_wordpress_29764a1330.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Wordpress: Einen "Einstellungs/Settings" Link in die Plugin-Liste hinzufügen
 
 #Tutorials#Wordpress#PHP
 

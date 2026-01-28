@@ -10,16 +10,13 @@ tags:
   - '633'
   - '634'
 description: "Wenn man ein Image auf beispielsweise einen Raspberry schreibt, so denkt man manchmal, dass nichts mehr passiert. Ist man in dem Fenster des Terminals, so kann mit \n'CTRL + T' den aktuellen Status sehen. Dort steht dann sowas wie \r\n125 records in\r\n125 records out\r\n Je nach eingegebener M Zahl (sudo dd bs=1M if=image.img of=/dev/DISK) Ist dier der Wert in MB, bzw, bei 4M wäre der bereits übertragende Bereich das 4fache vom Wert dort oben, also bei dem Beispeil 500."
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/3/3/csm_raspberry_14520f3d4b.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Linux/Raspberry: Status vom dd-Befehl checken
 
 #Tutorials#Raspberry
 

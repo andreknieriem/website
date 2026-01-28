@@ -59,16 +59,13 @@ description: >-
 
    In diesem Fall ist die Variable bei Online-Betrieb "true" oder bei Offline-Betrieb false. So könnte man sagen, wenn der Browser im Offline-Betrieb ist, dann hole die Daten aus dem Localstorage, ansonsten Live aus dem Netz.
   So dann viel Spaß mit Localstorage!
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/9/csm_javascript_163d0d7946.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# How To: Localstorage benutzen
 
 #Tutorials#Javascript
 

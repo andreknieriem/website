@@ -9,16 +9,13 @@ tags:
   - '945'
   - '946'
 description: "Seit der TYPO3 Version 7 bekommt man keine richtigen Fehlermeldungen mehr. Es erscheint lediglich der Fehler &quot;Oops an error occured&quot;. Das bringt leider keinen weiter und kann mit folgendem Typoscript wieder in eine nachvollziehbare Meldung verwandelt werden.\r\nTyposcript: page.config.contentObjectExceptionHandler = 0"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# TYPO3: Debugging und Fehlermeldungen einschalten
 
 #Tutorials#TYPO3
 

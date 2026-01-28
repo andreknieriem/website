@@ -8,16 +8,13 @@ tags:
   - '432'
   - '647'
 description: "Möchte man die derzeitige tt_content uid im Fluid Template benutzen, so kann man dies mit folgendem Code machen. Dieser muss in euren Controller aufgerufen werden. \r\n$cObj = $this-&gt;configurationManager-&gt;getContentObject();\r\n$currentUid = $cObj-&gt;data['uid'];\r\n\r\n// An dieser Stelle dann möglicherweise noch mehrere/die vorherigen Variablen übergeben.\r\n$this-&gt;view-&gt;assign('currentUid', $currentUid);\r\n Nun kann im Fluid Template die Uid einfach wie folgt verwenden: \r\n{currentUid}\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# TYPO3: tt\_content uid im Fluid Template benutzen
 
 #Tutorials#TYPO3
 

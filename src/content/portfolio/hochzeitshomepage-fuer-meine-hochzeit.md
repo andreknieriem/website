@@ -4,13 +4,11 @@ date: '2016-06-29T14:08:57.000Z'
 slug: hochzeitshomepage-fuer-meine-hochzeit
 technologies:
   - Wordpress
-layout: ../../layouts/PortfolioPost.astro
+image: /fileadmin/_processed_/b/8/csm_hochzeit_0e84bc22fa.png
 ---
 
-[Zurück zur Übersicht](/portfolio.html)  
   
 
-# Hochzeitshomepage für meine Hochzeit
 
 * * *
 

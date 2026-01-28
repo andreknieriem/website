@@ -59,16 +59,13 @@ description: >-
   Das war auch schon alles.
 
   Mal sehen, was uns in der Abschlussprüfung erwartet.
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Zwischenprüfung 2011 Mediengestaltung
 
 #Blog
 

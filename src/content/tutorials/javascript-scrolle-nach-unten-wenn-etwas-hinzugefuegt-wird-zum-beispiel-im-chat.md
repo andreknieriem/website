@@ -12,16 +12,13 @@ tags:
   - '1228'
   - '69'
 description: "Hier mal ein kleines Snipped, dass es einem ermöglicht eine Box ganz nach unten zu scrollen, wenn es Änderungen gibt. Zum Beispiel wenn in einem Chat eine neue Nachricht kommt. let chatWrapper = document.querySelector('#chat-messages');\r\nchatWrapper.scrollTo(0, chatWrapper.offsetHeight );"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/9/csm_javascript_163d0d7946.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Javascript: Scrolle nach unten, wenn etwas hinzugefügt wird. Zum Beispiel im Chat
 
 #Tutorials#Javascript
 

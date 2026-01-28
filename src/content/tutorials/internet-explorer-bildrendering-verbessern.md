@@ -11,16 +11,13 @@ tags:
   - '817'
   - '818'
 description: "Der Internet Explorer hat des öfteren ein Problem mit dem Bildrendering, wenn die Bilder, die ausgegeben werden im Original größer oder kleiner sind, als das Bild angezeigt wird. Mit folgendem kleinen CSS-Snippet kann man die Ausgabe im IE deutlich verschönern. \r\nimg {\r\n       -ms-interpolation-mode: bicubic;\r\n}\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/0/csm_css_b1ca039252.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Internet Explorer: Bildrendering verbessern
 
 #Tutorials#CSS
 

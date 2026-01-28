@@ -8,16 +8,13 @@ tags:
   - '984'
   - '906'
 description: "Wenn man in der Solr Extension Facetten oder andere Dinge benutzt, dann kann es vorkommen, dass man auf Seiten nur Suchergebnisse einer bestimmten Gruppe, also ein vorgefiltertes Suchergebnis bekommen möchte. Das Ganze lässt sich ziemlich einfach via TypoScript bewerkstelligen. Hier mal ein kleines Snipped: [globalVar = TSFE:id = 123]\r\n  plugin.tx_solr.search.query.filter{\r\n    blogOnlyFilter = type:tx_arext_blog\r\n  }\r\n[global] Der obrige Code sorgt dafür, dass auf Seite 123 meiner Seite nur Suchergebnisse ausgegeben werden, die vom Typ&nbsp;tx_arext_blog&nbsp;sind.\r\nMan kann die Filter&nbsp;sogar mit einem \"-\" (Minus) negieren, sodass bestimmte Typen nicht herauskommen sollen. Hier mal ein Beispiel: [globalVar = TSFE:id = 123]\r\n  plugin.tx_solr.search.query.filter{\r\n    noblogFilter = -type:tx_arext_blog\r\n  }\r\n[global]"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# TYPO3: Solr Bereichsuche durch Query-Filter erstellen
 
 #Tutorials#TYPO3
 

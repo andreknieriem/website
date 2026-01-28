@@ -49,16 +49,13 @@ description: >-
 
   add_action('thematic_header','child_thematic_blogtitle', 3);
    Ich hoffe, dass das einigen von euch helfen wird!
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/5/3/csm_wordpress_29764a1330.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Eltern-Funktionen im Kindtheme (child-theme) bei Wordpress überschreiben
 
 #Tutorials#Wordpress
 

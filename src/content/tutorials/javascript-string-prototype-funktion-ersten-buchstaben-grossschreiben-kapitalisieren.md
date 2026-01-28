@@ -16,16 +16,13 @@ tags:
   - '502'
   - '503'
 description: "Für eine Ausgabe des Vor- und Nachnamen habe ich eine kleine Funktion geschrieben, die den ersten Buchstaben eines Strings großschreibt. Falls Benutzer beispielsweise seinen Vornamen klein geschrieben hat, kann man so ganz einfach den ersten Buchstaben wieder groß schreiben. Sicherlich kann man das Ganze noch weiterführen und jedes Wort eines Strings kapitalisieren, aber das brauchte ich nicht. \nHier der Codeschnipsel:\nJavascript Prototype Funktion \r\nString.prototype.capitalize = function() {\r\n    return this.charAt(0).toUpperCase() + this.slice(1);\r\n}\r\n Benutzung \r\n'hans Meier'.capitalize(); =&gt; 'Hans Meier';\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/9/csm_javascript_163d0d7946.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Javascript String-Prototype-Funktion: Ersten Buchstaben großschreiben, kapitalisieren
 
 #Tutorials#Javascript
 

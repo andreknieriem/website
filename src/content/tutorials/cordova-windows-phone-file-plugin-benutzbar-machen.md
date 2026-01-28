@@ -10,16 +10,13 @@ tags:
   - '727'
   - '728'
 description: "Möchte man das File-Plugin von Cordova benutzen und möchte einfach das Standard Verzeichnis des jeweiliges Betriebssystem nehmen, so kann man eigentlich immer cordova.file.dataDirectory benutzen. Bei Windows Phone funktioniert dies leider nicht. Hier ist ein kleiner Workaround/Polyfill um das Problem einfach selbst zu beheben. \r\nif(cordova.file === undefined){\r\n    // WP8\r\n    if(device.platform === \"Win32NT\"){\r\n        cordova.file = {\r\n            dataDirectory: '///'\r\n        }\r\n    }\r\n}\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/9/csm_javascript_163d0d7946.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Cordova: Windows Phone - File Plugin benutzbar machen
 
 #Tutorials#Javascript
 

@@ -9,16 +9,13 @@ tags:
   - '898'
   - '41'
 description: "Im Gegensatz zu Javascript ersetzt str_replace nicht nur den ersten Treffer, sondern direkt alle Vorkommnisse in einem String. Um nur den ersten Treffer zu ersetzen hilft die folgende Funktion. Die Funktion ist deutlich schneller als eine Regexp, allerdings dadurch auch weniger schön zu lesen. // How to use:\r\nstr_replace_first('Foo','Bar','Foo Foo Foo'); // Ergibt Bar Foo Foo\r\n\r\nfunction str_replace_first($search,$replace,$subject){\r\n    $pos = strpos($subject, $search);\r\n    if ($pos !== false) {\r\n        $return substr_replace($subject, $replace, $pos, strlen($search));\r\n    } else {\r\n        return $subject;\r\n    }\r\n}"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/a/1/csm_php_f46f120f0b.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# PHP: Mit str\_replace nur ersten Treffer/Match ersetzen
 
 #Tutorials#PHP
 

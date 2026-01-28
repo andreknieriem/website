@@ -4,13 +4,11 @@ date: '2016-06-29T11:16:58.000Z'
 slug: typenhoch2de
 technologies:
   - Adobe Flash
-layout: ../../layouts/PortfolioPost.astro
+image: /fileadmin/_processed_/9/c/csm_typhoch2-logo_188fa08781.jpg
 ---
 
-[Zurück zur Übersicht](/portfolio.html)  
   
 
-# typenhoch2.de
 
 * * *
 

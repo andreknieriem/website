@@ -12,16 +12,13 @@ tags:
   - '476'
   - '477'
 description: "Für mobile, bzw. responsive Webseiten bieten sich Menüs in einem Standard Select-Feld an, da jeder mobile Browser diese Menüs darstellen kann und die Umsetzung deutlich beschleunigt wird.\nUm das Ganze in Wordpress zu benutzen benötigt ihr einen sogenannten Walker. Im Folgenden ist einmal der Code, den ihr in euer Template einfügen müsst und einmal der Walker, der in die functions.php eures Templates gehört.\nMenücode \r\n&lt;?php\r\nwp_nav_menu( array(\r\n\t'theme_location' =&gt; 'primary',\r\n\t'walker'         =&gt; new Walker_Nav_Menu_Dropdown(),\r\n\t'items_wrap'     =&gt; '&lt;div class=\"mobile-menu\"&gt;&lt;form&gt;&lt;select onchange=\"if (this.value) window.location.href=this.value\"&gt;%3$s&lt;/select&gt;&lt;/form&gt;&lt;/div&gt;',\r\n) ); \r\n?&gt;\r\n functions.php \r\nclass Walker_Nav_Menu_Dropdown extends Walker_Nav_Menu {\r\n\tfunction start_lvl(&amp;$output, $depth){\r\n\t\t$indent = str_repeat(\"\\t\", $depth); // remove children opening tag (`&lt;ul&gt;`)\r\n\t}\r\n \r\n\tfunction end_lvl(&amp;$output, $depth){\r\n\t\t$indent = str_repeat(\"\\t\", $depth); // remove children closing tag\r\n\t}\r\n \r\n\t/**\r\n\t* Start the element output.\r\n\t*\r\n\t* @param  string $output Passed by reference. Used to append additional content.\r\n\t* @param  object $item   Menu item data object.\r\n\t* @param  int $depth     Depth of menu item. May be used for padding.\r\n\t* @param  array $args    Additional strings.\r\n\t* @return void\r\n\t*/\r\n\tfunction start_el(&amp;$output, $item, $depth, $args) {\r\n \t\t$url = '#' !== $item-&gt;url ? $item-&gt;url : '';\r\n\t\t$deptsign = '-';\r\n\t\t$level = str_repeat($deptsign,$depth);\r\n \t\t$output .= '&lt;option value=\"' . $url . '\"&gt;' . $level.$item-&gt;title; \r\n\t}\t\r\n \r\n\tfunction end_el(&amp;$output, $item, $depth){\r\n\t\t$output .= \"&lt;/option&gt;\\n\"; // replace closing &lt;/li&gt; with the option tag\r\n\t}\r\n}\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/5/3/csm_wordpress_29764a1330.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Wordpress: Menu als Select/Dropdown für Mobile Seiten
 
 #Tutorials#Wordpress
 

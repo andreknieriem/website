@@ -20,16 +20,13 @@ description: >
 
   Im folgenden dann "https://apps.skype.com/" hinzufügen, Skype neustarten und
   schon ist die Werbung weg. 
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/6/6/csm_tutorials_4003cc1df0.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Skype Windows: Werbung abschalten - So geht's
 
 #Tutorials
 

@@ -7,16 +7,13 @@ tags:
   - '662'
   - '663'
 description: "Hier mal eine Kleinigkeit, wie man ein Pipe-Symbol in einem Wrap als Zeichen verwendet. In meinem Beispiel für den Seitentitel.\nDafür muss man einfach nur den HTML Code für das |-Zeichen verwenden \r\nheaderData.5{\r\n    10 = TEXT\r\n    10.field = subtitle // title\r\n    10.noTrimWrap = |&lt;title&gt;| &amp;#124; Andreknieriem.de &lt;/title&gt;|\r\n}\r\n Ergebnis: Dies ist ein Titel | Andreknieriem.de "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# TYPO3: Pipe Symbol | in Wraps verwenden
 
 #Tutorials#TYPO3
 

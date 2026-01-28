@@ -10,16 +10,13 @@ tags:
   - '129'
   - '130'
 description: "Ich habe hier ein kleines Script, dass ähnlich wie bei Google Mail mehrere Checkboxen anklickt, wenn man die Shift-Taste gedrück hält.\nDemo:\nCheck 1\nCheck 2\nCheck 3\nCheck 4\nCheck 5\nCheck 6\nCheck 7\nScript \r\njQuery(document).ready(function() {\r\n\tvar $chkboxes = jQuery('.chkbox');\r\n\t$chkboxes.click(function(e) {\r\n\tif(!lastChecked) {\r\n\t\tlastChecked = this;\r\n\t\treturn;\r\n\t}\r\n\r\n\tif(e.shiftKey) {\r\n\t\tvar start = $chkboxes.index(this);\r\n\t\tvar end = $chkboxes.index(lastChecked);\r\n\r\n\t\t$chkboxes.slice(Math.min(start,end), Math.max(start,end)+ 1).attr('checked', lastChecked.checked);\r\n\t}\r\n\tlastChecked = this;\r\n\t});\r\n});\r\n Die Funktionsweise:\n1. Alle Checkboxen mit einer bestimmten Klasse (hier chkbox) werden eingesammelt\n2. Klickt man auf eine und es gibt keinen Letztangeklickten, dann ist es dieser\n3. Gibt es einen Letztangeklickten und die Shift-Taste wurde gedrückt, dann werden alle Checkboxen dazwischen entweder an- oder abgewählt\n4. Das wars\nViel Spaß beim Programmieren!"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/d/4/csm_jquery_e571c76753.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Mehrere Checkboxen mit Shift checken wie bei Google Mail
 
 #Tutorials#jQuery
 

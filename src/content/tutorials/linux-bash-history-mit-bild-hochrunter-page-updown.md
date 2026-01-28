@@ -11,16 +11,13 @@ tags:
   - '902'
   - '210'
 description: "Auf meinem Server benutze ich sehr häufig Page Up und Page Down um durch meine History zu navigieren. Allerdings ist dieses Feature standardmäßig auf jedem Server ausgeschaltet.&nbsp;\r\nUm das nützliche Feature einzuschalten muss man nur in der Datei&nbsp;/etc/inputrc die folgenden Zeilen auskommentieren: # alternate mappings for \"page up\" and \"page down\" to search the history\r\n\"\\e[5~\": history-search-backward\r\n\"\\e[6~\": history-search-forward"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/2/d/csm_linux_c8a1aa2e0c.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Linux: Bash History mit Bild Hoch/Runter Page Up/Down
 
 #Tutorials#Linux
 
@@ -53,7 +50,6 @@ Auf meinem Server benutze ich sehr häufig Page Up und Page Down um durch meine 
 Um das nützliche Feature einzuschalten muss man nur in der Datei `/etc/inputrc` die folgenden Zeilen auskommentieren:
 
 ```
-# alternate mappings for "page up" and "page down" to search the history
 "\e[5~": history-search-backward
 "\e[6~": history-search-forward
 ```

@@ -22,16 +22,13 @@ description: >-
   anlegen zu können. Bisher bin ich noch bei den Basis-Dingen, wie der
   Navigation und dem Grid. Ich werde die Funktion immer weiter ausbauen und
   weiter hier berichten.
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/5/3/csm_wordpress_29764a1330.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# \[In Arbeit\] Wordpress Bootstrap 3 Theme mit Funktionen als Widgets und Shortcuts
 
 #Blog#Wordpress
 

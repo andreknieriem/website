@@ -23,16 +23,13 @@ description: >-
 
   Für dieses Feature benötigt ihr ein Jailbreak. Danach kann das Programm ganz
   einfach bei Cydia gefunden werden.
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/6/6/csm_tutorials_4003cc1df0.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Privater Modus/Private Browsing im Mobile Safari
 
 #Tutorials
 

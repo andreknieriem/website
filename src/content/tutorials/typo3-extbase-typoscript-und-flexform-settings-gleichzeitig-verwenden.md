@@ -12,16 +12,13 @@ tags:
   - '852'
   - '853'
 description: "Mit der folgenden kleinen Funktion, kann man Settings im TypoScript vordefinieren und über Flexforms für jedes Plugin überschreiben lassen. \r\n\r\npublic function injectConfigurationManager(\\TYPO3\\CMS\\Extbase\\Configuration\\ConfigurationManagerInterface $configurationManager) {\r\n    $this-&gt;configurationManager = $configurationManager;\r\n \r\n    $settings = $this-&gt;configurationManager-&gt;getConfiguration(\\TYPO3\\CMS\\Extbase\\Configuration\\ConfigurationManagerInterface::CONFIGURATION_TYPE_SETTINGS);\r\n    if (isset($settings['override']) &amp;&amp; is_array($settings['override'])) {\r\n        $overrides = $settings['override'];\r\n        unset($settings['override']);\r\n        $settings['merged'] = array_merge($settings, $overrides);\r\n    }\r\n    $this-&gt;settings = $settings;\r\n}\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# TYPO3: Extbase: Typoscript und Flexform-Settings gleichzeitig verwenden
 
 #Tutorials#TYPO3#PHP
 

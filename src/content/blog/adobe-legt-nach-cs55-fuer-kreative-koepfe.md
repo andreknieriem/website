@@ -34,16 +34,13 @@ description: >-
   Ab Mitte Mai sollen die neuen Pakete verfügbar sein. Die Preise für den Kauf
   fangen bei einigen 100 Euro an und gehen für die Master Collection bis zu 3099
   € plus Mehrwertsteuer.
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Adobe legt nach, CS5.5 für kreative Köpfe
 
 #Blog
 

@@ -13,16 +13,13 @@ tags:
   - '874'
   - '1208'
 description: "Für ein Symfony Projekt, welches mit Webpack und dem Aufsatz Encore arbeitet wurde es mir zu mühsam für jede neue Datei einen Eintrag in die webpack.config.js zu machen. Deswegen habe ich hier einen Ansatz um mit der glob-Funktion Dateien zu finden und diese dann direkt hinzuzufügen. const glob = require('glob');\r\n\r\n// ...\r\n\r\n// dynamic entries\r\nglob.sync('./assets/**/js/modules/**/*.js').reduce((acc, item) => {\r\n    /**\r\n     * Der \"[name]\" Platzhalter bei \"output\" wird ersetzt\r\n     * damit wir einen guten namen zum einbinden bekommen. \r\n     * Das kann man anpassen, wie man es möchte.\r\n     */\r\n    var name = item.replace(/\\.\\/assets\\/|\\/js\\/modules|\\.js/gi, '');\r\n    acc[name] = item;\r\n    // add entry for each js file\r\n    Encore.addEntry(name, item);\r\n    return acc;\r\n}, {}); Falls man das Ganze nur Webpack ohne Encore benutzen möchte: entry: glob.sync('./assets/**/js/modules/**/*.js').reduce((acc, path) => {\r\n    var name = item.replace(/\\.\\/assets\\/|\\/js\\/modules|\\.js/gi, '');\r\n    acc[name] = item;\r\n    return acc\r\n}, {}),"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/b/7/csm_webpack_8034a3cb25.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Webpack/Encore - Dynamische Entries erstellen
 
 #Tutorials#Webpack
 

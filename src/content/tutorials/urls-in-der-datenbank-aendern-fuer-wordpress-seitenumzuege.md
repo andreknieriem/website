@@ -72,16 +72,13 @@ description: >-
       "www.newdomain.com"
   );
    Ich hoffe damit bekommt ihr alle eure Seiten von DEV zu Live ;)
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/5/3/csm_wordpress_29764a1330.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Urls in der Datenbank ändern für Wordpress Seitenumzüge
 
 #Tutorials#Wordpress
 

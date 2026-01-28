@@ -9,16 +9,13 @@ tags:
   - '50'
   - '51'
 description: "Als Webentwickler habe ich schon öfter Probleme mit dem DNS-Cache bekommen. Man richtet eine Subdomain ein und es kommt einfach im Browser nichts heraus. In den meisten Fällen hilft es, wenn man den DNS-Cache löscht.\nWie lösche ich den DNS-Cache unter Mac OSX?\nÖffnet das Programm \"Terminal\" (unter Programme/Dienstprogramme) und fügt folgende Codezeile ein und drückt \"Enter\". \r\ndscacheutil -flushcache\r\n Wie lösche ich den DNS-Cache unter Windows?\nÖffnet die Konsole (in der Suche einfach cmd.exe eingeben) und fügt folgende Codezeile ein. \r\nipconfig /flushdns\r\n Als Antwort sollte dann folgendes kommen:\nWindows IP Configuration. Successfully flushed the DNS Resolver Cache.\nNachdem ihr das gemacht habt sollten eure DNS Änderungen in den meisten Fällen auch bei euch im Browser ankommen."
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/6/6/csm_tutorials_4003cc1df0.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# DNS-Cache leeren unter Mac OSX und Windows
 
 #Tutorials
 

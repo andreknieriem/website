@@ -12,16 +12,13 @@ tags:
   - '965'
   - '966'
 description: "Hat man das Problem, dass bei einem Template, selbst gebaut oder nicht, die Admin-Bar von Wordpress nicht angezeigt wird, dann liegt das meistens an fehlenden Wordpress Standardfunktionen im Header und im Footer. \r\nHaltet Ausschau nach diesen beiden Aufrufen:&nbsp; wp_head(); in header.php für CSS\r\n&lt;head&gt;\r\n  &lt;?php \r\n    wp_head(); \r\n  ?&gt;\r\n&lt;/head&gt;\r\n\r\nwp_footer(); in footer.php für Javascript\r\n&lt;?php \r\n  wp_footer();\r\n?&gt;\r\n"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/5/3/csm_wordpress_29764a1330.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Wordpress: Problemlösung für fehlende Adminbar in Wordpress Templates
 
 #Tutorials#Wordpress#PHP
 

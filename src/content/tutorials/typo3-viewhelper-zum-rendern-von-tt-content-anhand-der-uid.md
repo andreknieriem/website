@@ -10,16 +10,13 @@ tags:
   - '442'
   - '797'
 description: "Um in Fluid tt_content Elemente anhand ihrer UID fertig gerendert auszugeben, benötigt man einen kleinen ViewHelper. Dieser ruft das RecordsContentObject auf und rendert dieses anhand einer Konfiguration heraus. In diesem Beispiel funktioniert das Ganze mit tt_content und der Uid eines tt_content Datensatzes.\r\nDer ViewHelper Code: &lt;?php\r\nnamespace Vendor\\Artest\\ViewHelpers;\r\n/**\r\n * ViewHelper zur Rückgabe eines geparsten tt_content Elementes\r\n */\r\n\r\nclass ContentViewHelper extends \\TYPO3\\CMS\\Fluid\\Core\\ViewHelper\\AbstractViewHelper {\r\n  // output html since TYPO3 8LTS\r\n  protected $escapeOutput = false;\r\n\r\n  /**\r\n   * Parse content element\r\n   *\r\n   * @param  int     UID des Content Element\r\n   * @return   string  Geparstes Content Element\r\n   */\r\n  public function render($uid) {\r\n    $conf = array( // config\r\n      'tables' =&gt; 'tt_content',\r\n      'source' =&gt; $uid,\r\n      'dontCheckPid' =&gt; 1\r\n    );\r\n    return $this-&gt;objectManager-&gt;get('TYPO3\\CMS\\Frontend\\ContentObject\\RecordsContentObject')-&gt;render($conf);\r\n  }\r\n}\r\n"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# TYPO3: ViewHelper zum rendern von tt\_content anhand der Uid
 
 #Tutorials#TYPO3#PHP
 

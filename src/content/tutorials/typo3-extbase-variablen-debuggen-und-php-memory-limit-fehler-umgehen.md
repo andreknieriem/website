@@ -9,16 +9,13 @@ tags:
   - '814'
   - '815'
 description: "Möchte man Extbase Objecte debuggen, so läuft mit sehr schnell in PHP-Fatals, da das Memory-Limit überschritten ist. TYPO3/Extbase hat dafür eine eigene Methode entwickelt, die einem ein var_dump der Variablen anzeigt. Fluid benutzt genau dieselbe Methode beim f:debug-Viewhelper. \r\n// anstelle von var_dump($var);\r\n\\TYPO3\\CMS\\Extbase\\Utility\\DebuggerUtility::var_dump($var);\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# TYPO3: Extbase Variablen debuggen und php memory\_limit-Fehler umgehen
 
 #Tutorials#TYPO3#PHP
 

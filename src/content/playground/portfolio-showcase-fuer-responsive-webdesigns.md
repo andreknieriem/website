@@ -13,16 +13,13 @@ tags:
   - '9'
   - '237'
 description: "Auf der Adobe Portfolio Seite habe ich einen schönen Effekt gesehen, wie man seine responsive Webseite schön darstellen kann. Das Besondere an der Sache ist, dass die Screenshots auf den verschiedenen Geräten ebenfalls scrollen.&nbsp;\r\nNach ein paar Zeilen Javascript, CSS und HTML hatte ich die Funktion weitestgehend reverse engineered und möchte sie euch nicht vorenthalten!"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/Daten/Bilder/Playground/responsive-portfolio-thumb.jpg
 ---
 
-# Playground
 
 Auf den folgenden Seiten habe ich kleine Demos und Code-Snippets aufbereitet, die schöne Ergänzungen und Anregungen für verschiedene Website-Komponenten zeigen.
 
-[Zurück zur Übersicht](/playground.html)
 
-# Portfolio Showcase für responsive Webdesigns
 
 #Playground#jQuery
 

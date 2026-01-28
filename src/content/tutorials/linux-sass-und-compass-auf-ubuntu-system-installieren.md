@@ -11,16 +11,13 @@ tags:
   - '493'
   - '494'
 description: "Für ein neues Projekt auf einem neuen Server muss man, wenn man Sass und Compass benutzen will (was ich nur jedem raten kann) Compass installieren. Hier sind die Grundschritte die dafür getan werden müssen.\n1. Ruby installieren \r\nsudo apt-get install ruby-full rubygems1.8\r\n 2. Compass installieren\nCompass selbst bringt schon ein Sass-Gem mit, sodass man dieses nicht zwangsläufig installieren muss \r\nsudo gem install compass\r\n Alle Befehle werden hier mit sudo ausgeführt, da es sonst häufig zu Berechtigungsproblemen führen kann.\n3. Ein Projekt erstellen \r\n# Cd zu deinem Projekt\r\ncd /var/www/yourproject\r\n \r\n# Compass-Projekt erstellen\r\ncompass create\r\n \r\n# Lass Compass laufen und er wird deine Änderungen on the fly zu css compilen\r\ncompass watch\r\n Das wars auch schon! Viel Spaß beim Sass schreiben :)"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/6/6/csm_tutorials_4003cc1df0.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Linux: Sass und Compass auf Ubuntu-System installieren
 
 #Tutorials
 
@@ -72,13 +69,10 @@ Alle Befehle werden hier mit sudo ausgeführt, da es sonst häufig zu Berechtigu
 
 ```
 
-# Cd zu deinem Projekt
 cd /var/www/yourproject
  
-# Compass-Projekt erstellen
 compass create
  
-# Lass Compass laufen und er wird deine Änderungen on the fly zu css compilen
 compass watch
 ```
 

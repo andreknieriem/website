@@ -25,16 +25,13 @@ description: >-
   Ob man jetzt noch zugreifen sollte, oder ob man noch warten soll, bis das
   iPhone 5 kommt ist jedem selbst überlassen. Erst ab dem 6. Juni werden wir
   bescheid wissen, ob bzw. wann das iPhone 5 zu haben sein wird.
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Weißes iPhone 4 ab heute verfügbar
 
 #Blog
 

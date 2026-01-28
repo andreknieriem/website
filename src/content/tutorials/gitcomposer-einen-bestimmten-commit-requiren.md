@@ -12,16 +12,13 @@ tags:
   - '1045'
   - '1046'
 description: "Da nicht alle Git, bzw. Composer Packages eine echte Version haben, kann es vorkommen, dass man \"dev-master\" als Versionsangabe hat. Das funktioniert solange, bis es breaking changes gibt und dadurch ein Projekt kaputt machen. Hat man so einen Punkt erreicht, möchte man vielleicht die Version, die noch funktioniert hat beibehalten. Hat man nun aber keine echte Versionsnummer, kann man dies auch anhand des Commit-Hashes tun. Das Ganze geht dann wie folgt: {\r\n    \"name\": \"foo/foo-lib\",\r\n    \"repositories\": [\r\n        {\r\n            \"type\": \"git\",\r\n            \"url\": \"https://github.com/Foo/Bar.git\"\r\n        }\r\n    ],\r\n    \"require\": {\r\n        \"foo/bar\": \"dev-master#2633721877cae79ad461f3ca06f3f77fb4fce02e\"\r\n    }\r\n} Der Trick ist hierbei das #2633721877cae79ad461f3ca06f3f77fb4fce02e.&nbsp;Dies sorgt dafür, dass von dem Package nur dieser eine Commit benutzt wird."
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/c/a/csm_git_5ac5ffd7cb.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# GIT/Composer: Einen bestimmten Commit "requiren"
 
 #Tutorials#Git
 

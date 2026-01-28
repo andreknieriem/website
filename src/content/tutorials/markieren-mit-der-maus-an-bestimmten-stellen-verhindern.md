@@ -35,16 +35,13 @@ description: >-
 
   $('#theDiv').disableSelection();
    
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/d/4/csm_jquery_e571c76753.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Markieren mit der Maus an bestimmten Stellen verhindern
 
 #Tutorials#jQuery
 

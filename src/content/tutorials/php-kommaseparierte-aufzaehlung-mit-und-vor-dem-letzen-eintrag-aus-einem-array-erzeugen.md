@@ -16,16 +16,13 @@ tags:
   - '594'
   - '595'
 description: "\r\npublic function nice_count( $input = array() ){\r\n\tif( count( $input ) == 0 ) return '';\r\n\tif( count( $input ) == 1 )return $input[0];\r\n\t$last = array_pop( $input );\r\n\t$tmp = implode(', ', $input);\r\n\treturn $tmp . ' und ' . $last;\r\n}\r\n\r\n// So benutzt man es\r\n$array = array('Bananen', 'Äpfel', 'Birnen');\r\nnice_count($array);\r\n\r\n// Ergibt\r\n// Bananen, Äpfel und Birnen\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/a/1/csm_php_f46f120f0b.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# PHP: Kommaseparierte Aufzählung mit "und" vor dem letzen Eintrag aus einem Array erzeugen
 
 #Tutorials#PHP
 

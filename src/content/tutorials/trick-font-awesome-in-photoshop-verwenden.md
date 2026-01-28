@@ -30,16 +30,13 @@ description: >
 
   Fertig! Jetzt könnt ihr via Schriftgröße und Schriftfarbe euer gewünschtes
   Icon anpassen
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/6/6/csm_tutorials_4003cc1df0.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Trick: Font Awesome in Photoshop verwenden
 
 #Tutorials
 

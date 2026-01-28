@@ -11,16 +11,13 @@ tags:
   - '697'
   - '739'
 description: "Bei Windows-Phone in Cordova kommt es häufiger zu Problemen mit der Viewport-Höhe. Um das Ganze zu beheben, einfach folgendes in die config.xml schreiben. \r\n&lt;preference name=\"fullscreen\" value=\"true\"/&gt;\r\n Möchte man allerdings, dass dies nur für Windows-Phones gilt, so kann man folgendes in die config.xml schreiben. \r\n&lt;platform name=\"wp8\"&gt;\r\n    &lt;preference name=\"fullscreen\" value=\"true\"/&gt;\r\n&lt;/platform&gt;\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/6/6/csm_tutorials_4003cc1df0.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Cordova: Viewport-Höhe bei Windowsphone 8 Bug beheben
 
 #Tutorials
 

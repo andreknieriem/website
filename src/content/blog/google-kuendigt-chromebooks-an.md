@@ -32,16 +32,13 @@ description: >-
 
   Für das Pilotprogramm des neuen OS gab es über 1 Millionen Bewerbungen, was
   zeigt, dass es Interesse an dem neuen System gibt.
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Google kündigt "Chromebooks" an
 
 #Blog
 

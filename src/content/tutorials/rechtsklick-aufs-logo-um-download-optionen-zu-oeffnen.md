@@ -11,16 +11,13 @@ tags:
   - '833'
   - '834'
 description: "Habe bei Invision das in meinen Augen nützliche Feature gesehen, dass wenn man auf das Logo rechtsklickt, ein Modal geöffnet wird, wo ein Link zum Download der Logo Dateien bereitgestellt wird. Das Ganze fand ich eine gute Idee und habe dann direkt bei css-tricks ein kleines Tutorial dazu gefunden.\nDas Ganze habe ich zum Anlass genommen, um mal eine Demo-Seite mit Vanilla JS, jQuery und Bootstrap-Modal zu bauen.\nDemo ansehen Demo herunterladen Demo ansehen\r\nDemo herunterladen"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/9/csm_javascript_163d0d7946.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Rechtsklick aufs Logo um Download-Optionen zu öffnen
 
 #Tutorials#Javascript#jQuery#HTML#CSS
 

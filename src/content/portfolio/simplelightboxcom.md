@@ -7,13 +7,11 @@ technologies:
   - css
   - jquery
   - simplelightbox
-layout: ../../layouts/PortfolioPost.astro
+image: /fileadmin/_processed_/5/5/csm_slimg_3e23f76db3.jpg
 ---
 
-[Zurück zur Übersicht](/portfolio.html)  
   
 
-# Simplelightbox.com
 
 * * *
 

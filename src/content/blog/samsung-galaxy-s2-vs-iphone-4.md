@@ -29,16 +29,13 @@ description: >-
 
   Da Apple aber dieses Jahr noch ein iPhone 5 herausbringen wird, ist fraglich,
   ob das Galaxy S2 lange an der Spitze bleibt.
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Samsung Galaxy S2 vs iPhone 4
 
 #Blog
 

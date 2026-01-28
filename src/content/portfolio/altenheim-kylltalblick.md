@@ -4,13 +4,11 @@ date: '2016-08-13T17:51:00.000Z'
 slug: altenheim-kylltalblick
 technologies:
   - Wordpress
-layout: ../../layouts/PortfolioPost.astro
+image: /fileadmin/_processed_/0/3/csm_kylltal_0556583003.png
 ---
 
-[Zurück zur Übersicht](/portfolio.html)  
   
 
-# Altenheim Kylltalblick
 
 * * *
 

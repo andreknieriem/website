@@ -21,16 +21,13 @@ description: >-
   Wenn der IDC recht hat, dann wird Windows Phone bald einen größeren
   Marktanteil haben als Apples iOS. Googles Android Betriebssystem wird aber
   weiterhin den Markt anführen.
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# IDC: Windows Phone übertrifft 2016 den Marktanteil von iOS
 
 #Blog
 

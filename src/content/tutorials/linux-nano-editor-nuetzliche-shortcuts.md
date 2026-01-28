@@ -16,16 +16,13 @@ tags:
   - '621'
   - '622'
 description: "Nano ist ein Texteditor der auf den meisten Systemen vorinstalliert ist. (Auch auf dem Raspberry Pi) Ich nutze ihn lieber als VI. Hier sind ein paar kleine Shortcuts, die man immer wieder mal braucht.\nAnmerkung das ^-Symbol ist die CTRL(STRG) Taste auf eurer Tastatur. \r\n^G     nano help \r\n^A     move to beginning of line\r\n^E     move to end of line\r\n^Y     move down a page\r\n^V     move up a page\r\n^_     move to a specific line (^_^V moves to the top of the file, ^_^Y to the bottom)\r\n^C     find out what line the cursor is currently on\r\n^W     search for some text. \r\n^D     delete character currently under the cursor\r\n^K     delete entire line \r\n^O     save contents without exiting (you will be prompted for a file to save to)\r\n^X     exit nano (you will be prompted to save your file if you have not)\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/6/6/csm_tutorials_4003cc1df0.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Linux Nano Editor: Nützliche Shortcuts
 
 #Tutorials
 

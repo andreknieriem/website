@@ -4,16 +4,13 @@ date: '2016-08-22T22:00:00.000Z'
 slug: mobile-menue-button-animation
 tags: []
 description: "In diesem Playground stelle ich 4 schöne Möglichkeiten vor, wie man den Button für ein mobiles Menü von einem Burger zu einem Close X animieren lassen kann und das ohne viel Aufwand zu betreiben.\r\nDie Animationen funktionieren, da die 3 Striche, sowie das Close-X Html-Markup sind und keine Bilder oder eine Icon-Font. Somit lässt sich jeder einzelne Strich einzeln manipulieren und animieren.&nbsp;\r\nAlle 4 Animation benötigen Javascript nur, um eine Klasse zu setzen, die dann wiederum &nbsp;eine CSS3 Animation auslöst. Somit gehen die Animation in beide Richtungen, also beim Schließen und beim Öffnen.\r\nSchaut euch die Demo an und benutzt den Code gerne auf euren Seiten!"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/Daten/Playground/mobilebutton.png
 ---
 
-# Playground
 
 Auf den folgenden Seiten habe ich kleine Demos und Code-Snippets aufbereitet, die schöne Ergänzungen und Anregungen für verschiedene Website-Komponenten zeigen.
 
-[Zurück zur Übersicht](/playground.html)
 
-# Mobile-Menü Button Animation
 
 #CSS#HTML#Playground
 

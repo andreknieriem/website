@@ -11,16 +11,13 @@ tags:
   - '427'
   - '17'
 description: "Hier mal ein sehr kleines, aber oft nützliches Snipped. Möchte man einfach einen Zurück-Button auf eine Webseite einbauen, die dieselbe Funktionalität wie der Browser Button hat, so lässt sich das sehr einfach mit dem folgenden Code bewerkstelligen. &lt;a href=\"javascript:history.back()\"&gt;Zurück&lt;/a&gt;\r\n\r\nDer Trick hierbei ist es, dass im href Attribut des Links direkt Javascript ausgeführt wird. In diesem Fall die Funktion\r\n\r\nhistory.back()"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/9/csm_javascript_163d0d7946.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Javascript: Zurück - History Back Link Button bauen
 
 #Tutorials#Javascript
 

@@ -6,13 +6,11 @@ technologies:
   - Vanilla Php
   - jQuery
   - Twig
-layout: ../../layouts/PortfolioPost.astro
+image: /fileadmin/_processed_/6/c/csm_aktools_d4eb24886c.jpg
 ---
 
-[Zurück zur Übersicht](/portfolio.html)  
   
 
-# tools.andrerinas.de
 
 * * *
 

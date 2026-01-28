@@ -14,16 +14,13 @@ tags:
   - '765'
   - '766'
 description: "Seit dem Internet Explorer 10 ist das Scrollbar-Verhalten etwas seltsam. Denkt das System, man hat ein Touch-Device blendet er andere Scrollbars ein. Benutzt man dann die Maus ändern sich diese auch wieder. Nun kommt es allerdings oft zum Problem, dass die Scrollbar über dem Content liegt und nicht daneben, wie sonst üblich. \nHier ein Screenshot im Vergleich:\n\nDas Ganze lässt sich leicht mit CSS regeln, indem man dem Body folgende Dinge gibt: \r\nbody{\r\n    overflow-y: scroll;\r\n    -ms-overflow-style: scrollbar;\r\n}\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/0/csm_css_b1ca039252.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Internet Explorer: Scrollbar nicht über den Content laufen lassen
 
 #Tutorials#CSS
 

@@ -10,16 +10,13 @@ tags:
   - '890'
   - '891'
 description: "Da immer mehr Leute Adblocker benutzen und viele Adblocker sogar Tracking Services wie Google Analytics entfernen, kann es leider vorkommen, dass das globale Javascript abstürzt, weil die Funktion ga nicht verfügbar ist. Mit dem folgenden kleinen Snippet kann man die Analytics Events weiterhin benutzen, ohne dass es Fehler gibt. Dafür muss man einfach ga() durch safeGa() ersetzen. function safeGA(){\r\n  if(/undef/.test(typeof ga)){\r\n    return;\r\n  }\r\n\r\n  ga.apply(window,arguments);\r\n}\r\n\r\n// vorher\r\nga('send', 'event', 'Kontakt', 'Kontaktformular abgesendet')\r\n\r\n// So benutzt man GA jetzt,\r\nsafeGA('send', 'event', 'Kontakt', 'Kontaktformular abgesendet');"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/9/csm_javascript_163d0d7946.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Javascript: Fehler durch Adblocker vermeiden
 
 #Tutorials#Javascript
 

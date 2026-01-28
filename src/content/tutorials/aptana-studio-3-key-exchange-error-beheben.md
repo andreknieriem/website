@@ -12,16 +12,13 @@ tags:
   - '849'
   - '850'
 description: "Wenn man wie ich noch Aptana Studio benutzt (Ich weiß, aber Sublime hat kein Drag&Drop Sftp) so bekommt man seit neuestem öfter mal folgenden Fehler, wenn man eine SFTP-Verbindung herstellen möchte:\n\"Establishing SFTP connection failed: No suitable key exchange algorithm could be agreed.\nNo suitable key exchange algorithm could be agreed.\"\nWenn euch der Server gehört dann könnt ihr dies wie folgt beheben:\n1. Auf dem Server die sshd_config ändern: \r\n#nano /etc/ssh/sshd_config\r\n 2. Fügt dort am Schluss Folgendes hinzu: \r\nCiphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,blowfish-cbc,aes128-cbc,3des-cbc,cast128-cbc,arcfour,aes192-cbc,aes256-cbc\r\nKexAlgorithms=curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1\r\n 3. Danach den ssh service neustarten \r\n#/etc/init.d/ssh restart\r\n Danach kann sich euer Aptana wieder verbinden."
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/a/e/csm_aptana_b2b6e570b1.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Aptana Studio 3: Key Exchange Error beheben
 
 #Tutorials
 

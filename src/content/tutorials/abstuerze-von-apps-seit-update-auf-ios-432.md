@@ -21,16 +21,13 @@ description: >-
   Es reicht eine beliebige App zu löschen, diese wieder herunterzuladen und zu
   installieren. Alternativ reicht es auch eine neue App zu installieren. Danach
   sollten nicht funktionierende Apps wieder einwandfrei starten.
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/6/6/csm_tutorials_4003cc1df0.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Abstürze von Apps seit Update auf iOS 4.3.2
 
 #Tutorials
 

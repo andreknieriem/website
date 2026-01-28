@@ -7,13 +7,11 @@ technologies:
   - CSS
   - jQuery
   - Simplelightbox
-layout: ../../layouts/PortfolioPost.astro
+image: /fileadmin/_processed_/d/7/csm_neugraben_d023ab0c50.png
 ---
 
-[Zurück zur Übersicht](/portfolio.html)  
   
 
-# Neugraben NOW!
 
 * * *
 

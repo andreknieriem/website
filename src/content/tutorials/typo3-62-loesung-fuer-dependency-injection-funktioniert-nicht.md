@@ -12,16 +12,13 @@ tags:
   - '773'
   - '774'
 description: "Für eine Extension brauchte ich letztens eine eigene Php-Klasse, die einfach in meinen Controller via \"Dependency Injection\" eingebunden werden sollte. Das Ganze habe ich dann so gemacht: \r\n/**\r\n * @var \\Vendor\\Extension\\Foo\\Bar\r\n * @inject\r\n */\r\n protected $fooBar;\r\n Allerdings wollte die Klasse einfach nicht geladen werden. Das Object war immer null und es gab fatals, falls ich eine Methode der Klasse aufgerufen habe, beispielsweise: $this->fooBar->test().\nNach ewigem rumprobieren habe ich herausgefunden, dass man den Cache im Installtool leeren muss. Die normalen 3 Caches im Backend oben reichen leider nicht aus. Also im Installtool auf \"Important Actions\" und dort dann auf \"Clear all cache\" klicken. Danach wurde meine Klasse erfolgreich injected.\nIch hoffe ich konnte euch weiterhelfen."
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# TYPO3 6.2: Lösung für "Dependency Injection funktioniert nicht"
 
 #Tutorials#TYPO3#PHP
 

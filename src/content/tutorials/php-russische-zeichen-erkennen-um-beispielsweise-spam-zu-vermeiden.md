@@ -10,16 +10,13 @@ tags:
   - '982'
   - '983'
 description: "Bei mir kommt es recht häufig vor, dass in meinen Kommentaren Spams mit russischen Inhalt kommen. Nach kleiner Recherche habe ich eine Funktion gefunden, die die russische Sprache erkennt. So kann ich dann jeden Kommentar, der hier ein true zurückgibt als Spam markieren.\r\nHier die Funktion: function isRussian($text) {\r\n    return preg_match('/[?-??-???]/u', $text);\r\n}"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/a/1/csm_php_f46f120f0b.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# PHP: Russische Zeichen erkennen um beispielsweise Spam zu vermeiden
 
 #Tutorials#PHP
 

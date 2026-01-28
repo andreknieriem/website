@@ -44,16 +44,13 @@ description: >-
 
   Lasst die Finger von den Dingern. Sie funktionieren schlecht und haben
   anscheinend kaum etwas mit dem Original-Gerät gemeinsam.
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/1/6/csm_photo_f9f759ed1d.jpg
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Blackberry Simulator - Ein Abenteuer auf das jeder verzichten sollte!
 
 #Blog
 

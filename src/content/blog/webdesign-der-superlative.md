@@ -20,16 +20,13 @@ description: >-
 
   Und das möchte ich keinen von euch vorenthalten. Also klickt hier und lasst
   euch begeistern!
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Webdesign der Superlative!
 
 #Blog
 

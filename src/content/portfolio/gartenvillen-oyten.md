@@ -6,13 +6,11 @@ technologies:
   - HTML5
   - CSS3
   - jQuery
-layout: ../../layouts/PortfolioPost.astro
+image: /fileadmin/_processed_/8/2/csm_gartenvillen-logo_3a974c67c6.png
 ---
 
-[Zurück zur Übersicht](/portfolio.html)  
   
 
-# Gartenvillen Oyten
 
 * * *
 

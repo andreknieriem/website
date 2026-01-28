@@ -11,16 +11,13 @@ tags:
   - '1195'
   - '1196'
 description: "Für einen Unit einer Klasse brauchte ich die Session aus dem Requeststack, da diese Klasse als Constructor nur den Requeststack übergeben bekommt. Das Ganze lässt sich relativ leicht bewerkstelligen, indem man erst einen Request erstellt, diesen dann einem Requeststack zuweist und diesem Requeststack dann noch eine gemockte Session zuweist.&nbsp;\r\nHier mal ein Beispiel: "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/3/2/csm_symfony_2c03ec37f6.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Symfony Unit Testing: Session aus dem RequestStack testen
 
 #Tutorials#Symfony
 

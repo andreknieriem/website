@@ -35,16 +35,13 @@ description: >-
   Es ist relativ einfach. Der Tooltip wird mit einer Verzögerung erst
   ausgeblendet. Hovert man in der Zeit den Tooltip wird das die Funktion
   gestoppt, die den Tooltip ausblendet.
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/9/csm_javascript_163d0d7946.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Wie überprüft man, ob man mit der Maus über einem Element ist in jQuery?
 
 #Tutorials#Javascript#jQuery
 

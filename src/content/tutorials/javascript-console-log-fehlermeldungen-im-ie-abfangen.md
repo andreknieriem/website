@@ -8,16 +8,13 @@ tags:
   - '527'
   - '528'
 description: "Falls man mal ein Console.log im Code vergessen hat, so ist das eigentlich ja nichts schlimmes. Allerdings hat man im Internet Explorer dann oft einen fatalen JS-Fehler und das komplette Javascript der Seite ist lahmgelegt. Das Ganze lässt sich mit folgendem Code-Schnipsel aber abfangen. \r\nif(/^undef/i.test(typeof console)){ window.console = { log : function(){} }; }\r\n Einfach diesen Code immer am Anfang deiner Webseite reinladen und du kannst auch mal ausversehen ein Console.log vergessen."
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/9/csm_javascript_163d0d7946.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Javascript: Console-Log Fehlermeldungen im IE abfangen
 
 #Tutorials#Javascript
 

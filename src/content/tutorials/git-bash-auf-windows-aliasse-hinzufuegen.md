@@ -11,16 +11,13 @@ tags:
   - '1199'
   - '1200'
 description: "Möchte man in der Git-Bash eigene Aliasse hinzufügen, so geht dies relativ einfach.\r\n \tAls erstes muss man als Administrator einen Editor seiner Wahl öffnen. \tDanach öffnet die Datei&nbsp;/C/Programme (Program Files auf englisch) /Git/etc/profile.d/aliases.sh \tFügt jetzt unter den beiden bestehenden Aliassen eigene hinzu. \tIch habe im Beispiel unten eine Kurzform hinzugefügt, ob ein Verzeichnis zurück zu kommen. Also.. anstatt cd .. \tSpeichert die Datei und startet eure Git-Bash neu, damit die Aliasse reingeladen werden \tMit dem Befehl alias&nbsp;kann man sehen, ob das Ganze geklappt hat.  $ alias\r\nalias ..='cd ..'"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/c/a/csm_git_5ac5ffd7cb.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Git Bash auf Windows: Aliasse hinzufügen
 
 #Tutorials#Git
 

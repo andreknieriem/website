@@ -30,16 +30,13 @@ description: >-
   Konsole auf den Markt bringt. Die 360 verkauft sich noch viel zu gut und der
   Preis der neuen Konsolen kommt mir auch zu niedrig vor. Ein derartiger
   Supercompute müsste meiner Meinung deutlich teurer sein. Wir werden sehen.
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Xbox 720 Dokument im Internet aufgetaucht
 
 #Blog
 

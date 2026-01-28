@@ -9,16 +9,13 @@ description: >-
   dies einzustellen, muss man nur folgenden Befehl mit der gewünschten
   PHP-Zielversion eingeben. In meinem Fall hier ist es auf die Version 7.2. sudo
   update-alternatives --set php /usr/bin/php7.2
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/2/d/csm_linux_c8a1aa2e0c.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Linux: Ändern der php-cli Version
 
 #Tutorials#Linux
 

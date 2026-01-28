@@ -21,16 +21,13 @@ description: >-
 
   "Führende Nullen werden nicht angezeigt",="0001233456",="04252"
    Ich hoffe, dass hilft einigen von euch Excel daran zu hindern, die führenden Nullen zu verschlingen.
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/6/6/csm_tutorials_4003cc1df0.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Führende Nullen bei CSV-Export behalten
 
 #Tutorials
 

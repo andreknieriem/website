@@ -13,16 +13,13 @@ tags:
   - '636'
   - '637'
 description: "Hier ist kleine aber feine Funktion, die ein Array Object nach dessen Wert und nicht nach dessen Key aus dem Array löscht.\nFunktion \r\nif(($key = array_search($needle, $haystack)) !== false) {\r\n    unset($haystack[$key]);\r\n}\r\n Beispiel \r\n\r\n// Unser Array\r\n$array = array(\"Orange\", \"Banane\", \"Apfel\", \"Himbeere\");\r\n\r\n// Funktion um Banane aus dem Array zu löschen\r\nif(($key = array_search('Banane', $array)) !== false) {\r\n    unset($array[$key]);\r\n}\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/a/1/csm_php_f46f120f0b.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Php: Unset by Value
 
 #Tutorials#PHP
 

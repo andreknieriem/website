@@ -12,16 +12,13 @@ tags:
   - '1088'
   - '1089'
 description: "Seit der TYPO3 Version 8.X sind lassen sich die Rahmen um Content-Elemente etwas anders als vorher benutzen. Auch das Feld wurde von section_frame zu frame_class migriert. Um nun neue Rahmen(Frames) zu benutzen braucht man nur ein paar Zeilen TSConfig und schon wird die Klasse an die Content-Elemente bei Auswahl gerendert.\r\nHier mal ein Beispiel: # PageTSconfig\r\nTCEFORM.tt_content.frame_class.addItems {\r\n  well = Bootstrap Well Box\r\n} Das ganze wird dann im Frontend zusammengesetzt, dass frame-{deineklasse} an das Content-Element gesetzt wird, also anhand des Beispiels oben: \r\n"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# TYPO3: Rahmen/Frames für Content-Elemente ab TYPO3 8LTS
 
 #Tutorials#TYPO3
 
@@ -54,7 +51,6 @@ Seit der TYPO3 Version 8.X sind lassen sich die Rahmen um Content-Elemente etwas
 **Hier mal ein Beispiel:**
 
 ```
-# PageTSconfig
 TCEFORM.tt_content.frame_class.addItems {
   well = Bootstrap Well Box
 }

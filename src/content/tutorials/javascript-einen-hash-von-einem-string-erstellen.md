@@ -8,16 +8,13 @@ tags:
   - '855'
   - '856'
 description: "Javascript bietet im Gegensatz zu PHP keine Hash Methoden wie md5 oder sha1. Manchmal möchte man aber nur einen Hash haben um diesen beispielsweise in einem Cookie zu speichern, damit man vergleichen kann, ob eine Notification schonmal gelaufen ist, oder nicht. Ich habe hier eine kleine Funktion gefunden, die genau dies tut. \r\nhashCode = function(str) {\r\n  var hash = 0, i, chr, len;\r\n  if (str.length === 0) return hash;\r\n  for (i = 0, len = str.length; i &lt; len; i++) {\r\n    chr   = str.charCodeAt(i);\r\n    hash  = ((hash &lt;&lt; 5) - hash) + chr;\r\n    hash |= 0; // Convert to 32bit integer\r\n  }\r\n  return hash;\r\n};\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/9/csm_javascript_163d0d7946.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Javascript: Einen Hash von einem String erstellen
 
 #Tutorials#Javascript
 

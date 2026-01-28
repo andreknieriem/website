@@ -10,16 +10,13 @@ tags:
   - '607'
   - '1016'
 description: "Hat man eine SD-Karte im Raspberry Pi benutzt und schließt diese dann an einen Rechner an, so wird die SD-Karte als ca 50MB großes Volumen angezeigt. Wenn man dieses nun formatiert erhält man trotzdem nicht komplette Größe zurück. Hier ein paar Beispiele, wie man die Karte wieder richtig zurücksetzt für die jeweiligen Betriebssysteme.\r\nWindows\r\ncmd.exe startenDISKPART eingeben und mit Enter bestätigenLIST DISK eingeben und die SD Karte findenSELECT DISK # (die Raute muss hier die Nummer der Karte sein)CLEAN (ACHTUNG, vergewissern, dass ihr die richtige DISK ausgewählt habt, sonst macht ihr euch euer Betriebssystem kaputt)CREATE PARTITION PRIMARYFORMAT FS=FAT32 QUICK\r\nMAC/Linux\r\nTerminal startenfdisk -l um die Liste der zu bekommen und die SD-Karte zu findenfdisk /dev/sdx&nbsp; (/dev/sdx&nbsp;muss hier die Nummer der Karte sein)d um alle partitionen zu löschenmount um die SD-Karte wieder zu laden\r\nBei allen Dingen muss man vorsichtig sein, um sich sein Betriebssystem nicht zu formatieren oder die Festplattte auszuwerfen."
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/3/3/csm_raspberry_14520f3d4b.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Raspberry: SD Karte wieder normal nutzbar machen(reformatieren)
 
 #Tutorials#Raspberry
 

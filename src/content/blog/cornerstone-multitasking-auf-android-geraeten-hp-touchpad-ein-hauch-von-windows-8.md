@@ -31,16 +31,13 @@ description: >-
   Quelle
 
   Ich hoffe, dass das Addon bald verfügbar sein wird.
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Cornerstone Multitasking auf Android Geräten (HP Touchpad) - Ein Hauch von Windows 8
 
 #Blog
 

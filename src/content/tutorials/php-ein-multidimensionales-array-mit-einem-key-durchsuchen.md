@@ -11,16 +11,13 @@ tags:
   - '1135'
   - '1136'
 description: "Möchte man einen Wert aus einem multidimensionalen&nbsp;Array anhand des Keys auslesen und weiß nicht, wo dieser versteckt ist, so kann man mit folgender Funktion das Ganze recht gut bewerkstelligen. Natürlich sollte man keine super riesigen und weit verschachtelte Arrays benutzen, weil es dann doch schon recht lange dauert und aufwendig für den Server ist.\r\n\r\n function recursiveFind(array $haystack, $needle)\r\n{\r\n    $iterator  = new RecursiveArrayIterator($haystack);\r\n    $recursive = new RecursiveIteratorIterator(\r\n        $iterator,\r\n        RecursiveIteratorIterator::SELF_FIRST\r\n    );\r\n    foreach ($recursive as $key => $value) {\r\n        if ($key === $needle) {\r\n            return $value;\r\n        }\r\n    }\r\n} So kann man jetzt die Funktion&nbsp;recursiveFind benutzen um einen Wert zu erhalten."
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/a/1/csm_php_f46f120f0b.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# PHP: Ein Multidimensionales Array mit einem Key durchsuchen
 
 #Tutorials#PHP
 

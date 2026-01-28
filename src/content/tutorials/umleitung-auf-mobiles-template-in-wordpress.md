@@ -33,16 +33,13 @@ description: >-
 
   Ein paar Javascript Schnipsel, Webkit Css Optionen und so weiter werde ich in
   einem späteren Tutorial erläutern.
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/5/3/csm_wordpress_29764a1330.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Umleitung auf mobiles Template in Wordpress
 
 #Tutorials#Wordpress
 

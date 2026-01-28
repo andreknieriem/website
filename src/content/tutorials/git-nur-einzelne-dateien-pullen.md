@@ -11,16 +11,13 @@ tags:
   - '1050'
   - '1051'
 description: "Manchmal kommt es vor, dass man schon commited und gepusht hat kommt auf seiner Entwicklungsmaschine und es in zu dem Zeitpunkt einen Fehler gibt, der noch zwischengeschoben werden muss. Da das Branching und der Master nun aber schon mit einem zu neuen Stand versehen sind, kann man auch nur einzelne Dateien auf den Server holen (pull). Das Ganze sollte nur im Notfall und nur sehr selten gemacht werden, geht aber recht einfach wie folgt: git fetch --all\r\ngit checkout origin/master -- &lt;your_file_path&gt; Das war es auch schon. Nun werden die Dateien auf dem Server zwar als geändert, bzw. neu angezeigt, bei einem richtigen Pull klappt das mergen aber automatisch."
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/c/a/csm_git_5ac5ffd7cb.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Git: Nur einzelne Dateien pullen
 
 #Tutorials#Git
 

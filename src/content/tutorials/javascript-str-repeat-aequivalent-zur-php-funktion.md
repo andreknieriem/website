@@ -9,16 +9,13 @@ tags:
   - '69'
   - '481'
 description: "Für eine Select-Menü brauchte ich eine Funktion, die mir einen String einfach wiederholt. Das Ganze geht in PHP ja mit str_repeat und so habe ich bei Stackoverflow die Lösung gefunden und wollte sie euch nicht vorenthalten. \r\nString.prototype.repeat = function(count) {\r\n    if (count &lt; 1) return '';\r\n    var result = '', pattern = this.valueOf();\r\n    while (count &gt; 0) {\r\n        if (count &amp; 1) result += pattern;\r\n        count &gt;&gt;= 1, pattern += pattern;\r\n    }\r\n    return result;\r\n};\r\n Benutzung \r\n'-'.repeat(3);\r\n// returns ---\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/9/csm_javascript_163d0d7946.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Javascript: str\_repeat Äquivalent zur Php-Funktion
 
 #Tutorials#Javascript
 

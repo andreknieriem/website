@@ -17,16 +17,13 @@ description: >-
   und dessen Unterordner (rekursiv) zählen, so geht das ganz einfach mit
   folgendem Befehl. Einfach&nbsp;&quot;DIR_NAME&quot; durch den Ordnernamen
   ersetzen, in dem gezählt werden soll.&nbsp; find DIR_NAME -type f | wc -l
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/2/d/csm_linux_c8a1aa2e0c.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Linux: Alle Dateien rekursiv in einem Ordner zählen
 
 #Tutorials#Linux
 

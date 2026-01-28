@@ -10,16 +10,13 @@ tags:
   - '943'
   - '62'
 description: "Möchte man eine Datei oder Url mit file_get_contents&nbsp;holen, welche hinter einem .htaccess Schutz ist, so kann man das mit dem folgenden kleinen Code-Beispiel tun. $context = stream_context_create(array (\r\n    'http' =&gt; array (\r\n        'header' =&gt; 'Authorization: Basic ' . base64_encode(\"$username:$password\")\r\n    )\r\n));\r\n$data = file_get_contents($url, false, $context);"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/a/1/csm_php_f46f120f0b.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# PHP: file\_get\_contents() mit .htaccess Authentifizierung benutzen
 
 #Tutorials#PHP
 

@@ -13,16 +13,13 @@ tags:
   - '479'
   - '1027'
 description: "Möchte man die Templates einer Extension überschreiben, so kann man dies mitlerweile recht einfach machen. Neue gut geschriebene Extensions benutzen&nbsp;templateRootPaths,&nbsp;partialRootPaths und&nbsp;layoutRootPaths, mit deren Hilfe man verschiedene Orte für Templates angeben kann. Die Templates mit der höchsten Nummer, die auch wirklich existieren werden dann geladen. Hier ein Beispiel anhand von Solr. plugin.solr {\r\n    view {\r\n        templateRootPaths.100 = EXT:ar_ext/Resources/Private/Templates/\r\n        partialRootPaths.100 = EXT:ar_ext/Resources/Private/Partials/\r\n        layoutRootPaths.100 = EXT:ar_ext/Resources/Private/Layouts/\r\n    }\r\n} Wie man am oberen Beispiel sieht, habe ich die 100 benutzt. Solr's Standard-Templates sind auf der 0. Somit werden meine Templates geladen, sofern sie verfügbar sind. Das ist sehr praktisch, da ich so nur Templates überschreiben kann, die ich auch ändern will und die originale Extension nicht überschreiben muss."
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# TYPO3: Fluid Extension Templates überschreiben
 
 #Tutorials#TYPO3
 

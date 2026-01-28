@@ -41,16 +41,13 @@ description: >-
    Zum einbinden der jetzigen neu generierten CSS-Datei einfach folgende aufrufen: 
   &lt;link rel="stylesheet" type="text/css" href="get_css.php" /&gt;
    Das wars auch schon! Nun könnt ihr mit mehreren CSS-Dateien arbeiten aber nur eine ausgeben lassen.
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/a/1/csm_php_f46f120f0b.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# CSS-Dateien zusammenführen mit PHP
 
 #Tutorials#PHP
 

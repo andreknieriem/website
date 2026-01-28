@@ -22,16 +22,13 @@ description: >-
       outline: none;
   }
    Das ist auch schon alles ;)
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/0/csm_css_b1ca039252.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Entfernen des Webkit-Borders beim Focus in ein Input Feld
 
 #Tutorials#CSS
 

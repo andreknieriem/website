@@ -12,16 +12,13 @@ tags:
   - '638'
   - '639'
 description: "Möchte man die Bootstrap Dropdowns als Html-Select verwenden, so kann man mit sich mit folgendem Markup/Javascript behelfen. \r\n&lt;div class=\"btn-group fakeSelect\"&gt;\r\n    &lt;input type=\"hidden\" class=\"selectValue\" value=\"2013\"&gt;\r\n    &lt;button type=\"button\" class=\"btn btn-default dropdown-toggle\" data-toggle=\"dropdown\" aria-expanded=\"false\"&gt;\r\n        &lt;span class=\"currentVal\"&gt;2013&lt;/span&gt;\r\n        &lt;span class=\"caret\"&gt;&lt;/span&gt;\r\n    &lt;/button&gt;\r\n    &lt;ul class=\"dropdown-menu\" role=\"menu\"&gt;\r\n        &lt;li&gt;&lt;a data-value=\"2013\" href=\"#\"&gt;2013&lt;/a&gt;&lt;/li&gt;\r\n        &lt;li&gt;&lt;a data-value=\"2012\" href=\"#\"&gt;2012&lt;/a&gt;&lt;/li&gt;\r\n        &lt;li&gt;&lt;a data-value=\"2011\" href=\"#\"&gt;2011&lt;/a&gt;&lt;/li&gt;\r\n        &lt;li&gt;&lt;a data-value=\"2010\" href=\"#\"&gt;2010&lt;/a&gt;&lt;/li&gt;\r\n        &lt;li&gt;&lt;a data-value=\"2009\" href=\"#\"&gt;2009&lt;/a&gt;&lt;/li&gt;\r\n        &lt;li&gt;&lt;a data-value=\"2008\" href=\"#\"&gt;2008&lt;/a&gt;&lt;/li&gt;\r\n    &lt;/ul&gt;\r\n&lt;/div&gt;\r\n  \r\n$(\".fakeSelect .dropdown-menu li a\").click(function(e){\r\n\te.preventDefault();\r\n\t\r\n\tvar elem = $(this),\r\n\t\tfakeSelect = elem.parents('.fakeSelect'),\r\n\t\tval = elem.data('value');\r\n\t\r\n\tfakeSelect.find('.currentVal').text(val);\r\n\tfakeSelect.find('.selectValue').val(val);\r\n});\r\n \nDemo:\nhttps://jsfiddle.net/bftdvw83/"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/d/4/csm_jquery_e571c76753.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Bootstrap: Dropdowns als Select verwenden
 
 #Tutorials#jQuery
 

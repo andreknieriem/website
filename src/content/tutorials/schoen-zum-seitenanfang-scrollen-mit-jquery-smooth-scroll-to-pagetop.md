@@ -10,16 +10,13 @@ tags:
   - '183'
   - '184'
 description: "Hier sind ein paar Zeilen Javascript, CSS und HTML um einen schönen \"Zurück-zum-Seitenanfang Button\" zu erstellen. Der Code wird auch auf dieser Seite verwendet. (Siehe rechte Seite beim Scrollen)\nDas ist der Link, den ihr am Besten vor das schließende \n/*  */\n\n\n/*  */\n\n\n\n\n\t\t\n\t\t\tSpringe zur Werkzeugleiste\n\t\t\t\n\t\t\t\t\n\t\t\n\t\tÜber WordPress\t\t\n\t\tWordPress.org\t\t\n\t\tDokumentation\t\t\n\t\tSupport-Foren\t\t\n\t\tFeedback\t\t\t\t\n\t\tandre knieriem\n\t\tZur Seite\t\t\t\t\n\t\t54 Plugin-Updates, 1 Theme-Aktualisierung\t\t\n\t\t0\t\t\n\t\tNeu\n\t\tBeitrag\t\t\n\t\tDatei\t\t\n\t\tLink\t\t\n\t\tSeite\t\t\n\t\tView\t\t\n\t\tBenutzer\t\t\t\t\n\t\tGalerie\n\t\tOverview\t\t\n\t\tAdd Gallery / Images\t\t\n\t\tManage Galleries\t\t\n\t\tManage Albums\t\t\n\t\tManage Tags\t\t\n\t\tGallery Settings\t\t\n\t\tOther Options\t\t\t\t\n\t\tWillkommen, André Knieriem\n\t\tAndré Knieriemtyphoch2\t\t\n\t\tProfil bearbeiten\t\t\n\t\tAbmelden\t\t\t\t\t\t\t\n\t\t\t\t\t\tAbmelden\n\t\t\t\t\t\n\t\t Tag packt. \n&lt;a href=\"#\" class=\"scrollup\"&gt;Scroll&lt;/a&gt;\n Mit diesem CSS macht ihr den Button schön und positioniert ihn. (Das Bild muss natürlich auch eingebunden werden.) \n.scrollup{\n    width:40px;\n    height:40px;\n    opacity:0.3;\n    position:fixed;\n    bottom:50px;\n    right:100px;\n    display:none;\n    text-indent:-9999px;\n    background: url('icon_top.png') no-repeat;\n}\n Und hier den jQuery Code um den Button ein und auszublenden und die Scroll Animation zu starten: \n $(document).ready(function(){\n\n        $(window).scroll(function(){\n            if ($(this).scrollTop() &gt; 100) {\n                $('.scrollup').fadeIn();\n            } else {\n                $('.scrollup').fadeOut();\n            }\n        });\n\n        $('.scrollup').click(function(){\n            $(\"html, body\").animate({ scrollTop: 0 }, 600);\n            return false;\n        });\n\n    });\n Viel Spaß damit!"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/d/4/csm_jquery_e571c76753.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Schön zum Seitenanfang scrollen mit jQuery (smooth scroll to pagetop)
 
 #Tutorials#jQuery
 

@@ -21,16 +21,13 @@ description: >-
 
   xmlnews.config.absRefPrefix = http://deinedomain.de/
    Viel Spaß damit!
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Typo3 tt\_news - Absolute Pfade für Bilder im Rss/XML Feed
 
 #Tutorials#TYPO3
 

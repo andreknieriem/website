@@ -10,16 +10,13 @@ tags:
   - '213'
   - '214'
 description: "Ich sitze gerade an einem neuen Projekt und brauchte einen Read-More Link bei meinen Vorschautexten (excerpts). Das Ganze lässt sich relativ einfach via functions.php ergänzen.\nDafür einfach folgenden Code einfügen: \n\n// Excerpt Read More Link einbauen\nfunction new_excerpt_more($more) {\n\tglobal $post;\n\treturn '… &lt;a href=\"'. get_permalink($post-&gt;ID) . '\"&gt;' . 'Weiterlesen' . '&lt;/a&gt;';\n}\nadd_filter('excerpt_more', 'new_excerpt_more');\n\n Das wars auch schon! Man kann das Ganze natürlich nach belieben anpassen, Klassen ergänzen oder sogar Sprachabhängig das weiterlesen machem, aber das sei jedem selbst überlassen.\nWeitere Infos gibt es auch hier:\nWordress Doku"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/5/3/csm_wordpress_29764a1330.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Einen Weiterlesen/Read-More Link bei Wordpress the\_excerpt einfügen
 
 #Tutorials#Wordpress
 

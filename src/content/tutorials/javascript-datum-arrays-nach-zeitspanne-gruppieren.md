@@ -13,16 +13,13 @@ tags:
   - '929'
   - '930'
 description: "Für ein kleines Projekt, bei dem ich Unix-Timestamps nach Zeiteinheiten wie, pro Tag, pro Monat usw. gruppieren wollte, habe ich mir mit moment.js und _Underscore.js&nbsp;ein paar kleine Funktionen geschrieben, die mir die Daten nach jeder beliebigen Zeiteinheit gruppieren können. // Zeitraum, welcher Moment-kompatibel sein muss. (http://momentjs.com/docs/#/manipulating/start-of/)\r\n  var unit = 'day'; \r\n  var occurrenceTime = function(occurrence){\r\n    return moment(occurrence,'x').startOf(unit).valueOf();\r\n  };\r\n\r\n  var groupToTime = function(group, time){\r\n    return [\r\n      Number(time),group.length\r\n    ]\r\n  };\r\n\r\n  var groupData = function(data, unit){\r\n    var result = _.chain(data)\r\n    .groupBy(occurrenceTime)\r\n    .map(groupToTime)\r\n    .value();\r\n    return result;\r\n  }\r\n\r\nAnwendung wie folgt:\r\n// data ist ein Array von timestamps [1476861504,1476861514,1476861534,1476861554]\r\nvar grouped = groupData(data)\r\n\r\n\r\nMacht sowas:\r\n\r\ngrouped = Array[2]\r\n    0:Array[2]\r\n      0:1477461600000\r\n      1:4\r\n    0:Array[2]\r\n      0:1477465200000\r\n      1:2\r\n\r\n// es wird ein Array zurückgegeben, welches nach der bestimmten Zeiteinheit gruppiert ist. \r\n// Dabei werden die Einheiten zusammengezählt. Das erste Ergebnis bedeutet also, dass es 4 Timestamps in dem Zeitraum gab, beim 2. waren es 2.\r\n\r\n\r\nDas Ganze ist in diesem Format beispielsweise Google Chart kompatibel, und man kann so Balken oder Linien-Diagramme anzeigen"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/9/csm_javascript_163d0d7946.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Javascript: Datum-Arrays nach Zeitspanne gruppieren
 
 #Tutorials#Javascript
 

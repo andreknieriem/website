@@ -10,16 +10,13 @@ tags:
   - '1255'
   - '963'
 description: "Bootstrap hat schon viele Utility Klassen um das meiste am Design ohne eine weiteres CSS zu machen, jedoch fehlte mir etwas um die Line-Height anpassen zu können. Daher habe ich ein paar Zeilen CSS ergänzt um diese Funktionalität herzustellen. Natürlich kann man die Line-Heights hier anpassen, wie es für einen am besten passt.\r\nHier das CSS .text-height-0 {\r\n  line-height: 1!important;\r\n}\r\n.text-height-1 {\r\n  line-height: 1.5!important;\r\n}\r\n.text-height-2 {\r\n  line-height: 2!important;\r\n}\r\n.text-height-3 {\r\n  line-height: 2.5!important;\r\n}\r\n.text-height-4 {\r\n  line-height: 3!important;\r\n}\r\n.text-height-5 {\r\n  line-height: 3.5!important;\r\n} Diese Klassen kann nun ganz einfach benutzen. \r\n  Lorem Ipsum....\r\n"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/6/c/csm_bootstrap_2b5fbe20f0.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Boostrap/CSS: Line-Height Utility Classes
 
 #Tutorials#Bootstrap#CSS
 

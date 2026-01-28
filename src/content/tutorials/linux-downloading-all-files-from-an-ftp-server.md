@@ -10,16 +10,13 @@ tags:
   - '558'
   - '559'
 description: "Hier ist ein nützlicher kleiner Code-Schnipsel, mit dem man von einem Server, auf dem man nur FTP-Zugang hat, alle Daten auf den eigenen Server downloaden kann, ohne den Umweg über die eigene Festplatte zu machen. \r\nwget -m ftp://username:password@ip.of.old.host\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/6/6/csm_tutorials_4003cc1df0.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Linux: Downloading all files from an FTP Server
 
 #Tutorials
 

@@ -10,16 +10,13 @@ tags:
   - '695'
   - '696'
 description: "Da viele alte Internet Explorer das überaus nützliche Feature window.location.origin nicht können, welches einem die komplette URL mit allen Parametern zurückgibt, kann man sich folgendem kleinen Snippet/Polyfill behelfen: \r\nif (!window.location.origin) {\r\n  window.location.origin = window.location.protocol + \"//\" + window.location.hostname + (window.location.port ? ':' + window.location.port: '');\r\n}\r\n Ich hoffe das hilft euch weiter!"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/9/csm_javascript_163d0d7946.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Javascript: window.location.origin im Internet Explorer benutzen
 
 #Tutorials#Javascript
 

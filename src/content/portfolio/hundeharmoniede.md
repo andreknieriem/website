@@ -4,13 +4,11 @@ date: '2016-06-29T13:51:11.000Z'
 slug: hundeharmoniede
 technologies:
   - Wordpress
-layout: ../../layouts/PortfolioPost.astro
+image: /fileadmin/_processed_/d/f/csm_hundeharmonie_24085c1c54.jpg
 ---
 
-[Zurück zur Übersicht](/portfolio.html)  
   
 
-# hundeharmonie.de
 
 * * *
 

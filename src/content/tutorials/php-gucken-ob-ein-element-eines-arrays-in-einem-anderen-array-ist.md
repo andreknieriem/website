@@ -8,16 +8,13 @@ tags:
   - '835'
   - '836'
 description: "Möchte man gucken, ob ein Element eines Arrays bestandteil eines anderes Arrays ist, so kann man dies mit einer Schleife und in_array machen, oder man benutzt den folgenden Code. In dem Beispiel wird geguckt, ob ein Element aus $criminals in $people ist. \r\n$bFound = (count(array_intersect($criminals, $people))) ? true : false;\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/a/1/csm_php_f46f120f0b.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# PHP: Gucken ob ein Element eines Arrays in einem anderen Array ist
 
 #Tutorials#PHP
 

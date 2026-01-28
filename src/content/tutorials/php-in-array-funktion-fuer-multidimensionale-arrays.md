@@ -7,16 +7,13 @@ tags:
   - '118'
   - '119'
 description: "Für ein neues Projekt von mir, brauchte ich kürzlich eine Funktion, die guckt, ob ein bestimmter String in einem Multidimensionen Array vorkommt. Die normale PHP-Funktion in_array() konnte ich dafür nicht nutzen, da diese nur eindimensionale Arrays beherrscht. Hier habe ich also eine Funktion die alle arrays meistern kann ;) \nfunction in_array_r($needle, $haystack, $strict = true) {\n\t    foreach ($haystack as $item) {\n\t        if (($strict ? $item === $needle : $item == $needle) || (is_array($item) &amp;&amp; in_array_r($needle, $item, $strict))) {\n\t            return true;\n\t        }\n\t    }\n\t    return false;\n}\n Beispiel: \n$fruits = array (\n    \"fruits\"  =&gt; array(\"a\" =&gt; \"Orange\", \"b\" =&gt; \"Banane\", \"c\" =&gt; \"Apfel\")\n);\n\nif(in_array_r('Orange', $fruits )){\n\t// returns true\n}\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/a/1/csm_php_f46f120f0b.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# PHP in\_array Funktion für multidimensionale Arrays
 
 #Tutorials#PHP
 

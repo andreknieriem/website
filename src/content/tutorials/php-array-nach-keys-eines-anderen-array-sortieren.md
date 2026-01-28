@@ -10,16 +10,13 @@ tags:
   - '829'
   - '830'
 description: "Für eine Liste brauchte ich letztens ein Array, was sich nach den Keys eines anderen sortiert. Bei Stackoverflow  bin ich dabei fündig geworden und wollte es euch nicht vorenthalten: \r\n// Unser Array, was sortiert werden soll\r\n$customer['address'] = '123 fake st';\r\n$customer['name'] = 'Tim';\r\n$customer['dob'] = '12/08/1986';\r\n$customer['dontSortMe'] = 'this value doesnt need to be sorted';\r\n\r\n// sortiertes eindimensionales arrays\r\n$sortedKeys = array('name', 'dob', 'address');\r\n\r\n$customerSorted = array_replace(array_flip($sortedKeys), $customer);\r\n Das neue Array sieht dabei dann so aus: \r\nArray (\r\n  [name] =&gt; Tim\r\n  [dob] =&gt; 12/08/1986\r\n  [address] =&gt; 123 fake st\r\n  [dontSortMe] =&gt; this value doesnt need to be sorted\r\n)\r\n "
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/a/1/csm_php_f46f120f0b.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# PHP: Array nach Keys eines anderen Array sortieren
 
 #Tutorials#PHP
 

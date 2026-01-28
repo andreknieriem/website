@@ -16,16 +16,13 @@ description: >-
   dass einem die Dateiberichtigungen im Git nicht so wichtig sind, da man diese
   pro Server anpasst, kann man diese Art von Änderung ignorieren. Das geht
   einfach wie folgt: &nbsp; git config core.fileMode false
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/c/a/csm_git_5ac5ffd7cb.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# GIT: Dateiberechtigungsänderungen ignorieren (filemode changes)
 
 #Tutorials#Git
 

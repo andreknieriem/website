@@ -6,13 +6,11 @@ technologies:
   - Plain HTML
   - CSS
   - jQuery
-layout: ../../layouts/PortfolioPost.astro
+image: /fileadmin/_processed_/8/9/csm_jucaplus_440bacdfa2.jpg
 ---
 
-[Zurück zur Übersicht](/portfolio.html)  
   
 
-# jucaplus – Abschlussprüfung 2012
 
 * * *
 

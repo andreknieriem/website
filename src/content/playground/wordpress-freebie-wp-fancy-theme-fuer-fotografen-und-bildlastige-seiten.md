@@ -16,16 +16,13 @@ tags:
   - '1060'
   - '1061'
 description: "Vor ein paar Jahren habe ich ein Wordpress Theme entwickelt mit der Motivation es zu verkaufen.\r\nDa ich damals nicht so weit gekommen bin und ich es schade fände, wenn ich mir die ganze Arbeit vergebens gemacht hätte, habe ich mich entschieden das Theme nun einfach kostenlos anzubieten und auf Github&nbsp;hochzuladen.\r\nEs würde mich freuen, wenn ich Seiten mit dem Template sehen würde. Diese würde ich auch gerne hier verlinken."
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/Daten/Bilder/Playground/fancy-thumb.png
 ---
 
-# Playground
 
 Auf den folgenden Seiten habe ich kleine Demos und Code-Snippets aufbereitet, die schöne Ergänzungen und Anregungen für verschiedene Website-Komponenten zeigen.
 
-[Zurück zur Übersicht](/playground.html)
 
-# Wordpress Freebie: WP-Fancy Theme für Fotografen und Bildlastige Seiten
 
 #Playground#Wordpress
 

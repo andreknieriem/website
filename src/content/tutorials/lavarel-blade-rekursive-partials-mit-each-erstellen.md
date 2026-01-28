@@ -9,16 +9,13 @@ tags:
   - '861'
   - '862'
 description: "Möchte man etwas in Laravel Blade darstellen, etwas&nbsp;&nbsp;ineinander verschachteltes darstellen, beispielsweise Kommentare oder Menüs, so kann man dies mit wenigen Handgriffen tun.\r\nSagen wir haben folgendes Array, welches Kommentare und Antworte zu Kommentaren enthält: \r\n$comments = array(\r\n  0 =&gt; array(\r\n    'author' =&gt; 'Max',\r\n    'comment' =&gt; 'Lorem Ipsum',\r\n    'replies' =&gt; array(\r\n      0 =&gt; array(\r\n        'author' =&gt; 'Manfred'\r\n        'comment' =&gt; 'Lorem Ipsum',\r\n        'replies' =&gt; array()\r\n      )\r\n    )  \r\n  ),\r\n  1 =&gt; array(\r\n    'author' =&gt; 'Max',\r\n    'comment' =&gt; 'Lorem Ipsum',\r\n    'replies' =&gt; array()\r\n  ),\r\n  2 =&gt; array(\r\n    'author' =&gt; 'Max',\r\n    'comment' =&gt; 'Lorem Ipsum',\r\n    'replies' =&gt; array(\r\n      0 =&gt; array(\r\n        'author' =&gt; 'Manfred'\r\n        'comment' =&gt; 'Lorem Ipsum',\r\n        'replies' =&gt; array(\r\n          0 =&gt; array(\r\n           'author' =&gt; 'Max',\r\n           'comment' =&gt; 'Lorem Ipsum',\r\n           'replies' =&gt; array()\r\n          ),\r\n          1 =&gt; array(\r\n            'author' =&gt; 'Max',\r\n            'comment' =&gt; 'Lorem Ipsum',\r\n            'replies' =&gt; array()\r\n          ),\r\n        )\r\n      )\r\n    )  \r\n  ),\r\n)\r\n Um jetzt die Kommentare anzuzeigen benutzen wir die each Funktion von Blade. @each('Partials.comment', $comments, 'comment', 'Partials.commentempty') Dieser Code macht Folgendes:\r\nDas Partial comment.blade.php&nbsp;wird geladenDie Rekords die in $comments stehen werden übergebender Name comment wird als Variable für jeden Durchgang mitgegebenDas Partials commentempty.blade.php&nbsp;wird benutzt, falls $comments leer ist\r\nDas Ganze ist jetzt noch eine Kurzschreibweise von @foreach. \r\nJetzt kommt der Interessante Teil, das Partial, was sich selbst wieder benutzt:  &lt;ul&gt;\r\n    &lt;li&gt;\r\n    {{ $comment.comment}}\r\n        @if (count($comment['replies']) &gt; 0)\r\n          @each('Partials.comment', $comment['replies'], 'comment')\r\n        @endif\r\n    &lt;/li&gt;\r\n&lt;/ul&gt;\r\n\r\n Der Trick an der Sache ist es, dass das Partial checkt, ob der derzeitige Kommentar noch Antworten hat und wenn ja wird wieder die @each Funktion mit sich selbst als Template geladen. So bekommt man eine rekursive verschachtelung.\r\nViel Spaß damit!"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/a/1/csm_php_f46f120f0b.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Lavarel Blade: Rekursive Partials mit @each erstellen
 
 #Tutorials#PHP
 

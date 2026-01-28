@@ -19,16 +19,13 @@ description: >-
   zu tun habe. Er wolle nicht wieder die Aufmerksamkeit nach der Geschichte mit
   Sony auf sich ziehen. Spekulationen gehen davon aus, dass Geohot das Facebook
   App für das iPad mitentwickelt.
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# iPhone und PS3 Hacker Geohot arbeitet nun bei Facebook
 
 #Blog
 

@@ -11,16 +11,13 @@ tags:
   - '809'
   - '1005'
 description: "Manchmal möchte man die Kind-Datensätze noch einmal sortieren, da diese mit der defaultOrdering nicht übereinstimmen. Dies lässt sich ganz einfach mit folgender Funktion tun: /**\r\n * @param array $arr\r\n * @return array\r\n */\r\npublic function sortObjectBySorting($arr) {\r\n  usort($arr, function ($a, $b) {\r\n    if ($a-&gt;getSorting() == $b-&gt;getSorting()) {\r\n      return 0;\r\n    }\r\n    return ($a-&gt;getSorting() &lt; $b-&gt;getSorting()) ? -1 : 1;\r\n  });\r\n  return $arr;\r\n}"
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# TYPO3: Sortierung von Kind/Child Records per Hand sortieren
 
 #Tutorials#TYPO3#PHP
 

@@ -20,16 +20,13 @@ description: >-
      echo date("d,M ", strtotime($row["date"])) . "&lt;br /&gt;";
   }
    Mithilfe der praktischen PHP Funktion strtotime lassen sich die Mysql Timestamps zu PHP konvertieren. So erhalte ich bei meiner Ausgabe oben den Tag und den Monat und nicht das komplette Datum inklusive Uhrzeit.
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/_processed_/a/1/csm_php_f46f120f0b.png
 ---
 
-# Tutorials
 
 Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
 
-[Zurück zur Übersicht](/tutorials.html)
 
-# Mysql timestamp to php date
 
 #Tutorials#PHP
 

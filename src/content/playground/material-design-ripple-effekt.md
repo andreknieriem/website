@@ -11,16 +11,13 @@ tags:
   - '25'
   - '69'
 description: "Mit folgendem kleinen Playground möchte ich zeigen, wie man schnell und einfach den Material Design &quot;Ripple Effect&quot; nachbauen und ihn für jede Art von Links, Flächen und Buttons nutzen kann.&nbsp;\r\nDie Benutzung hierbei ist relativ simpel.Man muss nur die Klasse ripple an einen Link setzen, damit dieser vom Javascript und CSS den Ripple Effekt bekommt.\r\nDafür wird bei Klick auf den Link ein Span-Tag zum Link hinzugefügt und an die Position gesetzt, an die man mit der Maus geklickt hat. Danach wird die Klasse animate an den Link gesetzt und die CSS Animation startet und vergrößert das kreisrunde Span was vorher hinzugefügt wurde. \r\nDass der Effekt nicht über den Link hinausgeht ist mit einem overflow:hidden am Link gelöst worden."
-layout: ../../layouts/BlogPost.astro
+image: /fileadmin/Daten/Bilder/Playground/rippleeffekt.png
 ---
 
-# Playground
 
 Auf den folgenden Seiten habe ich kleine Demos und Code-Snippets aufbereitet, die schöne Ergänzungen und Anregungen für verschiedene Website-Komponenten zeigen.
 
-[Zurück zur Übersicht](/playground.html)
 
-# Material Design Ripple Effekt
 
 #CSS#Javascript#Playground
 
