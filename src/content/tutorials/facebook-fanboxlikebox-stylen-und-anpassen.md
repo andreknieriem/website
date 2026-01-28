@@ -65,38 +65,9 @@ description: >-
   Wenn ihr nun alles richtig gemacht habt, dann solltet ihr eine schöne Facebook
   Likebox haben.
 image: /fileadmin/_processed_/0/0/csm_css_b1ca039252.png
+demo_url: null
+download_url: null
 ---
-
-
-Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
-
-
-
-#Tutorials#CSS
-
-* * *
-
-![](/fileadmin/_processed_/0/0/csm_css_b1ca039252.png)
-
-### Kommentare
-
-[Es gibt 0 Kommentare](#comments)
-
-* * *
-
-### Tags
-
-[#css](/tag.html?tag=25&cHash=f58c1375e861e856214236958d062a98)[#facebook fanbox](/tag.html?tag=26&cHash=52525c7485ce1de97d990fd6d7502824)[#faces](/tag.html?tag=27&cHash=cdf42503eea658c513028ccaceeecd3c)[#gesichter](/tag.html?tag=28&cHash=0dd76534e123c82f431cb3ba7f53ecb6)[#likebox](/tag.html?tag=29&cHash=79ffbcee40ae956fee34c145d1d9419f)[#stylen](/tag.html?tag=30&cHash=4f2f748094917f24c831bda54f16c408)
-
-* * *
-
-[Teilen](#)
-
-Teilen
-
- [Facebook](#) [Twitter](#)
-
-11\. Apr 2011
 
 [![Facebook Fanbox](http://andreknieriem.de/wp-content/uploads/2011/04/fanbox-392x300.jpg "Facebook Fanbox")](http://andreknieriem.de/wp-content/uploads/2011/04/fanbox.jpg)
 
@@ -136,19 +107,3 @@ Um die Fanbox einzubauen braucht ihr folgenden Code:
 *   height - die Höhe der Box in Pixeln
 
 Wenn ihr nun alles richtig gemacht habt, dann solltet ihr eine schöne Facebook Likebox haben.
-
-* * *
-
-### Kommentare
-
-Es gibt noch keine Kommentare. Sei der Erste!
-
-### Hinterlasse einen Kommentar
-
-[Antworten abbrechen](#)
-
-Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
-
-Kommentar wird gespeichert
-
-Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

@@ -48,38 +48,9 @@ description: >-
   Wenn kein Widerspruch von Microsoft kommt werden die unverpixelten Rohdaten
   nach einer zeitlichen Frist gelöscht
 image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
+demo_url: null
+download_url: null
 ---
-
-
-Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
-
-
-
-#Blog
-
-* * *
-
-![](/fileadmin/_processed_/e/9/csm_blog_3208726458.png)
-
-### Kommentare
-
-[Es gibt 0 Kommentare](#comments)
-
-* * *
-
-### Tags
-
-[#Bing Maps Streetside](/tag.html?tag=253&cHash=5ef34e4b52e50ac98092f7356fd2f589)[#Google Streetview Konkurrenz](/tag.html?tag=254&cHash=b7ebb0001ca57d1fbbd549ec31a87b07)[#Mai 2011](/tag.html?tag=255&cHash=7464fd054937a7bed7a2c50f6f8b7fc0)[#streetsite](/tag.html?tag=256&cHash=cc61cb87bad0239442846ef0fa990a3e)
-
-* * *
-
-[Teilen](#)
-
-Teilen
-
- [Facebook](#) [Twitter](#)
-
-05\. Apr 2011
 
 [![](http://andreknieriem.de/wp-content/uploads/2011/04/bingmaps.jpg "Bing Maps Streetside - Los Angeles")](http://andreknieriem.de/wp-content/uploads/2011/04/bingmaps.jpg)
 
@@ -108,19 +79,3 @@ Ob sich diese Methode auch in Deutschland durchsetzen wird, wird sich zeigen.
 Zudem prüft Microsoft die Einzelfälle und behält sich ein Widerspruchsrecht vor.
 
 Wenn kein Widerspruch von Microsoft kommt werden die unverpixelten Rohdaten nach einer zeitlichen Frist gelöscht
-
-* * *
-
-### Kommentare
-
-Es gibt noch keine Kommentare. Sei der Erste!
-
-### Hinterlasse einen Kommentar
-
-[Antworten abbrechen](#)
-
-Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
-
-Kommentar wird gespeichert
-
-Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

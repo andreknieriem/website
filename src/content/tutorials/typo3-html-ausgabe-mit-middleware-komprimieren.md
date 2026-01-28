@@ -10,38 +10,9 @@ tags:
   - '1287'
 description: "Seit ich meine Webseite von Wordpress zu TYPO3 migriert habe, habe ich die Extension html_minifier von Dominik Weber benutzt. Leider funktioniert diese nicht mehr mit TYPO3 11. Da es ja jetzt die Möglichkeit einer Middlewares gibt, muss man auch nicht mehr mit einem Hook arbeiten. Falls ihr noch keine Site Extension habt, so müsst ihr euch eine anlegen und in der composer.json sollte dann Folgendes enthalten sein: {\r\n  \"name\": \"vendor/sitepackage\",\r\n  \"description\": \"Sitepackage extension\",\r\n  \"type\": \"typo3-cms-extension\",\r\n  \"homepage\": \"https://www.in2code.de\",\r\n  \"require\": {\r\n    \"typo3/cms-core\": \"^10.4\",\r\n    \"wyrihaximus/html-compress\": \"^1\"\r\n  },\r\n  \"autoload\": {\r\n    \"psr-4\": {\r\n      \"Vendor\\\\Sitepackage\\\\\": \"Classes/\"\r\n    }\r\n  }\r\n} Nun braucht ihr noch in eurer Extension noch die Middleware.php unter Configuration. Diese sagt TYPO3 wo eure Middleware liegt und wann sie aufgerufen werden soll.&nbsp;  Nun kommen wir auch schon zur Middleware selbst. Diese ist relativ simpel aufgebaut. Hauptsächlich benutzt man&nbsp;wyrihaximus/html-compress&nbsp;um den Inhalt zu minimieren. Um bei den HTML-Kommentaren nicht die wichtigen TYPO3SEARCH Kommentare zu entfernen wurden diese ausgeklammert.&nbsp;  Der komplette Middleware-Code ist nicht von mir sondern von in2code."
 image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
+demo_url: null
+download_url: null
 ---
-
-
-Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
-
-
-
-#Tutorials#TYPO3
-
-* * *
-
-![](/fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png)
-
-### Kommentare
-
-[Es gibt 0 Kommentare](#comments)
-
-* * *
-
-### Tags
-
-[#html](/tag.html?tag=85&cHash=91a7ea3a6587e1d4fa3e5c908a161193)[#typo3](/tag.html?tag=198&cHash=5e10edd38bcb37a5125e3ab76f05df2f)[#compress](/tag.html?tag=1285&cHash=68c2e78aaa15c94f852f41aa2c9e426f)[#minifier](/tag.html?tag=1286&cHash=4bcf17ab251c257d3b538a40a46d532c)[#middleware](/tag.html?tag=1287&cHash=42434c02ff6281a6d2d9a40c8a2b82c1)
-
-* * *
-
-[Teilen](#)
-
-Teilen
-
- [Facebook](#) [Twitter](#)
-
-06\. Dec 2022
 
 Seit ich meine Webseite von Wordpress zu TYPO3 migriert habe, habe ich die Extension [html\_minifier](https://extensions.typo3.org/extension/html_minifier) von Dominik Weber benutzt. Leider funktioniert diese nicht mehr mit TYPO3 11. Da es ja jetzt die Möglichkeit einer Middlewares gibt, muss man auch nicht mehr mit einem Hook arbeiten. Falls ihr noch keine Site Extension habt, so müsst ihr euch eine anlegen und in der composer.json sollte dann Folgendes enthalten sein:
 
@@ -153,19 +124,3 @@ class HtmlCompress implements MiddlewareInterface
 ```
 
 Der komplette Middleware-Code ist nicht von mir sondern von [in2code](https://www.in2code.de/aktuelles/php-html-output-in-typo3-komprimieren/).
-
-* * *
-
-### Kommentare
-
-Es gibt noch keine Kommentare. Sei der Erste!
-
-### Hinterlasse einen Kommentar
-
-[Antworten abbrechen](#)
-
-Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
-
-Kommentar wird gespeichert
-
-Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

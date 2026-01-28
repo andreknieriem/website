@@ -42,38 +42,9 @@ description: >-
   &lt;link rel="stylesheet" type="text/css" href="get_css.php" /&gt;
    Das wars auch schon! Nun könnt ihr mit mehreren CSS-Dateien arbeiten aber nur eine ausgeben lassen.
 image: /fileadmin/_processed_/a/1/csm_php_f46f120f0b.png
+demo_url: null
+download_url: null
 ---
-
-
-Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
-
-
-
-#Tutorials#PHP
-
-* * *
-
-![](/fileadmin/_processed_/a/1/csm_php_f46f120f0b.png)
-
-### Kommentare
-
-[Es gibt 3 Kommentare](#comments)
-
-* * *
-
-### Tags
-
-[#css](/tag.html?tag=25&cHash=f58c1375e861e856214236958d062a98)[#php](/tag.html?tag=41&cHash=2a2e19215c3ffd62e5361d7a2ea5cd6d)[#css zusammenführen](/tag.html?tag=63&cHash=ffc001208e09172684d82c8382075f29)
-
-* * *
-
-[Teilen](#)
-
-Teilen
-
- [Facebook](#) [Twitter](#)
-
-12\. Aug 2011
 
 Bei größeren Projekten möchte man oft mehrere CSS-Dateien benutzen, um den Überblick zu behalten. So benutze ich zum Beispiel meistens eine CSS am Anfang, die die Styles des Browser ersetzt, danach eine für das Grid der Webseite und so weiter. Leider bedeutet jeder HTTP-Request Zeit und so wird die Seite deutlich gebremst, wenn man jede CSS einzelnd einbindet. Um meine CSS-Dateien trotzdem in einzelnde Dateien auszulagern, aber nur eine auszuliefern habe ich einen Workaround zusammengestellt.
 
@@ -109,47 +80,3 @@ Zum einbinden der jetzigen neu generierten CSS-Datei einfach folgende aufrufen:
 ```
 
 Das wars auch schon! Nun könnt ihr mit mehreren CSS-Dateien arbeiten aber nur eine ausgeben lassen.
-
-* * *
-
-### Kommentare
-
-*   ![](https://www.gravatar.com/avatar/b35938d1737592bc4bc7d0eb97f33246?s=75&d=mm&r=g)
-    
-    Waller
-    
-    besser :L  
-    $var1 = readfile('reset.css');  
-    $var1 .= readfile('grid.css');  
-    $var1 .= readfile('style.css');  
-    echo $var1;
-    
-    30\. Aug 2021 [Antworten](#)
-    
-
-*   ![](https://www.gravatar.com/avatar/459038f34d3758bc9a03d6947144c39e?s=75&d=mm&r=g)
-    
-    [Merlin S.](https://mcwallpaper.de)
-    
-    Hm.. Bei mir geht das net, danach is die Website ein reines HTML Gerippe..
-    
-    17\. Aug 2016 [Antworten](#)
-    
-    *   ![](https://www.gravatar.com/avatar/c89a6eaffb260a5fd4a05d7f9ea46032?s=75&d=mm&r=g)
-        
-        Andre Rinas
-        
-        Hallo Merlin, hast du nen Link für mich, damit ich mir das mal angucken kann?
-        
-        17\. Aug 2016 [Antworten](#)
-        
-
-### Hinterlasse einen Kommentar
-
-[Antworten abbrechen](#)
-
-Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
-
-Kommentar wird gespeichert
-
-Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

@@ -9,38 +9,9 @@ tags:
   - '54'
 description: "\n/* jQuery Font Resize by Andre Knieriem*/\njQuery(function(){\n\tjQuery('.size-now').click(function(){\n\t\tvar ourText = jQuery('.tut-text');\n\t\tvar currFontSize = ourText.css('fontSize');\n\t\tvar finalNum = parseFloat(currFontSize, 10);\n\t\tif(this.id == 'large') {\n\t\t\tfinalNum += 1;\n\t\t}\n\t\telse if (this.id == 'small'){\n\t\t\tfinalNum -=1;\n\t\t}\n\t\tourText.css('fontSize', finalNum);\n\t\treturn false;\n\t});\n});\n\n\nFür mein gerade laufendes Projekt brauchte ich eine Funktion, die den Schriftgrad des Hauptinhalts vergrößert, bzw. verkleinern kann, ohne die Seite neu zu laden. Deshalb habe ich mich rangesetzt und eine kleine Funktion geschrieben. Ich habe zu Anschauungszwecken die Funktion auf dieser Seite eingebaut. Mit folgenden Tasten könnt ihr sie testen.\n\n\n\tA- A+\n\nDas Ganze funktioniert wie folgt:\nHTML Gerüst \n&lt;div class=\"font-resize\"&gt;\n&lt;a href=\"#\" id=\"small\" class=\"size-now\"&gt;A-&lt;/a&gt;\n&lt;a href=\"#\" id=\"large\" class=\"size-now\"&gt;A+&lt;/a&gt;\n&lt;/div&gt;\n Einfach nur 2 Links mit derselben Klasse und unterschiedlicher ID, die jetzt vom Javascript ausgelesen wird:\njQuery \n/* jQuery Font Resize by Andre Knieriem*/\njQuery(function(){\n\tjQuery('.size-now').click(function(){\n\t\tvar ourText = jQuery('your text container');\n\t\tvar currFontSize = ourText.css('fontSize');\n\t\tvar finalNum = parseFloat(currFontSize, 10);\n\t\tif(this.id == 'large') {\n\t\t\tfinalNum += 1;\n\t\t}\n\t\telse if (this.id == 'small'){\n\t\t\tfinalNum -=1;\n\t\t}\n\t\tourText.css('fontSize', finalNum);\n\t\treturn false;\n\t});\n});\n Die Funktion geht los, wenn auf ein Objekt mit der Klasse \"size-now\" geklickt wurde. Danach wird die akuelle Font-Size des gewünschten Containers ermittelt. Dann wird geschaut ob das Objekt die Klasse large oder small hat und je nachdem wird die Font-size um 1px erhöht oder verringert. Das ist auch schon alles.\nIch hoffe das konnte einigen helfen. Vlt schreibe ich noch eine Erweiterung die einen Cookie setzt, um die Größe auf allen Seiten zu übernehmen."
 image: /fileadmin/_processed_/d/4/csm_jquery_e571c76753.png
+demo_url: null
+download_url: null
 ---
-
-
-Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
-
-
-
-#Tutorials#jQuery
-
-* * *
-
-![](/fileadmin/_processed_/d/4/csm_jquery_e571c76753.png)
-
-### Kommentare
-
-[Es gibt 0 Kommentare](#comments)
-
-* * *
-
-### Tags
-
-[#jquery](/tag.html?tag=20&cHash=865fe8e49ed3ff8e2d4923043363880f)[#font-resizer](/tag.html?tag=52&cHash=1493dfbb06bb9b35a75477f8a57f8870)[#font-size](/tag.html?tag=53&cHash=457b3de55dfa9d3d6573355be7166ef6)[#font-sizer](/tag.html?tag=54&cHash=a6251a60ee682d8a8230de7eadd1e703)
-
-* * *
-
-[Teilen](#)
-
-Teilen
-
- [Facebook](#) [Twitter](#)
-
-26\. Jul 2011
 
 <script type="text/javascript">
 
@@ -121,19 +92,3 @@ jQuery(function(){
 Die Funktion geht los, wenn auf ein Objekt mit der Klasse "size-now" geklickt wurde. Danach wird die akuelle Font-Size des gewünschten Containers ermittelt. Dann wird geschaut ob das Objekt die Klasse large oder small hat und je nachdem wird die Font-size um 1px erhöht oder verringert. Das ist auch schon alles.
 
 Ich hoffe das konnte einigen helfen. Vlt schreibe ich noch eine Erweiterung die einen Cookie setzt, um die Größe auf allen Seiten zu übernehmen.
-
-* * *
-
-### Kommentare
-
-Es gibt noch keine Kommentare. Sei der Erste!
-
-### Hinterlasse einen Kommentar
-
-[Antworten abbrechen](#)
-
-Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
-
-Kommentar wird gespeichert
-
-Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

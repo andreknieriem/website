@@ -26,32 +26,9 @@ description: >-
   Jetzt zahlte das Unternehmen 500 Millionen Dollar (ungefähr 350 Millionen
   Euro) um sich einen Gerichtsprozess zu entziehen.
 image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
+demo_url: null
+download_url: null
 ---
-
-
-Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
-
-
-
-#Blog
-
-* * *
-
-![](/fileadmin/_processed_/e/9/csm_blog_3208726458.png)
-
-### Kommentare
-
-[Es gibt 0 Kommentare](#comments)
-
-* * *
-
-[Teilen](#)
-
-Teilen
-
- [Facebook](#) [Twitter](#)
-
-24\. Aug 2011
 
 [![Google muss 500 Millionen Dollar zahlen](http://andreknieriem.de/wp-content/uploads/2011/08/google_medikamente-740x416.jpg "Google muss 500 Millionen Dollar zahlen")](http://andreknieriem.de/wp-content/uploads/2011/08/google_medikamente.jpg)
 
@@ -64,19 +41,3 @@ Google-Sprecher Kay Oberbeck erklärte: "Wir haben die Bewerbung von verschreibu
 Schon 2003 hatten Regulierungs- und Kontrollbehörden Google auf die Werbung aufmerksam gemacht, wodurch Google sofort seine Richtlinien änderte.
 
 Jetzt zahlte das Unternehmen 500 Millionen Dollar (ungefähr 350 Millionen Euro) um sich einen Gerichtsprozess zu entziehen.
-
-* * *
-
-### Kommentare
-
-Es gibt noch keine Kommentare. Sei der Erste!
-
-### Hinterlasse einen Kommentar
-
-[Antworten abbrechen](#)
-
-Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
-
-Kommentar wird gespeichert
-
-Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

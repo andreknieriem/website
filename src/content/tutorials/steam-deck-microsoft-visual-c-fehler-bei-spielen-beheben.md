@@ -16,38 +16,9 @@ tags:
   - '422'
 description: "Hat man ein Spiel außerhalb von Steam erworben, so kann es vorkommen, dass das Spiel nicht startet und die Fehlermeldung ausgibt, dass das Programm Microsoft Visual C++ erforderlich ist. Das Ganze lässt sich relativ einfach beheben. Zuerst müsst ihr das Programm in der x86 und x64 Version herunterladen. Meistens wird nur die x64 benötigt, aber bei älteren Spielen kann es schonmal vorkommen, dass die x86 Version gebraucht wird.\r\nDownload-Link hier zu finden, oder Visual C++ bei Google eingeben: https://learn.microsoft.com/de-DE/cpp/windows/latest-supported-vc-redist?view=msvc-170\r\nDort dann die beiden .exe-Dateien herunternladen auf das Steamdeck.\r\nAls nächstes müsst ihr die beiden .exe Dateien im Desktop-Modus zu Steam hinzufügen. Dafür Steam öffnen und unten links auf Spiel hinzufügen klicken und \"Nicht-Steam Spiel\" auswählen. Danach in den Download-Ordner navigieren jeweils die .exe Datei auswählen. Um die Datei jetzt zu installieren müsst ihr dann auf das hinzugefügte \"Spiel\" klicken und dort dann auf Einstellungen. Dort dann unter Kompabilität Proton auswählen. Danach kann man die das \"Spiel\" starten und installieren lassen. Hat man beides installiert muss man jetzt die Installations-Ordner finden.\r\nNavigiert mit eurem File-Browser dann zu diesem Pfad:&nbsp;/home/deck/.local/share/Steam/steamapps/compatdata/\r\nHier liegen dann einige Ordner, die nur aus Nummern bestehen. Hier muss man jetzt die beiden Installationen finden. Am einfachsten geht man in die Listen-Ansicht und sortiert diese nach Änderungsdatum. Dann müsste man 2 Ordner haben, die vor kurzem installiert wurden. Kopiert euch die beiden Nummern.\r\nAls nächstes empfehle ich eine Text-Datei auf dem Steamdeck anzulegen und dort dann den folgenden Text einzufügen, da man bei. jedem Spiel, dass den Fehler hat das gleich Folgende wiederholen muss.\r\n\r\n #x86\r\nSTEAM_COMPAT_DATA_PATH=/home/deck/.local/share/Steam/steamapps/compatdata/(Ordner-Nummer hier einfügen) %command%\r\n\r\n#x64\r\nSTEAM_COMPAT_DATA_PATH=/home/deck/.local/share/Steam/steamapps/compatdata/(Ordner-Nummer hier einfügen) %command% Habt ihr beide Kommandos mit den richtigen Ordner-Nummern versehen, so empfehle ich euch das Kommando des x64 zu kopieren. Dann navigiert ihr in Steam zu dem Spiel, dass die Fehlermeldung wirft. Geht wieder in die Einstellungen des Spiels und dieses mal unter \"Startoptionen\" den eben kopierten Befehl einfügen. Das wars auch schon für die meisten Spiele. Danach sollte das Spiel ohne Fehlermeldung starten. Kommt der Fehler weiterhin, so kann man jetzt noch probieren, den Befehl des x86 einzufügen. Das sollte aber nur bei älteren Spielen nötig sein."
 image: /fileadmin/_processed_/7/a/csm_steamdeck_d9f987fd91.png
+demo_url: null
+download_url: null
 ---
-
-
-Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
-
-
-
-#Tutorials#Steam Deck
-
-* * *
-
-![](/fileadmin/_processed_/7/a/csm_steamdeck_d9f987fd91.png)
-
-### Kommentare
-
-[Es gibt 1 Kommentare](#comments)
-
-* * *
-
-### Tags
-
-[#fix](/tag.html?tag=239&cHash=26354d6386315dd8daaccabb7f435be9)[#howto](/tag.html?tag=422&cHash=62963dd8561314208c33838fcdc02f35)[#error](/tag.html?tag=528&cHash=0431293d38641e545ed0dd31e3471d2b)[#fehler](/tag.html?tag=738&cHash=aac2b4c247bb3870ac4fdfcded4ec6b3)[#steam deck](/tag.html?tag=1288&cHash=e513f57d2530103ab6a026cee7bd9173)[\# steamdeck](/tag.html?tag=1289&cHash=bbc8f1cfbfe1118cd319166d6e029edd)[\# microsoft](/tag.html?tag=1290&cHash=076b5cb19f9dd531930516528c9662ad)[\# c++](/tag.html?tag=1291&cHash=78c810f4dcca210475679332e73de486)[\# runtime](/tag.html?tag=1292&cHash=f98e7c6b3309b850f6d2a28e13b07f19)[\# cracked](/tag.html?tag=1293&cHash=333131dbe09d5bdcca954dc511268f9f)[\# game](/tag.html?tag=1294&cHash=c5da4e30583148777fc64d0fed55ccf5)
-
-* * *
-
-[Teilen](#)
-
-Teilen
-
- [Facebook](#) [Twitter](#)
-
-23\. Jan 2023
 
 ![](/fileadmin/Daten/Tutorials/visualcpp-error.png)
 
@@ -75,26 +46,3 @@ STEAM_COMPAT_DATA_PATH=/home/deck/.local/share/Steam/steamapps/compatdata/(Ordne
 ```
 
 Habt ihr beide Kommandos mit den richtigen Ordner-Nummern versehen, so empfehle ich euch das Kommando des x64 zu kopieren. Dann navigiert ihr in Steam zu dem Spiel, dass die Fehlermeldung wirft. Geht wieder in die Einstellungen des Spiels und dieses mal unter "Startoptionen" den eben kopierten Befehl einfügen. Das wars auch schon für die meisten Spiele. Danach sollte das Spiel ohne Fehlermeldung starten. Kommt der Fehler weiterhin, so kann man jetzt noch probieren, den Befehl des x86 einzufügen. Das sollte aber nur bei älteren Spielen nötig sein.
-
-* * *
-
-### Kommentare
-
-*   ![](https://www.gravatar.com/avatar/4ae7c11c8d4fa5555b958dc5a85de32e?s=75&d=mm&r=g)
-    
-    Basti
-    
-    Hey Andre. Vielen vielen Dank! Ich dachte schon, dass ich die Spiele nicht spielen kann.
-    
-    02\. Feb 2023 [Antworten](#)
-    
-
-### Hinterlasse einen Kommentar
-
-[Antworten abbrechen](#)
-
-Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
-
-Kommentar wird gespeichert
-
-Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

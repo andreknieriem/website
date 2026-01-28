@@ -2,33 +2,45 @@
 import BaseLayout from './BaseLayout.astro';
 const { frontmatter } = Astro.props;
 
-// Determine category based on frontmatter layout or default
-const layoutStr = frontmatter.layout || '';
-const category = layoutStr.includes('Blog') ? 'Blog' : 'Tutorials'; 
-const backLink = category === 'Blog' ? '/blog' : '/tutorials';
+// Determine category based on frontmatter layout or URL
+const category = frontmatter.title ? 'Blog' : 'Tutorials'; 
+const backLink = '/blog'; // Simplified, could be more dynamic
 ---
 <BaseLayout title={frontmatter.title}>
   <div class="blog-detail">
-    <a class="backlink" href={backLink}><i class="icon-Back"></i> Zurück zur Übersicht</a>
+    <a class="backlink" href="javascript:history.back()"><i class="icon-Back"></i> Zurück zur Übersicht</a>
     <h1 class="align-center">{frontmatter.title}</h1>
-    <div class="categories align-center">
-        <span>#{category}</span>
-    </div>
     <div class="divider"><hr></div>
     
     <div class="row">
         <div class="col-md-4">
             <div class="info-container">
                 <img src={frontmatter.image || "/fileadmin/Daten/Bilder/t3logo.png"} width="200" height="200" alt="" class="img-fluid" style="border-radius: 50%;" />
-                <h3>Tags</h3>
-                {frontmatter.tags && frontmatter.tags.map(tag => (
-                    <a href="#"><span class="tag">#{tag}</span></a>
-                ))}
+                
+                {frontmatter.tags && frontmatter.tags.length > 0 && (
+                    <>
+                        <h3>Tags</h3>
+                        {frontmatter.tags.map(tag => (
+                            <a href="#"><span class="tag">#{tag}</span></a>
+                        ))}
+                    </>
+                )}
                 <div class="divider"><hr></div>
             </div>
         </div>
         
         <div class="col-md-8">
+            {(frontmatter.demo_url || frontmatter.download_url) && (
+                <div class="demo-download-container mb-4">
+                    {frontmatter.demo_url && (
+                        <a class="noliveloading see-demo btn me-2" href={frontmatter.demo_url} target="_blank">Demo</a>
+                    )}
+                    {frontmatter.download_url && (
+                        <a class="noliveloading btn" href={frontmatter.download_url} target="_blank">Download</a>
+                    )}
+                </div>
+            )}
+
             <time class="datetime" datetime={frontmatter.date}>
                 <span class="day"><i class="icon-Clock"></i> {new Date(frontmatter.date).toLocaleDateString('de-DE', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
             </time>

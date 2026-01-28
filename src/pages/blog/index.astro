@@ -15,7 +15,7 @@ const entries = (await getCollection('blog')).sort(
              <img class="img-fluid" src={entry.data.image || '/fileadmin/Daten/Logos/blog.png'} width="200" height="200" alt="" />
           </div>
           <div class="entry-content">
-            <time class="datetime" datetime={entry.data.date.toISOString()}>
+            <time class="datetime" datetime={entry.data.date instanceof Date ? entry.data.date.toISOString() : entry.data.date}>
               <span class="day">{entry.data.date.toLocaleDateString('de-DE', { day: '2-digit', month: 'short', year: 'numeric' })}</span>
             </time>
             <h3>{entry.data.title}</h3>

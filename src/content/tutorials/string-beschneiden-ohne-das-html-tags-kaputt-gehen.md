@@ -144,38 +144,9 @@ description: >-
       }
    
 image: /fileadmin/_processed_/a/1/csm_php_f46f120f0b.png
+demo_url: null
+download_url: null
 ---
-
-
-Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
-
-
-
-#Tutorials#PHP
-
-* * *
-
-![](/fileadmin/_processed_/a/1/csm_php_f46f120f0b.png)
-
-### Kommentare
-
-[Es gibt 0 Kommentare](#comments)
-
-* * *
-
-### Tags
-
-[#function](/tag.html?tag=12&cHash=c2e2c35e28fadd29f90cdd9ba3ac9efa)[#html](/tag.html?tag=85&cHash=91a7ea3a6587e1d4fa3e5c908a161193)[#prevent](/tag.html?tag=136&cHash=a5835ef811b982b1ba06bc5d68fb81f9)[#crop](/tag.html?tag=168&cHash=a65a9b4ecb0f3f70610040d99d2554b0)[#method](/tag.html?tag=169&cHash=4a56584fe25d3da76822f80c9a221902)[#string](/tag.html?tag=170&cHash=ef1bdf30c7826216b830d70562bce01f)[#tags](/tag.html?tag=171&cHash=bd459ad4bdcbf178092bc7480c49f742)
-
-* * *
-
-[Teilen](#)
-
-Teilen
-
- [Facebook](#) [Twitter](#)
-
-18\. Jan 2013
 
 Möchte man einen String croppen, in dem HTML-Tags sind, dann kann es schnell passieren, dass der String mitten in einem abgescnitten wird. Dies kann unter Umständen dazu führen, dass das gesamte Markup einer Seite kaputt geht. (Beispiel: ein schließendes Div-Tag wird abgeschnitten). Die folgende Funktion unterbindet genau diesen Fall. Ursprünglich kommt die Funktion aus dem Framework CakePhp.
 
@@ -294,19 +265,3 @@ Möchte man einen String croppen, in dem HTML-Tags sind, dann kann es schnell pa
 
     }
 ```
-
-* * *
-
-### Kommentare
-
-Es gibt noch keine Kommentare. Sei der Erste!
-
-### Hinterlasse einen Kommentar
-
-[Antworten abbrechen](#)
-
-Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
-
-Kommentar wird gespeichert
-
-Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

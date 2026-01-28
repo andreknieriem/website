@@ -45,38 +45,9 @@ description: >
   - das Touchpad sollte nun alles installieren. Das dauert eine Weile. Danach
   bootet es in Android und alles ist fertig ;)
 image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
+demo_url: null
+download_url: null
 ---
-
-
-Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
-
-
-
-#Blog
-
-* * *
-
-![](/fileadmin/_processed_/e/9/csm_blog_3208726458.png)
-
-### Kommentare
-
-[Es gibt 0 Kommentare](#comments)
-
-* * *
-
-### Tags
-
-[#android](/tag.html?tag=1&cHash=d7c77ffe3de2b6c4933d6ee105c686a0)[#hp touchpad](/tag.html?tag=164&cHash=060db5092ec5ff9bcf18bd4a8ec6cf31)[#cyanogenmod 7](/tag.html?tag=330&cHash=88d85c123b2da26a6bbfec81a0b955c7)
-
-* * *
-
-[Teilen](#)
-
-Teilen
-
- [Facebook](#) [Twitter](#)
-
-14\. Oct 2011
 
 Das Team von CyanogenMod 7 hat die Alpha für Android 2.3 für das HP Touchpad veröffentlicht! Nun kann jeder, der will Android auf dem Touchpad installieren. Da es sich um eine Alpha Version handelt muss man ab und zu mit Fehlern oder Abstürzen von Applicationen rechnen. Die Installation an sich ist recht simpel.
 
@@ -109,19 +80,3 @@ Als **erstes** solltet ihr [Hier](http://rootzwiki.com/showthread.php?4011-RELEA
 \- das Touchpad sollte nun alles installieren. Das dauert eine Weile. Danach bootet es in Android und alles ist fertig ;)
 
 <iframe src="http://www.youtube.com/embed/9XDmKGmn4vs" frameborder="0" width="740" height="406"></iframe>
-
-* * *
-
-### Kommentare
-
-Es gibt noch keine Kommentare. Sei der Erste!
-
-### Hinterlasse einen Kommentar
-
-[Antworten abbrechen](#)
-
-Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
-
-Kommentar wird gespeichert
-
-Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

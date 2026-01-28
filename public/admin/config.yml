@@ -1,14 +1,12 @@
 backend:
   name: github
-  repo: andreknieriem/website # Deinen GitHub Usernamen und Repo hier eintragen
+  repo: andreknieriem/website
   branch: main
-  # base_url: https://your-oauth-server.com # Falls du später Oauth brauchst (lokal nicht nötig)
 
-# Lokales Backend für die Entwicklung aktivieren:
 local_backend: true
 
-media_folder: "public/fileadmin/Daten/Bilder" # Wo Bilder gespeichert werden
-public_folder: "/fileadmin/Daten/Bilder" # Wie Bilder im Markdown verlinkt werden
+media_folder: "public/fileadmin/Daten/Bilder"
+public_folder: "/fileadmin/Daten/Bilder"
 
 collections:
   - name: "blog"
@@ -19,8 +17,11 @@ collections:
     fields:
       - { label: "Titel", name: "title", widget: "string" }
       - { label: "Datum", name: "date", widget: "datetime" }
+      - { label: "Bild (URL)", name: "image", widget: "string", required: false }
       - { label: "Beschreibung", name: "description", widget: "text", required: false }
       - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Demo URL", name: "demo_url", widget: "string", required: false }
+      - { label: "Download URL", name: "download_url", widget: "string", required: false }
       - { label: "Inhalt", name: "body", widget: "markdown" }
 
   - name: "tutorials"
@@ -31,8 +32,11 @@ collections:
     fields:
       - { label: "Titel", name: "title", widget: "string" }
       - { label: "Datum", name: "date", widget: "datetime" }
+      - { label: "Bild (URL)", name: "image", widget: "string", required: false }
       - { label: "Beschreibung", name: "description", widget: "text", required: false }
       - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Demo URL", name: "demo_url", widget: "string", required: false }
+      - { label: "Download URL", name: "download_url", widget: "string", required: false }
       - { label: "Inhalt", name: "body", widget: "markdown" }
 
   - name: "portfolio"
@@ -43,8 +47,16 @@ collections:
     fields:
       - { label: "Titel", name: "title", widget: "string" }
       - { label: "Datum", name: "date", widget: "datetime" }
+      - { label: "Bild (URL)", name: "image", widget: "string", required: false }
+      - { label: "Externe URL", name: "external_url", widget: "string", required: false }
       - { label: "Technologien", name: "technologies", widget: "list", required: false }
       - { label: "Inhalt", name: "body", widget: "markdown" }
+      - label: "Bildergalerie"
+        name: "gallery"
+        widget: "list"
+        fields:
+          - { label: "Bild", name: "image", widget: "image" }
+          - { label: "Info Text", name: "info", widget: "string", required: false }
 
   - name: "playground"
     label: "Playground"
@@ -54,5 +66,7 @@ collections:
     fields:
       - { label: "Titel", name: "title", widget: "string" }
       - { label: "Datum", name: "date", widget: "datetime" }
-      - { label: "Beschreibung", name: "description", widget: "text", required: false }
+      - { label: "Bild (URL)", name: "image", widget: "string", required: false }
+      - { label: "Demo URL", name: "demo_url", widget: "string", required: false }
+      - { label: "Download URL", name: "download_url", widget: "string", required: false }
       - { label: "Inhalt", name: "body", widget: "markdown" }

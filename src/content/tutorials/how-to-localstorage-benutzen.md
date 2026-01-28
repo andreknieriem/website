@@ -60,38 +60,9 @@ description: >-
    In diesem Fall ist die Variable bei Online-Betrieb "true" oder bei Offline-Betrieb false. So könnte man sagen, wenn der Browser im Offline-Betrieb ist, dann hole die Daten aus dem Localstorage, ansonsten Live aus dem Netz.
   So dann viel Spaß mit Localstorage!
 image: /fileadmin/_processed_/0/9/csm_javascript_163d0d7946.png
+demo_url: null
+download_url: null
 ---
-
-
-Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
-
-
-
-#Tutorials#Javascript
-
-* * *
-
-![](/fileadmin/_processed_/0/9/csm_javascript_163d0d7946.png)
-
-### Kommentare
-
-[Es gibt 0 Kommentare](#comments)
-
-* * *
-
-### Tags
-
-[#jquery](/tag.html?tag=20&cHash=865fe8e49ed3ff8e2d4923043363880f)[#tutorial](/tag.html?tag=62&cHash=e898e626b9d897f4104893d4cb441292)[#javascript](/tag.html?tag=69&cHash=1f9ae180b33da0d2f7ef044e72c8149a)[#html5](/tag.html?tag=199&cHash=b040374a36d6adcce76102ac739e8651)[#localstorage](/tag.html?tag=200&cHash=80d75d451b4a4ee64462959f33daca1b)
-
-* * *
-
-[Teilen](#)
-
-Teilen
-
- [Facebook](#) [Twitter](#)
-
-06\. Aug 2013
 
 Localstorage ist eine neuere Methode um Daten im Browser zu speichern. Ähnlich wie ein Cookie kann man dort Verbindungsdaten, Offline Daten etc speichern. Der Vorteil von Localstorage ist unter anderem der größere Speicherplatz. Hier mal ein kleines Beispiel wie man mit Javascript Daten speichert und sich wieder aus dem Speicher holt:
 
@@ -147,19 +118,3 @@ var isonline = navigator.onLine;
 In diesem Fall ist die Variable bei Online-Betrieb "true" oder bei Offline-Betrieb false. So könnte man sagen, wenn der Browser im Offline-Betrieb ist, dann hole die Daten aus dem Localstorage, ansonsten Live aus dem Netz.
 
 So dann viel Spaß mit Localstorage!
-
-* * *
-
-### Kommentare
-
-Es gibt noch keine Kommentare. Sei der Erste!
-
-### Hinterlasse einen Kommentar
-
-[Antworten abbrechen](#)
-
-Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
-
-Kommentar wird gespeichert
-
-Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

@@ -26,32 +26,9 @@ description: >-
   mehr lange auf neue Releases warten. Jedoch muss man bedenken, dass dann auch
   die Neuerungen und Updates weniger werden.
 image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
+demo_url: null
+download_url: null
 ---
-
-
-Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
-
-
-
-#Blog
-
-* * *
-
-![](/fileadmin/_processed_/e/9/csm_blog_3208726458.png)
-
-### Kommentare
-
-[Es gibt 1 Kommentare](#comments)
-
-* * *
-
-[Teilen](#)
-
-Teilen
-
- [Facebook](#) [Twitter](#)
-
-11\. Apr 2011
 
 [![](http://andreknieriem.de/wp-content/uploads/2011/04/firefox5.jpg "firefox5")](http://andreknieriem.de/wp-content/uploads/2011/04/firefox5.jpg)
 
@@ -66,26 +43,3 @@ Dieses Mal haben es die Entwickler auf die Addons abgesehen. [Julian Scott](http
 Mozilla gab in der vergangenen Woche bekannt, das künftig Add-ons die den Browser um 25 Prozent, oder mehr verlangsamen, nicht mehr zugelassen werden sollen.
 
 Wie auch zum Beispiel Google mit seinen Browser Chrome, möchte Firefox nicht mehr lange auf neue Releases warten. Jedoch muss man bedenken, dass dann auch die Neuerungen und Updates weniger werden.
-
-* * *
-
-### Kommentare
-
-*   ![](https://www.gravatar.com/avatar/1b72960097d9db7950d8ed77fe961d22?s=75&d=mm&r=g)
-    
-    [kran mostovoy](http://kran-rf.ru/kran_most)
-    
-    nice! you got me too!
-    
-    30\. Jul 2011 [Antworten](#)
-    
-
-### Hinterlasse einen Kommentar
-
-[Antworten abbrechen](#)
-
-Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
-
-Kommentar wird gespeichert
-
-Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

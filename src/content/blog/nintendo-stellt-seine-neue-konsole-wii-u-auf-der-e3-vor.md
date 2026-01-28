@@ -40,38 +40,9 @@ description: >-
 
   Wenn die Konsole im nächsten Jahr erscheint ist noch nicht ganz klar.
 image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
+demo_url: null
+download_url: null
 ---
-
-
-Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
-
-
-
-#Blog
-
-* * *
-
-![](/fileadmin/_processed_/e/9/csm_blog_3208726458.png)
-
-### Kommentare
-
-[Es gibt 1 Kommentare](#comments)
-
-* * *
-
-### Tags
-
-[#neue konsole nintendo](/tag.html?tag=304&cHash=76b58cf8596211bfd290bd210b02570b)[#neuer Controller](/tag.html?tag=305&cHash=e0ba87ad81db7a015280ac70bee44e25)[#nintendo wii u](/tag.html?tag=306&cHash=235e041aa6813a60d5838c17158af906)[#wii](/tag.html?tag=307&cHash=80100ef492606fe55ca7dcf0116dee31)
-
-* * *
-
-[Teilen](#)
-
-Teilen
-
- [Facebook](#) [Twitter](#)
-
-07\. Jun 2011
 
 [![Nintendo Wii-U](http://andreknieriem.de/wp-content/uploads/2011/06/wii-u.jpg "Nintendo Wii-U")](http://andreknieriem.de/wp-content/uploads/2011/06/wii-u.jpg)
 
@@ -86,28 +57,3 @@ Die Wii u kann Spieleinhalte per HDMI in 1080p (oder analog per Composite, RGB-K
 Die genauen Hardware Spezifikationen gibt Nintendo noch nicht bekannt. Man weiß nur, dass die Konsole 4 USB Anschlüsse hat auf eine Festplatte verzichtet. Dafür kann man via SD Karte die Konsole erweitern.
 
 Wenn die Konsole im nächsten Jahr erscheint ist noch nicht ganz klar.
-
-* * *
-
-### Kommentare
-
-*   ![](https://www.gravatar.com/avatar/d41d8cd98f00b204e9800998ecf8427e?s=75&d=mm&r=g)
-    
-    [NewsBlog24](http://www.newsblog24.de/Warum_die_WiiU_nichts_fuer_mich_ist.html)
-    
-    Warum die WiiU nichts für mich ist...  
-      
-    Die Wii U ist seit kurzem auf dem Markt. Nun stelle ich mir die Frage ob sie was für mich ist. Ich ......
-    
-    20\. Dec 2012 [Antworten](#)
-    
-
-### Hinterlasse einen Kommentar
-
-[Antworten abbrechen](#)
-
-Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
-
-Kommentar wird gespeichert
-
-Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

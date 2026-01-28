@@ -45,38 +45,9 @@ description: >-
 
   Ich kann oaf | instant. weiterempfehlen!
 image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
+demo_url: null
+download_url: null
 ---
-
-
-Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
-
-
-
-#Blog
-
-* * *
-
-![](/fileadmin/_processed_/e/9/csm_blog_3208726458.png)
-
-### Kommentare
-
-[Es gibt 0 Kommentare](#comments)
-
-* * *
-
-### Tags
-
-[#Flyer](/tag.html?tag=376&cHash=159d8220578df87fed91b81c1412a336)[#Göttingen](/tag.html?tag=377&cHash=7d3c699e6952872d4d692a2b436a307d)[#mediengestalter](/tag.html?tag=378&cHash=48c2de15ef9e88d92ec84abebda7d313)[#Plakate](/tag.html?tag=379&cHash=f9f04724774c47fe3618f7cb1129e93c)[#Printgestaltung](/tag.html?tag=380&cHash=a4a7e180f26040af8a0d1af798c043c9)[#Visitenkarten](/tag.html?tag=381&cHash=047dd4c39ec699f1290a8783ba99efd8)
-
-* * *
-
-[Teilen](#)
-
-Teilen
-
- [Facebook](#) [Twitter](#)
-
-07\. Jan 2013
 
 [![oaf | instant](http://andreknieriem.de/wp-content/uploads/2013/01/Bildschirmfoto-2013-01-07-um-20.53.47-700x192.png)](http://andreknieriem.de/wp-content/uploads/2013/01/Bildschirmfoto-2013-01-07-um-20.53.47.png)
 
@@ -97,19 +68,3 @@ Mit Hilfe der Internet-Platform kann man sich zudem nach der Bestellung einlogge
 Falls man wirklich nicht zufrieden sein sollte, bietet oaf | instant eine Geld-zurück-Garantie.
 
 Ich kann [oaf | instant.](http://www.oafinstant.de/ "Zur Webseite von oaf | instant") weiterempfehlen!
-
-* * *
-
-### Kommentare
-
-Es gibt noch keine Kommentare. Sei der Erste!
-
-### Hinterlasse einen Kommentar
-
-[Antworten abbrechen](#)
-
-Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
-
-Kommentar wird gespeichert
-
-Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

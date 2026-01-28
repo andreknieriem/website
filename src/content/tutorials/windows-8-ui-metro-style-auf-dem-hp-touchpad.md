@@ -114,38 +114,9 @@ description: >-
 
   http://brobot175.co.uk
 image: /fileadmin/_processed_/6/6/csm_tutorials_4003cc1df0.png
+demo_url: null
+download_url: null
 ---
-
-
-Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
-
-
-
-#Tutorials
-
-* * *
-
-![](/fileadmin/_processed_/6/6/csm_tutorials_4003cc1df0.png)
-
-### Kommentare
-
-[Es gibt 0 Kommentare](#comments)
-
-* * *
-
-### Tags
-
-[#android wigdet](/tag.html?tag=163&cHash=f68d90f61962ce155d1b18c1ce7ed39e)[#hp touchpad](/tag.html?tag=164&cHash=060db5092ec5ff9bcf18bd4a8ec6cf31)[#metro ui](/tag.html?tag=165&cHash=feb5947fdb735644ddc6179aa26ec83f)[#windows 8](/tag.html?tag=166&cHash=c84b3ddfc8bc365bbed941eca3d27cf4)[#windows rt](/tag.html?tag=167&cHash=02479f0d4e5ed92020150a1e932c2149)
-
-* * *
-
-[Teilen](#)
-
-Teilen
-
- [Facebook](#) [Twitter](#)
-
-16\. Jan 2013
 
 [![windows_8_rt_hp_touchpad_1](http://andreknieriem.de/wp-content/uploads/2013/01/windows_8_rt_hp_touchpad_1-700x525.png)](http://andreknieriem.de/wp-content/uploads/2013/01/windows_8_rt_hp_touchpad_1.png)
 
@@ -226,19 +197,3 @@ PS. Es gibt noch ein paar Widgets die in das Design gut reinpassen, wie eine Uhr
 **Quelle:**
 
 [http://brobot175.co.uk](http://brobot175.co.uk/)
-
-* * *
-
-### Kommentare
-
-Es gibt noch keine Kommentare. Sei der Erste!
-
-### Hinterlasse einen Kommentar
-
-[Antworten abbrechen](#)
-
-Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
-
-Kommentar wird gespeichert
-
-Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

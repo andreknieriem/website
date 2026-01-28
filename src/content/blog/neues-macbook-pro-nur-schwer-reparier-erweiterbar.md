@@ -30,38 +30,9 @@ description: >-
 
   Kurier.at
 image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
+demo_url: null
+download_url: null
 ---
-
-
-Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
-
-
-
-#Blog
-
-* * *
-
-![](/fileadmin/_processed_/e/9/csm_blog_3208726458.png)
-
-### Kommentare
-
-[Es gibt 0 Kommentare](#comments)
-
-* * *
-
-### Tags
-
-[#apple](/tag.html?tag=327&cHash=8047e7260b80a68c1987b4d1a45989d9)[#macbook](/tag.html?tag=353&cHash=4ce941bf2a2e1817bb5ec0acabc4fa8b)[#pro](/tag.html?tag=354&cHash=d6d80b49ffecefe32458484ddd542728)[#reparatur](/tag.html?tag=355&cHash=9a065cf324bf2e6193320f788afb78b6)[#retina display](/tag.html?tag=356&cHash=2c8c31452b701e1a6efe95f14f8f6b0a)
-
-* * *
-
-[Teilen](#)
-
-Teilen
-
- [Facebook](#) [Twitter](#)
-
-14\. Jun 2012
 
 [![MacBook Pro Retina Display](http://andreknieriem.de/wp-content/uploads/2012/06/macbookpro_retina_display.jpg "MacBook Pro Retina Display")](http://andreknieriem.de/wp-content/uploads/2012/06/macbookpro_retina_display.jpg)
 
@@ -76,19 +47,3 @@ Quellen:
 Focus.de
 
 Kurier.at
-
-* * *
-
-### Kommentare
-
-Es gibt noch keine Kommentare. Sei der Erste!
-
-### Hinterlasse einen Kommentar
-
-[Antworten abbrechen](#)
-
-Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
-
-Kommentar wird gespeichert
-
-Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

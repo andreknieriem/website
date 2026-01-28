@@ -21,38 +21,9 @@ description: >
 
   Im Folgenden das Einführungsvideo für das neue Produkt "Search by Image":
 image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
+demo_url: null
+download_url: null
 ---
-
-
-Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
-
-
-
-#Blog
-
-* * *
-
-![](/fileadmin/_processed_/e/9/csm_blog_3208726458.png)
-
-### Kommentare
-
-[Es gibt 0 Kommentare](#comments)
-
-* * *
-
-### Tags
-
-[#Google](/tag.html?tag=259&cHash=b1ab39e7e8f860481faa9bb151ed2ce4)[#google bildersuche](/tag.html?tag=308&cHash=15322ef55a5c07241d75cb1bd6befc90)[#search by image](/tag.html?tag=309&cHash=6ef18c58f647082512d160a6176c375f)
-
-* * *
-
-[Teilen](#)
-
-Teilen
-
- [Facebook](#) [Twitter](#)
-
-15\. Jun 2011
 
 [![Google - Search by Image](http://andreknieriem.de/wp-content/uploads/2011/06/google_bilder-740x432.jpg "Google - Search by Image")](http://andreknieriem.de/wp-content/uploads/2011/06/google_bilder.jpg)
 
@@ -63,19 +34,3 @@ Falls ihr auf der deutschen Seite das Feature noch nicht sehen könnt, geht einf
 Im Folgenden das Einführungsvideo für das neue Produkt "Search by Image":
 
 <iframe width="760" height="462" src="http://www.youtube.com/embed/t99BfDnBZcI" frameborder="0" allowfullscreen></iframe>
-
-* * *
-
-### Kommentare
-
-Es gibt noch keine Kommentare. Sei der Erste!
-
-### Hinterlasse einen Kommentar
-
-[Antworten abbrechen](#)
-
-Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
-
-Kommentar wird gespeichert
-
-Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

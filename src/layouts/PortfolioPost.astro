@@ -14,6 +14,9 @@ const { frontmatter } = Astro.props;
             <div class="info-container">
                 <img src={frontmatter.image || "/fileadmin/Daten/Bilder/t3logo.png"} width="248" height="248" alt={frontmatter.title} class="img-fluid" />
                 <div class="divider"><hr></div>
+                {frontmatter.external_url && (
+                    <a target="_blank" class="btn" href={frontmatter.external_url}>Seite besuchen</a>
+                )}
             </div>
         </div>
         
@@ -23,7 +26,7 @@ const { frontmatter } = Astro.props;
                 <slot />
             </div>
             
-            {frontmatter.technologies && (
+            {frontmatter.technologies && frontmatter.technologies.length > 0 && (
                 <div class="mt-4">
                     <h3>Technologie(n)</h3>
                     {frontmatter.technologies.map(tech => (
@@ -33,5 +36,31 @@ const { frontmatter } = Astro.props;
             )}
         </div>
     </div>
+
+    {frontmatter.gallery && frontmatter.gallery.length > 0 && (
+        <>
+            <div class="divider"><hr></div>
+            <h2 class="align-center">Bilder</h2>
+            <div data-aos="fade-up" class="portfolio-gallery">
+                <div>
+                    {frontmatter.gallery.map(item => (
+                        <div class="row mb-4" style="display: flex;">
+                            <div class="col-md-8 image">
+                                <a class="slb-image" href={item.image}>
+                                    <img class="img-fluid" src={item.image} alt="" />
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="image-text">
+                                    <h3>Info</h3>
+                                    <p>{item.info}</p>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </>
+    )}
   </div>
 </BaseLayout>

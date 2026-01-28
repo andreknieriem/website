@@ -30,38 +30,9 @@ description: >-
 
   Im Ergebnis gibt es aber mehr Verlierer als Gewinner.
 image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
+demo_url: null
+download_url: null
 ---
-
-
-Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
-
-
-
-#Blog
-
-* * *
-
-![](/fileadmin/_processed_/e/9/csm_blog_3208726458.png)
-
-### Kommentare
-
-[Es gibt 0 Kommentare](#comments)
-
-* * *
-
-### Tags
-
-[#Google](/tag.html?tag=259&cHash=b1ab39e7e8f860481faa9bb151ed2ce4)[#panda update](/tag.html?tag=325&cHash=94c1a805eb507586cab9e07e8c79ac1e)[#suchmaschine](/tag.html?tag=326&cHash=bdaa21fa21bc37e93f10fa367bacdcfd)
-
-* * *
-
-[Teilen](#)
-
-Teilen
-
- [Facebook](#) [Twitter](#)
-
-16\. Aug 2011
 
 [![Google Panda Update](http://andreknieriem.de/wp-content/uploads/2011/08/google-panda-740x347.jpg "Google Panda Update")](http://andreknieriem.de/wp-content/uploads/2011/08/google-panda.jpg)
 
@@ -76,19 +47,3 @@ Suchmaschinenexperten haben Listen der Gewinner und Verlierer herausgestellt. Di
 Gewinner gibt es aber auch. So werden viele Nachrichtenagenturen viel besser geranked als vorher, genau wie Info-Portale und Facebook.
 
 Im Ergebnis gibt es aber mehr Verlierer als Gewinner.
-
-* * *
-
-### Kommentare
-
-Es gibt noch keine Kommentare. Sei der Erste!
-
-### Hinterlasse einen Kommentar
-
-[Antworten abbrechen](#)
-
-Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
-
-Kommentar wird gespeichert
-
-Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

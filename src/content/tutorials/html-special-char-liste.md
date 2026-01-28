@@ -225,38 +225,9 @@ description: |
   password dot&amp;#9679;?
   bullet&amp;#8226;•
 image: /fileadmin/_processed_/3/8/csm_html_ddf36eeabb.png
+demo_url: null
+download_url: null
 ---
-
-
-Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
-
-
-
-#Tutorials#HTML
-
-* * *
-
-![](/fileadmin/_processed_/3/8/csm_html_ddf36eeabb.png)
-
-### Kommentare
-
-[Es gibt 0 Kommentare](#comments)
-
-* * *
-
-### Tags
-
-[#html](/tag.html?tag=85&cHash=91a7ea3a6587e1d4fa3e5c908a161193)[#list](/tag.html?tag=591&cHash=5bdd2202e9d645949e85f61c1cc6d85c)[#special](/tag.html?tag=640&cHash=e47a17115e92cccd85f3c46ff16b9c90)[#chars](/tag.html?tag=641&cHash=ba9a28a4c0dcde1a30b12a41768439d5)[#encode](/tag.html?tag=642&cHash=94aca4d0ecd6c701ce0ade2bfa07c278)[#decode](/tag.html?tag=643&cHash=192bad6760fc379e4ccb2d915d48787d)
-
-* * *
-
-[Teilen](#)
-
-Teilen
-
- [Facebook](#) [Twitter](#)
-
-27\. Mar 2015
 
 Name
 
@@ -1858,19 +1829,3 @@ bullet
 &#8226;
 
 **•**
-
-* * *
-
-### Kommentare
-
-Es gibt noch keine Kommentare. Sei der Erste!
-
-### Hinterlasse einen Kommentar
-
-[Antworten abbrechen](#)
-
-Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
-
-Kommentar wird gespeichert
-
-Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

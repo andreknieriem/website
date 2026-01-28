@@ -34,38 +34,9 @@ description: >-
   Danach ist die Mail auch schon vorbei. Eine Erklärung bleibt Jobs uns
   schuldig.
 image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
+demo_url: null
+download_url: null
 ---
-
-
-Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
-
-
-
-#Blog
-
-* * *
-
-![](/fileadmin/_processed_/e/9/csm_blog_3208726458.png)
-
-### Kommentare
-
-[Es gibt 0 Kommentare](#comments)
-
-* * *
-
-### Tags
-
-[#iphone](/tag.html?tag=2&cHash=d7d05c72dcf94fbc4c5651e1e4dc7bc2)[#ipad](/tag.html?tag=34&cHash=6d176665a58f32bfb8af54e2b04a210b)[#daten speichern](/tag.html?tag=284&cHash=0368c8d4a25ed463b15c6368ad94df18)[#ipad tracking](/tag.html?tag=285&cHash=fb9f1685154bf4a68d8bdc292997a4d9)[#iphone tracking](/tag.html?tag=286&cHash=ed53699b52f1535cf18744125c9e5483)
-
-* * *
-
-[Teilen](#)
-
-Teilen
-
- [Facebook](#) [Twitter](#)
-
-26\. Apr 2011
 
 [![](http://andreknieriem.de/wp-content/uploads/2011/04/iphonetracking.jpg "iphonetracking")](http://andreknieriem.de/wp-content/uploads/2011/04/iphonetracking.jpg)
 
@@ -82,19 +53,3 @@ Ein Nutzer schrieb an Apple, dass er zu Googles Android wechseln würde, da dies
 Jobs leitet seine Antwort mit den Worten "Doch, tun sie" ein und sagt dann: "Wir überwachen niemanden. Die Information, die derzeit die Runde macht, ist falsch."
 
 Danach ist die Mail auch schon vorbei. Eine Erklärung bleibt Jobs uns schuldig.
-
-* * *
-
-### Kommentare
-
-Es gibt noch keine Kommentare. Sei der Erste!
-
-### Hinterlasse einen Kommentar
-
-[Antworten abbrechen](#)
-
-Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
-
-Kommentar wird gespeichert
-
-Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

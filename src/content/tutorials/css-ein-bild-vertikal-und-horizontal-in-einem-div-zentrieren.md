@@ -13,38 +13,9 @@ tags:
   - '956'
 description: "Möchte man ein Bild innerhalb eines Div-Container komplett zentrieren, also horizontal und vertikal, so ist das nicht immer leicht. Mit diesem kleinen CSS Trick und einem Helper-Div kann man es aber komplett mit CSS lösen.\r\nHier eine Demo: \r\n.demo-img-align .frame {\r\n    height: 27px;      /* equals max image height */\r\n    width: 160px;\r\n    border: 1px solid #ccc;\r\n    white-space: nowrap;\r\n    line-height: normal;\r\n    text-align: center; margin: 1em 0;\r\n}\r\n\r\n.demo-img-align .helper {\r\n    display: inline-block;\r\n    height: 100%;\r\n    vertical-align: middle;\r\n}\r\n\r\n.demo-img-align img {\r\n    background: #3aa4af;\r\n    vertical-align: middle;\r\n    max-height: 25px;\r\n    max-width: 160px;\r\n}\r\n\r\n\r\n\r\n\r\n    \r\n  \r\n\r\n\r\n    \r\n  \r\n\r\n\r\n    \r\n  \r\n\r\n\r\n    \r\n  \r\n\r\n\r\n    \r\n  \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n Markup/CSS\r\n&lt;style&gt;\r\n.frame {\r\n    height: 27px;      /* equals max image height */\r\n    width: 160px;\r\n    border: 1px solid #ccc;\r\n    white-space: nowrap;\r\n    line-height: normal;\r\n    text-align: center; margin: 1em 0;\r\n}\r\n\r\n.helper {\r\n    display: inline-block;\r\n    height: 100%;\r\n    vertical-align: middle;\r\n}\r\n\r\nimg {\r\n    background: #3aa4af;\r\n    vertical-align: middle;\r\n    max-height: 25px;\r\n    max-width: 160px;\r\n}\r\n&lt;/style&gt;\r\n\r\n&lt;div class=frame&gt;\r\n    &lt;span class=\"helper\"&gt;&lt;/span&gt;\r\n  &lt;img src=\"logo-trans.png\" height=250 /&gt;\r\n&lt;/div&gt;\r\n&lt;div class=frame&gt;\r\n    &lt;span class=\"helper\"&gt;&lt;/span&gt;\r\n  &lt;img src=\"logo-trans.png\" height=25 /&gt;\r\n&lt;/div&gt;\r\n&lt;div class=frame&gt;\r\n    &lt;span class=\"helper\"&gt;&lt;/span&gt;\r\n  &lt;img src=\"logo-trans.png\" height=23 /&gt;\r\n&lt;/div&gt;\r\n&lt;div class=frame&gt;\r\n    &lt;span class=\"helper\"&gt;&lt;/span&gt;\r\n  &lt;img src=\"logo-trans.png\" height=21 /&gt;\r\n&lt;/div&gt;\r\n&lt;div class=frame&gt;\r\n    &lt;span class=\"helper\"&gt;&lt;/span&gt;\r\n  &lt;img src=\"logo-trans.png\" height=19 /&gt;\r\n&lt;/div&gt;\r\n&lt;div class=frame&gt;\r\n    &lt;span class=\"helper\"&gt;&lt;/span&gt;\r\n    &lt;img src=\"logo-trans.png\" height=17 /&gt;\r\n&lt;/div&gt;\r\n&lt;div class=frame&gt;\r\n    &lt;span class=\"helper\"&gt;&lt;/span&gt;\r\n    &lt;img src=\"logo-trans.png\" height=15 /&gt;\r\n&lt;/div&gt;\r\n&lt;div class=frame&gt;\r\n    &lt;span class=\"helper\"&gt;&lt;/span&gt;\r\n    &lt;img src=\"logo-trans.png\" height=13 /&gt;\r\n&lt;/div&gt;\r\n&lt;div class=frame&gt;\r\n    &lt;span class=\"helper\"&gt;&lt;/span&gt;\r\n    &lt;img src=\"logo-trans.png\" height=11 /&gt;\r\n&lt;/div&gt;\r\n&lt;div class=frame&gt;\r\n    &lt;span class=\"helper\"&gt;&lt;/span&gt;\r\n    &lt;img src=\"logo-trans.png\" height=9 /&gt;\r\n&lt;/div&gt;\r\n&lt;div class=frame&gt;\r\n    &lt;span class=\"helper\"&gt;&lt;/span&gt;\r\n    &lt;img src=\"logo-trans.png\" height=7 /&gt;\r\n&lt;/div&gt;\r\n&lt;div class=frame&gt;\r\n    &lt;span class=\"helper\"&gt;&lt;/span&gt;\r\n    &lt;img src=\"logo-trans.png\" height=5 /&gt;\r\n&lt;/div&gt;\r\n&lt;div class=frame&gt;\r\n    &lt;span class=\"helper\"&gt;&lt;/span&gt;\r\n    &lt;img src=\"logo-trans.png\" height=3 /&gt;\r\n&lt;/div&gt;\r\n Wie funktioniert das Ganze? \r\nHat man zwei inline-block Elemente nebeneinander, kann man beide so anordnen, dass sie sich auf den anderen beziehen.Also kriegt man mit vertical-align: middle etwas in der Art:\r\n\r\n\r\nHat nun das äußere Element eine fixe Höhe (in px, em order sonstiger Einheit), kann man die Höhe der inneren Elemente mit %. setzen\r\nAlso fügt man inline-block mit height: 100% an das erste Helper Div in einem Div, das eine fixierte Höhe hat (.frame, siehe oben) wird das zweite inline-block Element (unser Bild) vertikal daneben zentriert.\r\nDa unser Helper keine Breite hat, ist das Bild dazu ebenfalls auch noch horizontal in der Mitte, mit einem text-align:center.\r\n"
 image: /fileadmin/_processed_/0/0/csm_css_b1ca039252.png
+demo_url: null
+download_url: null
 ---
-
-
-Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
-
-
-
-#Tutorials#CSS#HTML
-
-* * *
-
-![](/fileadmin/_processed_/0/0/csm_css_b1ca039252.png)
-
-### Kommentare
-
-[Es gibt 0 Kommentare](#comments)
-
-* * *
-
-### Tags
-
-[#css](/tag.html?tag=25&cHash=f58c1375e861e856214236958d062a98)[#center](/tag.html?tag=112&cHash=80b38e77cd31b3894f9903d3b1605246)[#vertical](/tag.html?tag=115&cHash=2366d514905276e000c677281a5a4dce)[#horizontal](/tag.html?tag=487&cHash=547922f1a20207e28d328cdbd52fc72d)[#align](/tag.html?tag=953&cHash=d9f9a9dc636434fd3e11dd3b759be0d0)[#middle](/tag.html?tag=954&cHash=b3b7b5b36640b8b83b9cd9a4b596095f)[#trick](/tag.html?tag=955&cHash=5ae6ad6d29fe8a4c704731029390bcb5)[#helper](/tag.html?tag=956&cHash=3af0fc59c1ab19f6715d676515960879)
-
-* * *
-
-[Teilen](#)
-
-Teilen
-
- [Facebook](#) [Twitter](#)
-
-11\. Jan 2017
 
 Möchte man ein Bild innerhalb eines Div-Container komplett zentrieren, also horizontal und vertikal, so ist das nicht immer leicht. Mit diesem kleinen CSS Trick und einem Helper-Div kann man es aber komplett mit CSS lösen.
 
@@ -169,19 +140,3 @@ img {
     
 3.  Also fügt man `inline-block` mit `height: 100%` an das erste Helper Div in einem Div, das eine fixierte Höhe hat (.frame, siehe oben) wird das zweite `inline-block` Element (unser Bild) vertikal daneben zentriert.
 4.  Da unser Helper keine Breite hat, ist das Bild dazu ebenfalls auch noch horizontal in der Mitte, mit einem `text-align:center`.
-
-* * *
-
-### Kommentare
-
-Es gibt noch keine Kommentare. Sei der Erste!
-
-### Hinterlasse einen Kommentar
-
-[Antworten abbrechen](#)
-
-Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
-
-Kommentar wird gespeichert
-
-Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

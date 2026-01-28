@@ -32,38 +32,9 @@ description: >-
 
   Das wars auch schon! Viel Spaß mit dem neuen Design!
 image: /fileadmin/_processed_/6/6/csm_tutorials_4003cc1df0.png
+demo_url: null
+download_url: null
 ---
-
-
-Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
-
-
-
-#Tutorials
-
-* * *
-
-![](/fileadmin/_processed_/6/6/csm_tutorials_4003cc1df0.png)
-
-### Kommentare
-
-[Es gibt 0 Kommentare](#comments)
-
-* * *
-
-### Tags
-
-[#mac](/tag.html?tag=50&cHash=36425e62b17f3af7d542222d4b9d6ae1)[#chrome](/tag.html?tag=72&cHash=4fdcc1af68f38b817a4baef869e22590)[#firefox](/tag.html?tag=73&cHash=a33dd32cc4137279031c4914230fd88c)[#konsole](/tag.html?tag=74&cHash=6230574857e9e3278a4424be2ca61d19)[#neues design](/tag.html?tag=75&cHash=3bbcc52c9236b383c9a88631ad8c67dd)[#newmdesign](/tag.html?tag=76&cHash=7abddc2191bf43f57a54b97ec660bd4f)[#youtube](/tag.html?tag=77&cHash=70824b8f201faf8c1daec7908e6b9132)
-
-* * *
-
-[Teilen](#)
-
-Teilen
-
- [Facebook](#) [Twitter](#)
-
-21\. Nov 2011
 
 [![](http://andreknieriem.de/wp-content/uploads/2011/11/youtube1-740x350.png "Neues Youtube Design")](http://andreknieriem.de/wp-content/uploads/2011/11/youtube1.png)
 
@@ -82,19 +53,3 @@ document.cookie="VISITOR\_INFO1\_LIVE=ST1Ti53r4fU";
 \- Konsole schließen (entweder über das kleine X-Symbol links oben oder über erneutes Drücken der Tastenkombination) und Seite neuladen!
 
 Das wars auch schon! Viel Spaß mit dem neuen Design!
-
-* * *
-
-### Kommentare
-
-Es gibt noch keine Kommentare. Sei der Erste!
-
-### Hinterlasse einen Kommentar
-
-[Antworten abbrechen](#)
-
-Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
-
-Kommentar wird gespeichert
-
-Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

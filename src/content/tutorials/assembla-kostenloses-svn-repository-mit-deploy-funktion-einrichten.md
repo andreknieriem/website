@@ -48,38 +48,9 @@ description: >-
 
   Falls ihr Fragen habt, fragt bitte ;)
 image: /fileadmin/_processed_/6/6/csm_tutorials_4003cc1df0.png
+demo_url: null
+download_url: null
 ---
-
-
-Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
-
-
-
-#Tutorials
-
-* * *
-
-![](/fileadmin/_processed_/6/6/csm_tutorials_4003cc1df0.png)
-
-### Kommentare
-
-[Es gibt 0 Kommentare](#comments)
-
-* * *
-
-### Tags
-
-[#assembla](/tag.html?tag=104&cHash=4cca8e6f5b9c733150dbf6e59ae4d5b5)[#build](/tag.html?tag=105&cHash=edba3cd14d65f9e5bd5d1ded56779c13)[#deploy](/tag.html?tag=106&cHash=2e1c87d27ce106e2f3856fd31895a58d)[#free](/tag.html?tag=107&cHash=df087284386cb4b0c6eb1ac9319bcd9b)[#snaproom](/tag.html?tag=108&cHash=cdb67750e28d02972b8cc8bad66d1d23)[#svn](/tag.html?tag=109&cHash=7af12f577bd2ec40193520c97ba6d07e)
-
-* * *
-
-[Teilen](#)
-
-Teilen
-
- [Facebook](#) [Twitter](#)
-
-14\. Jun 2012
 
 Bei meiner Arbeit an snaproom mit mehreren Rechner hat sich mir schnell die Frage gestellt, wie ich mir die Arbeit erleichtere. Ich hab mir dann GIT und SVN angeschaut und habe mich für SVN entschieden. Git war mir zu kompliziert einzurichten.
 
@@ -100,19 +71,3 @@ Danach einfach eure Server Zugangsdaten eingeben, den Pfad zum Projekt und ausw�
 Dann könnt ihr unten auf "Deploy now" klicken und kurz abwarten. Danach habt ihr erfolgreich euer Projekt deployed!
 
 Falls ihr Fragen habt, fragt bitte ;)
-
-* * *
-
-### Kommentare
-
-Es gibt noch keine Kommentare. Sei der Erste!
-
-### Hinterlasse einen Kommentar
-
-[Antworten abbrechen](#)
-
-Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
-
-Kommentar wird gespeichert
-
-Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

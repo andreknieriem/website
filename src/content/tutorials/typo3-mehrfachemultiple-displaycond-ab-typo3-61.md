@@ -11,38 +11,9 @@ tags:
   - '525'
 description: "Seit TYPO3 6.1 wurde displayCond stark verbessert. So können nun mehrere Abfragen ermöglicht werden und das Ganze sogar verschachtelt. Hier ein paar Beispiele:\nEinfaches Beispiel \r\n&lt;feld1&gt;\r\n    &lt;TCEforms&gt;\r\n        &lt;label&gt;Feld 1&lt;/label&gt;\r\n        &lt;config&gt;\r\n            &lt;type&gt;input&lt;/type&gt;\r\n            &lt;size&gt;30&lt;/size&gt;\r\n        &lt;/config&gt;\r\n    &lt;/TCEforms&gt;\r\n&lt;/feld1&gt;\r\n \r\n&lt;feld2&gt;\r\n    &lt;TCEforms&gt;\r\n        &lt;label&gt;Feld 2&lt;/label&gt;\r\n        &lt;config&gt;\r\n            &lt;type&gt;input&lt;/type&gt;\r\n            &lt;size&gt;30&lt;/size&gt;\r\n        &lt;/config&gt;\r\n    &lt;/TCEforms&gt;\r\n&lt;/feld2&gt;\r\n \r\n&lt;cond&gt;\r\n    &lt;TCEforms&gt;\r\n        &lt;label&gt;Teste Bedingung&lt;/label&gt;\r\n        &lt;displayCond&gt;\r\n            &lt;AND&gt;\r\n                &lt;numIndex&gt;FIELD:feld1:REQ:TRUE&lt;/numIndex&gt;\r\n                &lt;numIndex&gt;FIELD:feld2:REQ:TRUE&lt;/numIndex&gt;\r\n                &lt;OR&gt;\r\n                    &lt;numIndex&gt;&lt;![CDATA[FIELD:feld1:&lt;:12]]&gt;&lt;/numIndex&gt;\r\n                    &lt;numIndex&gt;FIELD:feld2:&gt;:20&lt;/numIndex&gt;\r\n                &lt;/OR&gt;\r\n            &lt;/AND&gt;\r\n        &lt;/displayCond&gt;\r\n        &lt;config&gt;\r\n            &lt;type&gt;input&lt;/type&gt;\r\n            &lt;size&gt;30&lt;/size&gt;\r\n        &lt;/config&gt;\r\n    &lt;/TCEforms&gt;\r\n&lt;/cond&gt;\r\n Hier wird es etwas komplizierter: Das Testinput-Feld wird angezeigt wenn die Extension news geladen wurde etweder das test123-Feld nicht gefüllt oder das title-Feld gefüllt ist.\ndisplayCond in FlexForms\nDas Ganze geht auch in Flexforms: \r\n'street' =&gt; array(\r\n    'displayCond' =&gt; array(\r\n        'AND' =&gt; array(\r\n            'EXT:news:LOADED:TRUE',\r\n            'OR' =&gt; array(\r\n                'FIELD:test123:=:FALSE',\r\n                'FIELD:title:=:TRUE',\r\n            ),\r\n        ),\r\n    ),\r\n    'label' =&gt; 'Testinput',\r\n    'config' =&gt; array(\r\n        'type' =&gt; 'input',\r\n        'size' =&gt; 30\r\n    ),\r\n),\r\n Verschachtelte Bedingungen \r\n'street' =&gt; array(\r\n    'displayCond' =&gt; array(\r\n        'OR' =&gt; array(\r\n            'FIELD:test123:=:FALSE',\r\n            'FIELD:title:=:TRUE',\r\n        ),\r\n    ),\r\n    'label' =&gt; 'Testinput',\r\n    'config' =&gt; array(\r\n        'type' =&gt; 'input',\r\n        'size' =&gt; 30\r\n    ),\r\n),\r\n OR-Bedingung \r\n'street' =&gt; array(\r\n    'displayCond' =&gt; array(\r\n        'AND' =&gt; array(\r\n            'FIELD:test123:=:FALSE',\r\n            'FIELD:title:=:TRUE',\r\n        ),\r\n    ),\r\n    'label' =&gt; 'Testinput',\r\n    'config' =&gt; array(\r\n        'type' =&gt; 'input',\r\n        'size' =&gt; 30\r\n    ),\r\n),\r\n Ab TYPO3 6.1\nSeit der Version 6.1 ist es nun erstmals möglich mehrere Bedingungen zu setzen und diese sogar zu verschachteln. Das bringt enorm viele Vorteile. Hier ein paar Beispiele:\nAND-Bedingung \r\n'street' =&gt; array(\r\n    'displayCond' =&gt; 'FIELD:test123:=:FALSE',\r\n    'label' =&gt; 'Testinput',\r\n    'config' =&gt; array(\r\n        'type' =&gt; 'input',\r\n        'size' =&gt; 30\r\n    ),\r\n),\r\n "
 image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
+demo_url: null
+download_url: null
 ---
-
-
-Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
-
-
-
-#Tutorials#TYPO3
-
-* * *
-
-![](/fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png)
-
-### Kommentare
-
-[Es gibt 0 Kommentare](#comments)
-
-* * *
-
-### Tags
-
-[#typo3](/tag.html?tag=198&cHash=5e10edd38bcb37a5125e3ab76f05df2f)[#flexform](/tag.html?tag=393&cHash=9954a6b2510df77f6e2dbc2f8802366c)[#tca](/tag.html?tag=488&cHash=1d45fe35b0f126afdcd6305faee96aac)[#multiple](/tag.html?tag=496&cHash=b5ccf1ab608165ac786e9c24537cc63b)[#displayCond](/tag.html?tag=524&cHash=88ea80384e3c9bf5424af4bc5081110a)[#mehrfache](/tag.html?tag=525&cHash=b81285ab426e9db7e35900886bf1c1e2)
-
-* * *
-
-[Teilen](#)
-
-Teilen
-
- [Facebook](#) [Twitter](#)
-
-08\. Sep 2014
 
 Seit TYPO3 6.1 wurde **displayCond** stark verbessert. So können nun mehrere Abfragen ermöglicht werden und das Ganze sogar verschachtelt. Hier ein paar Beispiele:
 
@@ -172,19 +143,3 @@ Seit der Version 6.1 ist es nun erstmals möglich mehrere Bedingungen zu setzen 
     ),
 ),
 ```
-
-* * *
-
-### Kommentare
-
-Es gibt noch keine Kommentare. Sei der Erste!
-
-### Hinterlasse einen Kommentar
-
-[Antworten abbrechen](#)
-
-Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
-
-Kommentar wird gespeichert
-
-Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

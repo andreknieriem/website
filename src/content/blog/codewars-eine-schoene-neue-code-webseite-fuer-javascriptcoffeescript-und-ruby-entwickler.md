@@ -36,32 +36,9 @@ description: >-
 
   Zur Seite
 image: /fileadmin/_processed_/c/9/csm_codewars_41f4e35dc5.jpg
+demo_url: null
+download_url: null
 ---
-
-
-Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
-
-
-
-#Blog
-
-* * *
-
-![](/fileadmin/_processed_/c/9/csm_codewars_41f4e35dc5.jpg)
-
-### Kommentare
-
-[Es gibt 0 Kommentare](#comments)
-
-* * *
-
-[Teilen](#)
-
-Teilen
-
- [Facebook](#) [Twitter](#)
-
-28\. Oct 2013
 
 [![codewars](http://andreknieriem.de/wp-content/uploads/2013/10/codewars-700x228.png)](http://andreknieriem.de/wp-content/uploads/2013/10/codewars.png)
 
@@ -78,19 +55,3 @@ Mal sehen, ob ich noch weiter aufsteigen kann, da die jetzigen Funktionen schon 
 Also ich kann jedem nur empfehlen, sich bei Codewars anzumelden! Es macht Spaß und man lernt eine Menge dabei!
 
 [Zur Seite](http://www.codewars.com/r/b0eLvQ)
-
-* * *
-
-### Kommentare
-
-Es gibt noch keine Kommentare. Sei der Erste!
-
-### Hinterlasse einen Kommentar
-
-[Antworten abbrechen](#)
-
-Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
-
-Kommentar wird gespeichert
-
-Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

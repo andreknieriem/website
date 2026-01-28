@@ -45,38 +45,9 @@ description: >-
   Lasst die Finger von den Dingern. Sie funktionieren schlecht und haben
   anscheinend kaum etwas mit dem Original-Gerät gemeinsam.
 image: /fileadmin/_processed_/1/6/csm_photo_f9f759ed1d.jpg
+demo_url: null
+download_url: null
 ---
-
-
-Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
-
-
-
-#Blog
-
-* * *
-
-![](/fileadmin/_processed_/1/6/csm_photo_f9f759ed1d.jpg)
-
-### Kommentare
-
-[Es gibt 0 Kommentare](#comments)
-
-* * *
-
-### Tags
-
-[#blackberry](/tag.html?tag=367&cHash=1f728df5606f8e6b01bfbb2297c7f4ec)[#simulator](/tag.html?tag=368&cHash=b44b2d5f91d32e8f532414a35042f55d)[#vmware](/tag.html?tag=369&cHash=d08540f8028be53bb75423d02bf3ace7)
-
-* * *
-
-[Teilen](#)
-
-Teilen
-
- [Facebook](#) [Twitter](#)
-
-14\. Sep 2012
 
 [![Blackberry Simalator](http://andreknieriem.de/wp-content/uploads/2012/09/bb-700x403.jpg "Blackberry Simalator")](http://andreknieriem.de/wp-content/uploads/2012/09/bb.jpg)
 
@@ -95,19 +66,3 @@ Auf dem richtigen Gerät, wie ich später erfuhr ging es nicht!!
 Das Fazit meiner 4stündigen Reise:
 
 Lasst die Finger von den Dingern. Sie funktionieren schlecht und haben anscheinend kaum etwas mit dem Original-Gerät gemeinsam.
-
-* * *
-
-### Kommentare
-
-Es gibt noch keine Kommentare. Sei der Erste!
-
-### Hinterlasse einen Kommentar
-
-[Antworten abbrechen](#)
-
-Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
-
-Kommentar wird gespeichert
-
-Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

@@ -29,38 +29,9 @@ description: >
 
   Hier das Video "Operation Facebook"
 image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
+demo_url: null
+download_url: null
 ---
-
-
-Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
-
-
-
-#Blog
-
-* * *
-
-![](/fileadmin/_processed_/e/9/csm_blog_3208726458.png)
-
-### Kommentare
-
-[Es gibt 0 Kommentare](#comments)
-
-* * *
-
-### Tags
-
-[#facebook](/tag.html?tag=316&cHash=dddb76dc9f7c29170e414869eedc0a32)[#anonymous](/tag.html?tag=322&cHash=a7b16c54b08112071b935e1731512d5a)[#hacken](/tag.html?tag=323&cHash=4c6b30f6b2d16c686dbde69c7d86e29e)[#operation facebook](/tag.html?tag=324&cHash=5406769fd153fcf67b69fa4ae227be43)
-
-* * *
-
-[Teilen](#)
-
-Teilen
-
- [Facebook](#) [Twitter](#)
-
-09\. Aug 2011
 
 [![Hacker wollen Facebook lahmlegen](http://andreknieriem.de/wp-content/uploads/2011/08/facebook_hack-740x415.jpg "Hacker wollen Facebook lahmlegen")](http://andreknieriem.de/wp-content/uploads/2011/08/facebook_hack.jpg)**Die Hackergruppe Anonymous, die in der letzten Zeit für sehr viel Aufsehen sorgte, hat es nun auf Facebook abgesehen. Der Großangriff soll am 5 November 2011 stattfinden und das gesamte Netzwerk lahmlegen.**
 
@@ -73,19 +44,3 @@ Doch nicht alle von Anonymous sind mit diesem Plan einverstanden. Schon damals, 
 **Hier das Video "Operation Facebook"**
 
 <iframe width="740" height="451" src="http://www.youtube.com/embed/ww2GhqeQMoo" frameborder="0" allowfullscreen></iframe>
-
-* * *
-
-### Kommentare
-
-Es gibt noch keine Kommentare. Sei der Erste!
-
-### Hinterlasse einen Kommentar
-
-[Antworten abbrechen](#)
-
-Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
-
-Kommentar wird gespeichert
-
-Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

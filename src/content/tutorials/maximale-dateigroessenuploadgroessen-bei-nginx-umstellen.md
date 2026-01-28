@@ -26,38 +26,9 @@ description: >
 
   nano ./nginx.conf
 image: /fileadmin/_processed_/6/6/csm_tutorials_4003cc1df0.png
+demo_url: null
+download_url: null
 ---
-
-
-Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
-
-
-
-#Tutorials
-
-* * *
-
-![](/fileadmin/_processed_/6/6/csm_tutorials_4003cc1df0.png)
-
-### Kommentare
-
-[Es gibt 0 Kommentare](#comments)
-
-* * *
-
-### Tags
-
-[#client\_max\_body\_size](/tag.html?tag=201&cHash=20bd1b25f8e79447657ea286eb950a44)[#filesize](/tag.html?tag=202&cHash=bbcb387e2670d7ac2328cabc81b0d770)[#linux](/tag.html?tag=203&cHash=a988c07c8fcb1b9d8276b2e73ba3a6f3)[#nginx](/tag.html?tag=204&cHash=5805b09fbd97361a7ac4cb89c07fe689)
-
-* * *
-
-[Teilen](#)
-
-Teilen
-
- [Facebook](#) [Twitter](#)
-
-25\. Sep 2013
 
 Bekommt man bei einem auf nginx basiertem Server die Fehlermeldung:
 
@@ -92,19 +63,3 @@ Danach noch den nginx neustarten.
 ```
 
 Das wars auch schon!
-
-* * *
-
-### Kommentare
-
-Es gibt noch keine Kommentare. Sei der Erste!
-
-### Hinterlasse einen Kommentar
-
-[Antworten abbrechen](#)
-
-Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
-
-Kommentar wird gespeichert
-
-Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

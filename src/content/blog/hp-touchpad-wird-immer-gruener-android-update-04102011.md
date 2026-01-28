@@ -33,38 +33,9 @@ description: >-
 
   HP Touchpad wird immer grüner (Android)
 image: /fileadmin/_processed_/e/9/csm_blog_3208726458.png
+demo_url: null
+download_url: null
 ---
-
-
-Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
-
-
-
-#Blog
-
-* * *
-
-![](/fileadmin/_processed_/e/9/csm_blog_3208726458.png)
-
-### Kommentare
-
-[Es gibt 0 Kommentare](#comments)
-
-* * *
-
-### Tags
-
-[#android](/tag.html?tag=1&cHash=d7c77ffe3de2b6c4933d6ee105c686a0)[#touchpad](/tag.html?tag=332&cHash=5074650a025b98f627befe93ff8bb4f9)[#hp](/tag.html?tag=333&cHash=44ff0ac53c03d106a382c17420d65bf9)
-
-* * *
-
-[Teilen](#)
-
-Teilen
-
- [Facebook](#) [Twitter](#)
-
-04\. Oct 2011
 
 <iframe width="740" height="406" src="http://www.youtube.com/embed/q2zWiftfwIk" frameborder="0" allowfullscreen></iframe>
 
@@ -79,19 +50,3 @@ Mehr zum Thema findet ihr hier:
 [HP Touchpad wird immer grüner (Android) UPDATE 20.09.2011](http://andreknieriem.de/hp-touchpad-wird-immer-gruner-android-update-20-09-2011/)
 
 [HP Touchpad wird immer grüner (Android)](http://andreknieriem.de/hp-touchpad-wird-immer-gruner-android/)
-
-* * *
-
-### Kommentare
-
-Es gibt noch keine Kommentare. Sei der Erste!
-
-### Hinterlasse einen Kommentar
-
-[Antworten abbrechen](#)
-
-Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
-
-Kommentar wird gespeichert
-
-Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

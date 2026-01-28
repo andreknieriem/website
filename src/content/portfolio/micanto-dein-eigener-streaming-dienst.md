@@ -10,33 +10,13 @@ technologies:
   - tailwind
   - javascript
 image: /fileadmin/Daten/Portfolio/micanto/micanto.png
+external_url: https://micanto.js.org/
+gallery:
+  - image: /fileadmin/Daten/Portfolio/micanto/micanto-desktop.png
+    info: ''
 ---
 
   
-
-
-* * *
-
-![](/fileadmin/Daten/Portfolio/micanto/micanto.png)
-
-* * *
-
-[Seite besuchen](https://micanto.js.org/)
-
-### Beschreibung
+  
 
 Micanto ist ein persönlicher Musikplayer, der auf Laravel als API-Backend und React als Frontend basiert. Mit der Micanto-Mobil-App kann man seine eigenen Lieder überall anhören.
-
-### Technologie(n)
-
-php laravel react react-native tailwind javascript
-
-* * *
-
-## Bilder
-
-[![](/fileadmin/Daten/Portfolio/micanto/micanto-desktop.png)](/fileadmin/Daten/Portfolio/micanto/micanto-desktop.png)
-
-### Info
-
-[](#)[](#)

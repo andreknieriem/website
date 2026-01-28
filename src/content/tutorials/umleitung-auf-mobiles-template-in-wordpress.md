@@ -34,38 +34,9 @@ description: >-
   Ein paar Javascript Schnipsel, Webkit Css Optionen und so weiter werde ich in
   einem späteren Tutorial erläutern.
 image: /fileadmin/_processed_/5/3/csm_wordpress_29764a1330.png
+demo_url: null
+download_url: null
 ---
-
-
-Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.
-
-
-
-#Tutorials#Wordpress
-
-* * *
-
-![](/fileadmin/_processed_/5/3/csm_wordpress_29764a1330.png)
-
-### Kommentare
-
-[Es gibt 0 Kommentare](#comments)
-
-* * *
-
-### Tags
-
-[#umleitung](/tag.html?tag=5&cHash=5f1bf2484695bb838d1949c1f28cc0f8)[#individuelles template](/tag.html?tag=7&cHash=3202f2283b167a85df210447a04db836)[#iphone template](/tag.html?tag=8&cHash=99265c01ae0fc13d97841938df88a360)[#mobile](/tag.html?tag=9&cHash=b5bd1bd63dee0e1cdebd12b261ae5e41)[#plugin](/tag.html?tag=10&cHash=a60b147944670ae116b2ad95aed77aca)[#wordpress](/tag.html?tag=11&cHash=7c8d42fbb4fc142d55b4be8ceba8a33f)
-
-* * *
-
-[Teilen](#)
-
-Teilen
-
- [Facebook](#) [Twitter](#)
-
-01\. Apr 2011
 
 [![](http://andreknieriem.de/wp-content/uploads/2011/04/iphonetemplate.jpg "iphonetemplate")](http://andreknieriem.de/wp-content/uploads/2011/04/iphonetemplate.jpg)
 
@@ -86,19 +57,3 @@ Das Plugin heißt [xili-theme-select](http://dev.xiligroup.com/?p=123).
 Nachdem ihr also euer Template eingestellt habt, müsst ihr nur noch ein für das iPhone optimiertes Template bauen.
 
 Ein paar Javascript Schnipsel, Webkit Css Optionen und so weiter werde ich in einem späteren Tutorial erläutern.
-
-* * *
-
-### Kommentare
-
-Es gibt noch keine Kommentare. Sei der Erste!
-
-### Hinterlasse einen Kommentar
-
-[Antworten abbrechen](#)
-
-Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert \*
-
-Kommentar wird gespeichert
-
-Danke für deinen Kommentar! Sobald er freigegeben wurde erscheint er hier.

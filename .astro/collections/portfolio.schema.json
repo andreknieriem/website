@@ -53,6 +53,23 @@
             }
           ]
         },
+        "external_url": {
+          "anyOf": [
+            {
+              "anyOf": [
+                {
+                  "not": {}
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
         "$schema": {
           "type": "string"
         }
