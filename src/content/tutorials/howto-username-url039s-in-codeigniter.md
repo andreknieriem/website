@@ -3,12 +3,12 @@ title: 'Howto: Username Url&#039;s in Codeigniter'
 date: '2011-08-28T15:38:08.000Z'
 slug: howto-username-url039s-in-codeigniter
 tags:
-  - '41'
-  - '64'
-  - '65'
-  - '66'
-  - '67'
-  - '68'
+  - php
+  - codeigniter
+  - hooks
+  - uri routing
+  - user url
+  - username
 description: >-
 
   Da ich mich gerade in Codeigniter einarbeite und auf der Suche nach einer

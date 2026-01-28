@@ -3,16 +3,16 @@ title: Urls in der Datenbank ändern für Wordpress Seitenumzüge
 date: '2013-10-30T07:00:24.000Z'
 slug: urls-in-der-datenbank-aendern-fuer-wordpress-seitenumzuege
 tags:
-  - '11'
-  - '40'
-  - '223'
-  - '224'
-  - '225'
-  - '226'
-  - '227'
-  - '228'
-  - '229'
-  - '230'
+  - wordpress
+  - mysql
+  - ändern
+  - baseurl
+  - change
+  - datenbank
+  - development
+  - live schalten
+  - seitenumzüge
+  - site url
 description: >-
   Bei Wordpress steht man als Entwickler immer wieder vor einem großen Problem -
   nämlich der Live-Schaltung der Seite. Das Problem an der ganzen Sache ist,

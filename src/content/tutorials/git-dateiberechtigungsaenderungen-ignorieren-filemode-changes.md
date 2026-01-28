@@ -3,12 +3,12 @@ title: 'GIT: Dateiberechtigungsänderungen ignorieren (filemode changes)'
 date: '2018-10-08T15:21:00.000Z'
 slug: git-dateiberechtigungsaenderungen-ignorieren-filemode-changes
 tags:
-  - '1006'
-  - '1072'
-  - '1073'
-  - '1074'
-  - '1075'
-  - '1076'
+  - git
+  - ' ignore'
+  - ' filemode'
+  - ' changes'
+  - ' chmod'
+  - ' chown'
 description: >-
   Hat man einen Ordner innerhalb eines Git Projekte via chmod oder chown
   bearbeitet, so zeigt git einem jede Datei als geändert an. Das kann dann

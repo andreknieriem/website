@@ -3,11 +3,11 @@ title: Erstes Android auf dem HP Touchpad verfügbar (Emulator)
 date: '2011-10-05T13:05:40.000Z'
 slug: erstes-android-auf-dem-hp-touchpad-verfuegbar-emulator
 tags:
-  - '1'
-  - '187'
-  - '332'
-  - '334'
-  - '335'
+  - android
+  - download
+  - touchpad
+  - android emulator
+  - hp touchpad running android
 description: >-
   Heute kam ganz plötzlich die Meldung, dass es eine "App" gibt, die Android auf
   dem HP Touchpad installiert. Das Ganze lässt sich via Preware installieren.

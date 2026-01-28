@@ -3,9 +3,9 @@ title: Blackberry Simulator - Ein Abenteuer auf das jeder verzichten sollte!
 date: '2012-09-14T05:17:55.000Z'
 slug: blackberry-simulator-ein-abenteuer-auf-das-jeder-verzichten-sollte
 tags:
-  - '367'
-  - '368'
-  - '369'
+  - blackberry
+  - simulator
+  - vmware
 description: >-
 
   Um einige Funktionen einer Webseite auf einem Blackberry zu testen, ohne eins

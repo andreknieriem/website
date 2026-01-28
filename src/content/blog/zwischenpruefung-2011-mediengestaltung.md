@@ -3,11 +3,11 @@ title: Zwischenprüfung 2011 Mediengestaltung
 date: '2011-04-04T13:21:30.000Z'
 slug: zwischenpruefung-2011-mediengestaltung
 tags:
-  - '243'
-  - '244'
-  - '245'
-  - '246'
-  - '247'
+  - Mediengestalter Digital Print
+  - Praktische
+  - Themen
+  - Theoretische
+  - Zwischenprüfung 2011 Mediengestaltung
 description: >-
 
   Das war sie nun also, die Zwischenprüfung 2011 für Mediengestalter.

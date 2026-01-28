@@ -3,11 +3,11 @@ title: Bildschirm ausschalten am iMac
 date: '2012-12-10T19:38:40.000Z'
 slug: bildschirm-ausschalten-am-imac
 tags:
-  - '143'
-  - '144'
-  - '145'
-  - '146'
-  - '147'
+  - ausschalten
+  - bildschirm
+  - hotkey
+  - imac
+  - tastenkürzel
 description: >-
   Ich hab mich letztens gefragt, ob und wie ich beim iMac den Bildschirm
   ausschalten kann. Die Lösung ist recht simpel.

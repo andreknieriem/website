@@ -3,15 +3,15 @@ title: 'Linux: Alle Dateien rekursiv in einem Ordner zählen'
 date: '2017-03-18T23:00:00.000Z'
 slug: linux-alle-dateien-rekursiv-in-einem-ordner-zaehlen
 tags:
-  - '203'
-  - '899'
-  - '492'
-  - '784'
-  - '968'
-  - '861'
-  - '91'
-  - '969'
-  - '949'
+  - linux
+  - unix
+  - ubuntu
+  - count
+  - zählen
+  - recursive
+  - rekursiv
+  - dateien
+  - files
 description: >-
   Möchte man auf einem Linux-Betriebssystem alle Dateien innerhalb eines Ordners
   und dessen Unterordner (rekursiv) zählen, so geht das ganz einfach mit

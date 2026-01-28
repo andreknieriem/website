@@ -3,13 +3,13 @@ title: 'Symfony Unit Testing: Session aus dem RequestStack testen'
 date: '2020-09-09T05:51:00.000Z'
 slug: symfony-unit-testing-session-aus-dem-requeststack-testen
 tags:
-  - '1124'
-  - '1191'
-  - '1192'
-  - '1193'
-  - '1194'
-  - '1195'
-  - '1196'
+  - symfony
+  - ' unit test'
+  - ' testing'
+  - ' session'
+  - ' request'
+  - ' requeststack'
+  - mock
 description: "Für einen Unit einer Klasse brauchte ich die Session aus dem Requeststack, da diese Klasse als Constructor nur den Requeststack übergeben bekommt. Das Ganze lässt sich relativ leicht bewerkstelligen, indem man erst einen Request erstellt, diesen dann einem Requeststack zuweist und diesem Requeststack dann noch eine gemockte Session zuweist.&nbsp;\r\nHier mal ein Beispiel: "
 image: /fileadmin/_processed_/3/2/csm_symfony_2c03ec37f6.png
 demo_url: null

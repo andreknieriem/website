@@ -3,11 +3,11 @@ title: Steve gibt kurzes Statement zum Location Tracking des iPhones und des iPa
 date: '2011-04-26T05:54:33.000Z'
 slug: steve-gibt-kurzes-statement-zum-location-tracking-des-iphones-und-des-ipads
 tags:
-  - '2'
-  - '34'
-  - '284'
-  - '285'
-  - '286'
+  - iphone
+  - ipad
+  - daten speichern
+  - ipad tracking
+  - iphone tracking
 description: >-
 
   Seit einiger Zeit ist bekannt, dass Apple von Datenschützer in der Kritik

@@ -3,11 +3,11 @@ title: Hp Touchpad wird immer grüner (Android)
 date: '2011-09-19T07:58:39.000Z'
 slug: hp-touchpad-wird-immer-gruener-android
 tags:
-  - '1'
-  - '164'
-  - '330'
-  - '331'
-  - '332'
+  - android
+  - hp touchpad
+  - cyanogenmod 7
+  - dalingrin
+  - touchpad
 description: >-
 
   Auch ich habe Glück gehabt und ein HP Touchpad ergattern können. Ich bin mit

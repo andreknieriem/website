@@ -3,13 +3,13 @@ title: 'Skype Windows: Werbung abschalten - So geht''s'
 date: '2014-11-19T17:05:04.000Z'
 slug: skype-windows-werbung-abschalten-so-gehts
 tags:
-  - '132'
-  - '134'
-  - '414'
-  - '505'
-  - '578'
-  - '579'
-  - '580'
+  - ausblenden
+  - hide
+  - entfernen
+  - remove
+  - skype
+  - ad
+  - werbung
 description: >
   Möchte man die doch schon störende Werbung aus Skype entfernen, so kann man
   dies ohne große Probleme schnell und einfach machen. Geht dafür in die

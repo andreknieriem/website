@@ -3,14 +3,14 @@ title: Eltern-Funktionen im Kindtheme (child-theme) bei Wordpress überschreiben
 date: '2013-09-05T06:30:19.000Z'
 slug: eltern-funktionen-im-kindtheme-child-theme-bei-wordpress-ueberschreiben
 tags:
-  - '11'
-  - '41'
-  - '176'
-  - '177'
-  - '178'
-  - '179'
-  - '180'
-  - '181'
+  - wordpress
+  - php
+  - child
+  - eltern
+  - override
+  - parent
+  - theme
+  - überschreiben
 description: >-
   Wenn man ein Theme nutzt, dass man ein wenig bearbeiten möchte, kommt man
   nicht drumrum ein Child-Theme zu erstellen. Hat man dieses nun erstellt und

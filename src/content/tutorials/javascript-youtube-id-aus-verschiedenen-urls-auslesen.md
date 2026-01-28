@@ -3,15 +3,15 @@ title: 'Javascript: Youtube-Id aus verschiedenen Url''s auslesen'
 date: '2016-08-26T22:00:00.000Z'
 slug: javascript-youtube-id-aus-verschiedenen-urls-auslesen
 tags:
-  - '69'
-  - '77'
-  - '885'
-  - '426'
-  - '97'
-  - '886'
-  - '887'
-  - '575'
-  - '888'
+  - javascript
+  - youtube
+  - id
+  - url
+  - get
+  - regex
+  - read
+  - find
+  - video
 description: "Möchte man sich selbst einen Youtube Embed Code generieren und hat dafür nur irgendeine Art von Youtube-Link, so muss man die Youtube ID aus diesen Links herausbekommen. Allerdings hat Youtube leider viele verschiedene Arten von Url's. Mit der folgenden Funktion lassen sich so gut wie von allen Youtube Url's die Ids auslesen. Gefunden habe ich die Funktion bei Stackoverflow. function youtube_parser(url){\r\n    var regExp = /^.*((youtu.be\\/)|(v\\/)|(\\/u\\/\\w\\/)|(embed\\/)|(watch\\?))\\??v?=?([^#\\&amp;\\?]*).*/;\r\n    var match = url.match(regExp);\r\n    return (match&amp;&amp;match[7].length==11)? match[7] : false;\r\n}\r\n\r\nDas Ganze funktioniert dann mit folgenden Url's\r\nhttp://www.youtube.com/watch?v=0zM3nApSvMg&feature=feedrec_grec_index\r\nhttp://www.youtube.com/user/IngridMichaelsonVEVO#p/a/u/1/QdK8U-VIH_o\r\nhttp://www.youtube.com/v/0zM3nApSvMg?fs=1&amp;hl=en_US&amp;rel=0\r\nhttp://www.youtube.com/watch?v=0zM3nApSvMg#t=0m10s\r\nhttp://www.youtube.com/embed/0zM3nApSvMg?rel=0\r\nhttp://www.youtube.com/watch?v=0zM3nApSvMg\r\nhttp://youtu.be/0zM3nApSvMg"
 image: /fileadmin/_processed_/0/9/csm_javascript_163d0d7946.png
 demo_url: null

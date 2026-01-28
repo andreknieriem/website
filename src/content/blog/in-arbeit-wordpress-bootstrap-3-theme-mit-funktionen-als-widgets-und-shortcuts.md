@@ -5,15 +5,15 @@ title: >-
 date: '2013-08-08T10:00:03.000Z'
 slug: in-arbeit-wordpress-bootstrap-3-theme-mit-funktionen-als-widgets-und-shortcuts
 tags:
-  - '11'
-  - '41'
-  - '45'
-  - '180'
-  - '215'
-  - '386'
-  - '387'
-  - '388'
-  - '389'
+  - wordpress
+  - php
+  - shortcode
+  - theme
+  - bootstrap
+  - bootstrap 3
+  - navigation
+  - template
+  - widgets
 description: >-
 
   Zur Zeit arbeite ich an einem Wordpress Bootstrap 3 Theme, dass nach und nach

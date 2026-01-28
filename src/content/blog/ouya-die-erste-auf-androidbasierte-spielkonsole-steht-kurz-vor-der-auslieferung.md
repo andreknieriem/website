@@ -6,13 +6,13 @@ date: '2012-12-04T07:45:44.000Z'
 slug: >-
   ouya-die-erste-auf-androidbasierte-spielkonsole-steht-kurz-vor-der-auslieferung
 tags:
-  - '363'
-  - '370'
-  - '371'
-  - '372'
-  - '373'
-  - '374'
-  - '375'
+  - ouya
+  - android konsole
+  - deutschland
+  - mediaserver
+  - medienserver
+  - raspberry pi
+  - test
 description: >-
 
   Die Spielekonsole Ouya steht kurz vor der Auslieferung an Entwickler. Der

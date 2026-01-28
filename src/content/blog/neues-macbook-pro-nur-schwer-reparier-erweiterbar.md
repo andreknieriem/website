@@ -3,11 +3,11 @@ title: Neues MacBook Pro nur schwer reparier-/erweiterbar
 date: '2012-06-14T08:45:37.000Z'
 slug: neues-macbook-pro-nur-schwer-reparier-erweiterbar
 tags:
-  - '327'
-  - '353'
-  - '354'
-  - '355'
-  - '356'
+  - apple
+  - macbook
+  - pro
+  - reparatur
+  - retina display
 description: >-
 
   Das neue MacBook Pro von Apple ist der neue super Laptop. Allerdings sollten

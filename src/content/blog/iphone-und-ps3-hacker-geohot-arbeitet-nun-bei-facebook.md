@@ -3,9 +3,9 @@ title: iPhone und PS3 Hacker Geohot arbeitet nun bei Facebook
 date: '2011-06-27T14:14:28.000Z'
 slug: iphone-und-ps3-hacker-geohot-arbeitet-nun-bei-facebook
 tags:
-  - '34'
-  - '310'
-  - '311'
+  - ipad
+  - geohot. facebook
+  - George Hotz
 description: >-
 
   George Hotz, besser bekannt unter dem Namen "Geohot", der bekannt geworden ist

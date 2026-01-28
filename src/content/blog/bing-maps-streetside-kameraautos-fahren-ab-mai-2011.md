@@ -3,10 +3,10 @@ title: Bing Maps Streetside - Kameraautos fahren ab Mai 2011
 date: '2011-04-05T15:59:11.000Z'
 slug: bing-maps-streetside-kameraautos-fahren-ab-mai-2011
 tags:
-  - '253'
-  - '254'
-  - '255'
-  - '256'
+  - Bing Maps Streetside
+  - Google Streetview Konkurrenz
+  - Mai 2011
+  - streetsite
 description: >-
 
   Wer gedacht hat mit den Kameraautos sei es nach dem ewigen Streit um Google

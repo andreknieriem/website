@@ -3,11 +3,11 @@ title: 'How To: Localstorage benutzen'
 date: '2013-08-06T04:52:53.000Z'
 slug: how-to-localstorage-benutzen
 tags:
-  - '20'
-  - '62'
-  - '69'
-  - '199'
-  - '200'
+  - jquery
+  - tutorial
+  - javascript
+  - html5
+  - localstorage
 description: >-
   Localstorage ist eine neuere Methode um Daten im Browser zu speichern. Ähnlich
   wie ein Cookie kann man dort Verbindungsdaten, Offline Daten etc speichern.

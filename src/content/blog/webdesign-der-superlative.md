@@ -3,9 +3,9 @@ title: Webdesign der Superlative!
 date: '2011-04-09T10:58:20.000Z'
 slug: webdesign-der-superlative
 tags:
-  - '264'
-  - '265'
-  - '266'
+  - negativbeispiel
+  - webdesign
+  - witzigste Webseite
 description: >-
 
   Wenn ihr dachtet, ihr habt schonmal eine völlig schlechte Internetseite

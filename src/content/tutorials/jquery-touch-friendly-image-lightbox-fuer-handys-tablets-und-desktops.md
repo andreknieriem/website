@@ -3,15 +3,15 @@ title: 'jQuery: Touch-friendly image lightbox für Handys, Tablets und Desktops'
 date: '2015-05-18T18:07:30.000Z'
 slug: jquery-touch-friendly-image-lightbox-fuer-handys-tablets-und-desktops
 tags:
-  - '1'
-  - '9'
-  - '20'
-  - '237'
-  - '350'
-  - '544'
-  - '675'
-  - '676'
-  - '677'
+  - android
+  - mobile
+  - jquery
+  - responsive
+  - windows phone
+  - swipe
+  - lightbox
+  - touch
+  - ios
 description: >-
   Für ein Wordpress-Theme habe eine responsive Lightbox benötigt, die simpel ist
   und vor allem auch Swipe Gesten unterstützt. Nach vielem ausprobieren und

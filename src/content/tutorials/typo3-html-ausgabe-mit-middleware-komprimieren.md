@@ -3,11 +3,11 @@ title: 'TYPO3: HTML-Ausgabe mit Middleware komprimieren'
 date: '2022-12-06T09:06:00.000Z'
 slug: typo3-html-ausgabe-mit-middleware-komprimieren
 tags:
-  - '198'
-  - '85'
-  - '1285'
-  - '1286'
-  - '1287'
+  - typo3
+  - html
+  - compress
+  - minifier
+  - middleware
 description: "Seit ich meine Webseite von Wordpress zu TYPO3 migriert habe, habe ich die Extension html_minifier von Dominik Weber benutzt. Leider funktioniert diese nicht mehr mit TYPO3 11. Da es ja jetzt die Möglichkeit einer Middlewares gibt, muss man auch nicht mehr mit einem Hook arbeiten. Falls ihr noch keine Site Extension habt, so müsst ihr euch eine anlegen und in der composer.json sollte dann Folgendes enthalten sein: {\r\n  \"name\": \"vendor/sitepackage\",\r\n  \"description\": \"Sitepackage extension\",\r\n  \"type\": \"typo3-cms-extension\",\r\n  \"homepage\": \"https://www.in2code.de\",\r\n  \"require\": {\r\n    \"typo3/cms-core\": \"^10.4\",\r\n    \"wyrihaximus/html-compress\": \"^1\"\r\n  },\r\n  \"autoload\": {\r\n    \"psr-4\": {\r\n      \"Vendor\\\\Sitepackage\\\\\": \"Classes/\"\r\n    }\r\n  }\r\n} Nun braucht ihr noch in eurer Extension noch die Middleware.php unter Configuration. Diese sagt TYPO3 wo eure Middleware liegt und wann sie aufgerufen werden soll.&nbsp;  Nun kommen wir auch schon zur Middleware selbst. Diese ist relativ simpel aufgebaut. Hauptsächlich benutzt man&nbsp;wyrihaximus/html-compress&nbsp;um den Inhalt zu minimieren. Um bei den HTML-Kommentaren nicht die wichtigen TYPO3SEARCH Kommentare zu entfernen wurden diese ausgeklammert.&nbsp;  Der komplette Middleware-Code ist nicht von mir sondern von in2code."
 image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
 demo_url: null

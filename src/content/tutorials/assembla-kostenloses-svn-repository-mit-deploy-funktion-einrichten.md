@@ -3,12 +3,12 @@ title: Assembla - Kostenloses SVN Repository mit Deploy Funktion einrichten
 date: '2012-06-14T16:08:26.000Z'
 slug: assembla-kostenloses-svn-repository-mit-deploy-funktion-einrichten
 tags:
-  - '104'
-  - '105'
-  - '106'
-  - '107'
-  - '108'
-  - '109'
+  - assembla
+  - build
+  - deploy
+  - free
+  - snaproom
+  - svn
 description: >-
   Bei meiner Arbeit an snaproom mit mehreren Rechner hat sich mir schnell die
   Frage gestellt, wie ich mir die Arbeit erleichtere. Ich hab mir dann GIT und

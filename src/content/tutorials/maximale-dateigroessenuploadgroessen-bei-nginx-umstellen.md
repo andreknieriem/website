@@ -3,10 +3,10 @@ title: Maximale Dateigrößen/Uploadgrößen bei nginx umstellen
 date: '2013-09-25T05:14:51.000Z'
 slug: maximale-dateigroessenuploadgroessen-bei-nginx-umstellen
 tags:
-  - '201'
-  - '202'
-  - '203'
-  - '204'
+  - client_max_body_size
+  - filesize
+  - linux
+  - nginx
 description: >
   Dort dann einfach den Wert der bei client_max_body_size auf die Größe eurer
   Wahl ändern. Also beispielsweise: 

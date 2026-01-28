@@ -3,11 +3,11 @@ title: Erziehungssteuer für Internet Explorer 7 Nutzer
 date: '2012-06-15T06:12:05.000Z'
 slug: erziehungssteuer-fuer-internet-explorer-7-nutzer
 tags:
-  - '87'
-  - '342'
-  - '344'
-  - '357'
-  - '358'
+  - internet explorer
+  - microsoft
+  - windows
+  - ie7
+  - steuer
 description: >-
 
   Kogan, ein australischer Shop tut das, was viele Webentwickler und Webmaster

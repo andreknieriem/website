@@ -3,11 +3,11 @@ title: Abstürze von Apps seit Update auf iOS 4.3.2
 date: '2011-04-20T19:54:34.000Z'
 slug: abstuerze-von-apps-seit-update-auf-ios-432
 tags:
-  - '2'
-  - '31'
-  - '32'
-  - '33'
-  - '34'
+  - iphone
+  - absturz
+  - Fehlerbehebung
+  - ios 4.3.2
+  - ipad
 description: >-
   Seit dem Update auf iOS 4.3.2 beklagen sich viele Nutzer, dass einige
   Anwendungen für iPhone und iPad einfach abstürzen. Die Lösung für das Problem

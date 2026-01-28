@@ -3,10 +3,10 @@ title: OmniTouch - Microsoft zeigt, dass alles ein Touchscreen werden kann
 date: '2011-10-19T13:08:02.000Z'
 slug: omnitouch-microsoft-zeigt-dass-alles-ein-touchscreen-werden-kann
 tags:
-  - '341'
-  - '342'
-  - '343'
-  - '344'
+  - kinect
+  - microsoft
+  - OmniTouch
+  - windows
 description: >
   Microsoft Research, Microsofts Forschungszentrum stellt diese Woche eine neue
   Technik namens OmniTouch vor. Mit dieser Technik ist es möglich beliebige

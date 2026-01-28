@@ -3,13 +3,13 @@ title: Entfernen des Webkit-Borders beim Focus in ein Input Feld
 date: '2012-03-05T14:49:02.000Z'
 slug: entfernen-des-webkit-borders-beim-focus-in-ein-input-feld
 tags:
-  - '25'
-  - '58'
-  - '72'
-  - '78'
-  - '79'
-  - '80'
-  - '81'
+  - css
+  - safari
+  - chrome
+  - css3
+  - focus
+  - input
+  - webkit-border
 description: >-
   In vielen Browser, besonders in den Webkit-Browser Chrome und Safari werden
   Input-Felder gehighlightet wenn man sie gerade fokussiert. Das kann bei dem

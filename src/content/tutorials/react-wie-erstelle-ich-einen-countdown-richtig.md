@@ -3,13 +3,13 @@ title: React - Wie erstelle ich einen Countdown richtig
 date: '2021-06-17T11:01:00.000Z'
 slug: react-wie-erstelle-ich-einen-countdown-richtig
 tags:
-  - '1240'
-  - '1256'
-  - '1257'
-  - '1258'
-  - '1259'
-  - '1218'
-  - '422'
+  - react
+  - ' countdown'
+  - ' setinterval'
+  - ' settimeout'
+  - ' rightway'
+  - ' tutorial'
+  - howto
 description: "Einen Countdown in React zu erstellen ist relativ einfach, wenn man es denn richtig macht. Nach einigen Versuchen und ein bisschen Recherche bin ich dann auf eine funktionierende Lösung gekommen. function App() {\r\n  // 60 seconds\r\n  const [counter, setCounter] = React.useState(60);\r\n\r\n  React.useEffect(() => {\r\n    counter > 0 && setTimeout(() => setCounter(counter - 1), 1000);\r\n  }, [counter]);\r\n\r\n  return (\r\n    \r\n      Countdown: {counter}\r\n    \r\n  );\r\n} "
 image: /fileadmin/_processed_/f/6/csm_react_b62544a4c5.png
 demo_url: null

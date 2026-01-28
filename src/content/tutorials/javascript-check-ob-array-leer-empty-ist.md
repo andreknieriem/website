@@ -3,11 +3,11 @@ title: Javascript Check, ob Array leer (empty) ist
 date: '2013-01-15T11:45:34.000Z'
 slug: javascript-check-ob-array-leer-empty-ist
 tags:
-  - '69'
-  - '159'
-  - '160'
-  - '161'
-  - '162'
+  - javascript
+  - array
+  - checken
+  - empty
+  - leer
 description: >-
   Falls ihr in Javascript etwas programmiert, zum Beispiel eine Validierung
   werdet ihr früher oder später mit dem Fall zu tun bekommen, dass gecheckt

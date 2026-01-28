@@ -3,10 +3,10 @@ title: WWDC 2011 - Wohl keine iPhone 5 Vorstellung
 date: '2011-03-29T09:15:14.000Z'
 slug: wwdc-2011-wohl-keine-iphone-5-vorstellung
 tags:
-  - '2'
-  - '240'
-  - '241'
-  - '242'
+  - iphone
+  - iphone 5
+  - veröffentlichung herbst
+  - wwdc 2011
 description: >-
 
   Auf vielen Seiten wird gerade diskutiert, ob Apple am 6. Juni das neue iPhone

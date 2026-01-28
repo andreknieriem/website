@@ -3,11 +3,11 @@ title: Element beim Scrollen fixieren mit jQuery
 date: '2011-08-05T08:35:15.000Z'
 slug: element-beim-scrollen-fixieren-mit-jquery
 tags:
-  - '20'
-  - '59'
-  - '60'
-  - '61'
-  - '62'
+  - jquery
+  - fixed
+  - floating element
+  - scroll
+  - tutorial
 description: >-
 
 

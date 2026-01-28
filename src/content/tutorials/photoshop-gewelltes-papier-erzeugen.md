@@ -3,11 +3,11 @@ title: Photoshop - Gewelltes Papier erzeugen
 date: '2012-06-07T10:32:10.000Z'
 slug: photoshop-gewelltes-papier-erzeugen
 tags:
-  - '62'
-  - '100'
-  - '101'
-  - '102'
-  - '103'
+  - tutorial
+  - adobe photoshop
+  - gebogen
+  - photoshop
+  - welliges papier
 description: >-
   Um Objekte schön hervorzuheben könnte man sich dazu entschließen das Objekt
   3D-mäßig hervorzuheben. Wem ein normaler Schlagschatten da nicht ausreicht,

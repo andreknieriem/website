@@ -3,10 +3,10 @@ title: Amazon startet neuen Bezahldienst à la Paypal
 date: '2011-04-26T16:24:06.000Z'
 slug: amazon-startet-neuen-bezahldienst-a-la-paypal
 tags:
-  - '287'
-  - '288'
-  - '289'
-  - '290'
+  - amazon
+  - bezahlen über amazon
+  - Paypal Alternative
+  - Paypal Konkurrenz
 description: >-
 
   Amazon hat heute seinen neuen Dienst &bdquo;Bezahlen über Amazon&rdquo;

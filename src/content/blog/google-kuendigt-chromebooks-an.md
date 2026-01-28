@@ -3,11 +3,11 @@ title: Google kündigt "Chromebooks" an
 date: '2011-05-12T04:36:46.000Z'
 slug: google-kuendigt-chromebooks-an
 tags:
-  - '72'
-  - '259'
-  - '299'
-  - '300'
-  - '301'
+  - chrome
+  - Google
+  - chromebook
+  - kosten
+  - release
 description: >-
 
   Der Internetkonzern Google stellte am Mittwoch seine ersten eigenen Netbooks

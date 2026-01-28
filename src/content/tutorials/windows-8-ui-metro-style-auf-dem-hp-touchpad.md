@@ -3,11 +3,11 @@ title: Windows 8 UI (Metro Style) auf dem HP Touchpad
 date: '2013-01-16T06:35:25.000Z'
 slug: windows-8-ui-metro-style-auf-dem-hp-touchpad
 tags:
-  - '163'
-  - '164'
-  - '165'
-  - '166'
-  - '167'
+  - android wigdet
+  - hp touchpad
+  - metro ui
+  - windows 8
+  - windows rt
 description: >-
 
   Ich bin ein stolzer Besitzer eines HP Touchpads, dass mitlerweile Android

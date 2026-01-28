@@ -3,11 +3,11 @@ title: Steve Jobs ist tot!
 date: '2011-10-06T04:03:31.000Z'
 slug: steve-jobs-ist-tot
 tags:
-  - '336'
-  - '337'
-  - '338'
-  - '339'
-  - '340'
+  - '2011'
+  - krank
+  - steve jobs
+  - tod
+  - tot
 description: >-
 
   Gerade nach dem heutigen Aufstehen habe ich die Meldung gesehen und bin total

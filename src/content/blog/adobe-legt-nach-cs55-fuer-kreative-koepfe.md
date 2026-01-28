@@ -3,12 +3,12 @@ title: Adobe legt nach, CS5.5 für kreative Köpfe
 date: '2011-04-11T15:27:22.000Z'
 slug: adobe-legt-nach-cs55-fuer-kreative-koepfe
 tags:
-  - '102'
-  - '271'
-  - '272'
-  - '273'
-  - '274'
-  - '275'
+  - photoshop
+  - adobe
+  - adobe creative suite
+  - cs5.5
+  - dreamweaver
+  - illustrator
 description: >-
 
   Ein Jahr nach Fertigstellung der Creative Suite 5 stellt Adobe erstmals eine

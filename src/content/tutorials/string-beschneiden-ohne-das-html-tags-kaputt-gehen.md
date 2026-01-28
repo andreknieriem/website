@@ -3,13 +3,13 @@ title: String beschneiden, ohne das HTML-Tags kaputt gehen
 date: '2013-01-18T13:25:41.000Z'
 slug: string-beschneiden-ohne-das-html-tags-kaputt-gehen
 tags:
-  - '12'
-  - '85'
-  - '136'
-  - '168'
-  - '169'
-  - '170'
-  - '171'
+  - function
+  - html
+  - prevent
+  - crop
+  - method
+  - string
+  - tags
 description: >-
   Möchte man einen String croppen, in dem HTML-Tags sind, dann kann es schnell
   passieren, dass der String mitten in einem abgescnitten wird. Dies kann unter

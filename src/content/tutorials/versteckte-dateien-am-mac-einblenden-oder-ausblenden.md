@@ -3,12 +3,12 @@ title: Versteckte Dateien am Mac einblenden oder ausblenden
 date: '2013-10-14T04:34:21.000Z'
 slug: versteckte-dateien-am-mac-einblenden-oder-ausblenden
 tags:
-  - '50'
-  - '132'
-  - '133'
-  - '220'
-  - '221'
-  - '222'
+  - mac
+  - ausblenden
+  - einblenden
+  - finder
+  - hack
+  - versteckte dateien
 description: >-
   Um beim Mac versteckte Dateien wie zum Beispiel die .htaccess Datei sehen zu
   können muss man den Terminal (Unter Programme/Dienstprogramme) aufrufen und

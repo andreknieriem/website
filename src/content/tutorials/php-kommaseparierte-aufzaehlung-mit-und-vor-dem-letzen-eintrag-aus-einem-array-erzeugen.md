@@ -6,15 +6,15 @@ date: '2014-12-19T16:51:14.000Z'
 slug: >-
   php-kommaseparierte-aufzaehlung-mit-und-vor-dem-letzen-eintrag-aus-einem-array-erzeugen
 tags:
-  - '41'
-  - '159'
-  - '589'
-  - '590'
-  - '591'
-  - '592'
-  - '593'
-  - '594'
-  - '595'
+  - php
+  - array
+  - comma
+  - komma
+  - list
+  - and
+  - und
+  - letzter
+  - last
 description: "\r\npublic function nice_count( $input = array() ){\r\n\tif( count( $input ) == 0 ) return '';\r\n\tif( count( $input ) == 1 )return $input[0];\r\n\t$last = array_pop( $input );\r\n\t$tmp = implode(', ', $input);\r\n\treturn $tmp . ' und ' . $last;\r\n}\r\n\r\n// So benutzt man es\r\n$array = array('Bananen', 'Äpfel', 'Birnen');\r\nnice_count($array);\r\n\r\n// Ergibt\r\n// Bananen, Äpfel und Birnen\r\n "
 image: /fileadmin/_processed_/a/1/csm_php_f46f120f0b.png
 demo_url: null

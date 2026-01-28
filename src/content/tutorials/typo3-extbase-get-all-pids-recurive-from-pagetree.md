@@ -3,13 +3,13 @@ title: 'TYPO3 Extbase: Get all Pids recurive from PageTree'
 date: '2016-06-14T16:29:17.000Z'
 slug: typo3-extbase-get-all-pids-recurive-from-pagetree
 tags:
-  - '97'
-  - '176'
-  - '198'
-  - '461'
-  - '845'
-  - '846'
-  - '847'
+  - get
+  - child
+  - typo3
+  - extbase
+  - pids
+  - pagetree
+  - pages
 description: "Möchte man in Extbase alle Pids der Unterseiten einer gegebenen Seite bekommen, beispielsweise alle Unterordner eines Ablage-Ordners mit durchsuchen, so kann man dies mit folgender Funktion tun. \nFunktion \r\nfunction getTreePids($parent = 0, $as_array = true){\r\n    $depth = 999999;\r\n    $queryGenerator = \\TYPO3\\CMS\\Core\\Utility\\GeneralUtility::makeInstance( 'TYPO3\\\\CMS\\\\Core\\\\Database\\\\QueryGenerator' );\r\n    $childPids = $queryGenerator-&gt;getTreeList($parent, $depth, 0, 1); //Will be a string like 1,2,3\r\n    if($as_array) {\r\n        $childPids = explode(',',$childPids );\r\n    }\r\n    return $childPids;\r\n}\r\n Benutzung \r\n$childs = getTreePids(5);\r\n "
 image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
 demo_url: null

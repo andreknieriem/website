@@ -3,12 +3,12 @@ title: Führende Nullen bei CSV-Export behalten
 date: '2013-06-21T06:49:54.000Z'
 slug: fuehrende-nullen-bei-csv-export-behalten
 tags:
-  - '41'
-  - '191'
-  - '192'
-  - '193'
-  - '194'
-  - '195'
+  - php
+  - behalten
+  - csv
+  - leading zeros
+  - nullen
+  - retain
 description: >-
   Damit Excel die führenden Nullen bei CSV Dateien nicht entfernt, muss man
   während der Generierung der CSV-Datei einfach folgendes beachten: 

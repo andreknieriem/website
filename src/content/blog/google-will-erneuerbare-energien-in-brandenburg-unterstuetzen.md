@@ -3,10 +3,10 @@ title: Google will erneuerbare Energien in Brandenburg unterstützen
 date: '2011-04-07T08:00:27.000Z'
 slug: google-will-erneuerbare-energien-in-brandenburg-unterstuetzen
 tags:
-  - '257'
-  - '258'
-  - '259'
-  - '260'
+  - Brandenburg
+  - erneuerbare Energien
+  - Google
+  - Solarpark
 description: >-
 
   Der amerikanische Suchmaschinen-Anbieter Google möchte nun auch auf dem

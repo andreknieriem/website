@@ -3,12 +3,12 @@ title: HTML Special Char Liste
 date: '2015-03-27T16:52:37.000Z'
 slug: html-special-char-liste
 tags:
-  - '85'
-  - '591'
-  - '640'
-  - '641'
-  - '642'
-  - '643'
+  - html
+  - list
+  - special
+  - chars
+  - encode
+  - decode
 description: |
 
   NameASCIIHTMLChar

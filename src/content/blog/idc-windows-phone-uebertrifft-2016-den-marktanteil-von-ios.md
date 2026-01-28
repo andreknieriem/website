@@ -3,13 +3,13 @@ title: 'IDC: Windows Phone übertrifft 2016 den Marktanteil von iOS'
 date: '2012-06-11T05:06:06.000Z'
 slug: idc-windows-phone-uebertrifft-2016-den-marktanteil-von-ios
 tags:
-  - '1'
-  - '166'
-  - '327'
-  - '344'
-  - '348'
-  - '349'
-  - '350'
+  - android
+  - windows 8
+  - apple
+  - windows
+  - smartphone
+  - tablet
+  - windows phone
 description: >-
 
   Laut IDC soll der Marktanteil von Windows Phone bis 2016 um 46,2 pro Jahr

@@ -3,10 +3,10 @@ title: Neue Nintendo Wii Konsole erst 2012
 date: '2011-04-25T15:58:43.000Z'
 slug: neue-nintendo-wii-konsole-erst-2012
 tags:
-  - '251'
-  - '281'
-  - '282'
-  - '283'
+  - Juni 2011
+  - Release 2012
+  - wii 2
+  - wii hd
 description: >-
 
   Nintendo hat für das kommende Jahr 2012 eine neue Konsole angekündigt. Die

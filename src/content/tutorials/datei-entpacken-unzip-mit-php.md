@@ -3,13 +3,13 @@ title: Datei entpacken (Unzip) mit PHP
 date: '2012-09-28T05:05:07.000Z'
 slug: datei-entpacken-unzip-mit-php
 tags:
-  - '41'
-  - '92'
-  - '93'
-  - '120'
-  - '121'
-  - '122'
-  - '123'
+  - php
+  - unzip
+  - zip
+  - entpacken
+  - packen
+  - server
+  - ssh
 description: >-
   Falls ihr mehrere Dateien auf einmal hochladen wollt (z.B. Typo3 oder
   Wordpress Installationen) so solltet ihr die Dateien in ein Zip-Archiv packen.

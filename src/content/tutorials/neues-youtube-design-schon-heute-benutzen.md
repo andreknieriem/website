@@ -3,13 +3,13 @@ title: Neues Youtube Design schon heute benutzen!
 date: '2011-11-21T15:55:34.000Z'
 slug: neues-youtube-design-schon-heute-benutzen
 tags:
-  - '50'
-  - '72'
-  - '73'
-  - '74'
-  - '75'
-  - '76'
-  - '77'
+  - mac
+  - chrome
+  - firefox
+  - konsole
+  - neues design
+  - newmdesign
+  - youtube
 description: >-
 
   Youtube bekommt ein neues Design und wer nicht abwarten, bis das neue Design

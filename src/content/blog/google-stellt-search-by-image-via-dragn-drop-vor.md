@@ -3,9 +3,9 @@ title: Google stellt Search by Image via Drag'n Drop vor
 date: '2011-06-15T16:05:12.000Z'
 slug: google-stellt-search-by-image-via-dragn-drop-vor
 tags:
-  - '259'
-  - '308'
-  - '309'
+  - Google
+  - google bildersuche
+  - search by image
 description: >
 
   Google hat ein neues Feature zur Bildersuche vorgestellt, "Search by Image",

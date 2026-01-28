@@ -3,13 +3,13 @@ title: Neues Design, neues Leben!
 date: '2012-06-11T13:44:20.000Z'
 slug: neues-design-neues-leben
 tags:
-  - '20'
-  - '75'
-  - '78'
-  - '199'
-  - '263'
-  - '351'
-  - '352'
+  - jquery
+  - neues design
+  - css3
+  - html5
+  - redesign
+  - andre knieriem
+  - responsive webdesign
 description: >-
 
 

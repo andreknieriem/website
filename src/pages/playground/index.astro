@@ -3,30 +3,45 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const entries = (await getCollection('playground')).sort(
-	(a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+	(a, b) => {
+    const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date);
+    const dateB = b.data.date instanceof Date ? b.data.date : new Date(b.data.date);
+    return dateB.valueOf() - dateA.valueOf();
+  }
 );
+
+function truncate(str, max = 250) {
+  if (!str || str.length <= max) return str;
+  const subString = str.substr(0, max - 1);
+  return subString.substr(0, subString.lastIndexOf(" ")) + "&hellip;";
+}
 ---
 <BaseLayout title="Playground">
+  <header><h1>Playground</h1></header>
+  <p>Auf den folgenden Seiten habe ich kleine Demos und Code-Snippets aufbereitet, die schöne Ergänzungen und Anregungen für verschiedene Website-Komponenten zeigen.</p>
   <div class="blog-list">
-    {entries.map((entry) => (
-      <div class="blog-entry-wrapper">
-        <a class="blog-entry" href={`/playground/${entry.slug}`}>
-          <div class="entry-cat">
-             <img class="img-fluid" src={entry.data.image || '/fileadmin/Daten/Bilder/t3logo.png'} width="200" height="200" alt="" />
+    {entries.map((entry) => {
+      const entryDate = entry.data.date instanceof Date ? entry.data.date : new Date(entry.data.date);
+      return (
+        <div class="blog-entry-wrapper">
+          <a class="blog-entry" href={`/playground/${entry.slug}`}>
+            <div class="entry-cat">
+               <img class="img-fluid" src={entry.data.image || '/fileadmin/Daten/Bilder/t3logo.png'} width="200" height="200" alt="" />
+            </div>
+            <div class="entry-content">
+              <time class="datetime" datetime={entryDate.toISOString()}>
+                <span class="day">{entryDate.toLocaleDateString('de-DE', { day: '2-digit', month: 'short', year: 'numeric' })}</span>
+              </time>
+              <h3>{entry.data.title}</h3>
+              <p set:html={truncate(entry.data.description)} />
+            </div>
+          </a>
+          <div class="entry-meta">
+            <span>#Playground</span>
           </div>
-          <div class="entry-content">
-            <time class="datetime" datetime={entry.data.date instanceof Date ? entry.data.date.toISOString() : entry.data.date}>
-              <span class="day">{entry.data.date.toLocaleDateString('de-DE', { day: '2-digit', month: 'short', year: 'numeric' })}</span>
-            </time>
-            <h3>{entry.data.title}</h3>
-            <p>{entry.data.description}</p>
-          </div>
-        </a>
-        <div class="entry-meta">
-          <span>#Playground</span>
+          <hr>
         </div>
-        <hr>
-      </div>
-    ))}
+      );
+    })}
   </div>
 </BaseLayout>

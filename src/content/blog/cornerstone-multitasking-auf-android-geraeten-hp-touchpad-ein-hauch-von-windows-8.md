@@ -6,12 +6,12 @@ date: '2012-05-15T16:08:38.000Z'
 slug: >-
   cornerstone-multitasking-auf-android-geraeten-hp-touchpad-ein-hauch-von-windows-8
 tags:
-  - '1'
-  - '164'
-  - '166'
-  - '345'
-  - '346'
-  - '347'
+  - android
+  - hp touchpad
+  - windows 8
+  - cornerstone
+  - cyanogenmod
+  - multitasking
 description: >-
   Seit das HP Touchpad dank des Teams von Cyanogenmod und insbesondere durch
   Erik Hardesty endlich mit dem Android 4 Ice Cream Sandwich läuft, merkt man

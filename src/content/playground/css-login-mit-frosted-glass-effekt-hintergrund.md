@@ -3,15 +3,15 @@ title: 'CSS: Login mit "Frosted Glass" Effekt Hintergrund'
 date: '2018-06-11T16:55:00.000Z'
 slug: css-login-mit-frosted-glass-effekt-hintergrund
 tags:
-  - '62'
-  - '1054'
-  - '1055'
-  - '25'
-  - '1056'
-  - '1057'
-  - '1058'
-  - '232'
-  - '236'
+  - tutorial
+  - frosted
+  - glass
+  - css
+  - satiniert
+  - blurred
+  - login
+  - background
+  - hintergrund
 description: >-
   In vielen modernen Programmen/Apps und sogar Betriebssystem finden wir immer
   häufiger Elemente, die den Hintergrund verschwommen durchscheinen lassen.

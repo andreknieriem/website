@@ -3,10 +3,10 @@ title: Hacker planen Facebook lahmzulegen
 date: '2011-08-09T15:13:14.000Z'
 slug: hacker-planen-facebook-lahmzulegen
 tags:
-  - '316'
-  - '322'
-  - '323'
-  - '324'
+  - facebook
+  - anonymous
+  - hacken
+  - operation facebook
 description: >
   Die Hackergruppe Anonymous, die in der letzten Zeit für sehr viel Aufsehen
   sorgte, hat es nun auf Facebook abgesehen. Der Großangriff soll am 5 November

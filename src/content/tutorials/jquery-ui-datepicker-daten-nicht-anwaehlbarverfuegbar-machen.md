@@ -3,12 +3,12 @@ title: jQuery UI Datepicker - Daten nicht anwählbar/verfügbar machen
 date: '2013-01-08T06:15:06.000Z'
 slug: jquery-ui-datepicker-daten-nicht-anwaehlbarverfuegbar-machen
 tags:
-  - '69'
-  - '154'
-  - '155'
-  - '156'
-  - '157'
-  - '158'
+  - javascript
+  - buchungssystem
+  - datepicker
+  - jquery ui
+  - unavailabled
+  - unverfügbar
 description: >-
   Möchte man einen Datepicker benutzen kommt man ziemlich schnell auf den, der
   bei jQuery UI eingebaut. Der Datepicker ist schön, flexibel und funktioniert

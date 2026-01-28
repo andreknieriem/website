@@ -3,9 +3,9 @@ title: Apple-Fernseher - Gerücht um Tim Cooks erstes Produkt
 date: '2011-08-29T16:26:32.000Z'
 slug: apple-fernseher-geruecht-um-tim-cooks-erstes-produkt
 tags:
-  - '327'
-  - '328'
-  - '329'
+  - apple
+  - fernseher
+  - itv
 description: >-
   Noch während der Gerüchte um das,bzw. die neuen iPhones 4S und 5 kommt ein
   neues Apple Gerücht zum Vorschein. Dieses Mal handelt es sich um etwas

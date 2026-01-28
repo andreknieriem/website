@@ -3,11 +3,11 @@ title: 'Trick: Font Awesome in Photoshop verwenden'
 date: '2014-04-30T15:28:59.000Z'
 slug: trick-font-awesome-in-photoshop-verwenden
 tags:
-  - '102'
-  - '470'
-  - '471'
-  - '472'
-  - '473'
+  - photoshop
+  - ps
+  - font-awesome
+  - benutzen
+  - use
 description: >
   Wenn ihr in Photoshop Font Awesome verwenden wollt, dann merkt ihr schnell,
   dass die ganzen Icons nicht mal eben eintippbar sind, da es Sonderzeichen

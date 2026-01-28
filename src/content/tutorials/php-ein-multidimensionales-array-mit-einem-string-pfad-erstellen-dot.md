@@ -3,15 +3,15 @@ title: 'PHP: Ein multidimensionales Array mit einem String-Pfad erstellen (Dot)'
 date: '2019-04-03T06:06:00.000Z'
 slug: php-ein-multidimensionales-array-mit-einem-string-pfad-erstellen-dot
 tags:
-  - '41'
-  - '1137'
-  - '1138'
-  - '1139'
-  - '1140'
-  - '1141'
-  - '1142'
-  - '1134'
-  - '1143'
+  - php
+  - ' dot'
+  - ' notation'
+  - ' path'
+  - ' array'
+  - ' multidimensional'
+  - ' recursive'
+  - ' add'
+  - ' create'
 description: ' '
 image: /fileadmin/_processed_/a/1/csm_php_f46f120f0b.png
 demo_url: null

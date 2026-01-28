@@ -3,11 +3,11 @@ title: Samsung Galaxy S2 vs iPhone 4
 date: '2011-05-02T16:05:22.000Z'
 slug: samsung-galaxy-s2-vs-iphone-4
 tags:
-  - '294'
-  - '295'
-  - '296'
-  - '297'
-  - '298'
+  - amoled
+  - iphone alternative
+  - iphone konkurrenz
+  - samsung galaxy
+  - samsung s2
 description: >-
 
   Das Samsung Galaxy S erhält diesen Monat einen Nachfolger, das Galaxy S2.

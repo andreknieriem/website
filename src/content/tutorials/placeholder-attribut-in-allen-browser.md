@@ -3,13 +3,13 @@ title: Placeholder Attribut in allen Browser
 date: '2012-04-20T13:05:28.000Z'
 slug: placeholder-attribut-in-allen-browser
 tags:
-  - '4'
-  - '20'
-  - '69'
-  - '85'
-  - '86'
-  - '87'
-  - '88'
+  - script
+  - jquery
+  - javascript
+  - html
+  - ie
+  - internet explorer
+  - placeholder
 description: >-
   Das Placeholder Attribut, dass HTML5 mit sich bringt ist ein tolles Feature.
   Nur leider funktioniert das Attribut nicht auf allen Browsern. Vor allem nicht

@@ -3,9 +3,9 @@ title: Die Rückseite von Webseiten
 date: '2011-05-13T08:21:45.000Z'
 slug: die-rueckseite-von-webseiten
 tags:
-  - '265'
-  - '302'
-  - '303'
+  - webdesign
+  - rückseite
+  - webseite
 description: >
   Ich habe auf http://backofawebpage.com/ eine nette kleine Sammlung von
   Screenshots gefunden, wie Webseiten von hinten aussehen. Wenn ihr also schon

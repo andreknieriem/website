@@ -3,11 +3,11 @@ title: Privater Modus/Private Browsing im Mobile Safari
 date: '2011-07-28T06:18:43.000Z'
 slug: privater-modusprivate-browsing-im-mobile-safari
 tags:
-  - '2'
-  - '55'
-  - '56'
-  - '57'
-  - '58'
+  - iphone
+  - mobile safari
+  - private browsing
+  - privater modus
+  - safari
 description: >-
   Jeder hat sicherlich schonmal die Funktion des Privaten Modus, bzw. des
   Private Browsing im Mobile Safari vermisst. Natürlich gibt es Browser von 3.

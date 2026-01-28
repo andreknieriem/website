@@ -3,10 +3,10 @@ title: Mysql timestamp to php date
 date: '2012-10-16T12:59:37.000Z'
 slug: mysql-timestamp-to-php-date
 tags:
-  - '40'
-  - '41'
-  - '124'
-  - '125'
+  - mysql
+  - php
+  - php date
+  - timestamp
 description: >-
   In einem alten Projekt hatte ich die Zeitangaben einfach mit dem Mysql
   Timestamp gesetzt. Nun wollte ich jedoch nur das Datum haben und musste es

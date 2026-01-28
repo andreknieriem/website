@@ -3,11 +3,11 @@ title: Anonymität im Internet muss abgeschafft werden...
 date: '2011-08-03T13:13:22.000Z'
 slug: anonymitaet-im-internet-muss-abgeschafft-werden
 tags:
-  - '314'
-  - '315'
-  - '316'
-  - '317'
-  - '318'
+  - anonym
+  - anonymität
+  - facebook
+  - internet
+  - mobbing
 description: >-
   .. das gerade diese Forderung von Facebook kommt wundert wenige. Die Marketing
   Chefin und Schwester von Mark Zuckerberg Randi Zuckerberg verlangt, dass die

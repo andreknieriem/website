@@ -3,16 +3,16 @@ title: 'TYPO3: Login Screen anpassen ab 7LTS'
 date: '2017-07-17T22:00:00.000Z'
 slug: typo3-login-screen-anpassen-ab-7lts
 tags:
-  - '198'
-  - '993'
-  - '994'
-  - '995'
-  - '996'
-  - '997'
-  - '998'
-  - '999'
-  - '479'
-  - '1000'
+  - typo3
+  - ' login'
+  - ' screen'
+  - ' change'
+  - ' anpassen'
+  - 7lts
+  - 8tls
+  - 9tls
+  - extension
+  - manager
 description: "Seit der Version 7LTS von TYPO3 kann man den Backend-Login Screen einfach anpassen. Dafür muss man nur im Extension-Manager (Erweiterungen, siehe Screenshot) auf TYPO3 Backend klicken und die gewünschten Einstellungen vornehmen.&nbsp; \r\n \r\n Im oberen Screenshot habe ich alle drei Felder gefüllt. Die Beschreibung der Felder ist selbsterklärend und sollte jedem verständlich sein.\r\nHier noch das Ergebnis: \r\n"
 image: /fileadmin/_processed_/0/a/csm_typo3_81d1ef1672.png
 demo_url: null

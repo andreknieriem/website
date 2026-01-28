@@ -3,10 +3,10 @@ title: Randi Zuckerberg verlässt Facebook
 date: '2011-08-04T06:59:12.000Z'
 slug: randi-zuckerberg-verlaesst-facebook
 tags:
-  - '316'
-  - '319'
-  - '320'
-  - '321'
+  - facebook
+  - kündigt
+  - randi zuckerberg
+  - zuckerberg
 description: >-
 
   Gestern habe ich gerade über Randi Zuckerberg gesprochen, die meinte, dass

@@ -3,12 +3,12 @@ title: Xbox 720 Dokument im Internet aufgetaucht
 date: '2012-06-19T04:29:25.000Z'
 slug: xbox-720-dokument-im-internet-aufgetaucht
 tags:
-  - '301'
-  - '341'
-  - '342'
-  - '364'
-  - '365'
-  - '366'
+  - release
+  - kinect
+  - microsoft
+  - '2012'
+  - dokument
+  - xbox
 description: >-
 
 

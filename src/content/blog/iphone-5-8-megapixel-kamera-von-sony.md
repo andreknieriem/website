@@ -3,12 +3,12 @@ title: iPhone 5 8 Megapixel Kamera von Sony?
 date: '2011-04-04T15:08:46.000Z'
 slug: iphone-5-8-megapixel-kamera-von-sony
 tags:
-  - '240'
-  - '248'
-  - '249'
-  - '250'
-  - '251'
-  - '252'
+  - iphone 5
+  - 8 Megapixel
+  - 8mp
+  - Herbst 2011
+  - Juni 2011
+  - sony kamera
 description: >-
 
   Nachdem das iPad 2 nun erschienen ist, geht es gleich weiter in der Apple

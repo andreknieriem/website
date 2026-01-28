@@ -3,9 +3,9 @@ title: Hp Touchpad wird immer grüner (Android) UPDATE 13.10.2011
 date: '2011-10-14T06:25:23.000Z'
 slug: hp-touchpad-wird-immer-gruener-android-update-13102011
 tags:
-  - '1'
-  - '164'
-  - '330'
+  - android
+  - hp touchpad
+  - cyanogenmod 7
 description: >
   Das Team von CyanogenMod 7 hat die Alpha für Android 2.3 für das HP Touchpad
   veröffentlicht! Nun kann jeder, der will Android auf dem Touchpad

@@ -3,10 +3,10 @@ title: 'Problemlösung: Wordpress lädt Bilder hoch, kann sie aber nicht bearbei
 date: '2013-12-04T11:07:14.000Z'
 slug: problemloesung-wordpress-laedt-bilder-hoch-kann-sie-aber-nicht-bearbeiten
 tags:
-  - '11'
-  - '190'
-  - '238'
-  - '239'
+  - wordpress
+  - upload
+  - dimensions
+  - fix
 description: >-
   Ich hatte gestern das Problem, dass ich bei einer neu aufgesetzten Seite keine
   Bilder richtig hochladen konnte, zumindest dachte ich das. Der Upload lief

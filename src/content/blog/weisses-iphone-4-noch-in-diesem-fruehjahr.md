@@ -3,12 +3,12 @@ title: Weißes iPhone 4 noch in diesem Frühjahr
 date: '2011-04-15T08:18:29.000Z'
 slug: weisses-iphone-4-noch-in-diesem-fruehjahr
 tags:
-  - '240'
-  - '276'
-  - '277'
-  - '278'
-  - '279'
-  - '280'
+  - iphone 5
+  - anfang mai
+  - ende april
+  - iphone 4
+  - weißes iphone 4
+  - weißes iphone 5
 description: >-
 
   Schon bei der Vorstellung des iPhone 4 wurde gesagt, dass es eine weiße

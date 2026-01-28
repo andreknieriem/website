@@ -3,9 +3,9 @@ title: Hp Touchpad wird immer grüner (Android) UPDATE 04.10.2011
 date: '2011-10-04T07:10:50.000Z'
 slug: hp-touchpad-wird-immer-gruener-android-update-04102011
 tags:
-  - '1'
-  - '332'
-  - '333'
+  - android
+  - touchpad
+  - hp
 description: >-
 
   Es gibt ein neues Video zur Android Portionierung auf dem HP Touchpad.

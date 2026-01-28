@@ -3,9 +3,9 @@ title: Der Commodore 64 ist zurück!
 date: '2011-04-08T07:11:29.000Z'
 slug: der-commodore-64-ist-zurueck
 tags:
-  - '261'
-  - '262'
-  - '263'
+  - c64
+  - commodore 64 zurück
+  - redesign
 description: >-
 
   Commodore USA lässt den legandären Commodore 64 wieder auferstehen, zumindest

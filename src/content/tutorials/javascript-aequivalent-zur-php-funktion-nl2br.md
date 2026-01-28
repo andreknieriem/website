@@ -3,13 +3,13 @@ title: Javascript Äquivalent zur Php-Funktion nl2br()
 date: '2011-11-14T10:29:26.000Z'
 slug: javascript-aequivalent-zur-php-funktion-nl2br
 tags:
-  - '12'
-  - '13'
-  - '20'
-  - '41'
-  - '69'
-  - '70'
-  - '71'
+  - function
+  - funktion
+  - jquery
+  - php
+  - javascript
+  - js
+  - nl2br
 description: >-
   Ich brauchte eine Funktion, die mir wie die PHP Funktion nl2br Break-Tags
   setzt. Nach kurzem suchen wurde ich fündig ;)

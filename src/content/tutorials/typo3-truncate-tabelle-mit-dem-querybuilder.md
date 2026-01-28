@@ -3,13 +3,13 @@ title: 'TYPO3: Truncate Tabelle mit dem Querybuilder'
 date: '2018-10-10T11:46:00.000Z'
 slug: typo3-truncate-tabelle-mit-dem-querybuilder
 tags:
-  - '198'
-  - '1077'
-  - '1078'
-  - '1079'
-  - '1080'
-  - '40'
-  - '461'
+  - typo3
+  - querybuilder
+  - truncate
+  - table
+  - connection
+  - mysql
+  - extbase
 description: >-
   Ich Folgenden zeige ich euch, wie man mit dem neuen Querybuilder von TYPO3
   eine Tabelle leeren kann. Das geht recht einfach: 

@@ -3,15 +3,15 @@ title: Microsofts Surface Pro kommt erst im Februar
 date: '2013-01-23T08:49:47.000Z'
 slug: microsofts-surface-pro-kommt-erst-im-februar
 tags:
-  - '166'
-  - '167'
-  - '300'
-  - '342'
-  - '349'
-  - '382'
-  - '383'
-  - '384'
-  - '385'
+  - windows 8
+  - windows rt
+  - kosten
+  - microsoft
+  - tablet
+  - erscheinungstermin
+  - februar
+  - preis
+  - surface
 description: >-
 
   Microsofts Surface Pro Tablet sollte eigentlich schon im Januar erscheinen,

@@ -3,12 +3,12 @@ title: Weißes iPhone 4 ab heute verfügbar
 date: '2011-04-27T18:14:12.000Z'
 slug: weisses-iphone-4-ab-heute-verfuegbar
 tags:
-  - '2'
-  - '278'
-  - '279'
-  - '291'
-  - '292'
-  - '293'
+  - iphone
+  - iphone 4
+  - weißes iphone 4
+  - 28. April
+  - '28.4'
+  - weißes iphone
 description: >-
 
   Update zum weißen iPhone 4

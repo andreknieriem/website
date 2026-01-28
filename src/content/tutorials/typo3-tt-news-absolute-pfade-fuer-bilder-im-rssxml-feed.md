@@ -3,12 +3,12 @@ title: Typo3 tt_news - Absolute Pfade für Bilder im Rss/XML Feed
 date: '2013-10-07T10:55:15.000Z'
 slug: typo3-tt-news-absolute-pfade-fuer-bilder-im-rssxml-feed
 tags:
-  - '198'
-  - '205'
-  - '206'
-  - '207'
-  - '208'
-  - '209'
+  - typo3
+  - absRefPrefix
+  - pfad. absolute
+  - relative
+  - tt_news
+  - xmlnews
 description: >-
   Da ich nach langem Suchen endlich auf die Lösung gestoßen bin, möchte ich
   diese den anderen nicht vorenthalten.

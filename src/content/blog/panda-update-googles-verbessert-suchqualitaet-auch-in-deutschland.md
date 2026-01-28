@@ -3,9 +3,9 @@ title: 'Panda-Update: Googles verbessert Suchqualität auch in Deutschland'
 date: '2011-08-16T04:17:54.000Z'
 slug: panda-update-googles-verbessert-suchqualitaet-auch-in-deutschland
 tags:
-  - '259'
-  - '325'
-  - '326'
+  - Google
+  - panda update
+  - suchmaschine
 description: >-
 
   Her mit den verbesserten Suchergebnissen, weg mit den Klickfarmen. Googles

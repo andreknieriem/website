@@ -3,14 +3,18 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const entries = (await getCollection('portfolio')).sort(
-	(a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+	(a, b) => {
+    const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date);
+    const dateB = b.data.date instanceof Date ? b.data.date : new Date(b.data.date);
+    return dateB.valueOf() - dateA.valueOf();
+  }
 );
 ---
 <BaseLayout title="Portfolio">
   <header>
     <h1>Portfolio</h1>
   </header>
-  <p>Hier ein kleiner Auszug meiner Arbeiten, die ich in meiner Freizeit erstellt habe.&nbsp;</p></div>
+  <p>Hier ein kleiner Auszug meiner Arbeiten, die ich in meiner Freizeit erstellt habe.&nbsp;</p>
   <div class="portfolio-list row">
     {entries.map((entry) => (
       <div class="col-md-3 col-sm-4 col-xs-6 portfolio-item">

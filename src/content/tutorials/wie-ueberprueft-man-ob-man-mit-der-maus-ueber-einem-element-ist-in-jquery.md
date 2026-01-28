@@ -3,14 +3,14 @@ title: Wie überprüft man, ob man mit der Maus über einem Element ist in jQuer
 date: '2012-11-28T08:56:50.000Z'
 slug: wie-ueberprueft-man-ob-man-mit-der-maus-ueber-einem-element-ist-in-jquery
 tags:
-  - '20'
-  - '131'
-  - '132'
-  - '133'
-  - '134'
-  - '135'
-  - '136'
-  - '137'
+  - jquery
+  - anzeigen
+  - ausblenden
+  - einblenden
+  - hide
+  - mouseover
+  - prevent
+  - show
 description: >-
   Diese Frage habe ich mir letztens gestellt. Die Sache ist die:
 

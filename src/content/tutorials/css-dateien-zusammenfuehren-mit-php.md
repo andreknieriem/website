@@ -3,9 +3,9 @@ title: CSS-Dateien zusammenführen mit PHP
 date: '2011-08-12T09:15:16.000Z'
 slug: css-dateien-zusammenfuehren-mit-php
 tags:
-  - '25'
-  - '41'
-  - '63'
+  - css
+  - php
+  - css zusammenführen
 description: >-
   Bei größeren Projekten möchte man oft mehrere CSS-Dateien benutzen, um den
   Überblick zu behalten. So benutze ich zum Beispiel meistens eine CSS am

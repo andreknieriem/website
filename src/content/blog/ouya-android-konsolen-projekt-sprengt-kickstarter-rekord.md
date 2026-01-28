@@ -3,12 +3,12 @@ title: Ouya, Android Konsolen Projekt sprengt Kickstarter Rekord!
 date: '2012-07-19T06:18:08.000Z'
 slug: ouya-android-konsolen-projekt-sprengt-kickstarter-rekord
 tags:
-  - '1'
-  - '359'
-  - '360'
-  - '361'
-  - '362'
-  - '363'
+  - android
+  - buy
+  - kaufen
+  - kickstarter
+  - opensource
+  - ouya
 description: >-
   Eine Open Source Konsole mit Android für gerade einmal 99$. Das klingt
   verlockend! Zum Ziel gesetzt hat sich die Firma 950000 Dollar und ist nun

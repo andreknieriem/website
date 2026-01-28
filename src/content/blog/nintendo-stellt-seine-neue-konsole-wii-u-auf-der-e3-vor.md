@@ -3,10 +3,10 @@ title: Nintendo stellt seine neue Konsole Wii u auf der E3 vor
 date: '2011-06-07T18:47:41.000Z'
 slug: nintendo-stellt-seine-neue-konsole-wii-u-auf-der-e3-vor
 tags:
-  - '304'
-  - '305'
-  - '306'
-  - '307'
+  - neue konsole nintendo
+  - neuer Controller
+  - nintendo wii u
+  - wii
 description: >-
 
   Nintendo hat auf der E3 in Los Angeles seine neue Konsole vorgestellt, die Wii

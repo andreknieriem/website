@@ -3,12 +3,12 @@ title: Facebook Fanbox/Likebox stylen und anpassen
 date: '2011-04-11T11:19:45.000Z'
 slug: facebook-fanboxlikebox-stylen-und-anpassen
 tags:
-  - '25'
-  - '26'
-  - '27'
-  - '28'
-  - '29'
-  - '30'
+  - css
+  - facebook fanbox
+  - faces
+  - gesichter
+  - likebox
+  - stylen
 description: >-
 
   Eine Facebook Fanbox/Likebox in seine eigene Seite einzubauen ist meist

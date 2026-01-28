@@ -3,12 +3,12 @@ title: Umleitung auf mobiles Template in Wordpress
 date: '2011-04-01T14:19:05.000Z'
 slug: umleitung-auf-mobiles-template-in-wordpress
 tags:
-  - '5'
-  - '7'
-  - '8'
-  - '9'
-  - '10'
-  - '11'
+  - umleitung
+  - individuelles template
+  - iphone template
+  - mobile
+  - plugin
+  - wordpress
 description: >-
 
   Wordpress-Blogs für mobile Geräte wie das iPhone anzupassen ist mit Plugins

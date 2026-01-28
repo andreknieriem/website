@@ -3,9 +3,9 @@ title: Page Speed Service - Freundliche Übernahme von Google
 date: '2011-07-29T09:01:08.000Z'
 slug: page-speed-service-freundliche-uebernahme-von-google
 tags:
-  - '259'
-  - '312'
-  - '313'
+  - Google
+  - page speed
+  - webmaster
 description: >-
 
   Google hat einen neuen Service vorgestellt, mit dem Webmaster ihre
