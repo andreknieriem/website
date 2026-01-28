@@ -25,7 +25,7 @@ Möchte man in der Git-Bash eigene Aliasse hinzufügen, so geht dies relativ ein
 5.  Speichert die Datei und startet eure Git-Bash neu, damit die Aliasse reingeladen werden
 6.  Mit dem Befehl **alias** kann man sehen, ob das Ganze geklappt hat.
 
-```
+```bash
 $ alias
 alias ..='cd ..'
 alias ls='ls -F --color=auto --show-control-chars'

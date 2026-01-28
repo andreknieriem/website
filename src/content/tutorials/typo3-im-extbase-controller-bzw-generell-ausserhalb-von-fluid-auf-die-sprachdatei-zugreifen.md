@@ -22,7 +22,8 @@ download_url: null
 
 Muss man auch außerhalb von Fluid auf Labels zugreifen, so kann man einfach den folgenden Aufruf verwenden. Er funktioniert genau wie der Viewhelper, da dieser nichts anderes tut, als diese Funktion aufzurufen.
 
-```
+```php
 
 \TYPO3\CMS\Extbase\Utility\LocalizationUtility::translate( 'lsLanguageKey', 'extensionname' , array() );
+
 ```

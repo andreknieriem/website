@@ -68,38 +68,41 @@ Localstorage ist eine neuere Methode um Daten im Browser zu speichern. Ähnlich 
 
 **Localstorage benutzen**
 
-```
+```javascript
 
 // Daten setzen:
 localStorage.setItem("key", "wert");
 
 // Daten holen:
 localStorage.getItem("key");
+
 ```
 
 So kann man beispielsweise Einstellungen speichern, die ein User vorgenommen hat wie etwa die Kategorie die gerade ausgewählt wurde usw... Die Möglichkeiten sind sehr vielfältig.
 
 Natürlich lassen sich die Daten auch wieder aus dem localstorage löschen.
 
-```
+```javascript
 
 // Einzelndes Item löschen:
 localStorage.removeItem("key");
 
 // Kompletten localstorage löschen
 localStorage.clear();
+
 ```
 
 **ACHTUNG**
 
 Localstorage Werte werden so lange gespeichert, bis man diese löscht. Will man dies ähnlich wie beim Cookie beim schließen des Browsers machen könnte man folgendes verwenden:
 
-```
+```javascript
 
 window.onbeforeunload = function() {
   localStorage.clear();
   return '';
 };
+
 ```
 
 **Localstorage für den Offlinebetrieb**
@@ -108,10 +111,11 @@ Gerade für den Offline Betrieb bei beispielsweise mobilen Webapps bietet sich l
 
 Um herauszufinden ob ein Browser on- oder offline ist kann man folgenden Code verwenden:
 
-```
+```javascript
 
 
 var isonline = navigator.onLine;
+
 
 ```
 

@@ -28,9 +28,10 @@ Falls ihr in Javascript etwas programmiert, zum Beispiel eine Validierung werdet
 
 **Hier ein kleines Beispiel:**
 
-```
+```javascript
 
 if (testarray.length <1) alert("array is empty");
+
 ```
 
 Das Array namens testarray wird geprüft, ob die Anzahl seiner Elementer kleiner als 1 ist, also 0. Ist das der Fall wird hier ein Alert erzeugt.

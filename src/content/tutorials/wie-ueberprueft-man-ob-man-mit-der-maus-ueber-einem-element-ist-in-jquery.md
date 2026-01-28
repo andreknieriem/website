@@ -44,7 +44,7 @@ Diese Frage habe ich mir letztens gestellt. Die Sache ist die:
 
 Ein Tooltip wird eingeblendet, wenn ich ein bestimmtes Element hover. Der Tooltip hat einen Link in sich und ist im Dom über dem schließenden Body-Tag. Nun wurde der Tooltip sofort ausgeblendet, wenn man die Maus ein wenig bewegte und in den Tooltip ging, weil das Hover von meinem Element nicht mehr aktiv war. Um das Ganze abzufangen habe ich folgende Lösung gefunden und angepasst:
 
-```
+```javascript
 
 $("someelement").mouseenter(function(){
     clearTimeout($(this).data('timeoutId'));
@@ -57,6 +57,7 @@ $("someelement").mouseenter(function(){
     //set the timeoutId, allowing us to clear this trigger if the mouse comes back over
     someElement.data('timeoutId', timeoutId);
 });
+
 ```
 
 **Was macht der Code?**

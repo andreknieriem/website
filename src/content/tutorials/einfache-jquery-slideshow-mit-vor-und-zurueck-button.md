@@ -31,7 +31,7 @@ In diesem Tutorial zeige ich, wie man eine simple, aber funktionstüchtige und s
 
 **Html Grundgerüst**
 
-```
+```html
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 <script type="text/javascript" src="slide.js"></script>
@@ -42,11 +42,12 @@ In diesem Tutorial zeige ich, wie man eine simple, aber funktionstüchtige und s
     <div class="next"></div>
     <div class="prev"></div>
 </div>
+
 ```
 
 **CSS**
 
-```
+```css
 
 
 #slideShow {
@@ -81,6 +82,7 @@ In diesem Tutorial zeige ich, wie man eine simple, aber funktionstüchtige und s
   cursor: pointer;
   left: 0;
 }
+
 ```
 
 Man benötigt einen Container, in dem wie bei meinem Beispiel die Objekte sind, die in die Slideshow sollen. Die Vor. und Zurück-Knöpfe müssen nicht unbedingt in den Container, ich bilde es aber so ab, wie es oben zu sehen ist.
@@ -89,7 +91,7 @@ Als nächstes bauen wir die jQuery Funktion:
 
 **slide.js**
 
-```
+```javascript
 
 function slideSwitch(switchSpeed) {
     var $active = jQuery('#slideShow img.active');
@@ -110,6 +112,7 @@ jQuery(function() {
     jQuery('#slideShow img:first').css("display", "block").addClass('active');
     interval = setInterval ( "slideSwitch(1000)", 4000 );
 });
+
 ```
 
 Diese Funktion startet die Slideshow und wechselt alle 4 Skunden das Bild.
@@ -120,7 +123,7 @@ Also fügen wir unter der Funktion noch 2 Funktionen hinzu.
 
 Also so:
 
-```
+```javascript
 
 jQuery('#slideShow img:first').css("display", "block").addClass('active');
 
@@ -147,6 +150,7 @@ jQuery(".prev").click(function() {
 	$next.addClass('active').fadeIn(1000);
 	$active.removeClass('active last-active');
 });
+
 ```
 
 Das war auch schon alles. Ich hoffe ich konnte euch damit weiterhelfen. Für Anregungen und Verbesserungen der Funktion bin ich offen.

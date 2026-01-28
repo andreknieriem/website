@@ -18,7 +18,7 @@ Möchte man Redis in seiner lokalen ddev-Entwicklungsumgebung nutzen, so kann ma
 
 ### .ddev/docker-compose.redis.yaml
 
-```
+```bash
 #
 version: '3.6'
 
@@ -44,6 +44,6 @@ services:
 
 Nun muss ddev nur noch neugestartet werden und ihr habt einen funktionierenden Redis-Server.
 
-```
+```markup
 ddev restart
 ```

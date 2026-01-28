@@ -16,7 +16,7 @@ download_url: null
 
 Für eine Select-Menü brauchte ich eine Funktion, die mir einen String einfach wiederholt. Das Ganze geht in PHP ja mit str\_repeat und so habe ich bei [Stackoverflow](http://stackoverflow.com/questions/202605/repeat-string-javascript) die Lösung gefunden und wollte sie euch nicht vorenthalten.
 
-```
+```javascript
 
 String.prototype.repeat = function(count) {
     if (count < 1) return '';
@@ -27,12 +27,14 @@ String.prototype.repeat = function(count) {
     }
     return result;
 };
+
 ```
 
 **Benutzung**
 
-```
+```javascript
 
 '-'.repeat(3);
 // returns ---
+
 ```

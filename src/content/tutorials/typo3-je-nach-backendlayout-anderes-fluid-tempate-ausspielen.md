@@ -18,7 +18,7 @@ Seit TYPO3 7LTS gibt im TypoScript das Feld pagelayout. Dieses kümmert sich von
 
 **Page**
 
-```
+```typoscript
 page.10 = FLUIDTEMPLATE
 page.10 {
   file.stdWrap.cObject = CASE

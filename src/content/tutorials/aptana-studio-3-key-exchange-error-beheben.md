@@ -27,24 +27,27 @@ Wenn euch der Server gehört dann könnt ihr dies wie folgt beheben:
 
 1\. Auf dem Server die sshd\_config ändern:
 
-```
+```bash
 
 #nano /etc/ssh/sshd_config
+
 ```
 
 2\. Fügt dort am Schluss Folgendes hinzu:
 
-```
+```bash
 
 Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,blowfish-cbc,aes128-cbc,3des-cbc,cast128-cbc,arcfour,aes192-cbc,aes256-cbc
 KexAlgorithms=curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+
 ```
 
 3\. Danach den ssh service neustarten
 
-```
+```bash
 
 #/etc/init.d/ssh restart
+
 ```
 
 Danach kann sich euer Aptana wieder verbinden.

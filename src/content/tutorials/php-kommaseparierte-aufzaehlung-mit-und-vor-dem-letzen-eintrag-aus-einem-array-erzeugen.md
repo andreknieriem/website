@@ -21,7 +21,7 @@ demo_url: null
 download_url: null
 ---
 
-```
+```php
 
 public function nice_count( $input = array() ){
 	if( count( $input ) == 0 ) return '';
@@ -37,4 +37,5 @@ nice_count($array);
 
 // Ergibt
 // Bananen, Äpfel und Birnen
+
 ```

@@ -35,12 +35,23 @@ import '../styles/legacy.scss';
             <li role="presentation" class={isActive('/tutorials') ? 'active' : ''}><a href="/tutorials">Tutorials</a></li>
             <li role="presentation" class={isActive('/playground') ? 'active' : ''}><a href="/playground">Playground</a></li>
             <li role="presentation"><a href="http://simplelightbox.js.org" target="_blank" rel="noreferrer">Simplelightbox</a></li>
+            <li class="search">
+              <div class="search-outer">
+                <i class="icon-Search"></i>
+                <div class="search-container">
+                  <form method="get" action="/suche/" autocomplete="off">
+                    <input type="search" name="q" class="search-input">
+                    <button type="submit"><i class="icon-Forward"></i>
+
+                </button></form></div>
+              </div>
+            </li>
           </ul>
         </nav>
         <a id="logo" title="André Rinas - Logo" href="/">&nbsp;</a>
       </header>
 
-      <div id="content">
+      <div id="content" data-pagefind-body>
         <div class="container">
             <slot /> <!-- Content is injected here -->
         </div>
@@ -68,11 +79,11 @@ import '../styles/legacy.scss';
     <div class="mobile-menu">
         <div class="inner">
             <div class="msearch">
-                <form method="get" action="/suche/" autocomplete="off">
-                    <button>
+                <form method="get" action="/suche" autocomplete="off">
+                    <button type="submit">
                         <i class="icon-Search"></i>
                     </button>
-                    <input type="search" name="q" class="msearch-input">
+                    <input type="search" name="q" class="msearch-input" placeholder="Suche...">
                 </form>
             </div>
             <div class="left-menu">
@@ -88,5 +99,27 @@ import '../styles/legacy.scss';
             </div>
         </div>
     </div>
+
+    <script>
+        const initMenu = () => {
+            const menuBtns = document.querySelectorAll('.menu-btn');
+            const body = document.body;
+            
+            menuBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    body.classList.toggle('menu-open');
+                });
+            });
+
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && body.classList.contains('menu-open')) {
+                    body.classList.remove('menu-open');
+                }
+            });
+        };
+
+        initMenu();
+        document.addEventListener('astro:after-swap', initMenu);
+    </script>
   </body>
 </html>

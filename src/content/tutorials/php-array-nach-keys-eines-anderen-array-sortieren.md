@@ -17,7 +17,7 @@ download_url: null
 
 Für eine Liste brauchte ich letztens ein Array, was sich nach den Keys eines anderen sortiert. Bei [Stackoverflow](http://stackoverflow.com/questions/348410/sort-an-array-by-keys-based-on-another-array) bin ich dabei fündig geworden und wollte es euch nicht vorenthalten:
 
-```
+```php
 
 // Unser Array, was sortiert werden soll
 $customer['address'] = '123 fake st';
@@ -29,11 +29,12 @@ $customer['dontSortMe'] = 'this value doesnt need to be sorted';
 $sortedKeys = array('name', 'dob', 'address');
 
 $customerSorted = array_replace(array_flip($sortedKeys), $customer);
+
 ```
 
 Das neue Array sieht dabei dann so aus:
 
-```
+```php
 
 Array (
   [name] => Tim
@@ -41,4 +42,5 @@ Array (
   [address] => 123 fake st
   [dontSortMe] => this value doesnt need to be sorted
 )
+
 ```

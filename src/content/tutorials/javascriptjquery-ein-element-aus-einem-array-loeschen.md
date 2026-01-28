@@ -20,7 +20,7 @@ Hier habe eine Array Prototype-Funktion um Array-Elemente zu löschen. Ich habe 
 
 Die Funktionsweise seht ihr unten.
 
-```
+```javascript
 
 arr['dies', 'ist', 'ein', 'test'];
 
@@ -32,4 +32,5 @@ arr.unset('dies');
 
 //Ergebnis wäre
 arr['ist','ein','test']
+
 ```

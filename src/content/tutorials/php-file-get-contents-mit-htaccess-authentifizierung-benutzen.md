@@ -17,7 +17,7 @@ download_url: null
 
 Möchte man eine Datei oder Url mit [file\_get\_contents](http://php.net/manual/de/function.file-get-contents.php "Opens internal link in current window") holen, welche hinter einem .htaccess Schutz ist, so kann man das mit dem folgenden kleinen Code-Beispiel tun.
 
-```
+```php
 $context = stream_context_create(array (
     'http' => array (
         'header' => 'Authorization: Basic ' . base64_encode("$username:$password")

@@ -22,7 +22,7 @@ Die Popover bei Bootstrap sind eine sehr sinnvolle und schöne Erweiterung. Leid
 
 Wir gehen davon aus, dass wir einen Button haben, der den Popover öffnet und der Popover sich auch außerhalb oder innerhalb des Buttons befindet. Der Button heißt in diesem Fall: "**popover\_btn**"
 
-```
+```javascript
 
 $(document).click(function(event) {
 	var target = $(event.target);
@@ -31,4 +31,5 @@ $(document).click(function(event) {
 		$('.popover_btn').popover('hide');
 	}
 });
+
 ```

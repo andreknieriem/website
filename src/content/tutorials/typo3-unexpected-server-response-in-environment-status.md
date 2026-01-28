@@ -19,7 +19,7 @@ Bei mir wurden nach dem Update auf TYPO3 10 im Berichte Modul, bzw. unter Umgebu
 
 [![](/fileadmin/_processed_/c/d/csm_environment-status_773a600202.png)](/fileadmin/Daten/Bilder/environment-status.png)
 
-```
+```bash
 ### End: Cross Origin ###
 <IfModule mod_mime.c>
     RemoveType .html .htm

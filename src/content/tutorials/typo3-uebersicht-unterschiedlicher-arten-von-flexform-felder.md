@@ -19,14 +19,15 @@ Weil ich es in letzter Zeit öfter mal brauchte habe ich hier eine Liste verschi
 
 Um nur einzelne Werte zur Mehrfachauswahl zuzulassen muss man nur folgendes eintragen
 
-```
+```xml
 
 <multiple>1</multiple>
+
 ```
 
 8\. Selectbox mit Datenbank-Abfrage
 
-```
+```xml
 
 <label>Selectbox aus DB</label>
 <config>
@@ -42,11 +43,12 @@ Um nur einzelne Werte zur Mehrfachauswahl zuzulassen muss man nur folgendes eint
      AND tt_content.pid = 22
   </foreign_table_where>
 </config>
+
 ```
 
 9\. Datumsfeld
 
-```
+```xml
 
 <label>Datumsfeld</label>
 <config>
@@ -56,11 +58,12 @@ Um nur einzelne Werte zur Mehrfachauswahl zuzulassen muss man nur folgendes eint
   <eval>date</eval>
   <checkbox>1</checkbox>
 </config>
+
 ```
 
 10\. Auswahl einer Seite
 
-```
+```xml
 
 <config>
   <type>group</type>
@@ -71,11 +74,12 @@ Um nur einzelne Werte zur Mehrfachauswahl zuzulassen muss man nur folgendes eint
   <minitems>0</minitems>
   <show_thumbs>1</show_thumbs>
 </config>
+
 ```
 
 11\. Bilder/Dateien
 
-```
+```xml
 
 <config>
   <type>group</type>
@@ -90,9 +94,10 @@ Um nur einzelne Werte zur Mehrfachauswahl zuzulassen muss man nur folgendes eint
     <elementBrowserAllowed>gif,jpg,jpeg,tif,tiff,bmp,pcx,tga,png,pdf,ai</elementBrowserAllowed>
   </appearance>
 </config>
-```
 
 ```
+
+```xml
 
 <label>Selectbox mehrfach</label>
 <config>
@@ -114,11 +119,12 @@ Um nur einzelne Werte zur Mehrfachauswahl zuzulassen muss man nur folgendes eint
   <maxitems>3</maxitems>
   <size>3</size>
 </config>
+
 ```
 
 7\. Selectbox mit Mehrfachauswahl
 
-```
+```xml
 
 <label>Selectbox</label>
 <config>
@@ -138,9 +144,10 @@ Um nur einzelne Werte zur Mehrfachauswahl zuzulassen muss man nur folgendes eint
     </numIndex>
   </items>
 </config>
-```
 
 ```
+
+```xml
 
 <label>Textfeld</label>
 <config>
@@ -149,11 +156,12 @@ Um nur einzelne Werte zur Mehrfachauswahl zuzulassen muss man nur folgendes eint
   <max>30</max>
   <eval>trim</eval>
 </config>
+
 ```
 
 2\. Textarea
 
-```
+```xml
 
 <label>Textarea</label>
 <config>
@@ -161,11 +169,12 @@ Um nur einzelne Werte zur Mehrfachauswahl zuzulassen muss man nur folgendes eint
   <cols>24</cols>
   <rows>3</rows>
 </config>
+
 ```
 
 3\. Textarea mit RTE
 
-```
+```xml
 
 <label>Textarea</label>
 <config>
@@ -174,21 +183,23 @@ Um nur einzelne Werte zur Mehrfachauswahl zuzulassen muss man nur folgendes eint
   <rows>3</rows>
   <defaultExtras>richtext[*]:rte_transform[mode=ts_css]</defaultExtras>
 </config>
+
 ```
 
 4\. Checkbox
 
-```
+```xml
 
 <label>Checkbox</label>
 <config>
   <type>check</type>
 </config>
+
 ```
 
 5\. Radio-Buttons
 
-```
+```xml
 
 <label>Radiobuttons</label>
 <config>
@@ -208,6 +219,7 @@ Um nur einzelne Werte zur Mehrfachauswahl zuzulassen muss man nur folgendes eint
     </numIndex>
   </items>
 </config>
+
 ```
 
 6\. Selectbox mit vordefinierten Werten

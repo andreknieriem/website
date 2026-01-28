@@ -19,7 +19,7 @@ Ich sitze gerade an einem neuen Projekt und brauchte einen Read-More Link bei me
 
 Dafür einfach folgenden Code einfügen:
 
-```
+```php
 
 
 // Excerpt Read More Link einbauen
@@ -28,6 +28,7 @@ function new_excerpt_more($more) {
 	return '… <a href="'. get_permalink($post->ID) . '">' . 'Weiterlesen' . '</a>';
 }
 add_filter('excerpt_more', 'new_excerpt_more');
+
 
 ```
 

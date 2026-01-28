@@ -21,7 +21,7 @@ TYPO3 bietet an, dass man das Login auch selber über einen sogenannten Auth-Ser
 
 Als erstes muss der AuthService in der **ext\_localconf.php** hinzugefügt werden. Dabei muss beachtet werden, dass ihr bei className euren Namespace zu eurem AuthService angebt.
 
-```
+```php
 // auth service
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addService(
     $_EXTKEY,
@@ -43,11 +43,12 @@ Als erstes muss der AuthService in der **ext\_localconf.php** hinzugefügt werde
         'className' => 'TEST\\Example\\Service\\AuthService', // diese Klasse muss eurem Auth-Service entsprechen!
     )
 );
+
 ```
 
 Als nächstes muss jetzt der AuthService erstellt werden. Im Folgenden habe ich mal einen kleinen Service erstellt. Diesen habe ich unter **Classes/Service/AuthService.php** abgelegt.
 
-```
+```php
 <?php
 namespace TEST\Example\Service;
 class AuthService extends \TYPO3\CMS\Sv\AuthenticationService{

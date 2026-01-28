@@ -107,7 +107,7 @@ Eine Demo habe ich direkt hier eingebunden. Die Facebook Likebox scrollt immer m
 
 Fangen wir an mit dem HTML und CSS Markup:
 
-```
+```html4strict
 
 <style>
 /* required to avoid jumping */
@@ -139,11 +139,12 @@ Fangen wir an mit dem HTML und CSS Markup:
     </form>
   </div>
 </div>
+
 ```
 
 Und nun kommen wir zum Javascript:
 
-```
+```javascript
 
 jQuery(document).ready(function () {
   var top = jQuery('.facebookbox').offset().top - parseFloat(jQuery('.facebookbox').css('marginTop').replace(/auto/, 0));
@@ -160,6 +161,7 @@ jQuery(document).ready(function () {
     }
   });
 });
+
 ```
 
 Was macht das Skript?

@@ -17,7 +17,7 @@ download_url: null
 
 Da immer mehr Leute Adblocker benutzen und viele Adblocker sogar Tracking Services wie Google Analytics entfernen, kann es leider vorkommen, dass das globale Javascript abstürzt, weil die Funktion **ga** nicht verfügbar ist. Mit dem folgenden kleinen Snippet kann man die Analytics Events weiterhin benutzen, ohne dass es Fehler gibt. Dafür muss man einfach ga() durch safeGa() ersetzen.
 
-```
+```javascript
 function safeGA(){
   if(/undef/.test(typeof ga)){
     return;

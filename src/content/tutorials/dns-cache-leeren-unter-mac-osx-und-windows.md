@@ -20,18 +20,20 @@ Als Webentwickler habe ich schon öfter Probleme mit dem DNS-Cache bekommen. Man
 
 Öffnet das Programm "Terminal" (unter Programme/Dienstprogramme) und fügt folgende Codezeile ein und drückt "Enter".
 
-```
+```bash
 
 dscacheutil -flushcache
+
 ```
 
 **Wie lösche ich den DNS-Cache unter Windows?**
 
 Öffnet die Konsole (in der Suche einfach cmd.exe eingeben) und fügt folgende Codezeile ein.
 
-```
+```bash
 
 ipconfig /flushdns
+
 ```
 
 Als Antwort sollte dann folgendes kommen:

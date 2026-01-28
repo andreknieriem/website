@@ -20,7 +20,7 @@ Möchte man auf einer Webseite etwas mit Javascript je nach Bildschirmgröße ve
 
 ### Ohne Optimierung
 
-```
+```js
 // window.resize callback function
 function resizeFunction() {
   // calls many many times
@@ -40,7 +40,7 @@ Nun gibt es 2 Möglichkeiten das Ganze besser zu gestalten. Einmal Throttling un
 
 Beim Throttling legt man fest, wie oft das Event hintereinander geworfen werden soll. Man legt eine Zeitspanne fest, nach wie viel Milisekunden das Event nochmal gefeuert werden darf. Hier der vorherige Code um das Feature erweitert.
 
-```
+```js
 let throttled = false; // are we currently throttled?
 let delay = 250; // ms between calls
 
@@ -71,7 +71,7 @@ resizeFunction();
 
 Im Gegensatz zum Throttling verlagert das Debouncing das Event nach Hinten und meistens wird es dann nur einmal geworfen. Also erst wenn der User eine Zeit lang das Fenster nicht mehr verändert wird das Event gefeuert. So kann man abwarten bis das Fenster die Größe erreicht in der der Benutzer die Webseite weiter benutzen wird.
 
-```
+```js
 let timeout = false; // holder for timeout id
 let delay = 250; // delay after event is "complete" to run callback
 

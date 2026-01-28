@@ -27,16 +27,18 @@ Bei einer App für Cordova, Phonegap oder einem anderem Framework habe ich einen
 
 Hier ein Beispiel wie es nicht funktioniert.
 
-```
+```css
 
   src:url('../fonts/fontawesome-webfont.ttf?v=4.0.3')
+
 ```
 
 Nimmt man die Get-Parameter raus, dann geht es.
 
-```
+```css
 
   src:url('../fonts/fontawesome-webfont.ttf')
+
 ```
 
 Warum das so ist, kann ich mir auch nicht erklären, aber immerhin kriegt man die Web-Fonts doch zum Laufen.

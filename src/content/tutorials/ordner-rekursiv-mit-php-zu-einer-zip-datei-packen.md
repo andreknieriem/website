@@ -19,7 +19,7 @@ Hat man auf einem Webspace keinen SSH-Zugriff, kommt man schnell an die Grenzen 
 
 Aber Php bietet auch eine Möglichkeit ganze Ordner zu einer Zip-Datei zu packen. Das Ganze geht wie folgt:
 
-```
+```php
 
 <?
 // die maximale Ausführzeit erhöhen
@@ -41,6 +41,7 @@ foreach ($iterator as $key=>$value) {
 $zip->close();
 echo "Archive erfolgreich erstellt.";
 ?>
+
 ```
 
 Ich hoffe ich konnte euch damit weiterhelfen ;)

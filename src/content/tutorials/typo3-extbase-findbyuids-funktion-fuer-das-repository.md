@@ -18,7 +18,7 @@ download_url: null
 
 Des öfteren braucht man mal nur eine Gruppe von Records by TYPO3 und hat nur eine kommaseparierte Liste von Uid's. Leider hat Extbase soetwas nicht standardmäßig eingebaut. Hier ist die Funktion, die das alles für einen bewerkstelligt.
 
-```
+```php
 
 /**
  * Find by multiple uids using, seperated string
@@ -41,4 +41,5 @@ public function findByUids($uids) {
         )
     )->execute();
 }
+
 ```

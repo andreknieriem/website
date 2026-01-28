@@ -52,6 +52,7 @@ for(var i = 0; i < allitems.length; i++){
   }
 }
 
+
 ```
 
 Nachdem die For-Schleife gelaufen ist, sind alle doppelten Marker leicht versetzt. Somit kann man diese wieder anklicken.

@@ -22,7 +22,7 @@ Und so geht's:
 
 1\. Die HTML5, Mediaquery Fehler lassen sich mit diesen Dateien beheben ;)
 
-```
+```html
 
 <!--[if lt IE 9]>
   <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>

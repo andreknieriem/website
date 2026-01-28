@@ -13,7 +13,7 @@ Die nützlichen Scheduler/Planer Tasks in TYPO3 bieten zu der normalen `execute`
 
 **Hier ein Beispiel:**
 
-```
+```php
 <?php
 class MyTask extends TYPO3\CMS\Scheduler\Task\AbstractTask 
 implements TYPO3\CMS\Scheduler\ProgressProviderInterface {
@@ -29,4 +29,5 @@ implements TYPO3\CMS\Scheduler\ProgressProviderInterface {
   }
 
 }
+
 ```

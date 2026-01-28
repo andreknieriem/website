@@ -1,0 +1,65 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Suche">
+  <header>
+    <h1>Suche</h1>
+  </header>
+  
+  <div id="search" class="mt-4"></div>
+
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+  <script src="/pagefind/pagefind-ui.js" is:inline></script>
+
+  <script is:inline>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({ 
+            element: "#search", 
+            showSubResults: true,
+            translations: {
+                placeholder: "Suchen...",
+                clear_search: "Löschen",
+                load_more: "Mehr Ergebnisse laden",
+                search_label: "Diese Seite durchsuchen",
+                filters_label: "Filter",
+                zero_results: "Keine Ergebnisse für [SEARCH_TERM] gefunden",
+                many_results: "[COUNT] Ergebnisse für [SEARCH_TERM] gefunden",
+                one_result: "[COUNT] Ergebnis für [SEARCH_TERM] gefunden",
+                alt_search: "Keine Ergebnisse für [SEARCH_TERM] gefunden. Zeige stattdessen Ergebnisse für [DIFFERENT_TERM]",
+                search_suggestion: "Keine Ergebnisse für [SEARCH_TERM] gefunden. Probieren Sie einen der folgenden Begriffe aus:",
+                searching: "Suche nach [SEARCH_TERM]..."
+            }
+        });
+
+        // Automatisch nach dem Query-Parameter 'q' suchen, falls vorhanden
+        const urlParams = new URLSearchParams(window.location.search);
+        const query = urlParams.get('q');
+        if (query) {
+            const input = document.querySelector('#search input');
+            if (input) {
+                input.value = query;
+                input.dispatchEvent(new Event('input', { bubbles: true }));
+            }
+        }
+    });
+  </script>
+
+  <style is:global>
+    /* Anpassung des Pagefind UIs an dein Design */
+    :root {
+        --pagefind-ui-primary: #333;
+        --pagefind-ui-text: #333;
+        --pagefind-ui-background: #ffffff;
+        --pagefind-ui-border: #eeeeee;
+        --pagefind-ui-tag: #eeeeee;
+    }
+    #search .pagefind-ui__result-link {
+        color: #333;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    #search .pagefind-ui__result-excerpt {
+        color: #666;
+    }
+  </style>
+</BaseLayout>

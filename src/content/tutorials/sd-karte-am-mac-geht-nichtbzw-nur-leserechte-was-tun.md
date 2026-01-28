@@ -19,11 +19,12 @@ Ich weiß nicht wieso, aber auf meinem Macbook gehen manchmal die SD-Karten nich
 
 **Hier ein paar verschiedene Herangehensweisen die bisher immer geholfen haben:**
 
-```
+```txt
 
 1. SD Karte erneut hineinstecken
 2. den Schieber in den Lock-Modus stellen (kA warum man dann manchmal schreiben darf)
 3. den Schieben genau zwischen den Lock- und Unlock-Modus stellen
+
 ```
 
 Ich hoffe damit klappt es auch bei euch!

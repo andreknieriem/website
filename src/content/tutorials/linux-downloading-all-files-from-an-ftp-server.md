@@ -17,7 +17,8 @@ download_url: null
 
 Hier ist ein nützlicher kleiner Code-Schnipsel, mit dem man von einem Server, auf dem man nur FTP-Zugang hat, alle Daten auf den eigenen Server downloaden kann, ohne den Umweg über die eigene Festplatte zu machen.
 
-```
+```bash
 
 wget -m ftp://username:password@ip.of.old.host
+
 ```

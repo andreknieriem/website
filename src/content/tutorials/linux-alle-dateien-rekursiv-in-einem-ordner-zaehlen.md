@@ -24,6 +24,6 @@ download_url: null
 
 Möchte man auf einem Linux-Betriebssystem alle Dateien innerhalb eines Ordners und dessen Unterordner (rekursiv) zählen, so geht das ganz einfach mit folgendem Befehl. Einfach "**DIR\_NAME**" durch den Ordnernamen ersetzen, in dem gezählt werden soll. 
 
-```
+```bash
 find DIR_NAME -type f | wc -l
 ```

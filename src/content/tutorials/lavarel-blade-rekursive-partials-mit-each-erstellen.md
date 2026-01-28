@@ -18,7 +18,7 @@ Möchte man etwas in Laravel Blade darstellen, etwas  ineinander verschachtelt
 
 Sagen wir haben folgendes Array, welches Kommentare und Antworte zu Kommentaren enthält:
 
-```
+```php
 
 $comments = array(
   0 => array(
@@ -60,11 +60,12 @@ $comments = array(
     )  
   ),
 )
+
 ```
 
 Um jetzt die Kommentare anzuzeigen benutzen wir die each Funktion von Blade.
 
-```
+```php
 @each('Partials.comment', $comments, 'comment', 'Partials.commentempty')
 ```
 
@@ -79,7 +80,7 @@ Das Ganze ist jetzt noch eine Kurzschreibweise von @foreach.
 
 Jetzt kommt der Interessante Teil, das Partial, was sich selbst wieder benutzt:
 
-```
+```php
 <ul>
     <li>
     {{ $comment.comment}}
@@ -88,6 +89,7 @@ Jetzt kommt der Interessante Teil, das Partial, was sich selbst wieder benutzt:
         @endif
     </li>
 </ul>
+
 ```
 
 Der Trick an der Sache ist es, dass das Partial checkt, ob der derzeitige Kommentar noch Antworten hat und wenn ja wird wieder die @each Funktion mit sich selbst als Template geladen. So bekommt man eine rekursive verschachtelung.

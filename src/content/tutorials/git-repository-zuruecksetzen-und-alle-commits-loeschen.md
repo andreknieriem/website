@@ -18,7 +18,7 @@ Möchte man ein Repository komplett zurücksetzen und mit dem Stand auf dem eige
 1\. Lösche den **.git** Ordner in deinem Projekt.  
 2\. Führe die folgenden Befehle aus. ACHTUNG - Dadurch wird wirklich alles gelöscht. Also nur mit Vorsicht genießen.
 
-```
+```bash
 cd (project-directory)
 git init
 git add .

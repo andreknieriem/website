@@ -33,11 +33,12 @@ In vielen Browser, besonders in den Webkit-Browser Chrome und Safari werden Inpu
 
 Um das Ganze nun via CSS einfach zu umgeben reicht folgender Code schon aus:
 
-```
+```css
 
 input:focus {
     outline: none;
 }
+
 ```
 
 Das ist auch schon alles ;)

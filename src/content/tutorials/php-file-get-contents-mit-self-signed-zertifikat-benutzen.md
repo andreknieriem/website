@@ -22,7 +22,7 @@ Hat man auf einer DEV-Site ein self-signed SSL Zertifikat so kann es vorkommen, 
 
 **PHP-Code**
 
-```
+```php
 //Kontext für file_get_contents setzen und somit self signed Zertifikate erlauben
 $context = [ 
   'http' => [ 

@@ -19,7 +19,7 @@ Hat man beispielsweise eine Liste mit Namen und möchte diese gruppiert nach dem
 
 **Funktion**
 
-```
+```php
 
 function characterMap($str){
     $bad = array(
@@ -61,13 +61,15 @@ function characterMap($str){
     );
     str_replace($bad,$good,$str);
 }
+
 ```
 
 **Benutzung**
 
-```
+```php
 
 $clean = characterMap('André');
 
 // $clean ist nun 'Andre' weil das é durch e ersetzt wurde
+
 ```

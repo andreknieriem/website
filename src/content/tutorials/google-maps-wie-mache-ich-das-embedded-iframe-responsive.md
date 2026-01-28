@@ -15,7 +15,7 @@ download_url: null
 
 Hat man eine Google Map via iframe eingebunden und möchte das Ganze responsive haben, so geht das mit folgendem CSS und HTML Code.
 
-```
+```css
 
 .google-maps {
     position: relative;
@@ -30,13 +30,15 @@ Hat man eine Google Map via iframe eingebunden und möchte das Ganze responsive 
     width: 100% !important;
     height: 100% !important;
 }
-```
 
 ```
+
+```html
 
 <div class="google-maps">
     <iframe src="https://www.google.com/maps/embed?....."></iframe>
 </div>
+
 ```
 
 <style></p> <p>.google-maps {</p> <p> position: relative;</p> <p> padding-bottom: 75%; // This is the aspect ratio</p> <p> height: 0;</p> <p> overflow: hidden;</p> <p>}</p> <p>.google-maps iframe {</p> <p> position: absolute;</p> <p> top: 0;</p> <p> left: 0;</p> <p> width: 100% !important;</p> <p> height: 100% !important;</p> <p>}</p> <p></style>

@@ -99,13 +99,13 @@ Und so funktioniert es:
 
 1\. Aktiviere Hooks in ‘application/config/config.php’, suche und ersetze die Hooks Configuration mit folgenden Einstellungen.
 
-```
+```php
 $config['enable_hooks'] = TRUE;  
 ```
 
 2\. Konfiguriere als nächstes ein ‘pre-system’ hook in ‘application/config/hooks.php’...
 
-```
+```php
 
 $hook=array(
         'pre_system' => array(
@@ -118,11 +118,12 @@ $hook=array(
                       ),
         ),
 );
+
 ```
 
 3\. Nun kanns losgehen. Erstelle eine Datei mit dem Namen ‘Userlookup.php’ in ‘application/hooks’, Danach schreibt ihr eine Klasse, die wie folgt aussieht:
 
-```
+```php
 
 <?php defined('BASEPATH') or die('No direct script access allowed');
 
@@ -166,6 +167,7 @@ class Userlookup{
          mysql_free_result($res);
     }
 }
+
 ```
 
 4\. Und schon ist es geschafft. Ihr surft nun Beispielsweise: example.com/maxmustermann, dann wird der Controller User aufgerufen und falls nichts mehr angeben ist die index Funktion. geht man auf example.com/maxmustermann/info wird die Methode Info im User Controller aufgerufen. Als 3tes Segment wird immer die User-ID übergeben, damit man im Controller auch die richtigen Daten aufrufen kann.

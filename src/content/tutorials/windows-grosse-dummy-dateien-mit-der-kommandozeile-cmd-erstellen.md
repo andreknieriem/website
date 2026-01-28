@@ -21,38 +21,42 @@ Für ein paar Tests brauchte ich ein paar unterschiedlich große Dummy-Dateien. 
 
 **Syntax**
 
-```
+```bash
 
 fsutil file createnew filename length
+
 ```
 
 (length ist in bytes anzugeben)
 
 **Beispiel für eine 50MB große Datei**
 
-```
+```bash
 
 fsutil file createnew test.txt 52428800
+
 ```
 
 **Achtung!** Der obrige Code erstellt eine leere Datei, bei der im Header steht, sie sei 50MB groß, es aber nicht wirklich ist.
 
 Möchte man eine Datei erstellen, die auch gefüllt ist, dann muss man die folgenden 2 Zeilen ausführen
 
-```
+```bash
 
 echo "This is just a sample line appended to create a big file.. " > dummy.txt
 for /L %i in (1,1,14) do type dummy.txt >> dummy.txt
+
 ```
 
 Das obere Beispiel erstellt eine 1MB große Datei innerhalb weniger Sekunden.
 
 Möchte man eine 1GB große Datei dann kann man das so machen:
 
-```
+```bash
 	 	 
 echo "This is just a sample line appended to create a big file.. " > dummy.txt	 	 
 for /L %i in (1,1,24) do type dummy.txt >> dummy.txt	 	 
+
 ```
 
 **Erklärung**

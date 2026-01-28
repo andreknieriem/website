@@ -17,7 +17,7 @@ download_url: null
 
 Ich beschäftige mich gerade mit Fluid und Gridelements und der neuen TYPO 6.2 Version und wollte das Überschriften-Feld benutzen, aber inklusive dem Styling. Da ich nichts finden konnte, ob das von sich aus geht, habe ich kurzerhand einen Viewhelper geschrieben.
 
-```
+```php
 
 <?php
 class Testviewhelper_ViewHelpers_HeadlineViewHelper  extends \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractViewHelper{	
@@ -36,14 +36,16 @@ class Testviewhelper_ViewHelpers_HeadlineViewHelper  extends \TYPO3\CMS\Fluid\Co
 		return $headline;
 	}
 }
+
 ```
 
 Um das Ganze nun in eurem Template zu verwenden einfach folgendes machen:
 
-```
+```html
 
 {namespace ak=Tx_Testviewhelper_ViewHelpers}
 <ak:Headline header="{data.header}" layout="{data.header_layout}" />
+
 ```
 
 Ich hoffe ich konnte helfen!
@@ -52,7 +54,8 @@ Ich hoffe ich konnte helfen!
 
 Dank an Philipp Hanebrink, der eine elegante und einfachere Lösung für das Problem parat hatte. Man kann sich den Viewhelper sparen und stattdessen im Fluid-Template einfach Folgendes benutzen:
 
-```
+```html
 
 <f:cObject data="{data}" typoscriptObjectPath="lib.stdheader" />
+
 ```

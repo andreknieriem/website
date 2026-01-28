@@ -19,7 +19,7 @@ Möchte man für sein eigenes Wordpress Plugin einen Einstellungs-, bzw. generel
 
 [![settings](http://andreknieriem.de/wp-content/uploads/2015/10/settings-766x77.png)](http://andreknieriem.de/wp-content/uploads/2015/10/settings.png)
 
-```
+```php
 
 // Add settings link on plugin page
 function your_plugin_settings_link($links) { 
@@ -30,6 +30,7 @@ function your_plugin_settings_link($links) {
  
 $plugin = plugin_basename(__FILE__); 
 add_filter("plugin_action_links_$plugin", 'your_plugin_settings_link' );
+
 ```
 
 Das Ganze muss natürlich in eure Plugin Php-Datei eingefügt werden.

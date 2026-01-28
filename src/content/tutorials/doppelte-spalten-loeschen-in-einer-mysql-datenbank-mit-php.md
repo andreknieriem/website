@@ -20,7 +20,7 @@ download_url: null
 
 Ich habe mir schon häufiger die Frage gestellt, wie ich an doppelte Spalten herankomme, dessen einziger Unterschied der automatische Primärschlüssel ist. Hier habe ich eine Php Funkion die sich erst alle Doppelten Einträge holt und diese dann aus der Datenbank löscht. Zudem zeigt sie noch an, wie viele Datensätze betroffen waren.
 
-```
+```php
 
 <?php
 
@@ -33,6 +33,7 @@ while($row =  mysql_fetch_array($res)) {
 
 print''.$returned_rows.' doppelte Einträge gelöscht<br/>';
 ?>
+
 ```
 
 Das Limit 1 beim Delete ist sehr wichtig, da sonst alle Einträge mit der doppelte Spalte gelöscht werden und wir wollen ja nur einen löschen.

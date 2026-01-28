@@ -14,25 +14,27 @@ download_url: null
 
 Bei vielen Entwicklern und Kunden tritt häufig das Problem auf, dass Bilder auf responsive Webseiten völlig verzerrt im IE8 aussehen. Das Problem kommt nur vom CSS und lässt sich sehr leicht lösen. Die meisten Entwickler benutzen folgenden Code um ihre Bilder responsive zu machen:
 
-```
+```css
 
 img {
 	height: auto;
 	max-width: 100%;
 }
+
 ```
 
 Das Ganze funktioniert auch wunderbar in allen modernen Browser und im IE aber Verion 9.
 
 Um den Fehler im IE8 zu beseitigen muss man nur eine Breite ins CSS angeben. Also einfach:
 
-```
+```css
 
 img {
 	height: auto;
 	max-width: 100%;
 	width: auto; // wichtig für IE8
 }
+
 ```
 
 Ich hoffe das die Lösung auch bei euch funktioniert ;)

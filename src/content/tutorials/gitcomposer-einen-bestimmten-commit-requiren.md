@@ -19,7 +19,7 @@ download_url: null
 
 Da nicht alle Git, bzw. Composer Packages eine echte Version haben, kann es vorkommen, dass man "dev-master" als Versionsangabe hat. Das funktioniert solange, bis es breaking changes gibt und dadurch ein Projekt kaputt machen. Hat man so einen Punkt erreicht, möchte man vielleicht die Version, die noch funktioniert hat beibehalten. Hat man nun aber keine echte Versionsnummer, kann man dies auch anhand des Commit-Hashes tun. Das Ganze geht dann wie folgt:
 
-```
+```javascript
 {
     "name": "foo/foo-lib",
     "repositories": [

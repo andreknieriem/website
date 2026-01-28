@@ -18,7 +18,7 @@ download_url: null
 
 Einen Countdown in React zu erstellen ist relativ einfach, wenn man es denn richtig macht. Nach einigen Versuchen und ein bisschen Recherche bin ich dann auf eine funktionierende Lösung gekommen.
 
-```
+```js
 function App() {
   // 60 seconds
   const [counter, setCounter] = React.useState(60);

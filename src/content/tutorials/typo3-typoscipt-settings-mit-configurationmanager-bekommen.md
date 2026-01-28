@@ -19,7 +19,7 @@ download_url: null
 
 Es kommt schon öfter mal vor, dass man die TypoScript Settings einer Extension in einer anderen Extension, in Hooks, in Tasks oder sonstigen Klassen holen möchte. Um dies zu tun braucht man den [ConfigurationManager](https://typo3.org/api/typo3cms/class_t_y_p_o3_1_1_c_m_s_1_1_extbase_1_1_configuration_1_1_configuration_manager.html "Opens internal link in current window"). Hier habe ich einen kleinen Codeschnipsel, mit dem man den ConfigurationManager initialisiert um anschließend das komplette TypoScript als Array holen zu lassen.
 
-```
+```php
 <?php 
 namespace Test\Test\Test
 use TYPO3\CMS\Core\Utility\GeneralUtility;
@@ -33,4 +33,5 @@ class Test {
     // Die gewünschte Konfiguration aus dem Array holen. WICHTIG! die Arrays sind bei TypoScript immer mit einem "."(Punkt) am Ende!
     $config = $extbaseFrameworkConfiguration['plugin.']['tx_artest.']['settings.'];
 }
+
 ```

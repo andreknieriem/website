@@ -14,7 +14,7 @@ download_url: null
 
 Für ein neues Projekt von mir, brauchte ich kürzlich eine Funktion, die guckt, ob ein bestimmter String in einem Multidimensionen Array vorkommt. Die normale PHP-Funktion in\_array() konnte ich dafür nicht nutzen, da diese nur eindimensionale Arrays beherrscht. Hier habe ich also eine Funktion die alle arrays meistern kann ;)
 
-```
+```php
 
 function in_array_r($needle, $haystack, $strict = true) {
 	    foreach ($haystack as $item) {
@@ -24,11 +24,12 @@ function in_array_r($needle, $haystack, $strict = true) {
 	    }
 	    return false;
 }
+
 ```
 
 Beispiel:
 
-```
+```php
 
 $fruits = array (
     "fruits"  => array("a" => "Orange", "b" => "Banane", "c" => "Apfel")
@@ -37,4 +38,5 @@ $fruits = array (
 if(in_array_r('Orange', $fruits )){
 	// returns true
 }
+
 ```

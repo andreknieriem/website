@@ -15,20 +15,22 @@ download_url: null
 
 Möchte man in seinen Themes den Wordcount anzeigen, so hat Wordpress für das Backend ja eine eingebaute Funktion. Diese kann man ganz einfach für das Theme verfügbar machen. Hierfür muss einfach folgender Code in die funtions.php in euer Wordpress-Theme eingefügt werden.
 
-```
+```php
 
 function word_count() {
     $content = get_post_field( 'post_content', $post->ID );
     $word_count = str_word_count( strip_tags( $content ) );
     return $word_count;
 }
+
 ```
 
 Danach könnt ihr wie folgt auf auf die Funktion im Template zugreifen:
 
-```
+```php
 
 echo 'Anzahl Wörter: '.word_count();
+
 ```
 
 Ich hoffe ich konnte euch weiterhelfen.

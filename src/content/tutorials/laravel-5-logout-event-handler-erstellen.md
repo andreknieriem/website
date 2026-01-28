@@ -15,12 +15,13 @@ download_url: null
 
 Möchte man in Laravel 5 noch Code ausführen, wenn ein User sich ausloggt, so kannn man mit folgendem Code sich einen Logout Event Handler erstellen. In der Methode Handle kann man dann seinen gewünschten Code ausführen. Beispielsweise Session-Daten zurücksetzen, einen Count irgendwo erhören und so weiter.
 
-```
+```bash
 
 $ php artisan handler:event AuthLoginEventHandler
-```
 
 ```
+
+```php
 
 <?php namespace App\Handlers\Events;
 
@@ -52,18 +53,21 @@ class AuthLogoutEventHandler {
     }
 
 }
-```
 
 ```
+
+```php
 
 protected $listen = [
     'auth.login' => [
         'App\Handlers\Events\AuthLoginEventHandler',
     ],
 ];
-```
 
 ```
+
+```bash
 
 $ php artiasn clear-compiled
+
 ```

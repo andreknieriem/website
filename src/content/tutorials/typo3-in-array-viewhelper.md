@@ -11,7 +11,7 @@ download_url: null
 
 Da in Fluid Standard-ViewHelper leider der in\_array ViewHelper fehlt, habe ich mir diesen schnell selbst geschrieben. Hier ist der ViewHelper samt Beispiel zur Benutzung.
 
-```
+```php
 <?php
 namespace Vendor\Ext\ViewHelpers;
 
@@ -45,7 +45,7 @@ class InArrayViewHelper extends \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractConditi
 
 **Benutzung geht dann beispielsweise so:**  
 
-```
+```markup
 {namespace test=Vendor\Ext\ViewHelpers}
 <test:inArray haystack="{week}" needle="mittwoch">
   <f:then>

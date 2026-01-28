@@ -34,7 +34,7 @@ Wenn ihr nun eine Live-Tile haben möchtet, empfehle ich auch die Seite [http://
 
 Möchte man das Ganze eher per Hand machen dann einfach folgendes in den Header einfügen:
 
-```
+```html
 
 <meta name="application-name" content="deinedomain.de"/>
 <meta name="msapplication-TileColor" content="#4ab19a"/>
@@ -43,6 +43,7 @@ Möchte man das Ganze eher per Hand machen dann einfach folgendes in den Header 
 <meta name="msapplication-wide310x150logo" content="wide.png"/>
 <meta name="msapplication-square310x310logo" content="large.png"/>
 <meta name="msapplication-notification" content="frequency=30;polling-uri=http://notifications.buildmypinnedsite.com/?feed=http://deinedomain.de/feed&id=1;polling-uri2=http://notifications.buildmypinnedsite.com/?feed=http://deinedomain.de/feed&id=2;polling-uri3=http://notifications.buildmypinnedsite.com/?feed=http://deinedomain.de/feed&id=3;polling-uri4=http://notifications.buildmypinnedsite.com/?feed=http://deinedomain.de/feed&id=4;polling-uri5=http://notifications.buildmypinnedsite.com/?feed=http://deinedomain.de/feed&id=5; cycle=1"/>	
+
 ```
 
 Habt ihr den Code eingebaut und die Pfade und URL angepasst, so kann man nun ganz einfach im IE die Seite an Start anheften und die Größe der Kachel auswählen.

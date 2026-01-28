@@ -19,7 +19,7 @@ Mit den folgenden Codeschnipseln wird gezeigt, wie man FAL Links und Bilder in e
 
 **ext\_tables.sql**
 
-```
+```markup
 
 
 <f:for each="{images}" as="image">
@@ -34,11 +34,12 @@ Mit den folgenden Codeschnipseln wird gezeigt, wie man FAL Links und Bilder in e
         </f:for>
 
 </f:for>
+
 ```
 
 **Template**
 
-```
+```php
 
 class ImagesController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController {
         // ..
@@ -48,11 +49,12 @@ class ImagesController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControlle
         }
         // ..
 }
+
 ```
 
 **Controller**
 
-```
+```php
 
 class Images extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity {
         // ...
@@ -111,11 +113,12 @@ class Images extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity {
         
         // ...
 }
+
 ```
 
 **Model**
 
-```
+```php
 
 $TCA['tx_falusage_domain_model_images'] = array(
         // ...
@@ -141,17 +144,19 @@ $TCA['tx_falusage_domain_model_images'] = array(
         ),
         // ...
 );
+
 ```
 
 **TCA**
 
-```
+```sql
 
 CREATE TABLE tx_falusage_domain_model_images (
         image varchar(255) DEFAULT '' NOT NULL,
         files varchar(255) DEFAULT '' NOT NULL,
         ...
 );
+
 ```
 
 **Achtung!**

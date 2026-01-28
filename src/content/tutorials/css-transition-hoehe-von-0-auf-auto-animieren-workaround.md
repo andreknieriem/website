@@ -29,7 +29,7 @@ Also wie funtioniert das Ganze jetzt? Wir animieren nicht die Höhe von 0 auf au
 
 ### HTML Aufbau
 
-```
+```markup
 <div class="outer-box">
     <div class="inner-box-content">
       <p>Dies ist ein Text beliebiger Länge und somit Höhe.</p>
@@ -39,7 +39,7 @@ Also wie funtioniert das Ganze jetzt? Wir animieren nicht die Höhe von 0 auf au
 
 ### Der abgespeckte CSS-Code
 
-```
+```css
 .inner-box-content {
   /* Anfangs wollen wir keine Höhe, es soll ja nicht sichtbar sein*/
   max-height: 0;

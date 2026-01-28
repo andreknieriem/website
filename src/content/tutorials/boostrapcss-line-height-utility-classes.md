@@ -19,7 +19,7 @@ Bootstrap hat schon viele Utility Klassen um das meiste am Design ohne eine weit
 
 **Hier das CSS**
 
-```
+```css
 .text-height-0 {
   line-height: 1!important;
 }
@@ -42,7 +42,7 @@ Bootstrap hat schon viele Utility Klassen um das meiste am Design ohne eine weit
 
 Diese Klassen kann nun ganz einfach benutzen.
 
-```
+```markup
 <p class="text-height-1">
   Lorem Ipsum....
 </p>

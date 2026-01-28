@@ -19,14 +19,15 @@ Möchte man jQuery im Footer laden, um die Ladezeiten und die Wertung von Google
 
 **Normales Einbinden von jQuery in der functions.php**
 
-```
+```php
 
 wp_enqueue_script('jquery');    
+
 ```
 
 **Neue Funktion für eure functions.php im Theme Ordner**
 
-```
+```php
 
 function my_init()   
 {  
@@ -41,4 +42,5 @@ function my_init()
     }  
 }  
 add_action('init', 'my_init');  
+
 ```

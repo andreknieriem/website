@@ -15,18 +15,20 @@ download_url: null
 
 Möchte man die derzeitige tt\_content uid im Fluid Template benutzen, so kann man dies mit folgendem Code machen. Dieser muss in euren Controller aufgerufen werden.
 
-```
+```php
 
 $cObj = $this->configurationManager->getContentObject();
 $currentUid = $cObj->data['uid'];
 
 // An dieser Stelle dann möglicherweise noch mehrere/die vorherigen Variablen übergeben.
 $this->view->assign('currentUid', $currentUid);
+
 ```
 
 Nun kann im Fluid Template die Uid einfach wie folgt verwenden:
 
-```
+```markup
 
 {currentUid}
+
 ```

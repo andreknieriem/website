@@ -28,72 +28,80 @@ Ein Raspberry Pi eignet sich hervorragend als kleiner Web-Server und für ein Pr
 
 Als Erstes solltet ihr mit dem folgenden Befehl euch die Rootrechte besorgen. **ACHTUNG**: Danach könnt ihr ohne Nachfrage alles machen (Auch kaputt natürlich!)
 
-```
+```bash
 
 sudo apt-get install phpmyadmin
+
 ```
 
 **Optional Phpmyadmin installieren**
 
 Wer möchte kann noch phpmyadmin installieren. Dies ist ein PHP-Interface für eure Datenbanken. Ich finde allerdings den [Adminer](http://www.adminer.org/de/) deutlich besser und er kommt in einer Datei. Aber es sei euch selbst überlassen.
 
-```
+```bash
 
 sudo apt-get install php5-mysql
 sudo apt-get install mysql-server mysql-client
+
 ```
 
 **Mysql installieren**
 
 Wordpress, TYPO3 und andere CMS-Systeme und andere Systeme benötigen Datenbanken um alles zu speichern. Die meist genutzte Datenbank ist hierbei MYSQL. Diese installieren wie folgt:
 
-```
+```bash
 
 sudo apt-get install libapache2-mod-php5 php5 php-pear php5-xcache
+
 ```
 
 **PHP5 installieren**
 
 Für die meisten Webanwendungen wird PHP benötigt, deswegen installieren wir es.
 
-```
+```bash
 
 sudo apt-get install apache2 apache2-doc apache2-utils
+
 ```
 
 **Webserver Apache2 installieren**
 
 Hat der Pi neugestartet können wir nun den Apache2 Webserver installieren.
 
-```
+```bash
 
 sudo reboot
+
 ```
 
 **Neustarten nach dem Update**
 
-```
+```bash
 
 sudo apt-get update
+
 ```
 
 **Updates beziehen, bevor man installiert**
 
 Bevor wir nun den Web-Server installieren, lassen wir unseren Raspberry updaten und anschließend neustarten, damit wir auf dem neuesten und sichersten Stand sind.
 
-```
+```bash
 
 sudo groupadd www-data
 sudo usermod -a -G www-data www-data
+
 ```
 
 **Gruppe und User für den Webserver hinzufügen**
 
 Ein Webserver sollte immer einen eigenen User und eine eigene Gruppe haben. Damit verhindert ihr, dass jemand über den Web-Browser sich die kompletten Root-Rechte von eurem Pi verschaffen kann. Am meisten benutzt man www-data.
 
-```
+```bash
 
 sudo bash
+
 ```
 
 Schon ist ein Webserver auf eurem System installiert.

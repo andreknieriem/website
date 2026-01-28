@@ -20,31 +20,34 @@ Für ein neues Projekt auf einem neuen Server muss man, wenn man Sass und Compas
 
 **1\. Ruby installieren**
 
-```
+```bash
 
 sudo apt-get install ruby-full rubygems1.8
+
 ```
 
 **2\. Compass installieren**
 
 Compass selbst bringt schon ein Sass-Gem mit, sodass man dieses nicht zwangsläufig installieren muss
 
-```
+```bash
 
 sudo gem install compass
+
 ```
 
 Alle Befehle werden hier mit sudo ausgeführt, da es sonst häufig zu Berechtigungsproblemen führen kann.
 
 **3\. Ein Projekt erstellen**
 
-```
+```bash
 
 cd /var/www/yourproject
  
 compass create
  
 compass watch
+
 ```
 
 Das wars auch schon! Viel Spaß beim Sass schreiben :)

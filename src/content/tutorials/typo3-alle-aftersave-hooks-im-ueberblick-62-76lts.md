@@ -21,15 +21,16 @@ Zuerst müsst ihr die Hook-Klasse für **processDatamapClass** und **processCmdm
 
 **ext\_localconf.php**
 
-```
+```php
 
 $GLOBALS ['TYPO3_CONF_VARS']['SC_OPTIONS']['t3lib/class.t3lib_tcemain.php']['processDatamapClass']['extkey'] = 'Vendor\\Extension\\Hook\\TCEmainHook';
 $GLOBALS ['TYPO3_CONF_VARS']['SC_OPTIONS']['t3lib/class.t3lib_tcemain.php']['processCmdmapClass']['extkey'] = 'Vendor\\Extension\\Hook\\TCEmainHook';
+
 ```
 
 **/Classes/Hook/TCEmainHook.php**
 
-```
+```php
 
 <?php
 namespace Vendor\Extension\Hook;
@@ -43,4 +44,5 @@ class TCEmainHook {
     public function processDatamap_postProcessFieldArray($status, $table, $id, array &$fieldArray, \TYPO3\CMS\Core\DataHandling\DataHandler &$pObj) {}
     public function processDatamap_afterDatabaseOperations($status, $table, $id, array $fieldArray, \TYPO3\CMS\Core\DataHandling\DataHandler &$pObj) {}
 }
+
 ```

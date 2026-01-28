@@ -19,7 +19,7 @@ Für alle, die mit der Funktion strip\_tags ein paar Probleme haben, habe ich hi
 
 Viel Spaß damit!
 
-```
+```php
 
 <?php
 // --------------------------------------------------------------
@@ -43,4 +43,5 @@ function rip_tags($string) {
 
 // --------------------------------------------------------------
 ?>
+
 ```

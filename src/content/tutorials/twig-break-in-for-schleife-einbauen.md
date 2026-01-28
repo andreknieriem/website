@@ -20,7 +20,7 @@ Möchte man einen "break" in eine For-Schleife bei Twig einbauen, so gibt es daf
 
 Der Trick hierbei ist, die If-Kondition direkt an der For-Schleife zu benutzen und die Variable break dann auf true zu setzen, wenn es nötig wird. Das Ganze sieht dann so aus:
 
-```
+```markup
 {% set break = false %}
 {% for post in posts if not break %}
     <h2>{{ post.heading }}</h2>

@@ -21,29 +21,32 @@ Möchte man ein HTML Tag entfernen, jedoch die Inhalte behalten so kann man dies
 
 ## Testaufbau
 
-```
+```html
 
 <div class="wrapper">
     <a href="/home">
         <img src="header.jpg">
     </a>
 </div>
+
 ```
 
 ## Javascript-Code
 
-```
+```javascript
 
 $('a').contents().unwrap();
+
 ```
 
 ## Ergebnis
 
-```
+```html
 
 <div class="wrapper">
     <img src="header.jpg">
 </div>
+
 ```
 
 Viel Spaß damit!

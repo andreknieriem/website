@@ -22,7 +22,7 @@ Da fe\_login immernoch Tripple-Hash Templates (###) verwendet (warum ist mir ein
 
 **ext\_localconf.php**
 
-```
+```php
 $GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['felogin']['postProcContent']['deinkey_add_feloginmarker'] = 'AR\ArSiteext\Hooks\FeUserHook->addMarker';
 ```
 
@@ -30,7 +30,7 @@ Danach müsst ihr in eurer Extension auch die Klasse anlegen, die ihr in der ext
 
 **FeUserHook**
 
-```
+```php
 namespace AR\ArSiteext\Hooks; 
  
 class FeUserHook {
@@ -52,7 +52,7 @@ Nun muss man nur noch das Template von felogin bearbeiten. Da man dies niemals i
 
 **TypoScript Konfiguration**
 
-```
+```typoscript
 plugin.tx_felogin_pi1 {
  
     // Template-Datei überscheiben

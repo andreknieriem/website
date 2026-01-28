@@ -22,14 +22,14 @@ download_url: null
 
 Bei mir kommt es immermal wieder vor, dass ich Befehle nicht vollständig im Kopf habe und dann immer lange durch die History gucke, oder sogar Google beauftrage mir das Kommando herauszusuchen. Mit den folgenden Zeilen in der **"/etc/inputrc"** hilft einem die eigene Shell aber schon sehr viel weiter.
 
-```
+```bash
 "\e[5~": history-search-backward
 "\e[6~": history-search-forward
 ```
 
 **Zum neuladen eurer Bash dann folgendes eingeben**
 
-```
+```bash
 exec bash
 ```
 

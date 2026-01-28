@@ -19,7 +19,7 @@ Seit TYPO3 6.1 wurde **displayCond** stark verbessert. So können nun mehrere Ab
 
 ## Einfaches Beispiel
 
-```
+```html
 
 <feld1>
     <TCEforms>
@@ -60,6 +60,7 @@ Seit TYPO3 6.1 wurde **displayCond** stark verbessert. So können nun mehrere Ab
         </config>
     </TCEforms>
 </cond>
+
 ```
 
 Hier wird es etwas komplizierter: Das Testinput-Feld wird angezeigt wenn die Extension news geladen wurde etweder das test123-Feld nicht gefüllt oder das title-Feld gefüllt ist.
@@ -68,7 +69,7 @@ Hier wird es etwas komplizierter: Das Testinput-Feld wird angezeigt wenn die Ext
 
 Das Ganze geht auch in Flexforms:
 
-```
+```php
 
 'street' => array(
     'displayCond' => array(
@@ -86,11 +87,12 @@ Das Ganze geht auch in Flexforms:
         'size' => 30
     ),
 ),
+
 ```
 
 **Verschachtelte Bedingungen**
 
-```
+```php
 
 'street' => array(
     'displayCond' => array(
@@ -105,11 +107,12 @@ Das Ganze geht auch in Flexforms:
         'size' => 30
     ),
 ),
+
 ```
 
 **OR-Bedingung**
 
-```
+```php
 
 'street' => array(
     'displayCond' => array(
@@ -124,6 +127,7 @@ Das Ganze geht auch in Flexforms:
         'size' => 30
     ),
 ),
+
 ```
 
 ## Ab TYPO3 6.1
@@ -132,7 +136,7 @@ Seit der Version 6.1 ist es nun erstmals möglich mehrere Bedingungen zu setzen 
 
 **AND-Bedingung**
 
-```
+```php
 
 'street' => array(
     'displayCond' => 'FIELD:test123:=:FALSE',
@@ -142,4 +146,5 @@ Seit der Version 6.1 ist es nun erstmals möglich mehrere Bedingungen zu setzen 
         'size' => 30
     ),
 ),
+
 ```

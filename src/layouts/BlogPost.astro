@@ -4,7 +4,6 @@ const { frontmatter } = Astro.props;
 
 // Determine category based on frontmatter layout or URL
 const category = frontmatter.title ? 'Blog' : 'Tutorials'; 
-const backLink = '/blog'; // Simplified, could be more dynamic
 ---
 <BaseLayout title={frontmatter.title}>
   <div class="blog-detail">
@@ -52,3 +51,23 @@ const backLink = '/blog'; // Simplified, could be more dynamic
     </div>
   </div>
 </BaseLayout>
+
+<script>
+  // Polyfill für 'global is not defined' Fehler
+  if (typeof global === 'undefined') {
+    (window as any).global = window;
+  }
+
+  import SimpleLightbox from 'simplelightbox/dist/simple-lightbox.esm';
+  
+  const initLightbox = () => {
+    // Lightbox für Bilder im Content-Bereich
+    const links = document.querySelectorAll('.content a[href$=".jpg"], .content a[href$=".png"], .content a[href$=".gif"]');
+    if (links.length > 0) {
+        new SimpleLightbox('.content a[href$=".jpg"], .content a[href$=".png"], .content a[href$=".gif"]', {});
+    }
+  };
+
+  document.addEventListener('astro:page-load', initLightbox);
+  initLightbox();
+</script>

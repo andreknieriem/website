@@ -18,7 +18,7 @@ Für ein kleines Projekt benötigte eine super simple View-Klasse. Was sie macht
 
 **View-Klasse**
 
-```
+```php
 
 <?php
 class View {
@@ -51,14 +51,16 @@ class View {
 	
 	}
 }
+
 ```
 
 **Benutzung**
 
-```
+```php
 
 // lädt mytemplate.php und übergibt das array $data.
 $view = new view('mytemplate', $data);
+
 ```
 
 Viel Spaß damit!

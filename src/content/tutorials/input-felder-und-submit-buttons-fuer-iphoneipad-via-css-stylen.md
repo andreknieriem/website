@@ -28,10 +28,11 @@ Wenn man ein Formular für das iPhone oder iPad mit CSS stylen will, merkt man s
 
 Nach einigen Recherchen habe ich dann folgende Lösung gefunden:
 
-```
+```css
 
 -webkit-appearance: none;
 -moz-appearance: none;
+
 ```
 
 Fügt man diesen Schnipsel zu seiner CSS-Datei hinzu dann sagt man dem mobilen Safari, dass er wirklich diesen Button nicht nach der Apple UI stylen soll.

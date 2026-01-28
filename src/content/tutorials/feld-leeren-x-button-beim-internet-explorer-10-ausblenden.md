@@ -20,7 +20,7 @@ Der Internet Explorer ab der Version 10 hat ein Feature, was wohl eher mehr für
 
 Hat man nun aber, wie ich eine Validierung, die beispielsweise genau an der Stelle ein Ausrufezeichen anzeigen soll, oder sonst etwas, dann stört dieses X sehr. Immerhin kann man es via CSS ganz einfach ausblenden. Das Ganze geht so:
 
-```
+```css
 
 <code class="language-css">
 /*Style the ::-ms-clear pseudo-element for the box:*/
@@ -28,4 +28,5 @@ Hat man nun aber, wie ich eine Validierung, die beispielsweise genau an der Stel
     display: none;
 }
 </code>
+
 ```

@@ -19,7 +19,7 @@ download_url: null
 
 Möchte man die Bootstrap Dropdowns als Html-Select verwenden, so kann man mit sich mit folgendem Markup/Javascript behelfen.
 
-```
+```markup
 
 <div class="btn-group fakeSelect">
     <input type="hidden" class="selectValue" value="2013">
@@ -36,9 +36,10 @@ Möchte man die Bootstrap Dropdowns als Html-Select verwenden, so kann man mit s
         <li><a data-value="2008" href="#">2008</a></li>
     </ul>
 </div>
-```
 
 ```
+
+```js
 
 $(".fakeSelect .dropdown-menu li a").click(function(e){
 	e.preventDefault();
@@ -50,6 +51,7 @@ $(".fakeSelect .dropdown-menu li a").click(function(e){
 	fakeSelect.find('.currentVal').text(val);
 	fakeSelect.find('.selectValue').val(val);
 });
+
 ```
 
 Demo:

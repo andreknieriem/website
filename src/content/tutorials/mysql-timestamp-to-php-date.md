@@ -29,12 +29,13 @@ In einem alten Projekt hatte ich die Zeitangaben einfach mit dem Mysql Timestamp
 
 Um dies zu bekommen habe ich folgendes gemacht:
 
-```
+```php
 
 $res = mysql_query("SELECT date FROM times;");
 while ( $row = mysql_fetch_array($res) ) {
    echo date("d,M ", strtotime($row["date"])) . "<br />";
 }
+
 ```
 
 Mithilfe der praktischen PHP Funktion **strtotime** lassen sich die Mysql Timestamps zu PHP konvertieren. So erhalte ich bei meiner Ausgabe oben den Tag und den Monat und nicht das komplette Datum inklusive Uhrzeit.

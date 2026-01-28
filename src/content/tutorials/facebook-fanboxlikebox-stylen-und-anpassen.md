@@ -83,7 +83,7 @@ Die alte Fanbox von Facebook ist das Stichwort. Diese Box war Nutzerunfreundlich
 
 Um die Fanbox einzubauen braucht ihr folgenden Code:
 
-```
+```javascript
 
 <script src="http://connect.facebook.net/de_DE/all.js#xfbml=1"></script>
 <fb:fan profile_id="135350353204841"
@@ -94,6 +94,7 @@ Um die Fanbox einzubauen braucht ihr folgenden Code:
     width="292"
     height="300px;">
 </fb:fan>
+
 ```
 
 **Die Erläuterung der verwendeten Attribute:**

@@ -19,7 +19,7 @@ Um in Fluid tt\_content Elemente anhand ihrer UID fertig gerendert auszugeben, b
 
 **Der ViewHelper Code:**
 
-```
+```php
 <?php
 namespace Vendor\Artest\ViewHelpers;
 /**
@@ -45,4 +45,5 @@ class ContentViewHelper extends \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractViewHel
     return $this->objectManager->get('TYPO3\CMS\Frontend\ContentObject\RecordsContentObject')->render($conf);
   }
 }
+
 ```

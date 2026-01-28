@@ -20,7 +20,7 @@ download_url: null
 
 Manchmal möchte man das Label eines selbsterstellten Datensatzes so haben, dass es aus mehreren Feldern besteht und so auch besser im TYPO3-Backend angezeigt wird. In meinem Fall war dies der Name einer Kontaktperson. Da mir nur der Nachname oder der Vorname zu wenig war und ich nicht extra ein Feld für den kompletten Namen haben wollte, habe ich mich kurz umgeschaut und habe folgende Lösung gefunden, die man einfach via TCA setzen kann.
 
-```
+```php
 
 $TCA['tx_meinetabelle'] = Array (
     'ctrl' => Array (
@@ -30,6 +30,7 @@ $TCA['tx_meinetabelle'] = Array (
         ....,
 ),
 );
+
 ```
 
 Mit dem kleinen Schnipsel zeigt er den Vor-und Nachnamen an. Viel Spaß damit!

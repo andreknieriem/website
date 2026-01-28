@@ -22,7 +22,7 @@ Möchte man aus einem assoziativen Array ein bestimmtes Element bekommen, beispi
 
 **Array**
 
-```
+```php
 
 $data = Array
 (
@@ -37,11 +37,12 @@ $data = Array
     ['var4'] => Test 2
     ['var5'] => Test 3
 )
+
 ```
 
 **Zweites Element bekommen**
 
-```
+```php
 
 // Nur das Element
 $second = array_slice($data, 1, 1);
@@ -54,4 +55,5 @@ list($second ) = array_slice($data, 1, 1);
 $second = array('var2' => 1);
 $second = 1
  
+
 ```

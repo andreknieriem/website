@@ -52,17 +52,18 @@ Also schaue ich erst einmal welche CSS-Dateien ich habe. Bei dem Beispiel hier s
 
 **get\_css.php**
 
-```
+```php
 
 <?php
 header('Content-type: text/css');
 ?>
 </php>
+
 ```
 
 Damit wird der Datei gesagt, dass sie später als CSS-Datei erkannt wird. Danach kann mit der PHP-Funktion [file\_get\_contents()](http://php.net/manual/de/function.file-get-contents.php) einfach die CSS-Dateien in die get\_css.php reinladen. Danach sieht die Datei in meinem Beispiel so aus:
 
-```
+```php
 
 <?php
 header('Content-type: text/css');
@@ -70,13 +71,15 @@ echo file_get_contents('reset.css').
      file_get_contents('grid.css').
      file_get_contents('style.css');
 ?>
+
 ```
 
 Zum einbinden der jetzigen neu generierten CSS-Datei einfach folgende aufrufen:
 
-```
+```html4strict
 
 <link rel="stylesheet" type="text/css" href="get_css.php" />
+
 ```
 
 Das wars auch schon! Nun könnt ihr mit mehreren CSS-Dateien arbeiten aber nur eine ausgeben lassen.

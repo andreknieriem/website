@@ -20,7 +20,7 @@ Oft werden von jQuery und Plugins Inline-Styles an Elemente geschrieben. Möchte
 
 **jQuery Funktion:**
 
-```
+```javascript
 
 ?(function ($) {
     $.fn.inlineStyle = function (prop) {
@@ -35,14 +35,16 @@ Oft werden von jQuery und Plugins Inline-Styles an Elemente geschrieben. Möchte
          return value;
     };
 }(jQuery));
+
 ```
 
 **Benutzung:**
 
-```
+```javascript
 
 //Returns value of "width" property or `undefined`
 var width = $("#someElem").inlineStyle("width");
+
 ```
 
 Viel Spaß damit!

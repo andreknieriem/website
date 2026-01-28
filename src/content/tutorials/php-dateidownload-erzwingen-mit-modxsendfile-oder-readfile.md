@@ -16,7 +16,7 @@ download_url: null
 
 Ich habe hier einen kleinen Codeschnipsel, der dazu dient, Dateiem vom Webserver direkt als Downloadstream auszugeben. Es wird entweder ModxSendfile oder Php Readfile benutzt.
 
-```
+```php
 
 $local_file = 'bildvomserver.jpg';
 $mods = apache_get_modules();
@@ -31,4 +31,5 @@ if (in_array('mod_xsendfile',$mods)){
 	readfile( $local_file );
 	exit();
 }
+
 ```

@@ -15,7 +15,7 @@ download_url: null
 
 Hat man ein Select-Feld in einer Extension via TCA und möchte die Datensätze darin sortieren lassen, so geht dies über das **foreign\_table\_where**. Möchte man kein weiteres Where-Attribut, aber trotzdem eine sorierte Liste haben, dann kann man einfach folgenden Code verwenden:
 
-```
+```php
 
 'einFeld' => array (
 	'exclude' => 1,		
@@ -26,6 +26,7 @@ Hat man ein Select-Feld in einer Extension via TCA und möchte die Datensätze d
 		'foreign_table' => 'deineTabelle',
 		'foreign_table_where' => 'AND 1=1 Order by deinemFeld ASC',
 	)
+
 ```
 
 Das **AND 1=1** ist immer true und somit kommen nach wie vor alle Datensätze. Danach folgt dann die die Sortierung in aufsteigender Reihenfolge.

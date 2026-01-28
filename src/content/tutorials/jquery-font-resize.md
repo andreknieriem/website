@@ -57,19 +57,20 @@ Das Ganze funktioniert wie folgt:
 
 **HTML Gerüst**
 
-```
+```html4strict
 
 <div class="font-resize">
 <a href="#" id="small" class="size-now">A-</a>
 <a href="#" id="large" class="size-now">A+</a>
 </div>
+
 ```
 
 Einfach nur 2 Links mit derselben Klasse und unterschiedlicher ID, die jetzt vom Javascript ausgelesen wird:
 
 **jQuery**
 
-```
+```javascript
 
 /* jQuery Font Resize by Andre Knieriem*/
 jQuery(function(){
@@ -87,6 +88,7 @@ jQuery(function(){
 		return false;
 	});
 });
+
 ```
 
 Die Funktion geht los, wenn auf ein Objekt mit der Klasse "size-now" geklickt wurde. Danach wird die akuelle Font-Size des gewünschten Containers ermittelt. Dann wird geschaut ob das Objekt die Klasse large oder small hat und je nachdem wird die Font-size um 1px erhöht oder verringert. Das ist auch schon alles.

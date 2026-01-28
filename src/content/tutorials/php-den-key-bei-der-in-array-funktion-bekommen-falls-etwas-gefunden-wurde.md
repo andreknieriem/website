@@ -16,7 +16,7 @@ download_url: null
 
 Benötigt man bei der Funktion in\_array gleichzeitig den Key, der gefunden wurde, so kann man sich mit folgendem kleinen Snippet behelfen. Hierfür wird aber dann array\_search anstelle in\_array benutzt.
 
-```
+```php
 
 //Array $array
 Array
@@ -32,6 +32,7 @@ if (false !== $key = array_search('5', $array)) {
 } else {
     // do something else
 }
+
 ```
 
 Im oberen Beispiel wird nach dem Value 5 gesucht und in die Variable $key wird der Key, also in unserem Fall die 3 gesetzt.

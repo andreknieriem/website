@@ -21,7 +21,7 @@ Wenn man in PHP ein Array hat, bei dem die Keys "löchrig" sind, zum Beispiel du
 
 **Derzeitiges Array**
 
-```
+```php
 
 Array(
   [5] => Test1
@@ -31,18 +31,20 @@ Array(
   [44] => Test5
   [47] => Test6
 )
+
 ```
 
 **Keys neu anlegen**
 
-```
+```php
 
 $array = array_values($array);
+
 ```
 
 **Neues Array**
 
-```
+```php
 
 Array(
   [0] => Test1
@@ -52,4 +54,5 @@ Array(
   [4] => Test5
   [5] => Test6
 )
+
 ```

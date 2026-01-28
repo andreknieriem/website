@@ -23,7 +23,7 @@ Die Custom-Bootstrap File-Input sehen ja schon deutlich besser aus, als die vom 
 
 Hier ist das Snipped, dass man benötigt, damit alles gut aussieht:
 
-```
+```js
 $('.custom-file input').change(function (e) {
     var files = [];
     for (var i = 0; i < $(this)[0].files.length; i++) {

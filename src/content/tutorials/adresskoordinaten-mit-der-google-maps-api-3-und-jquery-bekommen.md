@@ -20,7 +20,7 @@ Ich beschäftige mich gerade mit der Google Maps Api 3 und habe gedacht dieses S
 
 Im Nachfolgenden ist eine komplette test.html-Datei abgebildet.
 
-```
+```html4strict
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
@@ -51,6 +51,7 @@ $(".los").click(function(){
 <input type="text" />
 <a href="#" class="los">Los</a>
 <div id="testDiv"></div>
+
 ```
 
 **Was macht die Datei?**
@@ -61,17 +62,18 @@ Ein Input-Feld dient zur Adresseingabe, ein Link zum Absenden der Adresse und ei
 
 Das Script macht dann folgendes:
 
-```
+```javascript
 
 $(".los").click(function(){
 	getcoord();
 	return false;
 });
+
 ```
 
 Hier wird die Funktion getcoord() aufgerufen bei Klick auf den Link. Das return false dient dazu, dass dem Link nicht gefolgt.
 
-```
+```javascript
 
 function getcoord() {
 	var user1Location = jQuery("input").val();
@@ -86,6 +88,7 @@ function getcoord() {
 	            $("#testDiv").html("latitude:" + lat1 + "<p>longitude:" + lng1 + "</p>");
 	 		});
 	}
+
 ```
 
 Am Anfang wird die Adresse aus dem Inputfeld ausgelesen. Der Rest ist Benutzung der Google Api. Die Adresse wird der Api übermittelt, diese gibt ein Resultat zurück in dem der Breiten- und Längengrad stehen. (lat1,lng1)

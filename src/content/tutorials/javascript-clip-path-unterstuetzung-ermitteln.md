@@ -18,7 +18,7 @@ download_url: null
 
 Möchte man die neue [clip-path](https://css-tricks.com/almanac/properties/c/clip/ "Opens internal link in current window") CSS Eigenschaft verwenden, aber vorher testen, ob der Browser die Eigenschaft überhaupt unterstützt, so kann man dies mit dem folgender Funktion leicht überprüfen.
 
-```
+```javascript
 
   // Check if clip-path is supported. From http://stackoverflow.com/a/30041538.
   function ClipPathSupported() {
@@ -50,10 +50,11 @@ Möchte man die neue [clip-path](https://css-tricks.com/almanac/properties/c/cli
     }
     return false;
   };
+
 ```
 
 Das ganze lässt sich dann natürlich einfach verwenden. Die Funktion gibt true oder false zurück, ob clip-path unterstützt wird.
 
-```
+```javascript
 var clipPathSupport = ClipPathSupported();
 ```

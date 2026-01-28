@@ -26,7 +26,7 @@ Um diese Bilder im Template verwenden zu können benötigt man nur ein paar Zeil
 
 ### Hier mal ein paar Beispiele:
 
-```
+```typoscript
 lib.headerpic = IMAGE
 lib.headerpic {
   file {
@@ -39,7 +39,7 @@ lib.headerpic {
 
 **Benutzung in Fluid**  
 
-```
+```markup
 <header>
     <f:cObject typoscriptObjectPath="lib.headerpic" />
 </header>
@@ -53,7 +53,7 @@ Als erstes wird das Element als ein Bild deklariert. Danach wird gesagt, dass da
 
 Natürlich kommt es oft vor, dass man das Bild als Hintergrund einsetzen möchte. Das ist auch möglich und bedarf nur ein paar Änderungen am Code:
 
-```
+```typoscript
 lib.headerpic = IMG_RESOURCE
 lib.headerpic {
   file {
@@ -68,6 +68,6 @@ lib.headerpic {
 
 **Benutzung in Fluid**  
 
-```
+```markup
 <header style="background-image: url( {f:cObject(typoscriptObjectPath:'lib.headerpic')} )"></header>
 ```

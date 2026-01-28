@@ -17,7 +17,7 @@ download_url: null
 
 Nach langer Suche habe ich eine sehr simple Möglichkeit gefunden, wie man aus Extensions einfach 404 Seiten werfen kann. Das will ich euch natürlich nicht vorenthalten.
 
-```
+```php
 
 public function detailAction(){
   if(!isset($_GET['item'])) {

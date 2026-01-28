@@ -1269,7 +1269,8 @@ pre {
     margin-top: 0;
     margin-bottom: 1rem;
     overflow: auto;
-    font-size: .875em
+    font-size: .875em;
+    padding: 1rem;
 }
 
 pre code {
@@ -11257,3 +11258,4 @@ body#fourohfour {
         box-shadow: 0 3px 10px #000
     }
 }
+@import 'simplelightbox/dist/simple-lightbox.min.css';

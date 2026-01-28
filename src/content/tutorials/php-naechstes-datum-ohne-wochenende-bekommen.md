@@ -21,7 +21,7 @@ Für ein Projekt brauchte ich den nächsten 1. eines Monats von jetzt aus gesehe
 
 Meine PHP sieht folgendermaßen aus:
 
-```
+```php
 // check if today plus 5 days is less or equal firstDate. If not use the next higher date
 // it skips the weekends (date('N') = 6 or 7)
 $nextMonth = date('m') +1;

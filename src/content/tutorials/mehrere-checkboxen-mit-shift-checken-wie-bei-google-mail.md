@@ -35,7 +35,7 @@ Ich habe hier ein kleines Script, dass ähnlich wie bei Google Mail mehrere Chec
 
 **Script**
 
-```
+```javascript
 
 jQuery(document).ready(function() {
 	var $chkboxes = jQuery('.chkbox');
@@ -54,6 +54,7 @@ jQuery(document).ready(function() {
 	lastChecked = this;
 	});
 });
+
 ```
 
 **Die Funktionsweise:**

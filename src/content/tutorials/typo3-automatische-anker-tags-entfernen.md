@@ -18,23 +18,26 @@ TYPO3 baut immer Anker-Tags (im Schema <a id="c65"></a> in das HTML ein, dass ma
 
 **TYPO3 Version < 4.5**
 
-```
+```typoscript
 
 tt_content.stdWrap.dataWrap 
+
 ```
 
 **TYPO3 Version > 4.5**
 
-```
+```typoscript
 
 tt_content.stdWrap.innerWrap.cObject.66.10 >
+
 ```
 
 **Multilang**
 
-```
+```typoscript
 
 tt_content.stdWrap.prepend.dataWrap >
+
 ```
 
 Dies betrifft dann natürlich die komplette Seite. Mit Conditions kann man dies aber genau für seinen Zweck einstellen, falls man es braucht.

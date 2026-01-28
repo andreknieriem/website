@@ -4,14 +4,16 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && npx pagefind --site dist",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.16.15",
-    "bootstrap": "^5.3.8",
+    "astro": "^5.1.6",
+    "bootstrap": "^5.3.3",
     "decap-cms-app": "^3.10.0",
-    "sass": "^1.97.3"
+    "pagefind": "^1.1.0",
+    "sass": "^1.83.0",
+    "simplelightbox": "^2.14.3"
   }
 }

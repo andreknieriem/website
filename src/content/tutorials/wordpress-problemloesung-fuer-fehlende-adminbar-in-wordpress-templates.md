@@ -23,18 +23,20 @@ Haltet Ausschau nach diesen beiden Aufrufen: 
 
 **wp\_head(); in header.php für CSS**
 
-```
+```php
 <head>
   <?php 
     wp_head(); 
   ?>
 </head>
+
 ```
 
 **wp\_footer(); in footer.php für Javascript**
 
-```
+```php
 <?php 
   wp_footer();
 ?>
+
 ```

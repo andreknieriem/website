@@ -19,7 +19,7 @@ Wenn man bei Laravel einen Datei-Upload implementiert und die Dateien im Storage
 
 In meinem Beispiel erstelle ich eine Route die auf /images/{filename} reagiert und aus dem Storage-Ordner / Images die Bilder ausliest.
 
-```
+```php
 Route::get('images/{filename}', function ($filename)
 {
     $path = storage_path() . '/Images/' . $filename;

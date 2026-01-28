@@ -35,10 +35,11 @@ Ich brauchte eine Funktion, die mir wie die PHP Funktion nl2br Break-Tags setzt.
 
 Einfach diese Funktion in eure Javascript-Datei einfügen und via nl2br($string) wie bei PHP aufrufen. Das wars auch schon ;)
 
-```
+```javascript
 
 function nl2br (str, is_xhtml) {
 var breakTag = (is_xhtml || typeof is_xhtml === 'undefined') ? '<br />' : '<br />';
 return (str + '').replace(/([^>rn]?)(rn|nr|r|n)/g, '$1'+ breakTag +'$2');
 }
+
 ```

@@ -15,7 +15,8 @@ download_url: null
 
 Möchte man die .sass-cache Dateien nicht im SVN haben, so lässt sich dies mit der folgenden Zeile einfach bewerkstelligen.
 
-```
+```bash
 
 svn propset svn:ignore '.sass-cache' .
+
 ```

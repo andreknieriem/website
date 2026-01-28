@@ -15,7 +15,8 @@ download_url: null
 
 Möchte man gucken, ob ein Element eines Arrays bestandteil eines anderes Arrays ist, so kann man dies mit einer Schleife und in\_array machen, oder man benutzt den folgenden Code. In dem Beispiel wird geguckt, ob ein Element aus **$criminals** in **$people** ist.
 
-```
+```php
 
 $bFound = (count(array_intersect($criminals, $people))) ? true : false;
+
 ```

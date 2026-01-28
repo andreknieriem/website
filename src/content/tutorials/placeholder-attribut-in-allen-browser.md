@@ -57,14 +57,15 @@ Das Placeholder Attribut, dass HTML5 mit sich bringt ist ein tolles Feature. Nur
 
 Ein Placeholder zu setzen ist denkbar einfach:
 
-```
+```html4strict
 
 <input type="text" placeholder="Ich bin ein Placeholder"/>
+
 ```
 
 Um alten Browsern und dem IE die Sache auch beizubringen muss nur folgendes Script in die Seite eingebunden werden. Dank geht an Jack Moore, der das Script geschrieben hat. Man kann es noch verfeinern, dass es auch vernünftig mit Passwort-Felder funktionert.
 
-```
+```javascript
 
 <script>
     // placeholder polyfill
@@ -94,4 +95,5 @@ Um alten Browsern und dem IE die Sache auch beizubringen muss nur folgendes Scri
         }
     });
 </script>
+
 ```

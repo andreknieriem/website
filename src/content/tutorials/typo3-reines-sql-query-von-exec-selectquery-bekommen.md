@@ -16,7 +16,7 @@ download_url: null
 
 Manchmal ist es bei TYPO3 nötig, dass man das Plain Sql Query sieht, um mögliche Fehler zu entdecken. Hierfür eignet sich folgender Code-Schnipsel.
 
-```
+```php
 
 // debugging einschalten
 $GLOBALS['TYPO3_DB']->store_lastBuiltQuery = 1; 
@@ -26,4 +26,5 @@ $res = $GLOBALS['TYPO3_DB']->exec_SELECTquery($select_fields,$from_table,$where_
  
 // das SQL-Statement ausgeben
 echo $GLOBALS['TYPO3_DB']->debug_lastBuiltQuery;
+
 ```

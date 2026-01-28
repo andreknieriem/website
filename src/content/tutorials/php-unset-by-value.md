@@ -22,16 +22,17 @@ Hier ist kleine aber feine Funktion, die ein Array Object nach dessen Wert und n
 
 **Funktion**
 
-```
+```php
 
 if(($key = array_search($needle, $haystack)) !== false) {
     unset($haystack[$key]);
 }
+
 ```
 
 **Beispiel**
 
-```
+```php
 
 
 // Unser Array
@@ -41,4 +42,5 @@ $array = array("Orange", "Banane", "Apfel", "Himbeere");
 if(($key = array_search('Banane', $array)) !== false) {
     unset($array[$key]);
 }
+
 ```

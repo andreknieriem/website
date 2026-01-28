@@ -17,11 +17,12 @@ download_url: null
 
 Da viele alte **Internet Explorer** das überaus nützliche Feature **window.location.origin** nicht können, welches einem die komplette URL mit allen Parametern zurückgibt, kann man sich folgendem kleinen Snippet/Polyfill behelfen:
 
-```
+```js
 
 if (!window.location.origin) {
   window.location.origin = window.location.protocol + "//" + window.location.hostname + (window.location.port ? ':' + window.location.port: '');
 }
+
 ```
 
 Ich hoffe das hilft euch weiter!

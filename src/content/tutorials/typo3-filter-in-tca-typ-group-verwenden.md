@@ -21,7 +21,7 @@ Diese ermöglicht es einem, eine Userfunc zu übergeben, welche dann die Liste f
 
 **Hier das TCA**
 
-```
+```php
 ...
 'product' => [
       'exclude' => 1,
@@ -51,7 +51,7 @@ Diese ermöglicht es einem, eine Userfunc zu übergeben, welche dann die Liste f
 
 Zur Info: Das Array Parameters ist immer mindestens mit dem Key values belegt.
 
-```
+```php
 <?php
 
 namespace AR\ArExt\User;

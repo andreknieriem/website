@@ -19,7 +19,7 @@ Da ich immer wieder lange suchen muss, wie man denn bestimmte Module für TYPO3 
 
 Als erstes benötigt man eine Extension, falls ihr schon eine habt, könnt ihr diese erweitern, ansonsten einfach eine neue erstellen. In der **ext\_tables.php** fügt man dann als erstes folgendes hinzu.
 
-```
+```php
 
 $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['reports'][$_EXTKEY]['TestReport'] = array(
 	'title'       => 'Test Report Modul',
@@ -27,11 +27,12 @@ $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['reports'][$_EXTKEY]['TestReport'] = a
 	'icon'        => 'EXT:' . $_EXTKEY . '/Resources/Public/Icons/test.png',
 	'report'      => 'Namespace\\YourExt\\Reports\\TestReport'
 );
+
 ```
 
 In der **ext\_autoload.php** muss jetzt noch unsere Klasse hinzugefügt werden, die wir gerade in der ext\_tables.php angegeben haben.
 
-```
+```php
 
 <?php
 $extensionPath = t3lib_extMgm::extPath('test_report');
@@ -39,11 +40,12 @@ return array(
 	'TestReport' => $extensionPath . 'Classes/TestReport.php',
 );
 
+
 ```
 
 Unter Classes/Reports muss jetzt eine neue Klasse angelegt werden. In unserem Beispiel **TestReport.php**
 
-```
+```php
 
 <?php
 namespace Namespace\YourExt\Reports;
@@ -60,11 +62,12 @@ class TestReport implements \TYPO3\CMS\Reports\ReportInterface {
         return $view->render();
 	}
 }
+
 ```
 
 In der TestReport.php ist der Pfad angegeben, wo das Template für den Report liegt. Also brauchen wir noch eine **TestReport.html**
 
-```
+```html
 
 <div class="test">
 Dies ist ein BE Report Modul
@@ -72,6 +75,7 @@ Dies ist ein BE Report Modul
 {{foo}}
 
 </div>
+
 ```
 
 Danach habt ihr unter Berichte/Reports einen neuen Punkt. Wählt ihr diesen aus, so steht dort jetzt **"Dies ist ein BE Report Modul bar"**

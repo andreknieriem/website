@@ -18,7 +18,7 @@ download_url: null
 
 Um das Bootstrap Carousel auf mobilen, bzw. Touchgeräten mit einem Fingerwisch (Swipe) zu bedienen habe ich hier ein kleines Snipped gebaut. Das Ganze setzt voraus, dass man das [jquery.touchswipe](https://github.com/mattbryson/TouchSwipe-Jquery-Plugin) Plugin vorher eingebunden hat.
 
-```
+```javascript
 
 $('.carousel').swipe({
 	swipeLeft:function(event, direction, distance, duration, fingerCount) {
@@ -29,4 +29,5 @@ $('.carousel').swipe({
 	},
 	threshold:0
 });
+
 ```

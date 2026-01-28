@@ -18,7 +18,7 @@ download_url: null
 
 Möchte man zum Beispiel das NewsRepository in einem Hook oder sonst wo benutzen, wo das Repo sonst nicht verfügbar ist, so kann man dies mit folgenden Zeilen machen. Als erstes wird der extbaseObjectManager geladen, damit man mit diesem das Repository laden kann.
 
-```
+```php
 
 <?php
 /** @var $extbaseObjectManager \TYPO3\CMS\Extbase\Object\ObjectManager */
@@ -27,6 +27,7 @@ $extbaseObjectManager = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('TY
 $newsRepository = $extbaseObjectManager->get('GeorgRinger\News\Domain\Repository\NewsRepository');
 /** @var $newsRecord \GeorgRinger\News\Domain\Model\News */
 $newsRecord = $newsRepository->findByUid($newsParams['news']);
+
 ```
 
 Viel Erfolg beim Extbase-Programmieren :D

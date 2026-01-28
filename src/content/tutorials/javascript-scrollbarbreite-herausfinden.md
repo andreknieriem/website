@@ -20,7 +20,7 @@ download_url: null
 
 Möchte man für etwas die Scrollbar ausblenden, so kann man einfach ein overflow:hidden an das Body-Element mit Javascript setzen. Allerdings verschiebt sich dabei der Content immer um die Breite der Scrollbar. Möchte man diesen Effekt verhindern, so kann man mit folgendem Snippet die Breite der Scrollbar herausfinden.
 
-```
+```javascript
 
 measureScrollbar = function () {
     var scrollDiv = document.createElement('div')
@@ -30,17 +30,19 @@ measureScrollbar = function () {
     $('body')[0].removeChild(scrollDiv)
     return scrollbarWidth
 }
+
 ```
 
 Um das Ganze jetzt sinnvoll einzusetzen muss man die Funktion aufrufen und das Ergebnis dann mit dem overflow:hidden an den Body setzen. Könnte mit jQuery so gehen:
 
-```
+```javascript
 
 var scrollbarWidth = measureScrollbar();
 $('body').css({
     'overflow' : 'hidden',
     'padding-right': scrollbarWidth
 });
+
 ```
 
 Natürlich braucht man für das Zurücksetzen, bzw. überhaupt erst setzen des Padding eine Option, die sagt ob es gerade überhaupt eine Scrollbar gibt und wie das Padding möglicherweise vorher am Body war.

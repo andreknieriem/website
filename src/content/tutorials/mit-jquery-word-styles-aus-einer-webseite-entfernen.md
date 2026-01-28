@@ -15,12 +15,13 @@ download_url: null
 
 Mich hat es immer genervt, wenn Leute mit den WYSIWYG-Editorn arbeiten und dann ihre Texte direkt aus Word einfügen. Das stört nicht nur die Schrift auf der Webseite, es stört auch die Kunden. Deswegen habe ich hier 2 kleine Codezeilen, die diese Styles entfernen. Es sei gesagt, dass ALLE style-tags von der Seite entfernt werden, aber man sollte ja eh seine Styles auslagern und damit es nicht mit anderen Scripten in Konflikt kommt, muss dieses Script als allererstes nach dem Einladen von jQuery erfolgen.
 
-```
+```javascript
 
 $(document).ready(function() {
 	$("body *").removeAttr("style");
 	$("body style").remove();
 });
+
 ```
 
 Ihr könnt natürlich auch Bereiche festlegen, damit das Script nicht alles aus der kompletten Seite löscht. Wie ihr wollt.

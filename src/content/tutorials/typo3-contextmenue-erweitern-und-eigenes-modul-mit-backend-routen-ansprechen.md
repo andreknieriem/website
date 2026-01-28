@@ -30,7 +30,7 @@ Als erstes fügt man in der ext\_localconf eurer Extension zwei Zeilen ein, die 
 
 **ext\_localconf.php**
 
-```
+```php
 // Add Context Menu and JS
 if (TYPO3_MODE=='BE') {
   $GLOBALS['TYPO3_CONF_VARS']['BE']['ContextMenu']['ItemProviders'][1505197586] = \AR\ArExt\ContextMenu\Mymodule::class;
@@ -42,7 +42,7 @@ Nun müssen natürlich die beiden Dateien, die dort angesprochen werden angelegt
 
 **Classes/ContextMenu/Mymodule.php**
 
-```
+```php
 <?php
 namespace AR\ArExt\ContextMenu;
 
@@ -144,13 +144,14 @@ class Mymodule extends \TYPO3\CMS\Backend\ContextMenu\ItemProviders\AbstractProv
     return $canRender;
   }
 }
+
 ```
 
 Kommen wir nun zur zweiten genannten Datei, die etwas Javascript für das Backend ergänzt.
 
 **Classes/Hooks/BackendControllerHook.php**
 
-```
+```php
 <?php
 namespace AR\ArExt\Hooks;
 
@@ -176,13 +177,14 @@ class BackendControllerHook
         $pageRenderer->addInlineSetting('FileTest', 'moduleUrl', BackendUtility::getModuleUrl('file_test'));
     }
 }
+
 ```
 
 Als nächstes müssen wir, wie in der Doku von TYPO3 beschrieben noch eine Javascript an folgende Stelle tun:
 
 **EXT:extension\_key/Resources/Public/JavaScript/ContextMenuActions.js**
 
-```
+```javascript
 /**
  * Module: TYPO3/CMS/ExtensionKey/ContextMenuActions
  *
@@ -226,7 +228,7 @@ Wenn wir so weit sind, dann kommt nun schon unser Punkt im Kontext-Menü und man
 
 Eine Route definiert man, in dem man **Configuration/Backend/Routes.php** anlegt.
 
-```
+```php
 <?php
 use AR\ArExt\Controller;
 
@@ -247,6 +249,7 @@ return [
     'target' => Controller\FileTestController::class . '::mainAction'
   ],
 ];
+
 ```
 
 Wie man hier sieht, kann man hier einen belieben Controller und eine beliebige Action laden. In meinem Fall den **FileTestController** mit der **mainAction**. Sobald diesen angelegt und auch die passende Action dazu und dort zum Beispiel ein echo 'Test'; hineinschreibt, so wird nach Klick auf den neuen Kontext-Menü Eintrag das Module geladen und es wird Test angezeigt. Ab hier ist es jedem selbst überlassen, was er tun möchte.

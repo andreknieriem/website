@@ -35,18 +35,20 @@ Normalerweise reicht aber die Datei `/etc/mysql/my.cnf` zu bearbeiten.
 
 If you scroll down the file a bit, you'll find the \[mysqld\] section. We're going to add a new key, sql\_mode. On MySQL 5.7, the default values for this key out of the box are:
 
-```
+```sql
 
 STRICT_TRANS_TABLES,ONLY_FULL_GROUP_BY,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+
 ```
 
 Der Strict Mode kommt von `STRICT_TRANS_TABLES`, also überschreiben wir diesen jetzt.
 
 **Neue Konfig**
 
-```
+```sql
 
 sql_mode=ONLY_FULL_GROUP_BY,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+
 ```
 
 Das wars auch schon. Nun muss nur noch der MySQL-Server neugestartet werden:

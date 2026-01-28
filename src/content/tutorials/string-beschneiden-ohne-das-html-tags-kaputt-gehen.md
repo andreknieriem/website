@@ -150,7 +150,7 @@ download_url: null
 
 Möchte man einen String croppen, in dem HTML-Tags sind, dann kann es schnell passieren, dass der String mitten in einem abgescnitten wird. Dies kann unter Umständen dazu führen, dass das gesamte Markup einer Seite kaputt geht. (Beispiel: ein schließendes Div-Tag wird abgeschnitten). Die folgende Funktion unterbindet genau diesen Fall. Ursprünglich kommt die Funktion aus dem Framework CakePhp.
 
-```
+```php
 
 /**
 * Truncates text.
@@ -264,4 +264,5 @@ Möchte man einen String croppen, in dem HTML-Tags sind, dann kann es schnell pa
         return $truncate;
 
     }
+
 ```

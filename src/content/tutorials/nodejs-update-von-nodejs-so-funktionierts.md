@@ -15,7 +15,7 @@ download_url: null
 
 Um NodeJs zu updaten muss man nicht viel tun, da man dies mit direkt mit NPM machen kann. Das Ganze geht dann wie folgt:
 
-```
+```bash
 sudo npm cache clean -f
 sudo npm install -g n
 sudo n stable
@@ -23,12 +23,12 @@ sudo n stable
 
 Möchte man eine bestimmte Version installieren, so geht das so:
 
-```
+```bash
 sudo n 0.8.21
 ```
 
 Sobald die Installation fertig ist, kann man sich mit dem folgenden Befehl anschauen, welche Version installiert ist.
 
-```
+```bash
 node -v
 ```

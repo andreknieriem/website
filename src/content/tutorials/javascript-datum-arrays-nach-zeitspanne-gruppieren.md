@@ -20,7 +20,7 @@ download_url: null
 
 Für ein kleines Projekt, bei dem ich Unix-Timestamps nach Zeiteinheiten wie, pro Tag, pro Monat usw. gruppieren wollte, habe ich mir mit [moment.js](http://momentjs.com/ "Opens internal link in current window") und [\_Underscore.js](http://underscorejs.org/ "Opens internal link in current window") ein paar kleine Funktionen geschrieben, die mir die Daten nach jeder beliebigen Zeiteinheit gruppieren können.
 
-```
+```javascript
 // Zeitraum, welcher Moment-kompatibel sein muss. (http://momentjs.com/docs/#/manipulating/start-of/)
   var unit = 'day'; 
   var occurrenceTime = function(occurrence){
@@ -44,14 +44,15 @@ Für ein kleines Projekt, bei dem ich Unix-Timestamps nach Zeiteinheiten wie, pr
 
 **Anwendung wie folgt:**
 
-```
+```javascript
 // data ist ein Array von timestamps [1476861504,1476861514,1476861534,1476861554]
 var grouped = groupData(data)
+
 ```
 
 **Macht sowas:**
 
-```
+```javascript
 
 grouped = Array[2]
     0:Array[2]
@@ -63,6 +64,7 @@ grouped = Array[2]
 
 // es wird ein Array zurückgegeben, welches nach der bestimmten Zeiteinheit gruppiert ist. 
 // Dabei werden die Einheiten zusammengezählt. Das erste Ergebnis bedeutet also, dass es 4 Timestamps in dem Zeitraum gab, beim 2. waren es 2.
+
 ```
 
 Das Ganze ist in diesem Format beispielsweise Google Chart kompatibel, und man kann so Balken oder Linien-Diagramme anzeigen

@@ -20,7 +20,7 @@ download_url: null
 
 Möchte man sich selbst einen Youtube Embed Code generieren und hat dafür nur irgendeine Art von Youtube-Link, so muss man die Youtube ID aus diesen Links herausbekommen. Allerdings hat Youtube leider viele verschiedene Arten von Url's. Mit der folgenden Funktion lassen sich so gut wie von allen Youtube Url's die Ids auslesen. Gefunden habe ich die Funktion bei [Stackoverflow](http://stackoverflow.com/questions/3452546/javascript-regex-how-to-get-youtube-video-id-from-url "Opens internal link in current window").
 
-```
+```javascript
 function youtube_parser(url){
     var regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#\&\?]*).*/;
     var match = url.match(regExp);

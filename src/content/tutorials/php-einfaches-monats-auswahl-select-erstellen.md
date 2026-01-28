@@ -17,7 +17,7 @@ download_url: null
 
 Hier ist ein kleines Snippet, um ein Monats-Auswahl Select mit php zu erstellen.
 
-```
+```php
 
 <?php
 function month_select_box( $field_name = 'month' ) {
@@ -30,4 +30,5 @@ function month_select_box( $field_name = 'month' ) {
     return '<select name="' . $field_name . '">' . $month_options . '</select>';
 }
 ?>
+
 ```

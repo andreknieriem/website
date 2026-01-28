@@ -23,7 +23,7 @@ In diesem Tutorial habe ich die Gegen-Funktion dazu für euch. Hier kann man ein
 
 ### Funktion und Benutzung
 
-```
+```php
 function getValueByKey($key, array $data, $default) {
     if (!is_string($key) || empty($key) || !count($data)) {
         return $default;

@@ -20,7 +20,7 @@ Möchte man in Extbase alle Pids der Unterseiten einer gegebenen Seite bekommen,
 
 **Funktion**
 
-```
+```php
 
 function getTreePids($parent = 0, $as_array = true){
     $depth = 999999;
@@ -31,11 +31,13 @@ function getTreePids($parent = 0, $as_array = true){
     }
     return $childPids;
 }
+
 ```
 
 **Benutzung**
 
-```
+```php
 
 $childs = getTreePids(5);
+
 ```

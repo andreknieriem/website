@@ -19,7 +19,7 @@ download_url: null
 
 Hier mal ein kleines Snipped, dass es einem ermöglicht eine Box ganz nach unten zu scrollen, wenn es Änderungen gibt. Zum Beispiel wenn in einem Chat eine neue Nachricht kommt.
 
-```
+```js
 let chatWrapper = document.querySelector('#chat-messages');
 chatWrapper.scrollTo(0, chatWrapper.offsetHeight );
 ```

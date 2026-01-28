@@ -24,7 +24,7 @@ But if you’re already familiar with the awesomeness that is SASS, I’d like t
 
 First of all, just so we’re all on the same page, here’s how you’d use colors in plain old dumb CSS:
 
-```
+```css
 
 $darkgrey: #333333;
 $lightblue: #001eff;
@@ -41,11 +41,12 @@ $border_color: $lightblue;
 a{
   color: $link_color;
 }
+
 ```
 
 Want to make links red instead of blue, but without affecting the color of the borders? Not a problem!
 
-```
+```css
 
 // first we set descriptive variables:
 $darkgrey: #333333;
@@ -63,6 +64,7 @@ $border_color: $lightblue;
 a{
   color: $link_color;
 }
+
 ```
 
 See the problem? Not only does it look weird, but what happens when I want to change the color of borders, but not links? I’ll have to manually edit my code once again, which is the problem we were trying to solve in the first place…
@@ -71,7 +73,7 @@ See the problem? Not only does it look weird, but what happens when I want to ch
 
 The solution is actually pretty simple once you understand the problem. We’ll use a two-tier system, with both functional and descriptive variable names. Here’s what I mean:
 
-```
+```css
 
 $text_color: #333333;
 $link_color: #001eff;
@@ -83,6 +85,7 @@ $link_color: #001eff;
 a{
   color: $link_color;
 }
+
 ```
 
 Now we can change our link color without introducing any ambiguities in our code. Mission accomplished!
@@ -91,7 +94,7 @@ Now we can change our link color without introducing any ambiguities in our code
 
 But wait, what if I want to add a border, and to make sure my design stays harmonious I decide to make that border the same color as my links?
 
-```
+```css
 
 $text_color: #333333;
 $link_color: #001eff;
@@ -102,6 +105,7 @@ $link_color: #001eff;
 a{
   color: $link_color;
 }
+
 ```
 
 Our “$blue” color is now actually red! Nothing makes sense anymore!
@@ -110,7 +114,7 @@ Our “$blue” color is now actually red! Nothing makes sense anymore!
 
 Thankfully there’s a simple solution: instead of using variable names that describe the color, we’ll use names that describe the color’s function.
 
-```
+```css
 
 $darkgrey: #333333;
 $lightblue: #ff0000; // not actually blue!
@@ -121,11 +125,12 @@ $lightblue: #ff0000; // not actually blue!
 a{
   color: $lightblue;
 }
+
 ```
 
 This will work great… as long as your links are blue. What happens when you decide to make your links red instead of blue?
 
-```
+```css
 
 // first we set the variables:
 $darkgrey: #333333;
@@ -138,6 +143,7 @@ $lightblue: #001eff;
 a{
   color: $lightblue;
 }
+
 ```
 
 Simple enough. But the problem is that if I want to change a color, I usually have to change it in multiple places.
@@ -146,7 +152,7 @@ Simple enough. But the problem is that if I want to change a color, I usually ha
 
 SASS lets us define reusable variables, which can be used for any type of value but are especially useful for colors:
 
-```
+```css
 
 .myClass{
   color: #333333;
@@ -154,6 +160,7 @@ SASS lets us define reusable variables, which can be used for any type of value 
 a{
   color: #001eff;
 }
+
 ```
 
 So here you go. This is a simple tip, but I hope you’ll find it useful! And if you have another way of organizing your colors, or some other SASS/Compass tips, please share them in the comments or in the Hacker News thread!

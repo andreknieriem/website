@@ -15,7 +15,7 @@ download_url: null
 
 Javascript bietet im Gegensatz zu PHP keine Hash Methoden wie md5 oder sha1. Manchmal möchte man aber nur einen Hash haben um diesen beispielsweise in einem Cookie zu speichern, damit man vergleichen kann, ob eine Notification schonmal gelaufen ist, oder nicht. Ich habe hier eine kleine Funktion gefunden, die genau dies tut.
 
-```
+```js
 
 hashCode = function(str) {
   var hash = 0, i, chr, len;
@@ -27,4 +27,5 @@ hashCode = function(str) {
   }
   return hash;
 };
+
 ```

@@ -20,18 +20,20 @@ Letztens brauchte ich an mehreren Stellen alle Klassen von Elementen als Array. 
 
 **Funktion**
 
-```
+```javascript
 
 (function ($) {
 	$.fn.getClasses = function (prop) {
 		return classes = this.attr("class").split(/\s+/);
     };
 }(jQuery));
+
 ```
 
 **So wirds benutzt:**
 
-```
+```javascript
 
 var classList =$('#divId').getClasses();
+
 ```

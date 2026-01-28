@@ -37,7 +37,7 @@ Hier liegen dann einige Ordner, die nur aus Nummern bestehen. Hier muss man jetz
 
 Als nächstes empfehle ich eine Text-Datei auf dem Steamdeck anzulegen und dort dann den folgenden Text einzufügen, da man bei. jedem Spiel, dass den Fehler hat das gleich Folgende wiederholen muss.
 
-```
+```bash
 #x86
 STEAM_COMPAT_DATA_PATH=/home/deck/.local/share/Steam/steamapps/compatdata/(Ordner-Nummer hier einfügen) %command%
 

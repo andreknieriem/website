@@ -20,7 +20,7 @@ Auf meinem Server benutze ich sehr häufig Page Up und Page Down um durch meine 
 
 Um das nützliche Feature einzuschalten muss man nur in der Datei `/etc/inputrc` die folgenden Zeilen auskommentieren:
 
-```
+```bash
 "\e[5~": history-search-backward
 "\e[6~": history-search-forward
 ```

@@ -19,13 +19,14 @@ download_url: null
 
 Für eine Extension brauchte ich letztens eine eigene Php-Klasse, die einfach in meinen Controller via "**Dependency Injection**" eingebunden werden sollte. Das Ganze habe ich dann so gemacht:
 
-```
+```php
 
 /**
  * @var \Vendor\Extension\Foo\Bar
  * @inject
  */
  protected $fooBar;
+
 ```
 
 Allerdings wollte die Klasse einfach nicht geladen werden. Das Object war immer null und es gab fatals, falls ich eine Methode der Klasse aufgerufen habe, beispielsweise: $this->fooBar->test().

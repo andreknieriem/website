@@ -18,7 +18,7 @@ Da ich meine eigene Seite gerade auf TYPO3 8LTS mit fluid\_styled\_content geupd
 
 Als erstes muss man das Default-Setup von Gridelements wie folgt abändern:
 
-```
+```typoscript
 lib.gridelements.defaultGridSetup {
   columns {
     default {
@@ -36,7 +36,7 @@ lib.gridelements.defaultGridSetup {
 
 Anschließend das default rendering mit dem neuen defaultGridSetup herstellen
 
-```
+```typoscript
 plugin.tx_gridelements_pi1 >
 tt_content.gridelements_pi1 >
 tt_content.gridelements_pi1 =< lib.contentElement
@@ -60,7 +60,7 @@ tt_content.gridelements_pi1 {
 
 Nun hat man das Grundsetup hergestellt und kann seine Gridelements definieren und alle haben wieder die Standard-Klassen
 
-```
+```typoscript
 tt_content.gridelements_pi1.variables.content.10.setup.2column < lib.gridelements.defaultGridSetup
 tt_content.gridelements_pi1.variables.content.10.setup.2column {
   cObject {
@@ -70,6 +70,7 @@ tt_content.gridelements_pi1.variables.content.10.setup.2column {
     }
   }
 }
+
 ```
 
 Das wars auch schon. Nun einfach alle Grid Elemente mit dem oberen Code definieren (hier kann man auch die ID's der Gridelemente nehmen, anstelle der Aliasse) 

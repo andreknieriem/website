@@ -21,7 +21,7 @@ Manchmal hat man in einer Tabelle in einem Feld eine komma-separierte Liste, ode
 
 **Code**
 
-```
+```sql
 select * 
 from deine_tabelle
 where LENGTH(dein_spaltenname) - LENGTH(REPLACE(dein_spaltenname, ',', '')) > 9

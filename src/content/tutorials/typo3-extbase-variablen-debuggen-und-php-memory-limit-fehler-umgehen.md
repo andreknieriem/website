@@ -16,8 +16,9 @@ download_url: null
 
 Möchte man Extbase Objecte debuggen, so läuft mit sehr schnell in PHP-Fatals, da das Memory-Limit überschritten ist. TYPO3/Extbase hat dafür eine eigene Methode entwickelt, die einem ein var\_dump der Variablen anzeigt. Fluid benutzt genau dieselbe Methode beim f:debug-Viewhelper.
 
-```
+```php
 
 // anstelle von var_dump($var);
 \TYPO3\CMS\Extbase\Utility\DebuggerUtility::var_dump($var);
+
 ```

@@ -22,7 +22,7 @@ Hier zeige ich euch, wie ihr die nervigen 300ms Zeitverzögerung umgeht, die in 
 
 **1.Erstellt eine Datei namens fastclick.js und fügt folgendes ein:**
 
-```
+```javascript
 
          function FastButton(element, handler) {
             this.element = element;
@@ -91,11 +91,12 @@ Hier zeige ich euch, wie ihr die nervigen 300ms Zeitverzögerung umgeht, die in 
  theEvent.initEvent('click', true, true);
  theTarget.dispatchEvent(theEvent);
          };
+
 ```
 
 **2\. Nun in eurer jquery mobile index.html datei folgendes in den head-Bereich**
 
-```
+```html
 
 <head>
  <!-- your css links go here -->
@@ -107,18 +108,20 @@ Hier zeige ich euch, wie ihr die nervigen 300ms Zeitverzögerung umgeht, die in 
 <link rel='stylesheet' id='admin-bar-css'  href='http://andreknieriem.de/wp-includes/css/admin-bar.min.css?ver=3.7.1' type='text/css' media='all' />
 <link rel='stylesheet' id='wpv_render_css-css'  href='http://andreknieriem.de/wp-content/plugins/wp-views/res/css/wpv-views-sorting.css?ver=3.7.1' type='text/css' media='all' />
 </head>
+
 ```
 
 **3\. Nun das Ganze beim Seitenladen aufrufen:**
 
-```
+```html
 
 <body onload="initFastButtons();">
+
 ```
 
 **4\. Nun noch ein span mit der id "fastclick" um den kompletten body legen und fertig!**
 
-```
+```html4strict
 
 <body onload"initFastButtons();">
 <span id="fastclick">
@@ -128,6 +131,7 @@ Hier zeige ich euch, wie ihr die nervigen 300ms Zeitverzögerung umgeht, die in 
 
 
 </span> <!-- end fastclick -->
+
 ```
 
 Fertig, nun sollte sich alles viel schneller und nativer anfühlen!

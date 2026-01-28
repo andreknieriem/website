@@ -16,7 +16,7 @@ download_url: null
 
 Im Gegensatz zu Javascript ersetzt str\_replace nicht nur den ersten Treffer, sondern direkt alle Vorkommnisse in einem String. Um nur den ersten Treffer zu ersetzen hilft die folgende Funktion. Die Funktion ist deutlich schneller als eine Regexp, allerdings dadurch auch weniger schön zu lesen.
 
-```
+```php
 // How to use:
 str_replace_first('Foo','Bar','Foo Foo Foo'); // Ergibt Bar Foo Foo
 

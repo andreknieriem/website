@@ -19,7 +19,7 @@ download_url: null
 
 Möchte man in Javascript ein Array klonen, so geht das Ganze seit ES6 sehr einfach. Wie das folgende Beispiel zeigt:
 
-```
+```js
 const sheeps = ['maeh', 'maaeh', 'maeeh'];
 
 // Old way
@@ -35,7 +35,7 @@ Javascript referenziert Arrays wenn man diese mit = anlegt. Das bedeutet, dass e
 
 Hier ein Beispiel dazu:
 
-```
+```js
 const sheeps = ['maeh', 'maaeh', 'maeeh'];
 const sheeps2 = sheeps;
 
@@ -46,4 +46,5 @@ console.log(sheeps2);
 
 console.log(sheeps);
 // ['maeh', 'maaeh', 'maeeh', 'wolf'] <-- Oh nein, das Original hat sich ebenfalls geändert.
+
 ```

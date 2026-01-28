@@ -17,7 +17,7 @@ download_url: null
 
 Möchte man das File-Plugin von Cordova benutzen und möchte einfach das Standard Verzeichnis des jeweiliges Betriebssystem nehmen, so kann man eigentlich immer **cordova.file.dataDirectory** benutzen. Bei Windows Phone funktioniert dies leider nicht. Hier ist ein kleiner Workaround/Polyfill um das Problem einfach selbst zu beheben.
 
-```
+```js
 
 if(cordova.file === undefined){
     // WP8
@@ -27,4 +27,5 @@ if(cordova.file === undefined){
         }
     }
 }
+
 ```

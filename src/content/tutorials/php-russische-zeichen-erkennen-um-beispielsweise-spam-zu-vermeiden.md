@@ -19,7 +19,7 @@ Bei mir kommt es recht häufig vor, dass in meinen Kommentaren Spams mit russisc
 
 **Hier die Funktion:**
 
-```
+```php
 function isRussian($text) {
     return preg_match('/[А-Яа-яЁё]/u', $text);
 }

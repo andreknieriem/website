@@ -28,18 +28,20 @@ download_url: null
 
 Damit Excel die führenden Nullen bei CSV Dateien nicht entfernt, muss man während der Generierung der CSV-Datei einfach folgendes beachten:
 
-```
+```javascript
 
 "Kommentar","Nummer","Nummer2"
 "Führende Nullen werden nicht angezeigt","0001233456","04252"
+
 ```
 
 Die einfachste Methode ist ein = vor die Zahl zu setzen. Siehe folgendes Beispiel.
 
-```
+```javascript
 
 "Kommentar","Nummer","Nummer2"
 "Führende Nullen werden nicht angezeigt",="0001233456",="04252"
+
 ```
 
 Ich hoffe, dass hilft einigen von euch Excel daran zu hindern, die führenden Nullen zu verschlingen.

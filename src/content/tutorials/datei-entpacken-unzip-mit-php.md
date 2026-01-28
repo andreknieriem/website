@@ -37,7 +37,7 @@ download_url: null
 
 Falls ihr mehrere Dateien auf einmal hochladen wollt (z.B. Typo3 oder Wordpress Installationen) so solltet ihr die Dateien in ein Zip-Archiv packen. Das hat den Vorteil, das nicht für alle Files Extraverbindungen auf- und abgebaut werden müssen und der Uploadvorgang verschnellert sich ungemein. Hat man nun keinen SSH-Zugriff, bzw Root Zugriff auf den Server kann man die Zip auch mit PHP entpacken. Das Ganze geht wie folgt:
 
-```
+```php
 
 <?php
      $zip = new ZipArchive;
@@ -50,6 +50,7 @@ Falls ihr mehrere Dateien auf einmal hochladen wollt (z.B. Typo3 oder Wordpress 
          echo 'failed';
      }
 ?>
+
 ```
 
 Also einfach den Code nehmen, anpassen, auf den Server laden, ausführen und hoffen, dass dort ok kommt. Danach kann das Zip-File gelöscht werden.

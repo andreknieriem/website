@@ -22,7 +22,7 @@ Geht auf euren Server und führt **docker ps** aus. Nun seht ihr eine Übersicht
 
 2\. Docker exec um in den Container zu ssh'n.
 
-```
+```bash
 docker exec -it <name-des-containers> /bin/bash
 
 #in meinem Beispiel also:

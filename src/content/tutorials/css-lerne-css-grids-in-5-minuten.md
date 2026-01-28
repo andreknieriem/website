@@ -17,7 +17,7 @@ CSS Grids sind der neue Standard und spätestens seit dem Release von Bootstrap 
 
 Zuallererst hier einmal etwas Markup. Die zwei wichtigsten Komponenten für ein CSS Grid sind der Wrapper (parent) und die einzelnen Elemente/Items (children). Der Wrapper ist das Grid und die Elemente sind die Inhalte innerhalb des Grids.
 
-```
+```markup
 <div class="wrapper">
   <div>1</div>
   <div>2</div>
@@ -30,7 +30,7 @@ Zuallererst hier einmal etwas Markup. Die zwei wichtigsten Komponenten für ein 
 
 Um den .wrapper nun in ein Grid zu verwandeln benutzen wir einfach folgende CSS Display Eigenschaft:
 
-```
+```css
 .wrapper {
     display: grid;
 }
@@ -43,7 +43,7 @@ Haben wir das getan, ändert sich im Frontend nicht viel, da wir noch nicht defi
 **Spalten (Columns) und Zeilen (Rows)**  
 Um das Ganze nun wie es richtiges Grid aussehen zu lassen machen wir folgende Änderungen. Ich möchte 3 Spalten in 2 Zeilen. So sind meine 6 Elemente untergebracht. Dazu benutzt man die **grid-template-row** und **grid-template-column** Eigenschaften.
 
-```
+```css
 .wrapper {
     display: grid;
     grid-template-columns: 100px 100px 100px;
@@ -57,7 +57,7 @@ Dadurch, dass wir im Beispiel oben 3 Werte für grid-template-columns und 2 Wer
 
 Hier noch ein anderes Beispiel mit verschiedenen Höhen und Breiten, um die Eigenschaften zu verdeutlichen.
 
-```
+```css
 .wrapper {
     display: grid;
     grid-template-columns: 200px 50px 100px;
@@ -74,7 +74,7 @@ Als nächstes schauen wir uns, wie man Elemente innerhalb des Grids positioniert
 
 Fangen wir mit einem 3x3 Grid an und benutzen dasselbe Markup, wie oben.
 
-```
+```css
 .wrapper {
     display: grid;
     grid-template-columns: 100px 100px 100px;
@@ -88,7 +88,7 @@ Fangen wir mit einem 3x3 Grid an und benutzen dasselbe Markup, wie oben.
 
 Um die Elemente zu positionieren und deren Größe zu ändern benutzen wir die **grid-column** and **grid-row** Eigenschaften.
 
-```
+```css
 .item1 {
     grid-column-start: 1;
     grid-column-end: 4;
@@ -107,7 +107,7 @@ Man beachte, dass wir nun alle Zeilen im Grid benutzen. Dadurch, dass das erste 
 
 Das CSS oben, kann aber noch einfacher und kürzer schreiben:
 
-```
+```css
 .item1 {
     grid-column: 1 / 4;
 }
@@ -115,7 +115,7 @@ Das CSS oben, kann aber noch einfacher und kürzer schreiben:
 
 Um sicherzugehen, dass ihr das Konzept verstanden habt, werden wir die Elemente noch ein wenig besser anordnen
 
-```
+```css
 .item1 {
     grid-column-start: 1;
     grid-column-end: 3;

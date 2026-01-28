@@ -20,7 +20,7 @@ Demo kann man hier sehen:
 
 ![](http://andreknieriem.de/wp-content/themes/andreknieriemv3/resources/img/logo@2x.png)
 
-```
+```css
 .rotate{
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;

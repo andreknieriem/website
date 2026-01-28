@@ -18,12 +18,12 @@ download_url: null
 
 Hier mal ein sehr kleines, aber oft nützliches Snipped. Möchte man einfach einen Zurück-Button auf eine Webseite einbauen, die dieselbe Funktionalität wie der Browser Button hat, so lässt sich das sehr einfach mit dem folgenden Code bewerkstelligen.
 
-```
+```markup
 <a href="javascript:history.back()">Zurück</a>
 ```
 
 Der Trick hierbei ist es, dass im href Attribut des Links direkt Javascript ausgeführt wird. In diesem Fall die Funktion
 
-```
+```javascript
 history.back()
 ```

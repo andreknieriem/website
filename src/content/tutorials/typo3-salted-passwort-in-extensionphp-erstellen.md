@@ -17,7 +17,7 @@ download_url: null
 
 Möchte man in einer Extension beispielsweise fe\_users anlegen, so benötigt man bei neueren TYPO3 Version salted passwords. Um diese zu erzeugen, kann man ganz einfach auf den Code im Core zugreifen und ihn nutzen. Das Ganze geht wie folgt:
 
-```
+```php
 
 $password = 'ASDF';
 $saltedPassword = '';
@@ -29,4 +29,5 @@ if (\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('saltedpassword
     }
   }
 }
+
 ```

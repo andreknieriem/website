@@ -20,7 +20,7 @@ download_url: null
 
 Ich Folgenden zeige ich euch, wie man mit dem neuen Querybuilder von TYPO3 eine Tabelle leeren kann. Das geht recht einfach:
 
-```
+```php
 // use TYPO3\CMS\Core\Utility\GeneralUtility;
 // use TYPO3\CMS\Core\Database\ConnectionPool;
 $connection = GeneralUtility::makeInstance(ConnectionPool::class)->getConnectionForTable('tx_myext_domain_model_test');

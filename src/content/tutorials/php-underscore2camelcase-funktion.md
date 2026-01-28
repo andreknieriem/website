@@ -18,7 +18,7 @@ Manchmal, insbesondere für die TYPO3 Extension-Entwicklung benötigt man öfter
 
 Hier ist für diesen Zweck eine kleine Funktion.
 
-```
+```php
 
 function underscore2Camelcase($str) {
   // Split string in words.
@@ -33,4 +33,5 @@ function underscore2Camelcase($str) {
   }
   return $return;
 }
+
 ```

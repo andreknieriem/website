@@ -15,7 +15,7 @@ Das Ganze klappt in allen Browser und sogar ab dem IE8. Diese Methode benutzt de
 
 **CSS**
 
-```
+```css
 body {
    counter-reset: item;
  }
@@ -36,13 +36,14 @@ body {
    text-align: center;
    display: inline-block;
  }
+
 ```
 
 body { counter-reset: item; } ol.number-style { list-style: none; } .number-style li { counter-increment: item; margin-bottom: 5px; } .number-style li:before { margin-right: 10px; content: counter(item); background: lightblue; border-radius: 100%; color: white; width: 1.2em; text-align: center; display: inline-block; }
 
 **HTML Markup**
 
-```
+```markup
 
 <ol>
   <li>item</li>
@@ -50,6 +51,7 @@ body { counter-reset: item; } ol.number-style { list-style: none; } .number-styl
   <li>item</li>
   <li>item</li>
 </ol>
+
 ```
 
 **Demo**

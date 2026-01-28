@@ -20,7 +20,7 @@ download_url: null
 
 Für ein Symfony Projekt, welches mit Webpack und dem Aufsatz Encore arbeitet wurde es mir zu mühsam für jede neue Datei einen Eintrag in die **webpack.config.js** zu machen. Deswegen habe ich hier einen Ansatz um mit der **glob**\-Funktion Dateien zu finden und diese dann direkt hinzuzufügen.
 
-```
+```js
 const glob = require('glob');
 
 // ...
@@ -42,7 +42,7 @@ glob.sync('./assets/**/js/modules/**/*.js').reduce((acc, item) => {
 
 Falls man das Ganze nur mit Webpack und ohne Encore benutzen möchte:
 
-```
+```js
 entry: glob.sync('./assets/**/js/modules/**/*.js').reduce((acc, path) => {
     var name = item.replace(/\.\/assets\/|\/js\/modules|\.js/gi, '');
     acc[name] = item;

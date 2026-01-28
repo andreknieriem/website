@@ -20,7 +20,7 @@ Seit TYPO3 8LTS werden ViewHelper die \\TYPO3\\CMS\\Fluid\\Core\\ViewHelper\\Abs
 
 Siehe folgendes Beispiel:
 
-```
+```javascript
 <?php
 namespace Vendor\ArTest\ViewHelpers;
 

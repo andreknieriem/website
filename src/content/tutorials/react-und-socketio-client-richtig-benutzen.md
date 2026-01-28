@@ -29,7 +29,7 @@ Am besten einfach eine Datei unter **context/socket.js** erstellen
 
 [https://dev.to/bravemaster619/how-to-prevent-multiple-socket-connections-and-events-in-react-531d](https://dev.to/bravemaster619/how-to-prevent-multiple-socket-connections-and-events-in-react-531d)
 
-```
+```js
 import socketio from "socket.io-client";
 
 export const socket = socketio.connect('yourdomain.com:4001');
@@ -42,7 +42,7 @@ Das ist auch schon alles, was man für den Provider benötigt. Als nächstes mus
 
 Das Ganze sieht dann so aus:
 
-```
+```js
 import {SocketContext, socket} from 'context/socket';
 import Child from 'components/Child';
 
@@ -59,7 +59,7 @@ const App = () => {
 
 ### 3\. Socket in untergeordneter Komponente benutzen
 
-```
+```js
 import React from 'react';
 import {SocketContext} from 'context/socket';
 

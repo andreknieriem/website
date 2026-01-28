@@ -17,29 +17,32 @@ Möchte man mit SQL schnell sehen, wie oft eine bestimmte Sache in den Rows vork
 
 **Ausgangstabelle**
 
-```
+```sql
 
 name  | town
 User1 | Köln
 User2 | Berlin
 User3 | Köln
 User4 | Hamburg
+
 ```
 
 Hat man beispielsweise eine solche User-Tabelle und möchte die sie nach Stadt gruppiert zählen so geht das mit folgendem Code:
 
-```
+```sql
 
 select town, count(town) 
 from user
 group by town
+
 ```
 
 Als Ergebnis erhält man dann etwas in dieser Art
 
-```
+```sql
 
 Köln    | 2
 Berlin  | 1
 Hamburg | 1
+
 ```

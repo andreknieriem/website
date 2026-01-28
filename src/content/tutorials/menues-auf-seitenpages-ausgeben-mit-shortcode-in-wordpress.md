@@ -19,7 +19,7 @@ download_url: null
 
 Ich wollte eine Sitemap meiner Webseite haben, die einfach alle Punkte auf einmal aus meinem selbst erstellten Hauptmenü ausgibt. Das musste natürlich auf einer Seite/Page sein und so habe ich mich umgeguckt und eine Funktion gefunden, die genau das bewerkstelligt. Die Funktion findet ihr unten. Fügt einfach den Code in eure function.php ein und schon habt ihr alles installiert was ihr braucht. Danach einfach **\[menu name="Name eures Menüs"\]** in eure Seite/page einfügen und schon kommt das gewünschte Menü an der Stelle heraus.
 
-```
+```php
 
 <?php
 function print_menu_shortcode($atts, $content = null) {
@@ -29,4 +29,5 @@ function print_menu_shortcode($atts, $content = null) {
 add_shortcode('menu', 'print_menu_shortcode');
 
 ?>
+
 ```

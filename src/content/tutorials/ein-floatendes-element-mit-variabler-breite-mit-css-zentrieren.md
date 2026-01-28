@@ -20,18 +20,19 @@ download_url: null
 
 Wer stand nicht schonmal vor der Schwierigkeit ein floatendes Element mit variabler Breite zu zentrieren. (zum Beispiel bei einer Paginierung, die breiter wird, je höher die Zahlen werden). Nach ein wenig recherche habe ich die Lösung für das Problem gefunden. Man muss das Element in ein anderes Element packen siehe Codebeispiel:
 
-```
+```html4strict
 
 <div class="containerOuter">
 	<div class="centeredElement">
 		Some Text
 	</div>
 </div>
+
 ```
 
 Nun kommen wir zum interessanten Teil, nämlich dem CSS:
 
-```
+```css
 
 .containerOuter {
 	position: relative;
@@ -44,6 +45,7 @@ Nun kommen wir zum interessanten Teil, nämlich dem CSS:
 	float: left;
 	left: -50%;
 }
+
 ```
 
 Das Ganze funktioniert wie folgt:

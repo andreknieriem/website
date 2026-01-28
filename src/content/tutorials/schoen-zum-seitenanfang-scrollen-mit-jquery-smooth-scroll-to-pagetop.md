@@ -89,14 +89,15 @@ var userSettings = {"url":"/","uid":"1","time":"1386227703"};var commonL10n = {"
 
 </body> Tag packt.
 
-```
+```html4strict
 
 <a href="#" class="scrollup">Scroll</a>
+
 ```
 
 Mit diesem CSS macht ihr den Button schön und positioniert ihn. (Das Bild muss natürlich auch eingebunden werden.)
 
-```
+```css
 
 .scrollup{
     width:40px;
@@ -109,11 +110,12 @@ Mit diesem CSS macht ihr den Button schön und positioniert ihn. (Das Bild muss 
     text-indent:-9999px;
     background: url('icon_top.png') no-repeat;
 }
+
 ```
 
 Und hier den jQuery Code um den Button ein und auszublenden und die Scroll Animation zu starten:
 
-```
+```javascript
 
  $(document).ready(function(){
 
@@ -131,6 +133,7 @@ Und hier den jQuery Code um den Button ein und auszublenden und die Scroll Anima
         });
 
     });
+
 ```
 
 Viel Spaß damit!

@@ -15,7 +15,7 @@ download_url: null
 
 Möchte in PHP den Median berechnen, so lässt sich das ganze Recht einfach bewerkstelligen. Man sortiert das Array, dann zählt man die Elemente. Ist es eine ungerade Anzahl kann man direkt den mittleren nehmen. Ist die Zahl gerade muss man die beiden mittleren Elemente nehmen und diesen Wert dann addieren und halbieren. Hier das Ganze als Funktion:
 
-```
+```php
 function calculateMedian(array $arr): float
 {
     $count = count($arr); 

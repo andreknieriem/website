@@ -70,7 +70,7 @@ Wenn man ein Theme nutzt, dass man ein wenig bearbeiten möchte, kommt man nicht
 
 Um eine Funktion zu deaktivieren muss man die "Action" entfernen. Das Ganze sollte beim initialisern des Templates passieren. Das Ganze geht dann so: (Beispiel "thematic" Theme)
 
-```
+```php
 
 // Remove the default Thematic blogtitle function
 function remove_thematic_actions() {
@@ -78,15 +78,17 @@ function remove_thematic_actions() {
 }
 // Call 'remove_thematic_actions' (above) during WP initialization
 add_action('init','remove_thematic_actions');
+
 ```
 
 **Die neue Funktion aktivieren**
 
 Nun müssen wir die neue Funktion nur noch aufrufen. Das Ganze geht dann wie folgt:
 
-```
+```php
 
 add_action('thematic_header','child_thematic_blogtitle', 3);
+
 ```
 
 Ich hoffe, dass das einigen von euch helfen wird!

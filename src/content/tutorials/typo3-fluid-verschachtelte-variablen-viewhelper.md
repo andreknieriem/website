@@ -20,7 +20,7 @@ Was man denken könnte wäre so ein Ansatz {image.{key}} oder ähnliches. Für d
 
 Hier der Code, der in eure Extension unter Classes/ViewHelpers zu finden sein muss. Den Namen der Klasse solltet ihr natürlich euren Bedürfnissen anpassen.
 
-```
+```php
 
 <?php
 
@@ -54,11 +54,12 @@ class Tx_AkTools_ViewHelpers_KeyValueViewHelper extends \TYPO3\CMS\Fluid\Core\Vi
 		return NULL;
 	}
 }
+
 ```
 
 Und so wird der Viewhelper benutzt
 
-```
+```html
 
 {namespace ak=Tx_AkTools_ViewHelpers}
 
@@ -67,4 +68,5 @@ Und so wird der Viewhelper benutzt
 
 <!-- Inline-Schreibweise mit zusammengesetzem Key -->
 {ak:keyValue(obj: object, prop: {0:key1, 1:key2}}, sep:'-' )}
+
 ```

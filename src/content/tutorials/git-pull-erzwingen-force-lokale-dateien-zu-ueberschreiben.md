@@ -15,11 +15,12 @@ Hat man auf einem Live-System uncommited changes - dies kann passieren, wenn man
 
 Mit folgenden 2 Zeilen lassen sich die lokalen Änderungen zurücksetzen und der Pull forcieren.
 
-```
+```bash
 git fetch --all
 git reset --hard origin/master 
 #bzw.
 git reset --hard origin/<branch_name>
+
 ```
 
 Was macht das Ganze?

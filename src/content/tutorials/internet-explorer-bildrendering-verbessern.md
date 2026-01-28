@@ -18,9 +18,10 @@ download_url: null
 
 Der Internet Explorer hat des öfteren ein Problem mit dem Bildrendering, wenn die Bilder, die ausgegeben werden im Original größer oder kleiner sind, als das Bild angezeigt wird. Mit folgendem kleinen CSS-Snippet kann man die Ausgabe im IE deutlich verschönern.
 
-```
+```css
 
 img {
        -ms-interpolation-mode: bicubic;
 }
+
 ```

@@ -19,7 +19,7 @@ Hier habe ich ein kleines PHP-Snippet um alle Ordner samt Unterordner aus einem 
 
 **Funktion**
 
-```
+```php
 
 function getAllSubDirectories( $directory, $directory_seperator = '/'){
 	$dirs = array_map( function($item)use($directory_seperator){ return $item . $directory_seperator;}, array_filter( glob( $directory . '*' ), 'is_dir') );
@@ -29,11 +29,13 @@ function getAllSubDirectories( $directory, $directory_seperator = '/'){
 	}
 	return $dirs;
 }
+
 ```
 
 **Anwendung**
 
-```
+```php
 
 $folders = getAllSubDirectories('/folder','/');
+
 ```

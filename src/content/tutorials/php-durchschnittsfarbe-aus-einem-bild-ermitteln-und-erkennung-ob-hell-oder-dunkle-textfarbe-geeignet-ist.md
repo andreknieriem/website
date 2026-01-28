@@ -23,7 +23,7 @@ Für ein privates Symfony Projekt, dass mit Buchcovern arbeitet benötigte für 
 
 Hier mal meine Zeilen Code:
 
-```
+```php
 $img = 'cover.jpg';
 // Color in rgb
 $dominantColor = ColorThief::getColor($img);
@@ -40,4 +40,5 @@ if($brightness > 130) {
 } else {
 	$textColor = '#FFFFFF';
 }
+
 ```

@@ -23,7 +23,7 @@ Die Navigation erleichtert dem Benutzer oftmals die Navigation und kann Pluspunk
 
 Um die Navigation zu erstellen kann man folgenden TS-Code verwenden:
 
-```
+```typoscript
 
 
 temp.breadcrumb = HMENU
@@ -41,6 +41,7 @@ temp.breadcrumb {
          }
       }
 }
+
 ```
 
 **Was macht der Code genau?**

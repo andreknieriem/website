@@ -23,7 +23,7 @@ Für eine Sortierung von Standorten nach Entfernung von einem bestimmten Punkt, 
 
 **Hier die Funktion**
 
-```
+```js
 
 function Deg2Rad( deg ) {
 	return deg * Math.PI / 180;
@@ -40,13 +40,15 @@ function PythagorasEquirectangular( lat1, lon1, lat2, lon2 ) {
 	var d = Math.sqrt(x*x + y*y) * R;
 	return d;
 }
+
 ```
 
   
 
 **Und so wird's benutzt**
 
-```
+```js
 
 var entfernung = PythagorasEquirectangular( lat1, lon1, lat2, lon2);
+
 ```

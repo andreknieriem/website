@@ -27,16 +27,18 @@ Hier der Codeschnipsel:
 
 ## Javascript Prototype Funktion
 
-```
+```javascript
 
 String.prototype.capitalize = function() {
     return this.charAt(0).toUpperCase() + this.slice(1);
 }
+
 ```
 
 ## Benutzung
 
-```
+```javascript
 
 'hans Meier'.capitalize(); => 'Hans Meier';
+
 ```

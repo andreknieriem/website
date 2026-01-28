@@ -15,7 +15,7 @@ download_url: null
 
 PHP bietet mit seiner str\_replace - Funktion die Möglichkeit 2 Arrays als Parameter zu übergeben um mehrere verschiedene Strings mit dem String aus dem zweiten Array zu ersetzen. Javascript bietet diese Möglichkeit nicht von Haus aus. Hier habe eine kleine Prototyp-Funktion für Strings geschrieben.
 
-```
+```javascript
 
 String.prototype.replaceArray = function(find, replace) {
   var replaceString = this;
@@ -26,11 +26,12 @@ String.prototype.replaceArray = function(find, replace) {
   }
   return replaceString;
 };
+
 ```
 
 **Benutzung**
 
-```
+```javascript
 
 var search = ['Dies','ist','ein','Test'],
     replace = ['Ersetze','alle','Wörter','hier'];
@@ -38,4 +39,5 @@ var search = ['Dies','ist','ein','Test'],
 var replaced = 'Hallo Du! Dies ist ein Test'.replaceArray(search,replace);
 
 // Als Ergebnis kommt dann 'Hallo Du! Ersetze alle Wörter hier' heraus.
+
 ```

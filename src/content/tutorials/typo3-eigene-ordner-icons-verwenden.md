@@ -19,16 +19,18 @@ Möchte man in TYPO3 ein eigenes Icon im Pagetree bei seinen Ordnern einstellen,
 
 Zu beachten ist, dass der Name, in diesem Fall "own\_icon" nicht länger als 10 Zeichen ist, da der Name sonst beschnitten wird und es im Backend dann eine Fehlermeldung gibt.
 
-```
+```php
 
 t3lib_SpriteManager::addTcaTypeIcon('pages', 'contains-ownIcon', '../fileadmin/templates/img/icons/own_icon.png');
 $TCA['pages']['columns']['module']['config']['items'][] = array('Folder Blue', 'ownIcon', '../fileadmin/templates/img/icons/own_icon.png');  
+
 ```
 
 **Update Für neuere TYPO3 Version**
 
-```
+```php
 
 \TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon('pages', 'contains-ownIcon', '../fileadmin/templates/img/icons/own_icon.png');
 $TCA['pages']['columns']['module']['config']['items'][] = array('Folder Blue', 'ownIcon', '../fileadmin/templates/img/icons/own_icon.png');
+
 ```

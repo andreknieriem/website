@@ -20,7 +20,7 @@ Für mein Spiel [teamword.io](http://teamword.io) benötigte ich für die zur Au
 
 Hier meine Funktion, bzw. der Aufruf:
 
-```
+```js
 // function to pick random words from given array
 pickRandomWords(arr, amount) {
 	let shuffeld = [...arr];

@@ -19,7 +19,7 @@ In diesem Tutorial habe ich eine Funktion für euch, die eine Paginierung in eur
 
 Es ist relativ einfach - Fügt einfach die folgende Funktion in eure functions.php ein.
 
-```
+```php
 
 function get_pagination($range = 4){
   // $paged - Nummer der derzeitigen Seite
@@ -82,6 +82,7 @@ function get_pagination($range = 4){
     }
   }
 }
+
 ```
 
 Ich habe sie mit deutschen Kommentaren versehen, damit man weiß, wo was passiert. Als nächstes müsst ihr die Funktion nur aufrufen. Am besten sucht ihr in eurem Template, wo die Paginierung sonst erstellt wird. Bei Twentyten beispielsweise ist sie in der loop.php ganz oben und ganz unten. Dort fügt ihr dann folgenden Code ein:
@@ -94,7 +95,7 @@ Wenn ihr das erledigt habt, sollte schonmal die Paginierung herauskommen, aber u
 
 Das Styling auf meiner Seite sieht wie folgt aus. Natürlich könnt ihr die das Styling individuell anpassen.
 
-```
+```css
 
 /* Pagination */
 
@@ -118,4 +119,5 @@ Das Styling auf meiner Seite sieht wie folgt aus. Natürlich könnt ihr die das 
 .paginationBottom a.current {
 	border: 1px solid #F5F5F5;
 }
+
 ```

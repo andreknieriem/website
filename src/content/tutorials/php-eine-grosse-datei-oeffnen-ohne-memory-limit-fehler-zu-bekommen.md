@@ -16,7 +16,7 @@ download_url: null
 
 Möchte man mit PHP große Dateien öffnen, so bekommt man schnell einen memory\_limit Fehler, weil die Datei größer ist, als erlaubt. Mit folgender Klasse kann man diesen Fehler umgehen, da hier immer nur Zeile für Zeile gestreamt wird.
 
-```
+```php
 class LazyFile {
  
   private $file;
@@ -35,10 +35,11 @@ class LazyFile {
 
 Möchte man das Ganze jetzt benutzen geht das wie folgt:
 
-```
+```php
 
 $file = new LazyFile('file.csv','r');
 foreach ($file->lines() as $line) {
   //do something
 }
+
 ```

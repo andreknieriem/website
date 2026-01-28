@@ -20,7 +20,7 @@ Viele Bilder haben sogenannte Metadaten im Head gespeichert, die einem viele Inf
 
 Ich habe hier mal ein Code-Beispiel, dass euch zeigt, wie man an diese Daten kommt. In der PHP-Dokumentation ist das alles leider sehr wenig beschrieben.
 
-```
+```php
 $image= "picture.jpg";
  
 $info = [];

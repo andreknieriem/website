@@ -32,13 +32,13 @@ Danach könnt ihr mit jQuery einfach testen, ob ein bestimmtes Div sichtbar ist 
 
 **Beispiel**
 
-```
+```html
 <div id="tablet-indicator"></div>
 ```
 
 **CSS**
 
-```
+```css
 
 #tablet-indicator {
     display: none;
@@ -48,17 +48,19 @@ Danach könnt ihr mit jQuery einfach testen, ob ein bestimmtes Div sichtbar ist 
     display: block;
   }
 }
+
 ```
 
 **Javascript**
 
-```
+```js
 
 $(window).resize(function(){
   if($('#tablet-indicator').is(':visible')){
     // Your Code for Tablet
   }
 });
+
 ```
 
 **So was macht das Beispiel?**

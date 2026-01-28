@@ -19,9 +19,10 @@ Da is bei Fluid und TYPO3 viel übersichtlicher in den Templates wird, wenn man 
 
 Hier ein Beispiel:
 
-```
+```html
 
 <f:render partial="header" arguments="{_all}" /
+
 ```
 
 Ich hoffe ich konnte dem ein oder anderen helfen ;)

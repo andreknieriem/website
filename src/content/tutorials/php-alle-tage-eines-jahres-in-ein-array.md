@@ -17,7 +17,7 @@ download_url: null
 
 Für einen Test brauchte ich ein Array in dem alle Tage eines Jahres sind, bzw. des jetziges Jahres. Die folgende Funktion macht dies ohne Probleme:
 
-```
+```php
 
 $now = time(); // or choose a startdate you want 
 $aYearLater = strtotime('+1 Year', $now);
@@ -28,6 +28,7 @@ while(1){
     $allDates[] = date('d.m.Y', $nextday); // Change the date-format to whatever you want
     $nextday = strtotime('+1 Day', $nextday);
 }
+
 ```
 
 Viel Spaß damit!

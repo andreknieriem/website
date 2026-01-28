@@ -25,7 +25,7 @@ Da die Dokumentation bei TYPO3 leider immer wieder unvollständig, veraltet oder
 
 ### Repository Methoden im Überblick
 
-````
+```php
 // hinzufügen
 $testRepository->add($myModel);
  
@@ -59,11 +59,12 @@ $testRepository->findBy[myProperty]($thisMustMatchMyProperty); // returns a Stor
 // findOneBy... (wie findbyUid nur mit selbst angegeben Wert)
 $testRepository->findOneBy[myProperty]($thisMustMatchMyProperty);
 ```
-````
+
+```
 
 ### Query Methoden im Überblick
 
-```
+```php
 // Query-Objekt initialisieren
 $query = $this->createQuery();
  
@@ -112,11 +113,12 @@ public function getOffset($limit = 10,$offset = 0,$options) {
  
   return $query->execute();
 }
+
 ```
 
 ### Einschränkungen / Where Clause / Constraints - Methoden für ein Query
 
-````
+```php
 // = 
 $query->equals($myProperty, $equalsThis, $caseSensitive = true);
  
@@ -175,4 +177,4 @@ $querySettings->setEnableFieldsToBeIgnored(array('disabled', 'starttime')); // N
 $querySettings->setIncludeDeleted(TRUE); // Auch gelöschte Records (deleted = 1) anzeigen
 $querySettings->setRespectSysLanguage(FALSE); // Sprache (sys_language) ignorieren
 $querySettings->setSysLanguageUid(2); // sys_language setzen
-````
+```

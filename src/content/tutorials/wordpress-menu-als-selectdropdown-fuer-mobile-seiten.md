@@ -23,7 +23,7 @@ Um das Ganze in Wordpress zu benutzen benötigt ihr einen sogenannten Walker. Im
 
 **Menücode**
 
-```
+```php
 
 <?php
 wp_nav_menu( array(
@@ -32,11 +32,12 @@ wp_nav_menu( array(
 	'items_wrap'     => '<div class="mobile-menu"><form><select onchange="if (this.value) window.location.href=this.value">%3$s</select></form></div>',
 ) ); 
 ?>
+
 ```
 
 **functions.php**
 
-```
+```php
 
 class Walker_Nav_Menu_Dropdown extends Walker_Nav_Menu {
 	function start_lvl(&$output, $depth){
@@ -67,4 +68,5 @@ class Walker_Nav_Menu_Dropdown extends Walker_Nav_Menu {
 		$output .= "</option>\n"; // replace closing </li> with the option tag
 	}
 }
+
 ```

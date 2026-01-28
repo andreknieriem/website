@@ -20,17 +20,18 @@ Für ein Projekt musste ich letztens das Ausgabe-Plugin von tt\_news erweitern. 
 
 Erweitert die ext\_tables.php um folgende Zeilen. Die Datei included eine Klasse der 2 benötigten Dateien um die Flexform mergen zu können. Die Klassen könnt ihr benennen, wie ihr wollt. meine Extension nenne ich mal ak\_test.
 
-```
+```php
 
 require_once(t3lib_extMgm::extPath($_EXTKEY).'/classes/class.tx_ak_test_ext_ttnews_flexform.php');
 $old_flexform = $TCA['tt_content']['columns']['pi_flexform']['config']['ds']['9,list'];
 $new_flexform = tx_ak_test_ext_ttnews_flexform::merge($old_flexform, 'EXT:' . $_EXTKEY . '/tt_news_flexform_ext.xml');
 t3lib_extMgm::addPiFlexFormValue(9, $new_flexform);
+
 ```
 
 **tx\_ak\_test\_ext\_ttnews\_flexform.php**
 
-```
+```php
 
 <?php
 
@@ -73,11 +74,12 @@ static function merge($flexform_ttnews, $flexform_add) {
   return $new_flexform;
   }
 }
+
 ```
 
 **class.tx\_ak\_test\_fexform\_merge.php**
 
-```
+```php
 
 <?php
 class tx_ak_test_flexform_merge {
@@ -140,6 +142,7 @@ class tx_ak_test_flexform_merge {
     return $tab_out;
   }
 }
+
 ```
 
 So was macht das Ganze nun?

@@ -32,9 +32,10 @@ Bei tt\_news gibt es ein Objekt das **xmlnews** heißt. Dieses kann man in seine
 
 Hier der Code, damit die Bildpfage von /fileadmin/uploads zu [deinedomain.de/fileadmin/uploads](http://deinedomain.de/fileadmin/uploads) werden:
 
-```
+```text
 
 xmlnews.config.absRefPrefix = http://deinedomain.de/
+
 ```
 
 Viel Spaß damit!

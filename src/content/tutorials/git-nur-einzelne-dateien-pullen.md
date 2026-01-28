@@ -18,7 +18,7 @@ download_url: null
 
 Manchmal kommt es vor, dass man schon commited und gepusht hat kommt auf seiner Entwicklungsmaschine und es in zu dem Zeitpunkt einen Fehler gibt, der noch zwischengeschoben werden muss. Da das Branching und der Master nun aber schon mit einem zu neuen Stand versehen sind, kann man auch nur einzelne Dateien auf den Server holen (pull). Das Ganze sollte nur im Notfall und nur sehr selten gemacht werden, geht aber recht einfach wie folgt:
 
-```
+```bash
 git fetch --all
 git checkout origin/master -- <your_file_path>
 ```

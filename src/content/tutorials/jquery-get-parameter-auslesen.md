@@ -18,7 +18,7 @@ Ich habe hier eine kleine Funktion in meiner Sammlung gefunden, was es einem erm
 
 **Funktion**
 
-```
+```javascript
 
 $.extend({
   getUrlVars: function(){
@@ -36,15 +36,17 @@ $.extend({
     return $.getUrlVars()[name];
   }
 });
+
 ```
 
 **So wird's benutzt**
 
-```
+```javascript
 
 // Objekt mit allen Parametern:
 var allVars = $.getUrlVars();
  
 // Ein einzelner Parameter:
 var byName = $.getUrlVar('name');
+
 ```

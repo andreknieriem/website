@@ -17,7 +17,7 @@ download_url: null
 
 Möchte man ein multidimensionales Array imploden, so habe ich hier 2 Lösungen gefunden. Je nach PHP Version kann man entweder die eine oder die andere benutzen.
 
-```
+```php
 
 $input = array(
   array(
@@ -38,4 +38,5 @@ echo implode(', ', array_column($input, 'key'));
 
 // Herauskommt bei beiden
 // foo, bar
+
 ```

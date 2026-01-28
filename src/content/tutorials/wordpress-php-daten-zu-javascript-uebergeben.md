@@ -19,7 +19,7 @@ Möchte man in Wordpress Daten von PHP ans Javascript übergeben, so kann man di
 
 **In der Functions.php**
 
-```
+```php
 
 wp_enqueue_script( 'test', get_template_directory_uri() . '/js/test.js' ); // eure test.js Datei, die Daten bekommen soll
  
@@ -28,15 +28,17 @@ $dataToBePassed = array(
     'bar' => __( 'Please wait...', 'default' )
 );
 wp_localize_script( 'my_js_library', 'php_vars', $datatoBePassed );
+
 ```
 
 **In der Javascript-Datei test.js**
 
-```
+```js
 
 console.log(php_vars.foo);
 console.log(php_vars.bar);
 
 // Ausgabe
 // Hier kommen dann "Test Variable" und "Please wait..." wie gewünscht als Daten an.
+
 ```

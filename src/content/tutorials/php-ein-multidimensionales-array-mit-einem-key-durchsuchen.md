@@ -18,7 +18,7 @@ download_url: null
 
 Möchte man einen Wert aus einem multidimensionalen Array anhand des Keys auslesen und weiß nicht, wo dieser versteckt ist, so kann man mit folgender Funktion das Ganze recht gut bewerkstelligen. Natürlich sollte man keine super riesigen und weit verschachtelte Arrays benutzen, weil es dann doch schon recht lange dauert und aufwendig für den Server ist.
 
-```
+```php
 function recursiveFind(array $haystack, $needle)
 {
     $iterator  = new RecursiveArrayIterator($haystack);

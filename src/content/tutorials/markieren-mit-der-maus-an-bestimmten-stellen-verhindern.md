@@ -42,7 +42,7 @@ download_url: null
 
 Ich arbeite gerade an einer Webseite die via Drag Scrollbar ist und mich nervte es tierisch, dass ich ziemlich oft etwas markierte. Mit der folgenden Kleinen jQuery Funktion lässt sich dieses verhalten jedoch abschalten.
 
-```
+```javascript
 
 jQuery.fn.extend({
         disableSelection : function() {
@@ -61,4 +61,5 @@ return this;
 
 // So nutzt man die Funktion
 $('#theDiv').disableSelection();
+
 ```

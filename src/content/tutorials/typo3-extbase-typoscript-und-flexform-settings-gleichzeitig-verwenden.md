@@ -19,7 +19,7 @@ download_url: null
 
 Mit der folgenden kleinen Funktion, kann man Settings im TypoScript vordefinieren und über Flexforms für jedes Plugin überschreiben lassen.
 
-```
+```php
 
 
 public function injectConfigurationManager(\TYPO3\CMS\Extbase\Configuration\ConfigurationManagerInterface $configurationManager) {
@@ -33,4 +33,5 @@ public function injectConfigurationManager(\TYPO3\CMS\Extbase\Configuration\Conf
     }
     $this->settings = $settings;
 }
+
 ```

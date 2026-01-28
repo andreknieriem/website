@@ -23,7 +23,7 @@ Unter dem Punkt "All Configuration" nach "\[cookieDomain\]" suchen und in das en
 
 **oder via localconf.php**
 
-```
+```php
 $TYPO3_CONF_VARS['SYS']['cookieDomain'] = 'deinedomain.de';</p>
 
 Das wars auch schon!

@@ -19,7 +19,7 @@ Möchte man den Rechtsklick auf einer Webseite unterbinden, so lässt sich dies 
 
 **Hier der Code**
 
-```
+```js
 
 $(function() {
     // Rechtsklick auf Bildern verhindern
@@ -32,4 +32,5 @@ $(function() {
         e.preventDefault();
     });
 });  
+
 ```

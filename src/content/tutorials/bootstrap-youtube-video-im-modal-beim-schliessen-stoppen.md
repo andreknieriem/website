@@ -18,7 +18,7 @@ download_url: null
 
 Hat man ein Youtube/Vimeo oder ein sonst wie via Iframe eingebundendes Video in einem Bootstrap Modal, so kann man dieses mit folgendem Trick sehr leicht stoppen/resetten, wenn man das Modal schließt.
 
-```
+```javascript
 $("#myModal").on('hidden.bs.modal', function (e) {
     // reset iframe source
     $("#myModal iframe").attr("src", $("#myModal iframe").attr("src"));

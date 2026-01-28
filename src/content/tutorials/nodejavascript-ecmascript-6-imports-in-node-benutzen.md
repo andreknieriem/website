@@ -23,7 +23,7 @@ Manchmal kommt es vor, dass man Import und Export von Ecmascript 6 in NodeJs ben
 
 ### Installation und Benutzung
 
-```
+```bash
 npm install --save esm
 
 node -r esm server.js
@@ -31,7 +31,7 @@ node -r esm server.js
 
 Das ganze funktioniert auch mit nodemon.
 
-```
+```bash
 nodemon -r esm server.js
 ```
 
@@ -39,7 +39,7 @@ nodemon -r esm server.js
 
 Möchte man den -esm Aufruf weglassen, so kann man eine entrypoint Datei erstellen, die einem die Arbeit abnimmt. Die Datei könnte dann so aussehen:
 
-```
+```js
 // Datei start.js
 require = require("esm")(module /*, options*/);
 module.exports = require("./server.js");
@@ -49,6 +49,6 @@ Hier sieht man, dass wir die server.js hier importieren und sie um das esm-Modul
 
 Jetzt kann man das Ganze auch einfach über folgenden Befehl steuern.
 
-```
+```js
 node start.js
 ```

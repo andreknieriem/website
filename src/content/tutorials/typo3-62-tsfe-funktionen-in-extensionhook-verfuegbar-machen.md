@@ -19,7 +19,7 @@ download_url: null
 
 An manchen Stellen in TYPO3 ist das Frontend TSFE leider nicht verfügbar. Möchte man trotzdem die Funktionen nutzen - zum Beispiel TYPOLINK so kann man sich mit folgender Funktion das Frontend "hochfahren".
 
-```
+```php
 
      /**
      * Initializes a TypoScript Frontend necessary for using TypoScript and TypoLink functions
@@ -50,4 +50,5 @@ An manchen Stellen in TYPO3 ist das Frontend TSFE leider nicht verfügbar. Möch
             $_SERVER['HTTP_HOST'] = $host;
         }
     }
+
 ```

@@ -19,7 +19,7 @@ Gerade habe ich für eine Extension eine tolles neues Feature von TYPO3 ab der V
 
 **Beispiel TCA**
 
-```
+```php
 'tx_myext_field' => [
     ...
     'displayCond' => 'USER:AR\\MyExt\\DisplayCond\\Cond->useField',
@@ -28,7 +28,7 @@ Gerade habe ich für eine Extension eine tolles neues Feature von TYPO3 ab der V
 
 **DisplayCond Klasse my\_ext/Classes/DisplayCond/Cond.php**
 
-```
+```php
 <?php
 namespace AR\MyExt\DisplayCond;
 
@@ -42,4 +42,5 @@ class Cond{
   }
 
 }
+
 ```

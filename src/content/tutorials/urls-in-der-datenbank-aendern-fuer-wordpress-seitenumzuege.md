@@ -91,7 +91,7 @@ Nun müsst ihr einfach folgende SQL Befehle ausführen.
 
 Für die Guid(Menüs etc)
 
-```
+```sql
 
 UPDATE wp_posts
 SET guid =REPLACE(
@@ -99,11 +99,12 @@ SET guid =REPLACE(
     "olddomain.com/wordpress",
     "www.newdomain.com"
 );
+
 ```
 
 Für den Content selbst
 
-```
+```sql
 
 UPDATE wp_posts
 SET post_content = REPLACE(
@@ -111,11 +112,12 @@ SET post_content = REPLACE(
     "olddomain.com/wordpress",
     "www.newdomain.com"
 );
+
 ```
 
 Für Custom Fields, oder Feldern von Plugins
 
-```
+```sql
 
 UPDATE wp_postmeta
 SET meta_value = REPLACE(
@@ -123,11 +125,12 @@ SET meta_value = REPLACE(
     "olddomain.com/wordpress",
     "www.newdomain.com"
 );
+
 ```
 
 Danach sollte alles gehen. Aber **Achtung** manche Plugins erweitern die Datenbank um eigene Tabellen und diese werden gerade davon nicht ersetzt. Falls dem so ist, könnt ihr diese Tabellen wie oben auch umschreiben. Der SQL dafür geht wie folgt:
 
-```
+```sql
 
 UPDATE tabellenname
 SET feld_das_urls_enthaelt = REPLACE(
@@ -135,6 +138,7 @@ SET feld_das_urls_enthaelt = REPLACE(
     "olddomain.com/wordpress",
     "www.newdomain.com"
 );
+
 ```
 
 Ich hoffe damit bekommt ihr alle eure Seiten von DEV zu Live ;)

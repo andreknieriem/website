@@ -32,34 +32,38 @@ download_url: null
 
 Bekommt man bei einem auf nginx basiertem Server die Fehlermeldung:
 
-```
+```javascript
 
 413 Request Entity Too Large
+
 ```
 
 hat das den Grund, dass nginx auch eine Filegrößenbeschränkung hat. Diese kann man ganz einfach ändern.
 
 Geht dafür in den Ordner in dem nginx liegt (meistens /etc/nginx) und öffnet die Datei nginx.conf.
 
-```
+```javascript
 
 // Ihr könnt meistens einen der beiden Editoren benutzen
 vi ./nginx.conf
 nano ./nginx.conf
+
 ```
 
 Dort dann einfach den Wert der bei client\_max\_body\_size auf die Größe eurer Wahl ändern. Also beispielsweise:
 
-```
+```javascript
 
 client_max_body_size 3M
+
 ```
 
 Danach noch den nginx neustarten.
 
-```
+```javascript
 
 /etc/init.d/nginx restart
+
 ```
 
 Das wars auch schon!

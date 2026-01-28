@@ -18,7 +18,7 @@ download_url: null
 
 Möchte man die Slide-Geschwindigkeit von Bootstrap Carousel ändern, so findet man hierfür keine Einstellungsmöglich als data-Attribut oder beim Aufrufen der Funktion via Javascript. Der Grund dafür ist, dass dies mit CSS3 Animation gelöst wurde und dafür muss man also nur die Transition Zeit anpassen. Hier mal ein Beispiel für einen Slide mit 0.6s also 600MS Laufzeit. Dies kann natürlich angepasst werden, wie man es möchte.
 
-```
+```css
 
 .carousel-inner > .item {
     position: relative;
@@ -28,4 +28,5 @@ Möchte man die Slide-Geschwindigkeit von Bootstrap Carousel ändern, so findet 
     -o-transition: 0.6s ease-in-out left;
     transition: 0.6s ease-in-out left;
 }
+
 ```

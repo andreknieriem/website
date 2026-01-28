@@ -19,7 +19,7 @@ download_url: null
 
 Wenn man aus einem Projekt die ganzen .svn Ordner löschen möchte, weil man beispielsweise auf Git umsteigt, so kann man dies mit dem folgenden kleinen Befehl erledigen.
 
-```
+```bash
 // Prüfen ob der Löschbefehl etwas finden und was er löschen wird:
 find . -name .svn -exec ls '{}' \;
 

@@ -27,10 +27,11 @@ Seit dem Internet Explorer 10 ist das Scrollbar-Verhalten etwas seltsam. Denkt d
 
 Das Ganze lässt sich leicht mit CSS regeln, indem man dem Body folgende Dinge gibt:
 
-```
+```css
 
 body{
     overflow-y: scroll;
     -ms-overflow-style: scrollbar;
 }
+
 ```

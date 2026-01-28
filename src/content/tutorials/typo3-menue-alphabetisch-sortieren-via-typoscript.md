@@ -20,7 +20,7 @@ Manchmal möchte man ein Typoscript-Menu alphabetisch oder generell nach irgende
 
 Hier mal das Ganze als komplettes Typoscript, bei dem nach Titel sortiert wird.
 
-```
+```typoscript
 
 lib.sortmenu = HMENU
 lib.sortmenu {
@@ -32,4 +32,5 @@ lib.sortmenu {
         NO.wrapItemAndSub = <li>|</li>
     }
 }
+
 ```

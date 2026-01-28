@@ -24,6 +24,6 @@ download_url: null
 Hat man einen Ordner innerhalb eines Git Projekte via chmod oder chown bearbeitet, so zeigt git einem jede Datei als geändert an. Das kann dann schonmal zu merge conflicts und sonstigen Blockaden führen. Wenn man weiß, dass einem die Dateiberichtigungen im Git nicht so wichtig sind, da man diese pro Server anpasst, kann man diese Art von Änderung ignorieren. Das geht einfach wie folgt:  
  
 
-```
+```bash
 git config core.fileMode false
 ```

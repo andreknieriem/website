@@ -18,7 +18,7 @@ download_url: null
 
 Manchmal möchte man die Kind-Datensätze noch einmal sortieren, da diese mit der defaultOrdering nicht übereinstimmen. Dies lässt sich ganz einfach mit folgender Funktion tun:
 
-```
+```php
 /**
  * @param array $arr
  * @return array

@@ -18,7 +18,7 @@ Von sich aus kann Bootstrap es nicht, dass Popover geschlossen werden, sobald ma
 
 Mit folgendem kleinem Code, kann man die Popover ausblenden, die gerade nicht aktiv angeklickt werden.
 
-```
+```javascript
 // add popver functionality
 $('.popoverelem').popover();
 

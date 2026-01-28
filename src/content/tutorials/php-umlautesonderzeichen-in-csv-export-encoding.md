@@ -23,7 +23,7 @@ Excel erwartet das **Windows 1252** Encoding, geliefert hatte ich UTF-8. Alle an
 
 **Funktion**
 
-```
+```php
 
 function convertToWindowsCharset($string) {
   $charset =  mb_detect_encoding(
@@ -35,14 +35,16 @@ function convertToWindowsCharset($string) {
   $string =  mb_convert_encoding($string, "Windows-1252", $charset);
   return $string;
 }
+
 ```
 
 **Benutzung**
 
-```
+```php
 
 $str = '€äüöüö';
 $str = convertToWindowsCharset($str);
 
 // nun ist $str im windows1252 Format und Excel kann es lesen
+
 ```

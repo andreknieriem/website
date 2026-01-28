@@ -18,16 +18,18 @@ download_url: null
 
 Bei Windows-Phone in Cordova kommt es häufiger zu Problemen mit der Viewport-Höhe. Um das Ganze zu beheben, einfach folgendes in die config.xml schreiben.
 
-```
+```html
 
 <preference name="fullscreen" value="true"/>
+
 ```
 
 Möchte man allerdings, dass dies nur für Windows-Phones gilt, so kann man folgendes in die config.xml schreiben.
 
-```
+```html
 
 <platform name="wp8">
     <preference name="fullscreen" value="true"/>
 </platform>
+
 ```

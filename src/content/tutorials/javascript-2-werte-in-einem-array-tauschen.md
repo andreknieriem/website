@@ -19,7 +19,7 @@ Für ein kleines Projekt benötigte ich letztens eine Funktion, die mir Werte in
 
 **Array Prototype**
 
-```
+```js
 
 Array.prototype.swap = function (x,y) {
   var b = this[x];
@@ -27,14 +27,16 @@ Array.prototype.swap = function (x,y) {
   this[y] = b;
   return this;
 }
+
 ```
 
 **Benutzung**
 
-```
+```js
 
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.swap(0,3);
 
 // Ergebnis in fruits ist nun Mango, Orange, Apple, Banana
+
 ```

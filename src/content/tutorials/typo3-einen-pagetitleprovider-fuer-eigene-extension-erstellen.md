@@ -19,7 +19,7 @@ Das Ganze geht so:
 
 **MyExtTitleProvider.php** in **my\_ext/Classes/Seo/** erstellen. Natürlich sind die Extension und der Name Platzhalter. Der Inhalt sieht sieht ungefähr so aus:
 
-```
+```php
 <?php
 namespace AR\MyExt\Seo;
 use TYPO3\CMS\Core\PageTitle\AbstractPageTitleProvider;
@@ -37,7 +37,7 @@ class MyExtTitleProvider extends AbstractPageTitleProvider {
 
 Danach fügt ihr den Provider euren TypoScript hinzu:
 
-```
+```typoscript
 config.pageTitleProviders {
    myRecord {
       provider = AR\MyExt\Seo\MyExtTitleProvider
@@ -48,7 +48,7 @@ config.pageTitleProviders {
 
 Und nun kann man ihn in seinem Controller auch schon nutzen.
 
-```
+```php
 <?php
 use AR\MyExt\Seo\MyExtTitleProvider;
 use TYPO3\CMS\Core\Utility\GeneralUtility;

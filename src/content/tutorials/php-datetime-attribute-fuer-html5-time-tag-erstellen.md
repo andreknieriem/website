@@ -18,7 +18,7 @@ HTML5 bietet ein [Time Tag](http://www.w3schools.com/tags/tag_time.asp "Opens in
 
 Die Erzeugung genau dieses Formates widmet sich dieses kleine Tutorial.
 
-```
+```php
 // Neueste Methode
 echo date(DATE_W3C);
 

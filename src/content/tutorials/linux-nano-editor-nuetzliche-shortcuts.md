@@ -25,7 +25,7 @@ Nano ist ein Texteditor der auf den meisten Systemen vorinstalliert ist. (Auch a
 
 **Anmerkung** das **^**\-Symbol ist die CTRL(STRG) Taste auf eurer Tastatur.
 
-```
+```bash
 
 ^G     nano help 
 ^A     move to beginning of line
@@ -39,4 +39,5 @@ Nano ist ein Texteditor der auf den meisten Systemen vorinstalliert ist. (Auch a
 ^K     delete entire line 
 ^O     save contents without exiting (you will be prompted for a file to save to)
 ^X     exit nano (you will be prompted to save your file if you have not)
+
 ```

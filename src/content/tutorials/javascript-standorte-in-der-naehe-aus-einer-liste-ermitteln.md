@@ -18,15 +18,16 @@ Natürlich braucht man vorher eine Liste, die schon Latitude und Longitude-Werte
 
 **Beispielswerte**
 
-```
+```javascript
 
 var standorte = [
 	['50.9235887','6.9649457', 'Köln'],
 	['XX','XX', 'Musterstadt'], ...
 ];
-```
 
 ```
+
+```javascript
 
 $(function(){
     // Load the 3 closest
@@ -86,6 +87,7 @@ function getbyIp() {
 		}
 	});
 }
+
 ```
 
 **Was macht der Code?**

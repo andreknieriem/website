@@ -16,7 +16,7 @@ download_url: null
 
 Hier mal ein kleines Snippet um schnell in PHP ein Select mit den letzten 100 Jahren zu erstellen.
 
-```
+```php
 
 <select name="year">
 <?php 
@@ -26,4 +26,5 @@ foreach($years as $year){
 } 
 ?> 
 </select>
+
 ```

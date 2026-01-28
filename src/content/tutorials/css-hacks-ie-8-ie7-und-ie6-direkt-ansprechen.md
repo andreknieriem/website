@@ -18,38 +18,41 @@ Internet Explorer 8 und darunter
 
 Der Trick um alle Internet Explorer Versionen kleiner als 9 anzusprechen ist folgender:
 
-```
+```css
 
 .class {
     background: blue; /* Jeder Browser */
     background: red\9; /* IE8 und darunter */
 }
+
 ```
 
 Das "9" ist hier der Trick. Dies funktioniert aber wirklich nur für IE's mit der Version < 9. (IE 8 und darunter)
 
 Nur den Internet Explorer 8 geht folgendermaßen
 
-```
+```css
 
 .class {
     background: blue; /* Jeder Browser */
     background: red\9; /* IE8 und darunter */
     background/***/: blue\9 /* Nur IE8 */
 }
+
 ```
 
 Internet Explorer 7 und darunter
 
 Um Versionen kleiner 7 anzusprechen, muss ein Stern \* vor das entsprechende Attribut gesetzt werden.
 
-```
+```css
 
 .class {
     background: blue; /* Jeder Browser */
     background: red\9; /* IE8 und darunter */
     *background: yellow; /* IE7 und darunter */
 }
+
 ```
 
 CSS Anweisungen für den IE7 gehen also mit einem "\*" vor der Anweisung.
@@ -58,7 +61,7 @@ Internet Explorer 6
 
 Zusätzlich zu den oberen beiden Hacks, gibt es auch noch die Möglichkeit ausschließlich den Internet Explorer 6 anzusprechen. Dies funktioniert nach dem gleichen Prinzip wie die Sternmethode, nur das ein Unterstrich verwendet wird.
 
-```
+```css
 
 .class {
     background: blue; /* Jeder Browser */
@@ -67,4 +70,5 @@ Zusätzlich zu den oberen beiden Hacks, gibt es auch noch die Möglichkeit aussc
     *background: yellow; /* IE7 und darunter */
     _background: gray; /* Nur IE6 */
 }
+
 ```

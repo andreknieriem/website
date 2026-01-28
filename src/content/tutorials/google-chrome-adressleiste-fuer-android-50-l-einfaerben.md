@@ -19,9 +19,10 @@ download_url: null
 
 Gerade habe ich entdeckt, dass man die Adressleiste im Google Chrome für Android 5.0 L färben kann, damit auch die Webseite etwas mehr dem Material Design entspricht. Das Ganze geht so:
 
-```
+```html
 
 <meta name="theme-color" content="#4ab19a" />
+
 ```
 
 **Ergebnis:**

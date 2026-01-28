@@ -21,37 +21,41 @@ Auch das Kopie-Tag was in Titeln oft dazugeschrieben wird, kann man schnell entf
 
 **Unbennenen des Translate to Tags**
 
-```
+```typoscript
 
 TCEMAIN {
     translateToMessage = Translate to "%s"
 }
+
 ```
 
 **Entfernen des Translate to Tags**
 
-```
+```php
 
 $TCA['tt_content']['columns']['header']['l10n_mode'] = '';
 $TCA['tt_content']['columns']['bodytext']['l10n_mode'] = '';
+
 ```
 
 **Entfernen des Kopie-Tags bei tt\_content**
 
-```
+```typoscript
 
 TCEMAIN.table.tt_content {
     disablePrependAtCopy = 1
     disableHideAtCopy = 1
 }
+
 ```
 
 **Entfernen des Kopie-Tags bei pages**
 
-```
+```typoscript
 
 TCEMAIN.table.pages {
     disablePrependAtCopy = 1
     disableHideAtCopy = 1
 }
+
 ```

@@ -19,7 +19,7 @@ Möchte man eine simple Breadcrumb Navigation und dafür nicht gleich wieder ein
 
 **functions.php**
 
-```
+```php
 
 function the_breadcrumb() {
 	if (!is_home()) {
@@ -39,13 +39,15 @@ function the_breadcrumb() {
 		}
 	}
 }
+
 ```
 
 **Einbindung der Breadcrumb-Navigation**
 
-```
+```php
 
 <?php the_breadcrumb(); ?>
+
 ```
 
 Das Ganze lässt sich natürlich noch verfeiern, z.B.für noch weiter verschachtelte Menü, oder mit Links auf die Seiten, aber das sollte jedem selbst überlassen sein. Ansonsten fragt nach und ich helfe gerne.

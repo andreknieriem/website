@@ -17,22 +17,24 @@ download_url: null
 
 [AngularJS](https://docs.angularjs.org/api/ng/service/$http) kann von Haus aus JSONP und dies funktioniert auch super. Hier mal ein kleines Beispiel, wie man JSONP mit Angular benutzt. ($http muss natürlich in eurer App/Controller eingebunden)
 
-```
+```js
 
 $http.jsonp('https://myurl.com/getlist?callback=JSON_CALLBACK')
    .success(function (data) {
       $scope.jsonObject = data;
    }
 );
+
 ```
 
 Wichtig dabei ist, dass der Callback **JSON\_CALLBACK** heißt. Dies ist ein interner Angular Call und bewirkt, dass ihr in der Success-Funktion gleich die Daten habt.
 
 Allerdings hatte ich sehr lange folgenden Fehler dabei:
 
-```
+```js
 
 Uncaught ReferenceError: angularcallbacks0 is not defined
+
 ```
 
 Ich habe dann lange gesucht und debuggt und konnte mir den Fehler einfach nicht erklären, bis ich gelesen habe, dass Angular die Funktion **JSON\_CALLBACK** intern durchnummeriert, damit mehrere gleichzeitige Requests möglich sind. Allerdings nennt Angular das Callback immer so:

@@ -18,7 +18,7 @@ download_url: null
 
 Für ein Projekt brauchte ich letztens eine kleine Verzögerung, bis ein Bootstrap Collapse (Akkordeon) geöffnet, bzw. geschlossen werden sollte. Das Ganze hing mit einer CSS Animation zusammen. Folgendes ist dabei herausgekommen und ist sehr leicht zu bedienen und es funktioniert wunderbar.
 
-```
+```javascript
 $('[data-delayed-toggle="collapse"]').on('click', function(e) {
 
   var delay = $(this).data('delay') || 1000,

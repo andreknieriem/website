@@ -22,7 +22,7 @@ Damit man nun noch erkennen kann, was echte Test-Ausgabe ist, kann man einfach 
 
 Anstelle des Wertes "**disabled**" kann man auch "**weak**" reinschreiben. Dann werden die Meldungen nur als Anzahl angezeigt.
 
-```
+```markup
 <!--phpunit.xml.dist-->
 <php>
   ...

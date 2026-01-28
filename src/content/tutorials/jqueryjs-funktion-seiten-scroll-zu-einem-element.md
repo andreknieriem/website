@@ -18,7 +18,7 @@ download_url: null
 
 Ich habe hier eine kleine Helper-Funktion für jQuery. Mit dieser Funktion kann man einfach ein Element ansprechen und sagen, dass der Viewport zu diesem Element scrollen soll. Mit dem Parameter addition kann man noch etwas mehr Abstand hinzufügen, damit das Scrollen nicht direkt am oberen Bildschirmrand hängt.
 
-```
+```js
 /*
 * Short helper function to scroll to an element
 *

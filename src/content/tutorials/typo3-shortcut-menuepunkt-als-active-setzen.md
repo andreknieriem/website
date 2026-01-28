@@ -19,7 +19,7 @@ In vielen TYPO3 Installationen kommt es vor, dass man einen Home/Startseite Link
 
 **Hier der TS-Code:**
 
-```
+```typoscript
 lib.menu = HMENU
 lib.menu {
 

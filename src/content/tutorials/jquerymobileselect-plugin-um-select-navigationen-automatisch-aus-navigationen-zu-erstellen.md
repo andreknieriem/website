@@ -21,7 +21,7 @@ Da ich in letzter Zeit öfter mal große Menüs für mobile Webseiten zugänglic
 
 Im Folgenden ist die Funktionsweise mit allen Optionen einmal aufgelistet und darunter dann die Demo, die daraus resultiert.
 
-```
+```javascript
 
 $('.menu').mobileMenu({
 	className: "mobileMenu",
@@ -31,6 +31,7 @@ $('.menu').mobileMenu({
 	minDepth: 0,
 	maxDepth: 10000
 });
+
 ```
 
 **Demo**

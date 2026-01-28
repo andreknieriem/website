@@ -51,7 +51,7 @@ Möchte man ein Bild innerhalb eines Div-Container komplett zentrieren, also hor
 
 **Markup/CSS**
 
-```
+```markup
 <style>
 .frame {
     height: 27px;      /* equals max image height */
@@ -128,6 +128,7 @@ img {
     <span class="helper"></span>
     <img src="logo-trans.png" height=3 />
 </div>
+
 ```
 
 **Wie funktioniert das Ganze?**
