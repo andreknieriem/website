@@ -109,38 +109,42 @@ import '../styles/legacy.scss';
 
     <script>
         const init = () => {
-            // Mobile Menu
-            const menuBtns = document.querySelectorAll('.menu-btn');
-            const body = document.body;
-            
-            menuBtns.forEach(btn => {
-                btn.addEventListener('click', () => {
-                    // body.classList.toggle('open-menu');
-                    if( !body.classList.contains('open-menu') ){ openMenu(); }
-                    else { closeMenu(); }
-                });
+          // Mobile Menu
+          const menuBtns = document.querySelectorAll('.menu-btn');
+          const body = document.body;
+
+          menuBtns.forEach(btn => {
+              btn.addEventListener('click', () => {
+                  // body.classList.toggle('open-menu');
+                  if( !body.classList.contains('open-menu') ){ openMenu(); }
+                  else { closeMenu(); }
+              });
+          });
+
+
+
+          // Header Search Toggle
+          const searchBtn = document.querySelector('.search .icon-Search');
+          const searchLi = document.querySelector('.search');
+          if (searchBtn && searchLi) {
+            searchBtn.addEventListener('click', (e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              searchLi.classList.toggle('open');
+              if (searchLi.classList.contains('open')) {
+                searchLi.querySelector('input')?.focus();
+              }
             });
 
-            // Header Search Toggle
-            const searchBtn = document.querySelector('.search .icon-Search');
-            const searchLi = document.querySelector('.search');
-            if (searchBtn && searchLi) {
-                searchBtn.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    searchLi.classList.toggle('open');
-                    if (searchLi.classList.contains('open')) {
-                        searchLi.querySelector('input')?.focus();
-                    }
-                });
+            // Close search on click outside
+            document.addEventListener('click', (e) => {
+              if (!searchLi.contains(e.target as Node)) {
+                searchLi.classList.remove('open');
+              }
+            });
+          }
 
-                // Close search on click outside
-                document.addEventListener('click', (e) => {
-                    if (!searchLi.contains(e.target as Node)) {
-                        searchLi.classList.remove('open');
-                    }
-                });
-            }
+          checkHeader();
 
           const openMenu = () => {
             window.scrollTo(0,0);
@@ -173,6 +177,36 @@ import '../styles/legacy.scss';
                 }
             });
         };
+
+        let throttled = false;
+        window.addEventListener('resize', () => {
+          if (!throttled) {
+            handleResize();
+            throttled = true;
+            // set a timeout to un-throttle
+            setTimeout( () => {
+              throttled = false;
+            }, 100 );
+          }
+        });
+
+        const checkHeader = ()  => {
+          let header = document.querySelector('header#main-header');
+          let windowHeight = window.innerHeight,
+            headerHeight = header.offsetHeight;
+
+          if(!!document.getElementById("home")){
+            if(windowHeight != headerHeight){
+              header.style.height = windowHeight + 'px';
+            }
+          } else {
+            header.removeAttribute('style');
+          }
+        }
+
+        const handleResize = () => {
+          checkHeader();
+        }
 
         // Initialize on load
         init();
