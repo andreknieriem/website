@@ -20,7 +20,7 @@ download_url: null
 
 TYPO3 rendert Überschriften standardmäßig als H1. Möchte man allerdings nur eine große H1 am Anfang der Seite haben und alle anderen Überschriften per default auf H2 haben, dann kann man dieses mit dem folgenden Code, den man in die Constants der Seiten schreiben muss.
 
-```typoscript
+```bash
 
 content.defaultHeaderType = 2
 

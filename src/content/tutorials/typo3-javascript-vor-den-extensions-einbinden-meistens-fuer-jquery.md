@@ -18,7 +18,7 @@ download_url: null
 
 Manchmal kommt es vor, dass das Javascript von Extensions schon vor dem eigenen Javascript geladen wird. Dies ist im Falle von jQuery natürlich fatal, da dann keine einzige Funktion mehr geht und es den Fehler gibt, dass $ nicht definiert ist. Mit dem folgenden Code kann man Skripte zwingen oben geladen zu werden.
 
-```typoscript
+```bash
 
 page.includeJSFooter {
     jquery = fileadmin/templates/js/jquery-1.11.2.min.js

@@ -45,7 +45,7 @@ class InArrayViewHelper extends \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractConditi
 
 **Benutzung geht dann beispielsweise so:**  
 
-```markup
+```html
 {namespace test=Vendor\Ext\ViewHelpers}
 <test:inArray haystack="{week}" needle="mittwoch">
   <f:then>

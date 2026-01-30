@@ -16,7 +16,7 @@ Hier mal eine Kleinigkeit, wie man ein Pipe-Symbol in einem Wrap als Zeichen ver
 
 Dafür muss man einfach nur den HTML Code für das |-Zeichen verwenden
 
-```typoscript
+```bash
 
 headerData.5{
     10 = TEXT

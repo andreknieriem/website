@@ -18,7 +18,7 @@ Hat man für ein Bild die Checkbox "**Bei Klick vergrößern**" gesetzt, so ren
 
 Dafür müsst ihr, je nachdem ob ihr css\_styled\_content oder fluid\_styled\_content nutzt folgende Einstellungen im TypoScript einfügen:
 
-```typoscript
+```bash
 tt_content.image.20.1.imageLinkWrap {
   JSwindow = 0
   crop >
@@ -42,7 +42,7 @@ Habt ihr das TypoScript eingefügt, so wird jetzt ein direkter Link zum Bild gen
 
 Möchte man beispielsweise meine simpleLightbox verwenden, so fügt man einfach folgende Dinge hinzu:
 
-```typoscript
+```bash
 page.includeCSS.sl = typo3conf/ext/ar_siteext/Resources/Public/Css/simplelightbox.min.css
 page.includeJSFooter.sl = typo3conf/ext/ar_siteext/Resources/Public/Js/simplelightbox/dist/simple-lightbox.min.js
 ```

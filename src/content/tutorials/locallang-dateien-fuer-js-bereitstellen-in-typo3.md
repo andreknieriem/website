@@ -25,7 +25,7 @@ Natürlich lassen sich die Einstellung auch via Typoscript vornehmen. Wie das ge
 
 Hier ein kleines Beispiel der Locallang Datei und wie man den String nun im JS bekommt:
 
-```markup
+```html
 <label index="testlabel">Ich bin ein Test</label>
 
 ```

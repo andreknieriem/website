@@ -43,7 +43,7 @@ body { counter-reset: item; } ol.number-style { list-style: none; } .number-styl
 
 **HTML Markup**
 
-```markup
+```html
 
 <ol>
   <li>item</li>

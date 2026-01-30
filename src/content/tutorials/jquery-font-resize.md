@@ -57,7 +57,7 @@ Das Ganze funktioniert wie folgt:
 
 **HTML Gerüst**
 
-```html4strict
+```html
 
 <div class="font-resize">
 <a href="#" id="small" class="size-now">A-</a>

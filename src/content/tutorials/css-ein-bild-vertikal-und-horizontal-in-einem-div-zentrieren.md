@@ -51,7 +51,7 @@ Möchte man ein Bild innerhalb eines Div-Container komplett zentrieren, also hor
 
 **Markup/CSS**
 
-```markup
+```html
 <style>
 .frame {
     height: 27px;      /* equals max image height */

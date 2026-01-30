@@ -18,6 +18,6 @@ Seit der TYPO3 Version 7 bekommt man keine richtigen Fehlermeldungen mehr. Es er
 
 **Typoscript:**
 
-```typoscript
+```bash
 page.config.contentObjectExceptionHandler = 0
 ```

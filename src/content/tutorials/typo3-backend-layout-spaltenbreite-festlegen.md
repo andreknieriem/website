@@ -20,7 +20,7 @@ Um im Backend die Spaltenbreite festzulegen gibt es einen kleinen Trick. Man gib
 
 Am besten schaut ihr euch das nachfolgende Beispiel an. Dort werden 3 Spalten festgelegt, wobei die Linke Spalte über 2 Spalten verlaufen soll. Somit ist diese 2/3 Breit und die Rechte Spalte 1/3. Das Ganze lässt sich natürlich beliebig in alle Richtungen erweitern.
 
-```typoscript
+```bash
 
 backend_layout {
   colCount = 3

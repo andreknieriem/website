@@ -43,7 +43,7 @@ class Tx_ExtensionName_ViewHelpers_StringReplaceViewHelper extends Tx_Fluid_Core
 
 Und so kann man dann im Fluid-Template das Ganze anwenden:
 
-```markup
+```html
 
 {namespace t=Tx_ExtensionName_ViewHelpers}
 <t:StringReplace string="Foo Bar" searchFor="Bar" replaceWith="Foo" />

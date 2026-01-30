@@ -17,7 +17,7 @@ CSS Grids sind der neue Standard und spätestens seit dem Release von Bootstrap 
 
 Zuallererst hier einmal etwas Markup. Die zwei wichtigsten Komponenten für ein CSS Grid sind der Wrapper (parent) und die einzelnen Elemente/Items (children). Der Wrapper ist das Grid und die Elemente sind die Inhalte innerhalb des Grids.
 
-```markup
+```html
 <div class="wrapper">
   <div>1</div>
   <div>2</div>

@@ -42,7 +42,7 @@ Bootstrap hat schon viele Utility Klassen um das meiste am Design ohne eine weit
 
 Diese Klassen kann nun ganz einfach benutzen.
 
-```markup
+```html
 <p class="text-height-1">
   Lorem Ipsum....
 </p>

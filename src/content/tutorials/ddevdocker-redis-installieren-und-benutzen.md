@@ -44,6 +44,6 @@ services:
 
 Nun muss ddev nur noch neugestartet werden und ihr habt einen funktionierenden Redis-Server.
 
-```markup
+```html
 ddev restart
 ```

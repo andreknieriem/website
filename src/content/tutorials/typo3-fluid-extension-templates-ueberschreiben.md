@@ -20,7 +20,7 @@ download_url: null
 
 Möchte man die Templates einer Extension überschreiben, so kann man dies mitlerweile recht einfach machen. Neue gut geschriebene Extensions benutzen templateRootPaths, partialRootPaths und layoutRootPaths, mit deren Hilfe man verschiedene Orte für Templates angeben kann. Die Templates mit der höchsten Nummer, die auch wirklich existieren werden dann geladen. Hier ein Beispiel anhand von Solr.
 
-```typoscript
+```bash
 plugin.solr {
     view {
         templateRootPaths.100 = EXT:ar_ext/Resources/Private/Templates/

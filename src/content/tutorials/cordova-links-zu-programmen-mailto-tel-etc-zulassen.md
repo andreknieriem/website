@@ -25,7 +25,7 @@ Ich brauchte beispielsweise Links für E-Mail Adressen, Telefonnummern und SMS. 
 
 Für meine Anforderung musste ich, nach der Plugin Installation, zur **config.xml** der Cordova-App folgende Zeilen in den <widget> Knoten aufnehmen.
 
-```markup
+```html
 
 <allow-intent href="tel:*" />
 <allow-intent href="sms:*" />

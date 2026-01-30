@@ -121,7 +121,7 @@ Hier zeige ich euch, wie ihr die nervigen 300ms Zeitverzögerung umgeht, die in 
 
 **4\. Nun noch ein span mit der id "fastclick" um den kompletten body legen und fertig!**
 
-```html4strict
+```html
 
 <body onload"initFastButtons();">
 <span id="fastclick">

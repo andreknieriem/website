@@ -21,7 +21,7 @@ Dieses kleine TypoScript Snipped erstellt ein Menü, dass normalerweise die Unte
 
 **Hier der funktionierende Code:**
 
-```typoscript
+```bash
 lib.subMenu = HMENU
 lib.subMenu {
 

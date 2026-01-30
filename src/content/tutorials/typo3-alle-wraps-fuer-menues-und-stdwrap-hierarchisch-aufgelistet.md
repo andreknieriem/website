@@ -19,7 +19,7 @@ Hier dann einmal die gut übersichtlichen Auflistungen
 
 **Menüwraps**
 
-```typoscript
+```bash
 wrapItemAndSub
   allStdWrap
      allWrap
@@ -43,7 +43,7 @@ wrapItemAndSub
 
 **Hier einmal die Auflistung aller wraps von stdWrap**
 
-```typoscript
+```bash
 outerWrap
    wrap3
       prepend

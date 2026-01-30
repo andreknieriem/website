@@ -15,7 +15,7 @@ download_url: null
 
 Wenn man in der Solr Extension Facetten oder andere Dinge benutzt, dann kann es vorkommen, dass man auf Seiten nur Suchergebnisse einer bestimmten Gruppe, also ein vorgefiltertes Suchergebnis bekommen möchte. Das Ganze lässt sich ziemlich einfach via TypoScript bewerkstelligen. Hier mal ein kleines Snipped:
 
-```typoscript
+```bash
 [globalVar = TSFE:id = 123]
   plugin.tx_solr.search.query.filter{
     blogOnlyFilter = type:tx_arext_blog
@@ -27,7 +27,7 @@ Der obrige Code sorgt dafür, dass auf Seite 123 meiner Seite nur Suchergebnisse
 
 Man kann die Filter sogar mit einem "-" (Minus) negieren, sodass bestimmte Typen nicht herauskommen sollen. Hier mal ein Beispiel:
 
-```typoscript
+```bash
 [globalVar = TSFE:id = 123]
   plugin.tx_solr.search.query.filter{
     noblogFilter = -type:tx_arext_blog

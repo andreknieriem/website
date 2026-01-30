@@ -37,7 +37,7 @@ class MyExtTitleProvider extends AbstractPageTitleProvider {
 
 Danach fügt ihr den Provider euren TypoScript hinzu:
 
-```typoscript
+```bash
 config.pageTitleProviders {
    myRecord {
       provider = AR\MyExt\Seo\MyExtTitleProvider

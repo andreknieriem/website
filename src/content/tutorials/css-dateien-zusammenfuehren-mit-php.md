@@ -76,7 +76,7 @@ echo file_get_contents('reset.css').
 
 Zum einbinden der jetzigen neu generierten CSS-Datei einfach folgende aufrufen:
 
-```html4strict
+```html
 
 <link rel="stylesheet" type="text/css" href="get_css.php" />
 

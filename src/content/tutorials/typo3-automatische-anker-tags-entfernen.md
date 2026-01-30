@@ -18,7 +18,7 @@ TYPO3 baut immer Anker-Tags (im Schema <a id="c65"></a> in das HTML ein, dass ma
 
 **TYPO3 Version < 4.5**
 
-```typoscript
+```bash
 
 tt_content.stdWrap.dataWrap 
 
@@ -26,7 +26,7 @@ tt_content.stdWrap.dataWrap
 
 **TYPO3 Version > 4.5**
 
-```typoscript
+```bash
 
 tt_content.stdWrap.innerWrap.cObject.66.10 >
 
@@ -34,7 +34,7 @@ tt_content.stdWrap.innerWrap.cObject.66.10 >
 
 **Multilang**
 
-```typoscript
+```bash
 
 tt_content.stdWrap.prepend.dataWrap >
 

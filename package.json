@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
+    "cms": "decap-server & astro dev",
     "build": "astro build && npx pagefind --site dist",
     "preview": "astro preview",
     "astro": "astro"
@@ -15,5 +16,8 @@
     "pagefind": "^1.1.0",
     "sass": "^1.83.0",
     "simplelightbox": "^2.14.3"
+  },
+  "devDependencies": {
+    "decap-server": "^3.0.1"
   }
 }

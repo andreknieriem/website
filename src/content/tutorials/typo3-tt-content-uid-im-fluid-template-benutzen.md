@@ -27,7 +27,7 @@ $this->view->assign('currentUid', $currentUid);
 
 Nun kann im Fluid Template die Uid einfach wie folgt verwenden:
 
-```markup
+```html
 
 {currentUid}
 

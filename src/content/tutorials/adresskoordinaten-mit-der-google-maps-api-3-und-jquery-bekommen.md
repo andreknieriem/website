@@ -20,7 +20,7 @@ Ich beschäftige mich gerade mit der Google Maps Api 3 und habe gedacht dieses S
 
 Im Nachfolgenden ist eine komplette test.html-Datei abgebildet.
 
-```html4strict
+```html
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>

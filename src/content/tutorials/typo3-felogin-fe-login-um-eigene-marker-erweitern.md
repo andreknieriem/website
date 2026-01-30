@@ -52,7 +52,7 @@ Nun muss man nur noch das Template von felogin bearbeiten. Da man dies niemals i
 
 **TypoScript Konfiguration**
 
-```typoscript
+```bash
 plugin.tx_felogin_pi1 {
  
     // Template-Datei überscheiben

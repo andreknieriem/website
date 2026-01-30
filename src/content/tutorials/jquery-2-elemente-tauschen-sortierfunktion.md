@@ -22,7 +22,7 @@ Für eine kleine sortierbare Liste brauchte ich ein Zeilen Code, die in einer Li
 
 **Html-Markup**
 
-```markup
+```html
 
 <div class="list">
     <div class="item">Listitem1 <div class="sortArrows"><a href="#" class="move-down">↓</a><a href="#" class="move-up">↑</a></div></div>

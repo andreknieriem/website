@@ -19,7 +19,7 @@ Mit den folgenden Codeschnipseln wird gezeigt, wie man FAL Links und Bilder in e
 
 **ext\_tables.sql**
 
-```markup
+```html
 
 
 <f:for each="{images}" as="image">

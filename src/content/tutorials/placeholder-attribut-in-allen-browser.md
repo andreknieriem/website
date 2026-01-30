@@ -57,7 +57,7 @@ Das Placeholder Attribut, dass HTML5 mit sich bringt ist ein tolles Feature. Nur
 
 Ein Placeholder zu setzen ist denkbar einfach:
 
-```html4strict
+```html
 
 <input type="text" placeholder="Ich bin ein Placeholder"/>
 

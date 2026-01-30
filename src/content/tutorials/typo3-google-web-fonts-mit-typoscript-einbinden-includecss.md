@@ -18,7 +18,7 @@ download_url: null
 
 Um Google Web-Fonts auch bei TYPO3 zu benutzen, bzw. diese direkt via Typoscript einzubinden benötigt ihr nur folgende Zeilen.
 
-```typoscript
+```bash
 
 page.includeCSS {  
   file5 = http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic

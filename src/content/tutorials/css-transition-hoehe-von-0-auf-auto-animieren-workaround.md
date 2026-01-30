@@ -29,7 +29,7 @@ Also wie funtioniert das Ganze jetzt? Wir animieren nicht die Höhe von 0 auf au
 
 ### HTML Aufbau
 
-```markup
+```html
 <div class="outer-box">
     <div class="inner-box-content">
       <p>Dies ist ein Text beliebiger Länge und somit Höhe.</p>

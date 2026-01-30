@@ -89,7 +89,7 @@ var userSettings = {"url":"/","uid":"1","time":"1386227703"};var commonL10n = {"
 
 </body> Tag packt.
 
-```html4strict
+```html
 
 <a href="#" class="scrollup">Scroll</a>
 

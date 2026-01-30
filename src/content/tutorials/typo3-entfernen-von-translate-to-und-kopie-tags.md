@@ -21,7 +21,7 @@ Auch das Kopie-Tag was in Titeln oft dazugeschrieben wird, kann man schnell entf
 
 **Unbennenen des Translate to Tags**
 
-```typoscript
+```bash
 
 TCEMAIN {
     translateToMessage = Translate to "%s"
@@ -40,7 +40,7 @@ $TCA['tt_content']['columns']['bodytext']['l10n_mode'] = '';
 
 **Entfernen des Kopie-Tags bei tt\_content**
 
-```typoscript
+```bash
 
 TCEMAIN.table.tt_content {
     disablePrependAtCopy = 1
@@ -51,7 +51,7 @@ TCEMAIN.table.tt_content {
 
 **Entfernen des Kopie-Tags bei pages**
 
-```typoscript
+```bash
 
 TCEMAIN.table.pages {
     disablePrependAtCopy = 1

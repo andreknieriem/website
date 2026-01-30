@@ -34,7 +34,7 @@ Zum Benutzen muss der Code einfach in die Prism.js eingefügt werden, da sollten
 
 **Demo**
 
-```typoscript
+```bash
 
 lib.seo.google = COA
 lib.seo.google {

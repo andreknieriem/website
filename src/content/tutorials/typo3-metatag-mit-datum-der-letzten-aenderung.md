@@ -15,7 +15,7 @@ download_url: null
 
 Möchte man in TYPO3 das Meta-Tag "last-modified" haben, so kann man dies einfach mit folgendem Code bewerkstelligen:
 
-```typoscript
+```bash
 
 page.headerData {
   10 = TEXT

@@ -107,7 +107,7 @@ Eine Demo habe ich direkt hier eingebunden. Die Facebook Likebox scrollt immer m
 
 Fangen wir an mit dem HTML und CSS Markup:
 
-```html4strict
+```html
 
 <style>
 /* required to avoid jumping */
