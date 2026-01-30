@@ -17,7 +17,7 @@ collections:
     fields:
       - { label: "Titel", name: "title", widget: "string" }
       - { label: "Datum", name: "date", widget: "datetime" }
-      - { label: "Bild (URL)", name: "image", widget: "string", required: false }
+      - { label: "Bild", name: "image", widget: "image", required: false }
       - { label: "Beschreibung", name: "description", widget: "text", required: false }
       - { label: "Tags", name: "tags", widget: "list", required: false }
       - { label: "Demo URL", name: "demo_url", widget: "string", required: false }
@@ -32,7 +32,7 @@ collections:
     fields:
       - { label: "Titel", name: "title", widget: "string" }
       - { label: "Datum", name: "date", widget: "datetime" }
-      - { label: "Bild (URL)", name: "image", widget: "string", required: false }
+      - { label: "Bild", name: "image", widget: "image", required: false }
       - { label: "Beschreibung", name: "description", widget: "text", required: false }
       - { label: "Tags", name: "tags", widget: "list", required: false }
       - { label: "Demo URL", name: "demo_url", widget: "string", required: false }
@@ -47,7 +47,7 @@ collections:
     fields:
       - { label: "Titel", name: "title", widget: "string" }
       - { label: "Datum", name: "date", widget: "datetime" }
-      - { label: "Bild (URL)", name: "image", widget: "string", required: false }
+      - { label: "Bild", name: "image", widget: "image", required: false }
       - { label: "Externe URL", name: "external_url", widget: "string", required: false }
       - { label: "Technologien", name: "technologies", widget: "list", required: false }
       - { label: "Inhalt", name: "body", widget: "markdown" }
@@ -66,7 +66,7 @@ collections:
     fields:
       - { label: "Titel", name: "title", widget: "string" }
       - { label: "Datum", name: "date", widget: "datetime" }
-      - { label: "Bild (URL)", name: "image", widget: "string", required: false }
+      - { label: "Bild", name: "image", widget: "image", required: false }
       - { label: "Demo URL", name: "demo_url", widget: "string", required: false }
       - { label: "Download URL", name: "download_url", widget: "string", required: false }
       - { label: "Inhalt", name: "body", widget: "markdown" }

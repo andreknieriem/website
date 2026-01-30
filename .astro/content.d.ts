@@ -583,6 +583,13 @@ declare module 'astro:content' {
   collection: "portfolio";
   data: any
 } & { render(): Render[".md"] };
+"headunit-revived.md": {
+	id: "headunit-revived.md";
+  slug: "headunit-revived";
+  body: string;
+  collection: "portfolio";
+  data: any
+} & { render(): Render[".md"] };
 "hochzeitshomepage-fuer-meine-hochzeit.md": {
 	id: "hochzeitshomepage-fuer-meine-hochzeit.md";
   slug: "hochzeitshomepage-fuer-meine-hochzeit";
