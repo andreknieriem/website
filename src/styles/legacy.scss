@@ -11269,3 +11269,37 @@ mark {
     }
 }
 @import 'simplelightbox/dist/simple-lightbox.min.css';
+
+/* Custom Pagination Overrides */
+.pagination {
+    display: block !important;
+}
+.pagination ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.pagination ul li {
+    display: inline-block;
+    float: none;
+    margin-right: 5px;
+}
+.pagination ul li a {
+    float: none !important;
+    display: inline-block !important;
+}
+@media (prefers-color-scheme: dark) {
+    .pagination ul li.first-link a, 
+    .pagination ul li.last-link a {
+        background: #333 !important;
+        color: #148992 !important;
+        border-color: #444 !important;
+        box-shadow: none !important;
+    }
+    .pagination ul li a {
+        background: #333 !important;
+        color: #C0C0C0;
+        border: 1px solid #444;
+        box-shadow: none !important;
+    }
+}

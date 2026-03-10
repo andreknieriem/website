@@ -1,0 +1,106 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths({ paginate }) {
+  const allTutorials = (await getCollection('tutorials')).sort(
+    (a, b) => {
+      const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date);
+      const dateB = b.data.date instanceof Date ? b.data.date : new Date(b.data.date);
+      return dateB.valueOf() - dateA.valueOf();
+    }
+  );
+
+  return paginate(allTutorials, { pageSize: 15 });
+}
+
+const { page } = Astro.props;
+
+// Logic to determine which page numbers to show
+const pageNumbers = [];
+for (let i = 1; i <= page.lastPage; i++) {
+  if (
+    i === 1 || 
+    i === page.lastPage || 
+    (i >= page.currentPage - 2 && i <= page.currentPage + 2)
+  ) {
+    pageNumbers.push(i);
+  }
+}
+
+// Add ellipses
+const finalPages = [];
+let lastPage = 0;
+for (const p of pageNumbers) {
+  if (lastPage && p - lastPage > 1) {
+    finalPages.push('...');
+  }
+  finalPages.push(p);
+  lastPage = p;
+}
+
+function truncate(str, max = 250) {
+  if (!str || str.length <= max) return str;
+  const subString = str.substr(0, max - 1);
+  return subString.substr(0, subString.lastIndexOf(" ")) + "&hellip;";
+}
+---
+<BaseLayout title={`Tutorials - Seite ${page.currentPage}`}>
+  <header><h1>Tutorials</h1></header>
+  <p>Einige nützliche Hilfen und Code-Schnipsel, die ich immer wieder benötige und deshalb hier für alle sammle.</p>
+  
+  <div class="blog-list">
+    {page.data.map((entry) => {
+      const entryDate = entry.data.date instanceof Date ? entry.data.date : new Date(entry.data.date);
+      return (
+        <div class="blog-entry-wrapper">
+          <a class="blog-entry" href={`/tutorials/${entry.slug}`}>
+            <div class="entry-cat">
+               <img class="img-fluid" src={entry.data.image || '/fileadmin/Daten/Bilder/t3logo.png'} width="200" height="200" alt="" loading="lazy" />
+            </div>
+            <div class="entry-content">
+              <time class="datetime" datetime={entryDate.toISOString()}>
+                <span class="day">{entryDate.toLocaleDateString('de-DE', { day: '2-digit', month: 'short', year: 'numeric' })}</span>
+              </time>
+              <h3>{entry.data.title}</h3>
+              <p set:html={truncate(entry.data.description)} />
+            </div>
+          </a>
+          <div class="entry-meta">
+            <span>#Tutorials</span>
+            {entry.data.tags && entry.data.tags.map(tag => (
+               <span> #{tag}</span>
+            ))}
+          </div>
+          <hr>
+        </div>
+      );
+    })}
+  </div>
+
+  <nav class="pagination">
+    <ul>
+      {page.url.prev ? (
+        <li class="first-link"><a href={page.url.prev} title="Vorherige Seite"><i class="icon-Back"></i></a></li>
+      ) : null}
+      
+      {finalPages.map((p) => {
+          if (p === '...') {
+              return <li><a>...</a></li>;
+          }
+          const isActive = p === page.currentPage;
+          const url = p === 1 ? '/tutorials' : `/tutorials/${p}`;
+          return (
+            <li class={isActive ? 'active' : ''}>
+              <a href={url}>{p}</a>
+            </li>
+          );
+      })}
+
+      {page.url.next ? (
+        <li class="last-link"><a href={page.url.next} title="Nächste Seite"><i class="icon-Forward"></i></a></li>
+      ) : null}
+    </ul>
+    <div style="clear:both;"></div>
+  </nav>
+</BaseLayout>

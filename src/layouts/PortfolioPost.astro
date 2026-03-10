@@ -42,9 +42,9 @@ const { frontmatter } = Astro.props;
             <div class="divider"><hr></div>
             <h2 class="align-center">Bilder</h2>
             <div data-aos="fade-up" class="portfolio-gallery">
-                <div>
-                    {frontmatter.gallery.map(item => (
-                        <div class="row mb-4" style="display: flex;">
+                <div class="gallery-inner">
+                    {frontmatter.gallery.map((item, index) => (
+                        <div class={`row ${index === 0 ? 'active' : ''}`}>
                             <div class="col-md-8 image">
                                 <a class="slb-image" href={item.image}>
                                     <img class="img-fluid" src={item.image} alt="" />
@@ -59,6 +59,10 @@ const { frontmatter } = Astro.props;
                         </div>
                     ))}
                 </div>
+                <div class="col-md-8 navigation">
+                    <a href="#" class="prev" data-dir="prev"><i class="icon-Back"></i></a>
+                    <a href="#" class="next" data-dir="next"><i class="icon-Forward"></i></a>
+                </div>
             </div>
         </>
     )}
@@ -67,7 +71,7 @@ const { frontmatter } = Astro.props;
 
 <script>
   // Polyfill für 'global is not defined' Fehler
-  if (typeof global === 'undefined') {
+  if (typeof (window as any).global === 'undefined') {
     (window as any).global = window;
   }
 
@@ -80,6 +84,55 @@ const { frontmatter } = Astro.props;
     }
   };
 
-  document.addEventListener('astro:page-load', initLightbox);
+  const initSlideshow = () => {
+    const gallery = document.querySelector('.portfolio-gallery');
+    if (!gallery) return;
+
+    const navLinks = gallery.querySelectorAll('.navigation a');
+    const rows = gallery.querySelectorAll('.gallery-inner > .row');
+
+    if (rows.length <= 1) {
+        const nav = gallery.querySelector('.navigation');
+        if (nav) (nav as HTMLElement).style.display = 'none';
+        return;
+    }
+
+    const showSlide = (dir) => {
+      let current = gallery.querySelector('.row.active');
+      if (!current) {
+        current = rows[0];
+        current.classList.add('active');
+      }
+
+      let next;
+      if (dir === 'next') {
+        next = current.nextElementSibling || rows[0];
+      } else {
+        next = current.previousElementSibling || rows[rows.length - 1];
+      }
+
+      current.classList.remove('active');
+      (current as HTMLElement).style.display = 'none';
+      
+      next.classList.add('active');
+      (next as HTMLElement).style.display = 'flex';
+    };
+
+    navLinks.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const dir = (link as HTMLElement).dataset.dir;
+        showSlide(dir);
+      });
+    });
+  };
+
+  document.addEventListener('astro:page-load', () => {
+    initLightbox();
+    initSlideshow();
+  });
+  
+  // Initial load
   initLightbox();
+  initSlideshow();
 </script>
